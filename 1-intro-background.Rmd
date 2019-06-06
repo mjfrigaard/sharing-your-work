@@ -2,7 +2,9 @@
 title: "Showing your work - A modern technical guide"
 subtitle: "Doing work and making it discoverable"
 author: "Martin Frigaard"
-output: github_document
+output:
+  md_document:
+    variant: markdown_mmd
 ---
 
 ```{r setup, include=FALSE}
@@ -28,7 +30,7 @@ Put simply, we've never had more access to information than we do right now. And
 
 **I know how the internet works--why are you telling me this?**
 
-Because you need your work to be discoverable. You want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
+Because you need your work to be discoverable **on the internet**. You want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
 
 **Isn't that what my thesis/dissertation is for?** 
 
@@ -38,7 +40,11 @@ I know it's rude to answer a question with a question, but *how many theses/diss
 
 The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [big universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means less people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your work.
 
-One of the areas that has not kept up with these technological advances is scientific journals. The often coveted, peer-reviewed scientific journals won't pay you for the work you're doing. 
+## How we can help
+
+This book will show you how to make your work more discoverable. 
+
+
 
 
 
