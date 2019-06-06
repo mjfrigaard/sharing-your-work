@@ -23,11 +23,18 @@ Neither the thesis/dissertation nor the peer-reviewed paper can document what yo
 
 ## How we can help
 
-This book will show you how to make your work more discoverable. We'll introduce you to the technology and methods used by scientist who have successfully communicated their work, it's importance, and who they are as people. Commincating your work should be the goal of everyone doing research. If you think about it, the work isn't done when your thesis/dissertation is accepted and you have your degree. And your isn't done when your research has been submitted and accepted to the best conference and high impact journals. Your work isn't even done when someone reads the article or attends your talk. As researchers, our work is done when someone has understood our research and the impact it will have in the world. 
+This book will show you how to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientist who have successfully communicated their work. These scientists have used the internet as a tool to reach broader audiences, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
+**But my work is boring...who would want to read this?**
+
+The best science writers capture their audience by weaving the science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics interesting. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey it's importance. 
+
+Lastly, science is a method, not a product. The process (how you found what you found) is arguably the most important part of your research. So if you think about it, all those early drafts, lines of code, random notes, etc...those are the things that show what you've done. 
+
+When we were kids in math class, the teacher would ask us to "Show our work." This was so they could follow our thought process through a problem. Commincating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to the a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, our work is done when someone has understood our research and the impact it will have on the world. 
 
 ## Notes 
 
-- the scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [big universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means less people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
+- The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [big universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means less people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
 - 
