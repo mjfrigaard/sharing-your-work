@@ -1,5 +1,10 @@
 # Graphical user interfaces vs. command line interfaces
 
+> *This chapter covers some basic computer science topics, terminology, and how they've changed modern research methods.*
+
+
+
+
 Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics a familiar physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. Below are some typical examples: 
 
 * Chrome, Safari, and Firefox are for browsing the internet;
