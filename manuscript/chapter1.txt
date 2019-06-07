@@ -1,5 +1,5 @@
 
-# The information age
+# Getting discovered in the information age
 
 > "Your work should speak for itself." - unknown
 
@@ -21,20 +21,58 @@ These are also not as useful as you might think. Peer-reviewed articles are usua
 
 Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school: come up with an idea, turn it into a research question, convince people of that idea (or some version of it), collect your data, teach labs/lectures, recruit volunteers, enter your data, manage your committee member's egos, clean your data, persuade someone to give you constructive criticism in a timely manner, and solve a million other little day-to-day problems. 
 
-## How we can help
+## Showing your work
 
-This book will show you how to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientist who have successfully communicated their work. These scientists have used the internet as a tool to reach broader audiences, document some of their daily struggles/successes, and share more about what it means to conduct research. 
+This book will show you how to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientists who have successfully communicated their work. These scientists have used the internet as a tool to reach broader audiences, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
-**But my work is boring...who would want to read this?**
+**Won't people find my work boring...who would want to read this?**
 
-The best science writers capture their audience by weaving the science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics interesting. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey it's importance. 
+The best science writers capture their audience by weaving the science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics interesting by engaging us with the people in the story. By entering graduate school and doing your research, you're now one of the people in that story. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey it's importance. 
 
-Lastly, science is a method, not a product. The process (how you found what you found) is arguably the most important part of your research. So if you think about it, all those early drafts, lines of code, random notes, etc...those are the things that show what you've done. 
+Lastly, science is a method, not a product. That process of how you found what you found is the most important part of your research because it's the part that tells us 1) why we can trust what you found, and 2) how we can try to reproduce your findings. So if you think about it, all the early drafts or your proposal, lines of code you used to wrangle your data, the graphs, tables, and figures you used to learn about the distributions and relationships between your variables, the random notes and epiphanies, etc...*these are the real science*. 
 
-When we were kids in math class, the teacher would ask us to "Show our work." This was so they could follow our thought process through a problem. Commincating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to the a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, our work is done when someone has understood our research and the impact it will have on the world. 
+To quote [Roger Peng](https://science.sciencemag.org/content/334/6060/1226) from the Department of Biostatistics, in the Johns Hopkins Bloomberg School of Public Health, 
 
-## Notes 
+> "the data and code used to make a finding are available and they are sufficient for an independent researcher to recreate the finding."
+
+When we were kids in math class, the teacher would ask us to "Show our work." This was so they could follow our thought process through a problem. Communicating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to the a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, our work is done when someone has understood our research and the impact it will have on the world. 
+
+***
+
+# Getting set up
+
+All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find an enormous network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+
+In order to follow along with this book you'll need to download and install R, RStudio, and Git. I will cover this process assuming you have none of these on your machine. This section will cover downloading installing R and RStudio, and basic commands in Terminal.
+
+## R & RStudio
+
+**What is R?** 
+
+*[R](https://www.r-project.org/) is a free statistical modeling software application and language.* 
+
+**What is RStudio?** 
+
+*[RStudio](https://www.rstudio.com/products/RStudio/) is an integrated development environment (IDE) for using R.*
+
+RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. IDE's are an interesting topic to explore on your own, and you'll see there are many options to choose from. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some sort of debugging display. 
+
+Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for relational data, [Spyder IDE](https://www.spyder-ide.org/) for Python, or  [Stata](https://www.stata.com/why-use-stata/). *These are not free*.
+
+
+## Installing R and RStudio
+
+1. Download and install R from [CRAN](https://cran.r-project.org/)  
+2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R. 
+
+In the next section we will cover using the command line, version control, and syncing RStudio with Github.
+
+***
+
+#### Notes 
 
 - The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [big universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means less people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
-- 
+- The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
+
+- Read more about the reproducibility crisis in science [here](https://www.nature.com/news/1.19970), and why it's so important. 
