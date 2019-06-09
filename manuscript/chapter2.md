@@ -1,7 +1,19 @@
-# Graphical user interfaces vs. command line interfaces
+# Taking control of the command line
 
 > *This chapter covers some essential computer science topics, terminology, and how they've changed modern research methods.*
 
+# Example project files
+
+To help guide you through learning these technologies, we've made a code repository of some files typically found in a research project. The files in this repository were used to create this [master's thesis](http://csuchico-dspace.calstate.edu/handle/10211.3/10211.4_387) and [this peer-reviewed publication](https://journals.sagepub.com/doi/abs/10.1177/1941406412470719).
+
+Download these files by clicking on the green icon and downloading the zip file. 
+
+![](images/download-repo.png)
+
+Put the zipped file in a recognizable place (like the `Documents` folder or on your `Desktop`). Unzip the folder and examine it's contents. We'll be using these files throughout the text. 
+
+
+***
 
 Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics an actual physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. 
 

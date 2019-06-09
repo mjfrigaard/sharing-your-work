@@ -22,7 +22,7 @@ These are also not as useful as you might think. Peer-reviewed articles are usua
 Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
 
 * coming up with an idea, 
-* turning it into a research question, 
+* turning that idea into a research question, 
 * convincing people of that idea (or some version of it), 
 * collecting your data, 
 * teaching labs/lectures, 
