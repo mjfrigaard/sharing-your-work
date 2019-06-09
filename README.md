@@ -1,6 +1,16 @@
 README for Showing your work
 ==========
 
+# Contents 
+
+1. Getting discovered in the information age
+
+2. Taking control of the command line
+
+3. Keeping track of the changes to your work
+
+
+
 ## Preview 
 
 To create a new preview, repeat what you did when you made your first preview, by using the Author menu in Leanpub to go to:

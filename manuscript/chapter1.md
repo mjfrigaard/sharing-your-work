@@ -1,7 +1,7 @@
+Getting discovered in the information age
+=======
 
-# Getting discovered in the information age
-
-> "*Your work should speak for itself.*." - unknown
+> "*Your work should speak for itself...*" - unknown
 
 You have entered graduate school in a fantastic time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw-dropping statistic that the internet is "800 million pages, encompassing about six terabytes of text data on about 3 million servers." Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. 
 

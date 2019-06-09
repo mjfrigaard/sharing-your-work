@@ -1,4 +1,5 @@
-# Keeping track of the changes to your work
+Keeping track of the changes to your work
+==========
 
 > In the previous section we covered R and RStudio, the command line, Shells, and the Terminal. If you're unfamiliar with these topics, please start there. This section will cover version control, installing and setting up Git.
 
@@ -8,9 +9,17 @@ In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-
 
 ## What *isn't* plain text
 
-Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e. files with binary-level compatibility) are "computer-readable but not human-readable", which means you'll need special software to run these files. 
+Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e. files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
+> "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
 
+# What *is* plain text
+
+So if binary files aren't written in plain text, what's a plain text file? The language from the [Wikipedia](https://en.wikipedia.org/wiki/Text_file) description is helpful here: 
+
+> *When opened in a text editor, plain text files display computer and human-readable content*.
+
+This is the most important distinction--**human-readable and computer-readable**.
 
 # Git
 

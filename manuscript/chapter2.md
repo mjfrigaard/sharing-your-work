@@ -1,4 +1,5 @@
-# Taking control of the command line
+Taking control of the command line
+===========
 
 > *This chapter covers some essential computer science topics, terminology, and how they've changed modern research methods.*
 
