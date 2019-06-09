@@ -1,49 +1,63 @@
 
 # Getting discovered in the information age
 
-> "Your work should speak for itself." - unknown
+> "*Your work should speak for itself.*." - unknown
 
-You have entered graduate school in an amazing time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw dropping statistic that the internet is "800 million pages, encompassing about 6 terabytes of text data on about 3 million servers." Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. 
+You have entered graduate school in a fantastic time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw-dropping statistic that the internet is "800 million pages, encompassing about six terabytes of text data on about 3 million servers." Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. 
 
-Put simply, we've never had more access to information than we do right now. And it's unlikely that there will be less available information in the future. 
+Put simply; we've never had more access to information than we do right now. And it's unlikely that there will be less available information in the future. 
 
 **I know how the internet works--why are you telling me this?**
 
-Because you need your work to be discoverable **on the internet**. You want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
+Because you need your work to be discoverable **on the internet**, you want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
 
 **Isn't that what my thesis/dissertation is for?** 
 
-Be honest--*how many theses/dissertations have you read?* Ask your most bibliophilic friends what their favorite thesis is, or what dissertation they think everyone *must* read? These documents aren't a waste of time--they just serve a different purpose (and it's not to make sure all of your hard work reaches a wide audience).
+Be honest--*how many theses/dissertations have you read?* Ask your most bibliophilic friends what their favorite thesis is, or what dissertation they think everyone *must* read? These documents aren't a waste of time--they serve a different purpose (and it's not to make sure all of your hard work reaches a broad audience).
 
 **Good thing I have peer-reviewed publications!**
 
-These are also not as useful as you might think. Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are also more advertisements or products--they are the end result of a long process in which you have acquired a lot of different skills, and some of the most important skills (i.e. how much of the work you did yourself) aren't even listed. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). 
+These are also not as useful as you might think. Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are also more advertisements or products--they are the result of a long process in which you have acquired a lot of different skills, and some of the essential skills (i.e., how much of the work you did yourself) aren't even listed. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). 
 
-Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school: come up with an idea, turn it into a research question, convince people of that idea (or some version of it), collect your data, teach labs/lectures, recruit volunteers, enter your data, manage your committee member's egos, clean your data, persuade someone to give you constructive criticism in a timely manner, and solve a million other little day-to-day problems. 
+Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
+* coming up with an idea, 
+* turning it into a research question, 
+* convincing people of that idea (or some version of it), 
+* collecting your data, 
+* teaching labs/lectures, 
+* recruiting volunteers, 
+* entering your data, 
+* managing your committee member's expectations (and egos), 
+* cleaning your data, 
+* persuading someone to read early drafts, 
+* politely reminding your committee to give you constructive criticism (promptly so you can graduate), and 
+* solving a million other little day-to-day problems. 
+
+A paper and set of slides won't capture most of these experiences, so if you want your work to count, it needs to documented somewhere else. 
 
 ## Showing your work
 
 This book will show you how to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientists who have successfully communicated their work. These scientists have used the internet as a tool to reach broader audiences, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
-**Won't people find my work boring...who would want to read this?**
+**Won't people find my work boring--who would want to read this?**
 
-The best science writers capture their audience by weaving the science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics interesting by engaging us with the people in the story. By entering graduate school and doing your research, you're now one of the people in that story. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey it's importance. 
+The best science writers capture their audience by weaving science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics enjoyable by engaging us with the people in the story. By entering graduate school and doing your research, you're now one of the people in that story. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey its importance. 
 
-Lastly, science is a method, not a product. That process of how you found what you found is the most important part of your research because it's the part that tells us 1) why we can trust what you found, and 2) how we can try to reproduce your findings. So if you think about it, all the early drafts or your proposal, lines of code you used to wrangle your data, the graphs, tables, and figures you used to learn about the distributions and relationships between your variables, the random notes and epiphanies, etc...*these are the real science*. 
+Lastly, science is a method, not a product. That process of how you found what you found is the most critical part of your research because it's the part that tells us 1) why we can trust what you published, and 2) how we can try to reproduce your findings. So if you think about it, all the early drafts or your proposal, lines of code you used to wrangle your data, the graphs, tables, and figures you used to learn about the distributions and relationships between your variables, the random notes, and epiphanies, etc...*these are the real science*. 
 
 To quote [Roger Peng](https://science.sciencemag.org/content/334/6060/1226) from the Department of Biostatistics, in the Johns Hopkins Bloomberg School of Public Health, 
 
 > "the data and code used to make a finding are available and they are sufficient for an independent researcher to recreate the finding."
 
-When we were kids in math class, the teacher would ask us to "Show our work." This was so they could follow our thought process through a problem. Communicating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to the a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, our work is done when someone has understood our research and the impact it will have on the world. 
+When we were kids in math class, the teacher would ask us to "Show our work." Teachers gave these instructions so they could follow our thought process through a problem. Communicating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, the job is done when someone has understood our research and the impact it will have on the world. 
 
 ***
 
 # Getting set up
 
-All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find an enormous network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find a huge network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
 
-In order to follow along with this book you'll need to download and install R, RStudio, and Git. I will cover this process assuming you have none of these on your machine. This section will cover downloading installing R and RStudio, and basic commands in Terminal.
+To follow along with this book, you'll need to download and install R, RStudio, and Git. I will cover this process assuming you have none of these on your machine. This section will include downloading installing R and RStudio, and basic commands in Terminal.
 
 ## R & RStudio
 
@@ -55,7 +69,7 @@ In order to follow along with this book you'll need to download and install R, R
 
 *[RStudio](https://www.rstudio.com/products/RStudio/) is an integrated development environment (IDE) for using R.*
 
-RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. IDE's are an interesting topic to explore on your own, and you'll see there are many options to choose from. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some sort of debugging display. 
+RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. IDE's are an interesting topic to explore on your own, and you'll see there are many options, both paid and unpaid. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some debugging display. 
 
 Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for relational data, [Spyder IDE](https://www.spyder-ide.org/) for Python, or  [Stata](https://www.stata.com/why-use-stata/). *These are not free*.
 
@@ -65,7 +79,7 @@ Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for r
 1. Download and install R from [CRAN](https://cran.r-project.org/)  
 2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R. 
 
-In the next section we will cover using the command line, version control, and syncing RStudio with Github.
+In the next section, we will cover using the command line, version control, and syncing RStudio with Github.
 
 ***
 
