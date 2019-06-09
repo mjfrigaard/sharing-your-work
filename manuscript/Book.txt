@@ -1,4 +1,4 @@
-chapter1.txt
+chapter1.md
 chapter2.md
-chapter3.txt
-conclusion.txt
+chapter3.md
+conclusion.md

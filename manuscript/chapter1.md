@@ -20,6 +20,7 @@ Be honest--*how many theses/dissertations have you read?* Ask your most biblioph
 These are also not as useful as you might think. Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are also more advertisements or products--they are the result of a long process in which you have acquired a lot of different skills, and some of the essential skills (i.e., how much of the work you did yourself) aren't even listed. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). 
 
 Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
+
 * coming up with an idea, 
 * turning it into a research question, 
 * convincing people of that idea (or some version of it), 
@@ -43,7 +44,9 @@ This book will show you how to make your work more discoverable. We'll introduce
 
 The best science writers capture their audience by weaving science into a compelling narrative. Carl Sagan, Mary Roach, Freeman Dyson, Jared Diamond--all of these authors have a unique talent for making complicated, intricate scientific topics enjoyable by engaging us with the people in the story. By entering graduate school and doing your research, you're now one of the people in that story. No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey its importance. 
 
-Lastly, science is a method, not a product. That process of how you found what you found is the most critical part of your research because it's the part that tells us 1) why we can trust what you published, and 2) how we can try to reproduce your findings. So if you think about it, all the early drafts or your proposal, lines of code you used to wrangle your data, the graphs, tables, and figures you used to learn about the distributions and relationships between your variables, the random notes, and epiphanies, etc...*these are the real science*. 
+Lastly, science is a method, not a product. That process of how you found what you found is the most critical part of your research because it's the part that tells us 1) why we can trust what you published, and 2) how we can try to reproduce your findings. 
+
+So when you think about it, all those early drafts of your proposal, the lines of code you've used to wrangle your data, the graphs, tables, and figures you've used to learn about the distributions and relationships between your variables, the random notes, and epiphanies, etc...*these artifacts are the real 'science'*. 
 
 To quote [Roger Peng](https://science.sciencemag.org/content/334/6060/1226) from the Department of Biostatistics, in the Johns Hopkins Bloomberg School of Public Health, 
 
