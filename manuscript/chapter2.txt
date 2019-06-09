@@ -1,13 +1,12 @@
 # Graphical user interfaces vs. command line interfaces
 
-> *This chapter covers some basic computer science topics, terminology, and how they've changed modern research methods.*
-
+> *This chapter covers some essential computer science topics, terminology, and how they've changed modern research methods.*
 
 
 ![Command line tools](images/01-command-line-tools.png)
 
 
-Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics a familiar physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. Below are some typical examples: 
+Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics a common physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. Below are some typical examples: 
 
 * Chrome, Safari, and Firefox are for browsing the internet;
 
@@ -17,25 +16,25 @@ Most people interact with their computers using a [graphical user interface](htt
 
 * Microsoft PowerPoint or Apple iWork Keynote create Presentations;
 
-* Microsoft Excel, Apple iWork Numbers or an online application like Googlesheets generate numerical calculations and organize data.
+* Microsoft Excel, Apple iWork Numbers, or an online application like Googlesheets generate numerical calculations and organize data.
 
 Users interact with their computer's GUI using a mouse, track-pad, or touchscreen. These tools serve as extensions of their intentions, whether this means opening an application by clicking on it, deleting a file by dragging it into a virtual trash bin, pinching fingers together to zoom in on an image, etc.
 
-In this sense, the GUI represents an environment where users communicate their intentions to a computer through a series of physical gestures (pointing, clicking, dragging and dropping) to perform a specific task, like looking at pictures, opening the browser, or moving files. These actions rely on a pointing device (mouse, track pad, or touchscreen) to interact with software programs, files, and data. 
+In this sense, the GUI represents an environment where users communicate their intentions to a computer through a series of physical gestures (pointing, clicking, dragging and dropping) to perform a specific task, like looking at pictures, opening the browser, or moving files. These actions rely on a pointing device (mouse, trackpad, or touchscreen) to interact with software programs, files, and data. 
 
 This [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) has made software applications (and other technologies) available to a broader range of people, and reduced many of the frustrating experiences many of us had in the early days of computing ([MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) was my first interaction with the command line, and I immediately missed the [GEOS](https://en.wikipedia.org/wiki/GEOS_(8-bit_operating_system)) on my old Commodore 64).
 
-All the benefits of GUIs come with a cost. This trade off comes in the form of a limited collection of possibilities a user can choose from (all of which were selected by the designer of the software). On the other hand, a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters.
+All the benefits of GUIs come with a cost. This trade-off comes in the form of a limited collection of possibilities a user can choose from (all of which were selected by the designer of the software). On the other hand, a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters.
 
 Don't worry--this is not another post about how important it is for *everyone* to use the command line. There are plenty of tasks that are better suited for a GUI. The constant design improvements of GUIs are evidence that more and more people with minimal computer science knowledge will benefit from these technologies (*insert image of your grandma playing angry birds*).
 
 As someone who works with data, you'll need to understand the technologies that are used to store, manipulate, and analyze data. Whether you're working on an academic article, a data journalism project, or a data set with a few questions (my personal favorite), you'll need to know more than the typical GUI will allow. Hadley Wickham made this point in an excellent talk aptly titled, " [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA) "
 
-> "*The gooey is the easiest type of approach where you just point and click and everything is laid out in front of you. All of the options are laid out in front of you, which is great because you can see everything you can do. But it's also terrible because you have constraints--you can only do what the inventors of (SAS or Excel) wanted. Whereas with R--or other programming languages--is kind of the opposite. All you get is this blinking cursor and it's just telling you can do literally anything, but it's not gonna give you much...*"
+> "*The gooey is the easiest type of approach where you point and click, and everything is laid out in front of you. All of the options are laid out in front of you, which is great because you can see everything you can do. But it's also terrible because you have constraints--you can only do what the inventors of (SAS or Excel) wanted. Whereas with R--or other programming languages--is the opposite. All you get is this blinking cursor, and it's just telling you can do literally anything, but it's not gonna give you much...*"
 
 > "*So I think an important thing about programming languages--like R or Python--is they give you a language to express your ideas, they give you very few constraints, which makes life tough for your learning or doing data science things occasionally, but the payoff for investing in a programming language is you get this whole this new language, and what you can express with them.*"
 
-Fair warning--this will hurt at times. Most of the technologies we interact with on a daily basis don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial frustration pays off because of the gains in flexibility, automation, and reproducibility.
+Fair warning--this will hurt at times. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial frustration pays off because of the gains in flexibility, automation, and reproducibility.
 
 ## Terminal 
 
@@ -76,20 +75,20 @@ knitr::include_graphics(path = "draft-images/2-terminal-pane.png")
 
 ## Terminals, shells, and operating systems
 
-Just like with any discipline, a major barrier to understanding these technologies is their jargon. I'll do my best to clear up/define some commonly used terms for referring to command line tools. To maximize the power of command-line tools, it also helps to know a little about where they came from.
+Just like with any discipline, a significant barrier to understanding these technologies is their jargon. I'll do my best to clear up/define some commonly used terms for referring to command line tools. To maximize the power of command-line tools, it also helps to know a little about their history.
 
 ### Operating systems
 
-In 2007, Apple released their [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this but of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). Many commands used on a Mac can be used on a Linux machine.  
+In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). Many commands used on a Mac can be used on a Linux machine.  
 
-Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. This has to do with differences in the way the operating systems are designed. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
+Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
 
 ### Terminal applications
 
-Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on masOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
+Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
 
 ### Shells
 
-On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). This is the most commonly used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *in fact, bash is a pun for Bourne again shell*.
+On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). This is the most commonly used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *in fact, bash is a pun for Bourne-again shell*.
 
-In the next section, I will walk through setting up Git and RStudio, and linking your local machine to Github. 
+In the next section, We are going to introduce version control with Git and linking your local machine to Github. 
