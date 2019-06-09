@@ -2,7 +2,9 @@
 
 > *This chapter covers some basic computer science topics, terminology, and how they've changed modern research methods.*
 
-![](images/01-command-line-tools.png)
+
+
+![Command line tools](images/01-command-line-tools.png)
 
 
 Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics a familiar physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. Below are some typical examples: 
