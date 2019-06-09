@@ -52,17 +52,19 @@ To quote [Roger Peng](https://science.sciencemag.org/content/334/6060/1226) from
 
 > "the data and code used to make a finding are available and they are sufficient for an independent researcher to recreate the finding."
 
-When we were kids in math class, the teacher would ask us to "Show our work." Teachers gave these instructions so they could follow our thought process through a problem. Communicating our work should be the goal of everyone doing research. If you think about it, our work isn't done when we defend our thesis/dissertation and get our degrees. The work also isn't done when our research has been submitted and accepted to a conference and or some high-impact journal. Our work isn't even done when someone reads our article or attends our talk. As researchers, the job is done when someone has understood our research and the impact it will have on the world. 
+When we were kids in math class, the teacher would ask us to "Show our work." Teachers gave these instructions so they could follow our thought process through a problem. Communicating our work should be the goal of everyone doing research. If you think about it, our job isn't done as researchers when we defend our thesis/dissertation and get the degree; it isn't done when our research has been submitted and accepted to a conference or high-impact journal; it isn't even done when someone reads the article or attends the talk. 
+
+As researchers, our jobs are done when someone has understood our research and the impact it will have on the world. 
 
 ***
 
 # Getting set up
 
-All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find a huge network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
 
 To follow along with this book, you'll need to download and install R, RStudio, and Git. I will cover this process assuming you have none of these on your machine. This section will include downloading installing R and RStudio, and basic commands in Terminal.
 
-## R & RStudio
+## Using R & RStudio
 
 **What is R?** 
 
@@ -72,23 +74,24 @@ To follow along with this book, you'll need to download and install R, RStudio, 
 
 *[RStudio](https://www.rstudio.com/products/RStudio/) is an integrated development environment (IDE) for using R.*
 
-RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. IDE's are an interesting topic to explore on your own, and you'll see there are many options, both paid and unpaid. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some debugging display. 
+RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. You should explore different IDE's on your own--you'll see there are many options, both paid and unpaid. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some debugging display. 
 
 Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for relational data, [Spyder IDE](https://www.spyder-ide.org/) for Python, or  [Stata](https://www.stata.com/why-use-stata/). *These are not free*.
 
 
-## Installing R and RStudio
+## Getting set up with R/RStudio
 
-1. Download and install R from [CRAN](https://cran.r-project.org/)  
-2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R. 
+1. Download and install R from [CRAN](https://cran.r-project.org/)   
+2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R  
+3. An alternative to downloading and installing RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join)  
 
-In the next section, we will cover using the command line, version control, and syncing RStudio with Github.
+In the next section, we'll cover using the command line, version control, and syncing RStudio with Github.
 
 ***
 
 #### Notes 
 
-- The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [big universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means less people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
+- The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means fewer people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
 - The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
 

@@ -27,17 +27,19 @@ This [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) 
 
 All the benefits of GUIs come with a cost. This trade-off comes in the form of a limited collection of possibilities a user can choose from (all of which were selected by the designer of the software). On the other hand, a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters.
 
-Don't worry--this is not another post about how important it is for *everyone* to use the command line. There are plenty of tasks that are better suited for a GUI. The constant design improvements of GUIs are evidence that more and more people with minimal computer science knowledge will benefit from these technologies (*insert image of your grandma playing angry birds*).
+Don't worry--we don't advise you start only interacting with your computer with a command line. There are plenty of tasks that are better suited for a GUI (*imagine how fun it would be if you had to play angry birds on a command line*).
 
-As someone who works with data, you'll need to understand the technologies that are used to store, manipulate, and analyze data. Whether you're working on an academic article, a data journalism project, or a data set with a few questions (my personal favorite), you'll need to know more than the typical GUI will allow. Hadley Wickham made this point in an excellent talk aptly titled, " [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA) "
+That being said, as someone who'll be using a computer to document and communicate their research, you do need to understand the technologies that are used to store, manipulate, and analyze data. Whether you're working on an academic article, a data journalism project, or a new data set with a few basic questions (my personal favorite), you'll need to know more than the typical GUI will allow. 
+
+Hadley Wickham made this point in an excellent talk aptly titled, " [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA) "
 
 > "*The gooey is the easiest type of approach where you point and click, and everything is laid out in front of you. All of the options are laid out in front of you, which is great because you can see everything you can do. But it's also terrible because you have constraints--you can only do what the inventors of (SAS or Excel) wanted. Whereas with R--or other programming languages--is the opposite. All you get is this blinking cursor, and it's just telling you can do literally anything, but it's not gonna give you much...*"
 
 > "*So I think an important thing about programming languages--like R or Python--is they give you a language to express your ideas, they give you very few constraints, which makes life tough for your learning or doing data science things occasionally, but the payoff for investing in a programming language is you get this whole this new language, and what you can express with them.*"
 
-Fair warning--this will hurt at times. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial frustration pays off because of the gains in flexibility, automation, and reproducibility.
+**WARNING**--command-lines are frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
 
-## Terminal 
+## The Terminal 
 
 The Terminal is a command line interface application for Mac users. Terminal is available as an application (on Mac go to *Applications* > *Utilities* > *Terminal*) or as a pane in RStudio.
 
@@ -60,23 +62,17 @@ Here is a quick list of commonly used Terminal commands.
 
 Here is an image of what the terminal application looks like with the Homebrew syntax highlighting. 
 
-```{r 1-terminal, fig.height=3, fig.width=5, echo=FALSE}
-# fs::dir_ls(".")
-knitr::include_graphics("draft-images/1-terminal.png")
-```
+![](image/1-terminal.png)
 
 ### The Terminal pane
 
 A Terminal pane is available under *Tools* > *Terminal* > *New Terminal*. 
 
-```{r 2-terminal-pane, fig.height=3, fig.width=5, echo=FALSE}
-# fs::dir_ls("draft-images")
-knitr::include_graphics(path = "draft-images/2-terminal-pane.png")
-```
+![](image/2-terminal-pane.png)
 
 ## Terminals, shells, and operating systems
 
-Just like with any discipline, a significant barrier to understanding these technologies is their jargon. I'll do my best to clear up/define some commonly used terms for referring to command line tools. To maximize the power of command-line tools, it also helps to know a little about their history.
+Just like with any discipline, a significant barrier to understanding these technologies is their jargon. I'll do my best to clear up or define any computer science or statistical terms as they come up. To maximize the power of command-line tools, it also helps to know a little about their history.  
 
 ### Operating systems
 
