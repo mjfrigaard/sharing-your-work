@@ -3,24 +3,25 @@
 > *This chapter covers some essential computer science topics, terminology, and how they've changed modern research methods.*
 
 
+Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics an actual physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. 
+
+Below are some typical examples of software GUIs : 
+
+* Browsing the internet: Chrome, Safari, and Firefox
+
+* Word processing (articles & reports): Microsoft Word or Apple iWork Papers
+
+* Emails: Microsoft Outlook or Apple Mail
+
+* Presentations: Microsoft PowerPoint or Apple iWork Keynote
+
+* Spreadsheets for numerical calculations to organize data: Microsoft Excel, Apple iWork Numbers, or Googlesheets
+
 ![](images/CLIvsGUI.png)
-
-
-Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick to learn because the computing environment usually mimics a common physical space (i.e., desktops, folders, documents). This virtual environment then gets filled with applications to perform specific functions. Below are some typical examples: 
-
-* Chrome, Safari, and Firefox are for browsing the internet;
-
-* Microsoft Word or Apple iWork Papers are for reports or articles; 
-
-* Microsoft Outlook or Apple Mail is for writing emails and organizing calendars;
-
-* Microsoft PowerPoint or Apple iWork Keynote create Presentations;
-
-* Microsoft Excel, Apple iWork Numbers, or an online application like Googlesheets generate numerical calculations and organize data.
 
 Users interact with their computer's GUI using a mouse, track-pad, or touchscreen. These tools serve as extensions of their intentions, whether this means opening an application by clicking on it, deleting a file by dragging it into a virtual trash bin, pinching fingers together to zoom in on an image, etc.
 
-In this sense, the GUI represents an environment where users communicate their intentions to a computer through a series of physical gestures (pointing, clicking, dragging and dropping) to perform a specific task, like looking at pictures, opening the browser, or moving files. These actions rely on a pointing device (mouse, trackpad, or touchscreen) to interact with software programs, files, and data. 
+In this sense, the GUI represents an environment where users communicate their intentions to a computer through a series of physical gestures (pointing, clicking, dragging and dropping) to perform a specific task, like looking at pictures, opening the browser, or moving files. These actions rely on a pointing device (mouse, track-pad, or touchscreen) to interact with software programs, files, and data. 
 
 This [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) has made software applications (and other technologies) available to a broader range of people, and reduced many of the frustrating experiences many of us had in the early days of computing ([MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) was my first interaction with the command line, and I immediately missed the [GEOS](https://en.wikipedia.org/wiki/GEOS_(8-bit_operating_system)) on my old Commodore 64).
 
@@ -79,7 +80,7 @@ Just like with any discipline, a significant barrier to understanding these tech
 
 ### Operating systems
 
-In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). Many commands used on a Mac can be used on a Linux machine.  
+In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). You can use most Linux commands on a Mac.  
 
 Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
 
