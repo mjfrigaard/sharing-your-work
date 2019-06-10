@@ -1,10 +1,13 @@
-# Keeping track changes to your work
+# Keeping track of changes to your work
 
 In the previous section, we covered R and RStudio, the command line, Shells, and the Terminal. If you're unfamiliar with these topics, please start there. This section will cover tracking changes, plain text files, version control with Git in RStudio.
 
 ## Tracing your steps 
 
-'Showing your' work also means showing how your work has changed over time. In the example project, the `doc` folder contains a file titled, `2012-10-62-ican-manuscript-revision-v02.docx`. The .docx is an earlier version of the manuscript, and there are some suggested changes to the results section below. 
+'Showing your' work also means showing how your work has changed over time. In the example project, the `doc` folder contains a file titled,
+`2012-10-62-ican-manuscript-revision-v02.docx`. 
+
+The .docx is an earlier version of the manuscript, and there are some suggested changes to the results section below. 
 
 The good thing about using tracked changes in .docx files is that we can see 1) what the differences are, 2) who suggested them, 3) the time/date of the proposed change, and 4) any comments about the change. 
 
@@ -95,20 +98,20 @@ I'll set my Git `user.name` and `user.email` with `git config --global` so these
 ```sh
 $ git config --global user.name "Martin Frigaard"
 $ git config --global user.email "mjfrigaard@gmail.com"
-`"
+```
 
 I can check what I've configured with `git config --list`. 
 
 ```sh
 $ git config --list
-`"
+```
 
 At the bottom of the output, I can see the changes. 
 
 ```sh
 user.name=Martin Frigaard
 user.email=mjfrigaard@gmail.com
-`"
+```
 
 These are also stored in a `.gitconfig` file I can view using:
 
@@ -127,9 +130,10 @@ Below are some commonly used terms/commands associated with Git and Github.
 
 To quote David Demaree, 
 
-> * "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."* 
+> "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."* 
 
-*repository* - this refers to the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repository has the following structure: `https://github.com/<username>/<repository_name>`. 
+*repository* - this refers to the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repository has the following structure: 
+`https://github.com/<username>/<repository_name>`. 
 
 *init* - the command `git init` is used to initialize a new git repository (it tells Git to start tracking changes in this directory).
 
@@ -141,19 +145,22 @@ To quote David Demaree,
 
 ## Our example project 
 
-I have a project in a GitHub [repository](https://github.com/mjfrigaard/syw-example) that has a `README.md` file, two `.R` script files (`01-import.R` and `02-wrangle.R`), a `.csv` file (`IcanBP.csv`), and a revised manuscript document (`2012-10-62-ican-manuscript-revision-v02.docx`).
+The example GitHub [repository](https://github.com/mjfrigaard/syw-example) has a the following files:
 
-I'll clone this repository into a local directory (folder), read the data into R, create a figure, and then put everything back on Github. 
+- a `README.md` file, 
+- two `.R` script files (`01-import.R` and `02-wrangle.R`), 
+- a `.csv` file (`IcanBP.csv`), and  
+- a revised manuscript document (`2012-10-62-ican-manuscript-revision-v02.docx`) 
+
+We will make some changes to the files in our local folder (i.e. repository), and then put everything back on Github. But first we need Git and RStudio to be able to talk to each other. The next section will cover this.
 
 ### Synchronize RStudio and Git/Github
 
-The online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. I repeat some of that information below (with copious screenshots).
+The online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. I repeat some of that information below (but add copious screenshots).
 
 Go to *Tools* > *Global Options* > ...
 
-
 ![](images/create-ssh-key-passphrase.png)
-
 
 1. Click on *Git/SVN*  
 
@@ -201,7 +208,7 @@ The response tells me I'm an `Agent`.
 
 ```sh
 Agent pid 007
-`"
+```
 
 Now I want to add the *SSH RSA* to the keychain. There are three elements in this command: the `ssh-add`, the `-K`, and `~/.ssh/id_rsa`. 
 
@@ -247,7 +254,7 @@ I use `echo` to add the following text to the `config` file.
 Host *
  AddKeysToAgent yes
  UseKeychain yes
-`"
+```
 
 Recall the `>>` will send the text to the `config` file.
 
