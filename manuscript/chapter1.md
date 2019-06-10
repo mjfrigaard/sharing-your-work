@@ -1,7 +1,6 @@
-Getting discovered in the information age
-=======
+# Getting discovered in the information age
 
-> "*Your work should speak for itself...*" - unknown
+> "*Your work should speak for itself.*." - unknown
 
 You have entered graduate school in a fantastic time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw-dropping statistic that the internet is "800 million pages, encompassing about six terabytes of text data on about 3 million servers." Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. 
 
@@ -17,9 +16,11 @@ Be honest--*how many theses/dissertations have you read?* Ask your most biblioph
 
 **Good thing I have peer-reviewed publications!**
 
-These are also not as useful as you might think. Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are also more advertisements or products--they are the result of a long process in which you have acquired a lot of different skills, and some of the essential skills (i.e., how much of the work you did yourself) aren't even listed. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). 
+Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are still essential to advancing science (and your career as a scientist), but they represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). This sentiment is summarized well in the quote from Jonathan Buckheit and David Donoho at Stanford,
 
-Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
+> "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*" 
+
+And like most advertising, peer-reviewed papers leave many essential details out. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
 
 * coming up with an idea, 
 * turning that idea into a research question, 
