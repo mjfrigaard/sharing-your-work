@@ -93,13 +93,14 @@ Here is a quick list of commonly used Terminal commands.
 
 Below is an image of what the terminal application looks like on macOS with Homebrew syntax highlighting. 
 
-![](image/1-terminal.png)
+
+![](images/1-terminal.png)
 
 ### The Terminal pane
 
 The Terminal pane is also available in RStudio under *Tools* > *Terminal* > *New Terminal*. 
 
-![](image/2-terminal-pane.png)
+![](images/2-terminal-pane.png)
 
 
 ### Operating systems
