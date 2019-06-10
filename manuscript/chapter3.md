@@ -1,10 +1,8 @@
-Keeping track of the changes to your work
-==========
-
+# Keeping track changes to your work
 
 > In the previous section, we covered R and RStudio, the command line, Shells, and the Terminal. If you're unfamiliar with these topics, please start there. This section will cover plain text files, version control, installing, and setting up Git.
 
-# Plain text vs. most other file types
+## Plain text vs. most other file types
 
 In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). This chapter will cover what is meant by 'plain text,' and why you might want to consider switching over to a plain text editor if you're currently using something like Papers or Microsoft Word. 
 
@@ -14,7 +12,7 @@ Non-plain text files are usually binary files (the `0`/`1` kind of binary). Bina
 
 > "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
 
-# What *is* plain text
+## What *is* plain text
 
 So if binary files aren't written in plain text, what's a plain text file? The language from the [Wikipedia](https://en.wikipedia.org/wiki/Text_file) description is helpful here: 
 
@@ -22,19 +20,19 @@ So if binary files aren't written in plain text, what's a plain text file? The l
 
 And here is the most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/)
 
-# Git
+## Git
 
 Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VCS), which is somewhat like the **Tracked Changes** in Microsoft Word or the **Version History** in Google Sheets.  
 
 Git will help you keep track of your documents, datasets, code, images, and other files. 
 
-## What files work best with Git?
+### What files work best with Git?
 
 Git prefers plain text files because, until recently, software engineers and app developers were using programs like Git to track their source code (most of which gets written in plain text). A plain text file has the extension `.txt`, but can also have a `.md` extension). Humans and computers can read these files (or more specifically in this instance, your  
 
 Most academic papers get written in Microsoft Word or Google Sheets, and these are not plain text (but they can be converted to plain text). 
 
-## Why should you use Git?
+### Why should you use Git?
 
 Git has become the most common version control system used by [programmers](https://insights.stackoverflow.com/survey/2018#work-version-control). 
 
@@ -43,6 +41,8 @@ Git has become the most common version control system used by [programmers](http
 source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.com/survey/2018#overview)
 
 Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'commits', 'pushes', 'forks', and 'repos'.
+
+***
 
 ## Installing Git
 
@@ -112,13 +112,13 @@ To quote David Demaree,
 
 *diff* - this is how Git shows differences between files. Read more about how changes are formatted/displayed [here.](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs)
 
-# Our example project 
+## Our example project 
 
 I have a project in a GitHub [repository](https://github.com/mjfrigaard/syw-example) that has a `README.md` file, two `.R` script files (`01-import.R` and `02-wrangle.R`), a `.csv` file (`IcanBP.csv`), and a revised manuscript document (`2012-10-62-ican-manuscript-revision-v02.docx`).
 
 I'll clone this repository into a local directory (folder), read the data into R, create a figure, and then put everything back on Github. 
 
-## Synchronize RStudio and Git/Github
+### Synchronize RStudio and Git/Github
 
 The online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. I repeat some of that information below (with copious screen shots).
 
