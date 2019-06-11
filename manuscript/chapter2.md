@@ -1,6 +1,41 @@
-# Taking command of the command line
+# 2) Getting set up with R/RStudio
 
-> *This chapter covers some essential computer science topics, terminology, and how they've changed modern research methods.*
+This text is an opinionated technical manual for graduate students to share their work with a broad audience through a variety of mediums. We will be making recommendations based on what we were taught to use in school, learned to use at various jobs, and what we've abandoned. 
+
+All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities behind these tools. You'll find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+
+To follow along with this book, you'll need to download and install R, RStudio, and Git. I will cover this process assuming you have none of these on your machine. This section will include downloading installing R and RStudio, and basic commands in Terminal.
+
+## For analysis use R & RStudio
+
+**What is R?** 
+
+[R](https://www.r-project.org/) is a free statistical modeling software application and language.
+
+**What is RStudio?** 
+
+[RStudio](https://www.rstudio.com/products/RStudio/) is an integrated development environment (IDE) for using R. If you can't install RStudio on your computer, you can also use [RStudio.cloud](https://rstudio.cloud/).
+
+RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some debugging display. 
+
+Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for relational data, [Spyder IDE](https://www.spyder-ide.org/) for Python, or  [Stata](https://www.stata.com/why-use-stata/). *These are not free*.
+
+
+## Getting set up with R/RStudio
+
+1. Download and install R from [CRAN](https://cran.r-project.org/)   
+
+2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R  
+
+3. An alternative to downloading and installing RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join)  
+
+In the next section, we'll cover using the command line, version control, and syncing RStudio with Github.
+
+***
+
+# Take command of the command line
+
+Doing research, posting your work online, and creating/building tools to highlight your work and abilities will require you to know more about how computers work than the average person. Computers and software have become such a standard part of modern professional work; you can consider these next few paragraphs as 'filling-in-the-gaps.'
 
 ## An example project
 
@@ -11,7 +46,6 @@ Download these files by clicking on the green icon and downloading the zip file.
 ![](images/download-repo.png)
 
 Put the zipped file in a recognizable place (like the `Documents` folder or on your `Desktop`). Unzip the folder and examine its contents. We'll be using these files throughout the text. 
-
 
 ***
 
@@ -49,18 +83,17 @@ Below is a list of standard computer tasks, and the associated software GUIs (po
 
 ![](images/CLIvsGUI.png)
 
-Users interact with a GUI using a mouse, track-pad, or touchscreen. These devices serve as digital appendages for transmitting intentions to their computers, whether this means opening an application by clicking on it, deleting a file by dragging it into a virtual trash bin, pinching fingers together to zoom in on an image, etc.
+Users interact with a GUI using a mouse, trackpad, or touchscreen. These devices serve as digital appendages for transmitting intentions to their computers, whether this means opening an application by clicking on it, deleting a file by dragging it into a virtual trash bin, pinching fingers together to zoom in on an image, etc.
 
 Having a [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) has made software applications (and other technologies) available to a broader range of people, and reduced many of the frustrating experiences many of us had in the early days of computing. 
 
-But all the benefits of GUIs come with a cost. Creating applications and operating systems that encourage clicking around until you can figure out how to get things done sounds harmless, but it also presents challenges for automation and keeping track of everything the user does in a GUI. Furthermore, most GUIs come with a limited collection of possible operations a user can choose from (all of which were selected by the designer of the software).  
+But all the benefits of GUIs come with a cost. Creating applications and operating systems that encourage clicking around until users can figure out they work sounds harmless, but it also presents challenges. 
 
-The command-line interface is the predecessor to a GUI, and there is 
-On the other hand, a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters.
+For example, it's hard to keep track of everywhere a user clicks (or the order of things they clicked on) in a GUI, which makes it hard for automation. Furthermore, most GUIs come with a limited collection of possible operations a user can choose from (all of which were selected by the designer of the software).  
 
-Don't worry--we're not going to advise you start only interacting with your computer via the command line. There are plenty of tasks that are better suited for a GUI (*imagine how fun it would be if you had to play angry birds on a command line*).
+The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason it hasn't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen but after a few lessons on the command-line and you'll see the power of using these tools. 
 
-But as someone who'll be using a computer to document and communicate their research, you do need to understand the technologies that are used to store, manipulate, and analyze data. 
+Don't worry--we're not going to advise you start only interacting with your computer via the command line. There are plenty of tasks that are better suited for a GUI (*imagine how fun it would be if you had to play angry birds on a command line*). But as someone who'll be using a computer to document and communicate their research, you do need to understand the technologies that are used to store, manipulate, and analyze data. 
 
 Hadley Wickham made this point in an excellent talk aptly titled," [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA) "
 
@@ -68,53 +101,3 @@ Hadley Wickham made this point in an excellent talk aptly titled," [You can't do
 
 > "*So I think an important thing about programming languages--like R or Python--is they give you a language to express your ideas, they give you very few constraints, which makes life tough for your learning or doing data science things occasionally, but the payoff for investing in a programming language is you get this whole this new language, and what you can express with them.*"
 
-**WARNING**--command-lines are frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
-
-## The Terminal 
-
-The Terminal is a command line interface application for Mac users. Terminal is available as an application (on Mac go to *Applications* > *Utilities* > *Terminal*) or as a pane in RStudio.
-
-Here is a quick list of commonly used Terminal commands.
-
-* **`pwd`** - Print working directory 
-* **`cd`** - change directories  
-* **`cp`** - copy files from one directory to another  
-* **`ls`** - list all files
-* **`ls -la`** - list all files, including hidden ones
-* **`mkdir`** - make directory  
-* **`cat`** - display a text file in Terminal screen
-* **`echo`** - outputs text as arguments, prints to Terminal screen, file, or in a pipeline
-* **`touch`** - create a few files
-* **`grep`** - "globally search a regular expression and print"
-* **`>>`** and **`>`** - redirect output of program to a file (don't display on Terminal screen)
-* **`sudo`** and **`sudo -s`** (**BE CAREFUL!!**) perform commands as **`root`** user  
-
-### The Terminal application
-
-Below is an image of what the terminal application looks like on macOS with Homebrew syntax highlighting. 
-
-
-![](images/1-terminal.png)
-
-### The Terminal pane
-
-The Terminal pane is also available in RStudio under *Tools* > *Terminal* > *New Terminal*. 
-
-![](images/2-terminal-pane.png)
-
-
-### Operating systems
-
-In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). You can use most Linux commands on a Mac.  
-
-Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
-
-### Terminal applications
-
-Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
-
-### Shells
-
-On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). This is the most commonly used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *in fact, bash is a pun for Bourne-again shell*.
-
-In the next section, We are going to introduce version control with Git and linking your local machine to Github. 

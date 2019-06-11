@@ -1,22 +1,38 @@
-# Getting discovered in the information age
+# Showing your work: a guide for graduate students 
 
-> "*Your work should speak for itself.*." - unknown
+Congratulations! You've just entered graduate school and you're on your way to more specialized education and training. Hopefully, after a few challenging years and sleepless nights, you'll be on your way to rewarding career. Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be a great investment for your future. 
 
-You have entered graduate school in a fantastic time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw-dropping statistic that the internet is "800 million pages, encompassing about six terabytes of text data on about 3 million servers." Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. 
+Personally, I loved my graduate school experience. I made friends and colleagues I'm still in contact with, and received some excellent advice from outstanding (and unexpected) mentors. Yet as I write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, my colleague and I have decided to write this technical guide. We felt there were a few topics missing from our graduate education, and wanted to share what we've learned in the hopes it would make the transition from school to work a little less shocking.
 
-Put simply; we've never had more access to information than we do right now. And it's unlikely that there will be less available information in the future. 
+We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io`.
 
-**I know how the internet works--why are you telling me this?**
+### Who should read this
 
-Because you need your work to be discoverable **on the internet**, you want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
+This book is written for any graduate student who will be doing research. Whether you're getting a Masters or a PhD, if you're doing research, this book is for you. 
 
-**Isn't that what my thesis/dissertation is for?** 
+### Assumptions we are making
+
+We assume you've been working on a computer, but mostly to write papers (maybe using Word or Papers), send/receive emails, and explore the internet. Everyone enters graduate school at different times in their lives, so there is a good chance some of you will know the materials we are covering. If this is the case, hopefully we cover it in a novel and ineteresting way that doesn't make reading it feel like a waste of time. 
+
+***
+
+## "It was the best of times, it was the worst of times"
+
+You have entered graduate school in a fantastic time. Most people are walking around with more computational power in their pockets than previous generations ever imagined possible. An internet browser now gives you access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). As an example to how much has changed and how fast it's happened, consider a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with the jaw-dropping statistic that the internet is "*800 million pages, encompassing about six terabytes of text data on about 3 million servers.*" Fast forward to 2016, and Google claims to be aware of [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. Wikipedia has  5.71 million articles (as of September 2018), and is contributed to by [127,026 Wikipedians](https://en.wikipedia.org/wiki/Wikipedia:Wikipedians) (people who actively edit wikipedia articles). We've never had more access to information than we do right now, and it's unlikely that there will ever be less available information in the near future. 
+
+![](images/the-internet.png)
+
+> "*Your work should speak for itself...*" - unknown
+
+You need your gradutate work to be discoverable **on the internet**. You want collaborators, future employers, other graduate students, and (most importantly) future 'you' to be able to find a catalog of what you've been doing all those late nights in front of your computer. 
+
+**Don't rely soley on your scientific papers to showcase your work?** 
 
 Be honest--*how many theses/dissertations have you read?* Ask your most bibliophilic friends what their favorite thesis is, or what dissertation they think everyone *must* read? These documents aren't a waste of time--they serve a different purpose (and it's not to make sure all of your hard work reaches a broad audience).
 
-**Good thing I have peer-reviewed publications!**
+And even if you decide to convert your work into a peer-reviewed manuscript, it will be for a very niche audience, and rarely in a way that makes it's contents interesting beyond a small number of researchers closest to the subject matter. 
 
-Peer-reviewed articles are usually written for a very niche audience, and rarely in a way that makes the contents interesting beyond only those researchers closest to the subject matter. These papers are still essential to advancing science (and your career as a scientist), but they represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). This sentiment is summarized well in the quote from Jonathan Buckheit and David Donoho at Stanford,
+Scientific papers are still essential to advancing science (and your career as a scientist), but they represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). This sentiment is summarized well in the quote from Jonathan Buckheit and David Donoho at Stanford,
 
 > "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*" 
 
