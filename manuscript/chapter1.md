@@ -12,7 +12,7 @@ We wrote this book for any graduate student who will be doing research. Whether 
 
 ## Assumptions we've made
 
-We assume you've been working on a computer, but mostly to write papers (maybe using Word or Papers), send/receive emails, and explore the internet. Everyone enters graduate school at different times in their lives, so there is a good chance some of you will know the materials we are covering. If this is the case, hopefully, we cover it in a novel and exciting way that doesn't make reading it feel like a waste of time. 
+We assume you've been working on a computer, but mostly to write papers, send/receive emails, and explore the internet. Everyone enters graduate school at different times in their lives, so there is a good chance some of you will know the materials we are covering. If this is the case, hopefully, we cover it in a novel and exciting way that doesn't make reading it feel like a waste of time. 
 
 ## Language and style
 
@@ -48,7 +48,7 @@ Scientific papers are still essential to advancing science (and your career as a
 
 > "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*." 
 
-And like most advertising, peer-reviewed papers leave many essential details out. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school.  
+And like most advertising, peer-reviewed papers leave many essential details out. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school. This includes things like:
 
 * coming up with an idea, 
 * turning that idea into a research question, 
@@ -75,7 +75,7 @@ Or take Thomas Lin Pedersen, a former bioinformaticist who now designs software.
 
 Both of these researchers did two things very well: they created outstanding work, and they put it online for people to find. Of course, they had to know their subject areas, and have something worth sharing online, but they didn't wait until they were done with their research, either. They started engaging with people while they were completing their research training.
 
-## Practicing communication
+## Practicing your communication
 
 No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey its importance. 
 
