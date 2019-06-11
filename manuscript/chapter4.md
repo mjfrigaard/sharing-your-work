@@ -26,7 +26,7 @@ In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-
 
 This chapter will cover what people mean by 'plain text,' and why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
 
-## What * isn't* plain text
+## What *isn't* plain text
 
 Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
