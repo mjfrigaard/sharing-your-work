@@ -48,6 +48,9 @@ As Prof. Kieran Healy acknowledges the benefits (and downsides) of having collab
 
 > "...it is generally easier for you to use their software than vice versa, if only because you are likely to have a copy of Word on your computer already. In these circumstances you might also collaborate using Google Docs or some other service that allows for simultaneously editing the master copy of a document. This may not be ideal, but it is better than not collaborating. There is little to be gained from plain-text dogmatism in a .docx world."
 
+## Learn markdown & Rmarkdown
+
+A common type of plain text file is a markdown file, or `.md` file. Markdown has a straightforward syntax that is easy for both humans and computers to read, and it allows for some formatting options to aid with communication. I recommend reading up on R and RMarkdown because of how many different outputs this combinatoin can be used to produce (see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site, and [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more information).
 
 ## Git
 
@@ -64,6 +67,8 @@ Git has become the most common version control system used by [programmers](http
 ![](images/git-most-common-vcs.png)
 
 source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.com/survey/2018#overview)
+
+## A useful way to think
 
 Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'commits,' 'pushes,' 'forks,' and 'repos.'
 
