@@ -89,7 +89,7 @@ When we were kids in math class, the teacher would ask us to "show our work." Te
  
 Communicating our work should be the goal of anyone doing research. After leaving graduate school, I realized how few people had the skills I was taking into the world (and how many people would benefit from them). One of the most attractive things about understanding math and science is that small investments in understanding can yield significant returns. 
 
-I've realized we don't communicate the importance of being 'good enough' at math and science, and it's a shame. Being 'good enough' means you can read about technology and not be incapable of distinguishing it from magic, or that you can find a metric that matters to your business or personal life, and devise a way to measure it. Being 'good enough' also means knowing the difference between having the correct facts and persuading someone to listen to you. 
+I've realized we don't communicate the importance of being 'good enough' at math and science, and that's a shame. Being 'good enough' means you could read about technology and be capable of distinguishing it from magic, or that you can imagine a metric that might matter to your business or personal life, and then devise a way to measure it. Perhaps more importantly, an emphasis on a 'good enough' understanding of math and science could help break down the "us vs. them" mentality that arises when science inevitably makes its way into the public sphere. 
 
 In our opinion, the job of a scientist or researcher isn't done when they defend a thesis/dissertation and get their degree; it isn't done when their research has been submitted and accepted to a conference or high-impact journal; it isn't even done when someone reads that article or attends their talk. 
 
@@ -104,7 +104,4 @@ As researchers, we consider our jobs are done when someone has heard and underst
 - The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
 
 - Read more about the reproducibility crisis in science [here](https://www.nature.com/news/1.19970), and why it's so important to share more than just your papers
-
-
-
 
