@@ -1,4 +1,4 @@
-# 4) Keeping track changes to your work
+# 4) Keeping track of the changes to your work
 
 In the previous section, we covered R and RStudio, the command line, Shells, and the Terminal. If you're unfamiliar with these topics, please start there. This section will cover tracking changes, plain text files, version control with Git in RStudio.
 
@@ -95,20 +95,20 @@ I'll set my Git `user.name` and `user.email` with `git config --global` so these
 ```sh
 $ git config --global user.name "Martin Frigaard"
 $ git config --global user.email "mjfrigaard@gmail.com"
-`"
+```
 
 I can check what I've configured with `git config --list`. 
 
 ```sh
 $ git config --list
-`"
+```
 
 At the bottom of the output, I can see the changes. 
 
 ```sh
 user.name=Martin Frigaard
 user.email=mjfrigaard@gmail.com
-`"
+```
 
 These are also stored in a `.gitconfig` file I can view using:
 
@@ -201,7 +201,7 @@ The response tells me I'm an `Agent`.
 
 ```sh
 Agent pid 007
-`"
+```
 
 Now I want to add the *SSH RSA* to the keychain. There are three elements in this command: the `ssh-add`, the `-K`, and `~/.ssh/id_rsa`. 
 
@@ -247,7 +247,7 @@ I use `echo` to add the following text to the `config` file.
 Host *
  AddKeysToAgent yes
  UseKeychain yes
-`"
+```
 
 Recall the `>>` will send the text to the `config` file.
 

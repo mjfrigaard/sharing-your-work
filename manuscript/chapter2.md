@@ -1,4 +1,4 @@
-# 2) Getting set up with R/RStudio
+# 2) The toolset
 
 This text is an opinionated technical manual for graduate students to share their work with a broad audience through a variety of mediums. We will be making recommendations based on what we were taught to use in school, learned to use at various jobs, and what we've abandoned. 
 
@@ -33,7 +33,7 @@ In the next section, we'll cover using the command line, version control, and sy
 
 ***
 
-# Take command of the command line
+# Computers and science
 
 Doing research, posting your work online, and creating/building tools to highlight your work and abilities will require you to know more about how computers work than the average person. Computers and software have become such a standard part of modern professional work; you can consider these next few paragraphs as 'filling-in-the-gaps.'
 
@@ -57,8 +57,6 @@ The most substantial barrier to understanding new disciplines or technologies is
 
 Wherever possible, I'll do my best to clear up or define any terms related to computer science, data management system, web technology, or statistics. To maximize the power of the tools in this text, it will help to know a little about their history, so we'll also cover some background.
 
-## Computers and science 
-
 Just about every field of science also has a 'computational' area or journal to accompany it.  [Archaeologists](https://en.wikipedia.org/wiki/Computational_archaeology) use computers to study geographical information systems (GIS) data and simulate human behavior.  [Chemists](https://en.wikipedia.org/wiki/Computational_chemistry) use data and simulation to determine the arrangements and features of molecules and particles, or to estimate binding affinities for drug molecules on a given receptor or target. [Biologists](https://en.wikipedia.org/wiki/Computational_biology) use computers to build models and simulate biological, ecological, behavioral, and social systems. The list goes on and on...
 
 * [Economics](https://en.wikipedia.org/wiki/Computational_economics)  
@@ -70,7 +68,7 @@ Just about every field of science also has a 'computational' area or journal to 
 
 Computers and their peripheral technologies help researchers in almost every discipline research, record, analyze, review, and publish their work. So odds are if you're doing research in graduate school, you'll be using your computer a lot. 
 
-*I already know how to use my computer--I do it everyday...*
+*I already interact with my computer a lot...I got this.*
 
 Most people interact with their computers using a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUI (pronounced 'gooey'). GUI's are quick and easy to learn because the operating system or software application environment usually mimics an actual physical space (i.e., desktops, folders, documents). If a new task is needed, an additional software application gets installed in this virtual environment to perform that specific function. 
 Below is a list of standard computer tasks, and the associated software GUIs (point-and-click): 
