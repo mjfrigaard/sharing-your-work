@@ -160,11 +160,11 @@ Go to *Tools* > *Global Options* > ...
 ![](images/create-ssh-key-passphrase.png)
 
 
-1. Click on *Git/SVN*  
+- 1. Click on *Git/SVN*  
 
-2. Then *Create RSA Key...*  
+- 2. Then *Create RSA Key...*  
 
-3. In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
+- 3, 4, and 5. In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
 
 The result should look something like this:
 
