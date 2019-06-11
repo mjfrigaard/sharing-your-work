@@ -1,6 +1,6 @@
-# 4) Keeping track of the changes to your work
+# Part 4: keeping track of the changes to your work
 
-In the previous section, we covered R and RStudio, the command line, Shells, and the Terminal. If you're unfamiliar with these topics, please start there. This section will cover tracking changes, plain text files, version control with Git in RStudio.
+In the previous sections, we've covered R and RStudio and the command line. If you're unfamiliar with these topics, please start there. This section will include tracking changes, plain text files, version control with Git in RStudio.
 
 ## Tracing your steps 
 

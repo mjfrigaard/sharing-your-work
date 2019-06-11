@@ -1,6 +1,6 @@
-# 3) A quick intro to the command-line 
+# Part 3: a quick introduction to the command line 
 
-**FAIR WARNING**--command-line interfaces can be frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
+**FAIR WARNING**--command line interfaces can be frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
 
 ## The Terminal 
 
@@ -8,7 +8,7 @@ The Terminal is a command line interface application for Mac users. Terminal is 
 
 Here is a quick list of commonly used Terminal commands.
 
-* **`pwd`** - Print working directory 
+* **`pwd`** - print working directory 
 * **`cd`** - change directories  
 * **`cp`** - copy files from one directory to another  
 * **`ls`** - list all files
@@ -25,13 +25,13 @@ Here is a quick list of commonly used Terminal commands.
 
 Below is an image of what the terminal application looks like on macOS with Homebrew syntax highlighting. 
 
-![](image/1-terminal.png)
+![](images/1-terminal.png)
 
 ### The Terminal pane
 
 The Terminal pane is also available in RStudio under *Tools* > *Terminal* > *New Terminal*. 
 
-![](image/2-terminal-pane.png)
+![](images/2-terminal-pane.png)
 
 ### Operating systems
 
@@ -48,4 +48,18 @@ Strictly speaking, the Terminal application is not a shell, but rather it *gives
 On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). This is the most commonly used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *in fact, bash is a pun for Bourne-again shell*.
 
 In the next section, We are going to introduce version control with Git and linking your local machine to Github. 
+
+## Getting more help
+
+This section has been a concise introduction to command line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
+
+> "*the Unix shell does not care if commands are mistyped or if they will destroy files; the Unix shell is not designed to prevent you from doing unsafe things.*"
+
+The command line can seem intimidating because of its power and ability to destroy the world, but there are extensive resources available for safely using it and adding it to your wheelhouse. 
+
+* [The Unix Workbench](https://seankross.com/the-unix-workbench/) 
+
+* [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
+
+* [Software Carpentry Unix Workshop](https://swcarpentry.github.io/shell-novice/) 
 
