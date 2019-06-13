@@ -1,5 +1,6 @@
-# Part 1: getting started 
+#showing-your-work
 
+# Part 1: getting started in modern research tools 
 Congratulations! You've just entered graduate school, and you're on your way to more specialized education and training. Hopefully, after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be an excellent investment for your future. 
 
 I loved my graduate school experience. I made friends and colleagues I'm still in contact with, and received some excellent advice from outstanding (and unexpected) mentors. As I write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, my colleague and I have decided to write this technical guide. We felt a few topics were missing from our graduate education, and wanted to share what we've learned in the hopes it would make the transition from school to work a little less shocking.
@@ -34,7 +35,7 @@ We've never had more access to information than we do right now, and it's unlike
 
 > "*Your work should speak for itself...*" - author unknown
 
-All this information on the internet also means there are competing voices for content. The excellent work you'll do in graduate school needs to be discoverable on the internet, and that means making sure you have more than just a single thesis, dissertation, or manuscript. If your future collaborators, prospective employers, fellow graduate students, are going to be able to find a catalog of what you've done, you'll need examples written for multiple audiences. 
+All that information on the internet also means there are competing voices for people's attention. All that excellent work you'll do in graduate school needs to be discoverable on the internet, which means making sure you have more than just a single thesis, dissertation, or manuscript. If your future collaborators, prospective employers, and fellow graduate students are going to be able to find a catalog of what you've done, you'll need examples written for multiple audiences. 
 
 ***Don't rely solely on your scientific papers to showcase your work*** 
 
@@ -50,23 +51,22 @@ Scientific papers are still essential to advancing science (and your career as a
 
 And like most advertising, peer-reviewed papers leave many essential details out. For example, journal articles can't document how you ended up at the particular research question or hypothesis you tested (and why you had to change it). Neither the thesis/dissertation nor the peer-reviewed paper can document what you did in graduate school. This includes things like:
 
-* coming up with an idea, 
-* turning that idea into a research question, 
-* convincing people of that idea (or some version of it), 
-* collecting your data, 
-* teaching labs/lectures, 
-* recruiting volunteers, 
-* entering your data, 
-* managing your committee member's expectations (and egos), 
-* cleaning your data, 
-* persuading someone to read early drafts, 
-* politely reminding your committee to give you constructive criticism (promptly so you can graduate), and 
-* solving a million other little day-to-day problems. 
+* Coming up with an idea, 
+* Turning that idea into a research question, 
+* Convincing people of that idea (or some version of it), 
+* Collecting your data, 
+* Teaching labs/lectures, 
+* Recruiting volunteers, 
+* Entering your data, 
+* Managing your committee member's expectations (and egos), 
+* Cleaning your data, 
+* Persuading someone to read early drafts, 
+* Politely reminding your committee to give you constructive criticism (promptly so you can graduate), and 
+* Solving a million other little day-to-day problems. 
 
-A research paper written and edited by committee and powerpoint presentation won't capture most of these adventures, so if you want your work to count, it needs to be communicated to wider audiences, or even in other mediums. 
+A research paper written and edited by committee and a powerpoint presentation won't adequately capture your graduate school adventure, so if you want your work to count, it needs to be communicated to wider audiences, or even in other mediums. 
 
-## People to emulate 
-
+## Researchers to emulate 
 This book will show you some of the tools to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientists who have successfully communicated their work. These scientists have used the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
 For example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-doc at Johns Hopkins Bloomberg School of Health. She maintains a [blog](https://livefreeordichotomize.com/), publishes [ebooks](https://leanpub.com/ggplot2in2), has [online courses](https://leanpub.com/u/lucymcgowan), and also attempts to create a [real BB-8](https://magazine.amstat.org/blog/2017/11/01/lucy-dagostino-mcgowan-and-ryan-jarrett/). Her work is *highly discoverable* and showcases a wide range of skills. 
@@ -74,6 +74,14 @@ For example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-
 Or take Thomas Lin Pedersen, a former bioinformaticist who now designs software. His graduate research was on tools to analyze [hierarchical pangenome data](https://vimeo.com/181004000), which he turned into a [tool](https://www.data-imaginist.com/panviz/), made the [code free](https://github.com/thomasp85/PanViz), and [published](https://www.ncbi.nlm.nih.gov/pubmed/28057677) his work in a scientific journal. He's also an [artist](https://www.instagram.com/thomasp85_/).
 
 Both of these researchers did two things very well: they created outstanding work, and they put it online for people to find. Of course, they had to know their subject areas, and have something worth sharing online, but they didn't wait until they were done with their research, either. They started engaging with people while they were completing their research training.
+
+## Overcoming language barriers 
+
+> "*You must learn to talk clearly. The jargon of scientific terminology which rolls off your tongues is mental garbage*." - Martin H. Fischer
+
+The most substantial barrier to understanding new disciplines or technologies is getting a handle on the jargon. Because this book sits at the intersection of computer science, statistics, and web technologies, the vocabulary can often seem like learning a foreign language. 
+
+Wherever possible, we'll do our best to clear up or define any terms related to computer science, data management system, web technology, or statistics. To maximize the power of the tools in this text, it will help to know a little about their history, so we'll also cover some background.
 
 ## Practicing your communication
 
@@ -97,11 +105,11 @@ As researchers, we consider our jobs are done when someone has heard and underst
 
 ***
 
-#### Notes 
+::Footnotes::
 
-- The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means fewer people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
+1. The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), even [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices) (which means fewer people reading your work), and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
-- The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
+2. The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
 
-- Read more about the reproducibility crisis in science [here](https://www.nature.com/news/1.19970), and why it's so important to share more than just your papers
+3. Read more about the reproducibility crisis in science [here](https://www.nature.com/news/1.19970), and why it's so important to share more than just your papers
 

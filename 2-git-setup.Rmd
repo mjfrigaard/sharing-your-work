@@ -110,7 +110,7 @@ To quote David Demaree, *"Semantically, each commit represents a complete snapsh
 
 I have a project in a github [repository](https://github.com/mjfrigaard/swow-data-project) that has a `README.md` file, an .R script file (`1-import-export-sample.R`), and a .csv file (`2018-11-29-SwowSample.csv`) in it. 
 
-The data are from the [SMall World of Words](https://smallworldofwords.org/en/project) project. I'll clone this repository into a local directory (folder), read the data into R, create a figure, and then put everything back on Github. 
+The data are from the [Small World of Words](https://smallworldofwords.org/en/project) project. I'll clone this repository into a local directory (folder), read the data into R, create a figure, and then put everything back on Github. 
 
 ## Synchronize RStudio and Git/Github
 

@@ -8,9 +8,13 @@ In the previous sections, we've covered R and RStudio and the command line. If y
 
 The good thing about using tracked changes in .docx files is that we can see 1) what the differences are, 2) who suggested them, 3) the time/date of the proposed change, and 4) any comments about the change. 
 
-![](images/version-control-vs-track-changes.png)
+![](images/08-version-control-vs-track-changes.png)
 
 Unfortunately, this only applies to a single document. When you're writing by committee (which is quite often in science), you know asking someone to change a single sentence can result in changes to dozens of files. Fortunately, this change is suggesting a deletion, so this is unlikely to result in generating additional analyses, tables, write-ups, etc. 
+
+## "Keep Knowledge in Plain Text"
+
+In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
 
 We recommend you keep track of your changes, notes, and any pertinent documentation about your project in plain text `README` files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
 
@@ -18,21 +22,15 @@ We recommend you keep track of your changes, notes, and any pertinent documentat
 - plain text can be *converted* to any other kind of document  
 - plain text is text searchable (ctrl+F or cmd+F allows us to find keywords or phrases)  
 
-These all sound great, but you might still be wondering what makes a file 'plain text,' so we'll define this below. 
+These all sound great, but you might still be wondering what makes a file 'plain text,' so we'll define this below. This chapter will also cover why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
 
-## Plain text vs. most all file types
-
-In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
-
-This chapter will cover what people mean by 'plain text,' and why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
-
-## What *isn't* plain text
+### What *isn't* plain text
 
 Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
 > "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
 
-## What *is* plain text
+### What *is* plain text
 
 So if binary files aren't plain text, what is a plain text file? The language from the [Wikipedia](https://en.wikipedia.org/wiki/Text_file) description is helpful here: 
 
@@ -40,41 +38,47 @@ So if binary files aren't plain text, what is a plain text file? The language fr
 
 And here is the most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/)
 
-## Why would I use one of these applications and not just keep using Word?
+### Why would I change what I'm doing if it works?
 
-We get--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
+We get it--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
 
 As Prof. Kieran Healy acknowledges the benefits (and downsides) of having collaborators working in binary file formats in his [text](http://plain-text.co/), "The Plain Person's Guide to Plain Text Social Science," 
 
 > "...it is generally easier for you to use their software than vice versa, if only because you are likely to have a copy of Word on your computer already. In these circumstances you might also collaborate using Google Docs or some other service that allows for simultaneously editing the master copy of a document. This may not be ideal, but it is better than not collaborating. There is little to be gained from plain-text dogmatism in a .docx world."
 
-## Learn markdown & Rmarkdown
+The problem with some of these technologies is they don't scale (imagine 100+ collaborators), and they come with a task-switching cost (see attentional residue from chapter 2). 
 
-A common type of plain text file is a markdown file, or `.md` file. Markdown has a straightforward syntax that is easy for both humans and computers to read, and it allows for some formatting options to aid with communication. I recommend reading up on R and RMarkdown because of how many different outputs this combinatoin can be used to produce (see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site, and [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more information).
+### Using markdown & Rmarkdown
+
+A common type of plain text file is a markdown file, or `.md` file. Markdown has a straightforward syntax that is easy for both humans and computers to read, and it allows for some formatting options to aid with communication. I recommend reading up on R and RMarkdown because of how many different outputs this combination can be used to produce (see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site, and [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more information).
+
+***
 
 ## Git
 
-Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VCS), which is somewhat like the **Tracked Changes** in Microsoft Word or the **Version History** in Google Sheets, but extended to every file in a project. Git will help you keep track of your documents, datasets, code, images, and anything else you tell it to keep an eye on.
+Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VCS), which is somewhat like the **Tracked Changes** in Microsoft Word or the **Version History** in Google Docs, but extended to every file in a project. Git will help you keep track of your documents, datasets, code, images, and anything else you tell it to keep an eye on.
 
-### Plain text and Git
+### Plain text + Git
 
 Git prefers plain text files because, until recently, software engineers and app developers were using programs like Git to track their source code (which they write in plain text)--another reason we recommend keeping your documentation and notes in a plain text file. 
 
-### Why else should you use Git?
+### Why use Git?
+
+You will eventually ask yourself, *why am I subjecting myself to this--is there another way?*
+
+We've included these sections to remind you that you're making a sound choice. 
 
 Git has become the most common version control system used by [programmers](https://insights.stackoverflow.com/survey/2018#work-version-control). 
 
-![](images/git-most-common-vcs.png)
+![](images/09-git-most-common-vcs.png)
 
 source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.com/survey/2018#overview)
 
-## A useful way to think
+### Git is a useful way to think about making changes
 
-Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'commits,' 'pushes,' 'forks,' and 'repos.'
+Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'commits,' 'pushes,' 'forks,' and 'repos.' 
 
-
-
-***
+As someone who analyzes data regularly, these concepts are also countable, which means you can quantify change and work in more interesting ways. 
 
 ## Installing Git
 
@@ -82,7 +86,7 @@ Git is also a helpful way of thinking about the changes to your project. The ter
 
 2. Create a [Github](https://github.com/) account.  
 
-## Configuring Git with `git config`
+### Configuring Git with `git config`
 
 Git needs a little configuration before we can start using it and linking it to Github. There are three levels of configuration within Git, `system`, `user`, and `project.` 
 
@@ -124,41 +128,13 @@ $ cat .gitconfig
     email = mjfrigaard@gmail.com
 ```
 
-## Git terminology
-
-Below are some commonly used terms/commands associated with Git and Github.
-
-*commits* - commits are the staple in Git/Github the workflow. Commits are what Git uses to track the changes you've made to files or folders, so they can be considered nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
-
-To quote David Demaree, 
-
-> * "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."* 
-
-*repository* - this refers to the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repository has the following structure: `https://github.com/<username>/<repository_name>`. 
-
-*init* - the command `git init` is used to initialize a new git repository (it tells Git to start tracking changes in this directory).
-
-*status* - whenever you wonder what you've done, what is happening, or if you're just generally confused, you can check the status of a git repository with `git status` (use this liberally). 
-
-*clone* - this command copies all files and changes into a new working directory from a remote, initializes (`init`) a new Git repository, and it adds a remote called `origin`.
-
-*diff* - this is how Git shows differences between files. Read more about how changes are formatted/displayed [here.](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs)
-
-## Our example project 
-
-I have a project in a GitHub [repository](https://github.com/mjfrigaard/syw-example) that has a `README.md` file, two `.R` script files (`01-import.R` and `02-wrangle.R`), a `.csv` file (`IcanBP.csv`), and a revised manuscript document (`2012-10-62-ican-manuscript-revision-v02.docx`).
-
-I'll clone this repository into a local directory (folder), read the data into R, create a figure, and then put everything back on Github. 
-
 ### Synchronize RStudio and Git/Github
 
-The online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. I repeat some of that information below (with copious screenshots).
+[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. I echo a lot of this information below (with copious screenshots).
+
+![](images/10-create-ssh-key-passphrase.png)
 
 Go to *Tools* > *Global Options* > ...
-
-
-![](images/create-ssh-key-passphrase.png)
-
 
 - 1. Click on *Git/SVN*  
 

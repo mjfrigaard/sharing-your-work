@@ -24,9 +24,9 @@ library(markdowntemplates)
 
 > You should have a `NewProject` folder on your local computer, with [this](https://github.com/mjfrigaard/swow-data-project) cloned repository (with the following contents).
 
-```{r images/git-clone-local-folder.png, echo=FALSE}
+```{r draft-images/git-clone-local-folder.png, echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/git-clone-local-folder.png")
+knitr::include_graphics(path = "draft-images/git-clone-local-folder.png")
 ```
 
 
@@ -38,14 +38,14 @@ Then I want to choose *Existing Directory*. I choose this option because the fol
 
 ```{r existing-directory-RStudio-project.png,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/existing-directory-RStudio-project.png")
+knitr::include_graphics(path = "draft-images/existing-directory-RStudio-project.png")
 ```
 
 Then I want to navigate to the folder that contains my newly cloned repo, and click *Create Project*.
 
 ```{r existing-directory-RStudio-project-2.png,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/existing-directory-RStudio-project-2.png")
+knitr::include_graphics(path = "draft-images/existing-directory-RStudio-project-2.png")
 ```
 
 
@@ -53,14 +53,14 @@ After RStudio works it's magic, the IDE should reopen. If you open the *Git* pan
 
 ```{r RStudio-git-pane-new-project,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/RStudio-git-pane-new-project.png")
+knitr::include_graphics(path = "draft-images/RStudio-git-pane-new-project.png")
 ```
 
 Aftering reading the `README.md` file, I learn that I will need to download the data files from another source and store them in a folder inside this directory. This should result in the folder structure you see below.
 
 ```{r download-swow-data-parent-folder,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/download-swow-data-parent-folder.png")
+knitr::include_graphics(path = "draft-images/download-swow-data-parent-folder.png")
 ```
 
 You'll need to download the two data files from the website and store them in a `data` folder for the script below to work.
@@ -126,7 +126,7 @@ After downloading the data and storing them in a `data` folder, you should see t
 
 ```{r run-import-export-sample,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/run-import-export-sample.png")
+knitr::include_graphics(path = "draft-images/run-import-export-sample.png")
 ```
 
 ## The Git pane
@@ -135,7 +135,7 @@ Using RStudio's Git pane is a great way to get comfortable using/learning Git. R
 
 ```{r terminal-git-panes-rstudio,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/terminal-git-panes-rstudio.png")
+knitr::include_graphics(path = "draft-images/terminal-git-panes-rstudio.png")
 ```
 
 
@@ -275,7 +275,7 @@ if (!file.exists("images")) {
 }
 
 # export graph ----
-ggplot2::ggsave(filename = "images/swow-words-by-gender.png", 
+ggplot2::ggsave(filename = "draft-images/swow-words-by-gender.png", 
                 width = 7, 
                 height = 5, 
                 units = "in")
@@ -296,9 +296,9 @@ After creating and running both scripts, I've saved a new `swow-words-by-gender.
 
 Now I will click on the files with little question mark icons in the *Git* pane and they should all change to display the following:
 
-```{r images/Git-pane-track-changes-add,  echo=FALSE}
+```{r draft-images/Git-pane-track-changes-add,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/Git-pane-track-changes-add.png")
+knitr::include_graphics(path = "draft-images/Git-pane-track-changes-add.png")
 ```
 
 The green *A* icon stands for 'Add', and the *M* stands for 'Modified'. 
@@ -319,7 +319,7 @@ Changes to be committed:
         new file:   data/2018-12-24-SWOWR100Sample.csv
         new file:   data/2018-12-24-SwowCompleteSample.csv
         new file:   data/2018-12-24-TOPSWOWByGender.csv
-        new file:   images/swow-words-by-gender.png
+        new file:   draft-images/swow-words-by-gender.png
         new file:   swow-data-project.Rproj
 ```
 
@@ -327,14 +327,14 @@ These have been added, but not committed. If I click on the *Commit* tab in the 
 
 ```{r RStudio-review-changes-window,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/RStudio-review-changes-window.png")
+knitr::include_graphics(path = "draft-images/RStudio-review-changes-window.png")
 ```
 
 In the *Commit message* window, I will enter the following, "Added data, scripts for wrangling, graph, and .Rproj". Read more about writing good Git commit messages [here](https://chris.beams.io/posts/git-commit/). After clicking *Commit*, a new window pops up telling me some information about the *commit*s I just committed. 
 
 ```{r git-commit-message.png,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/git-commit-message.png")
+knitr::include_graphics(path = "draft-images/git-commit-message.png")
 ```
 
 This shows me some relevant information about my commit: 
@@ -365,7 +365,7 @@ I want to *push* my `local commits` to the `origin/master` (which is the Github 
 
 ```{r git-push-review-pane,  echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/git-push-review-pane.png")
+knitr::include_graphics(path = "draft-images/git-push-review-pane.png")
 ```
 
 This tells me the commit id `bbba677` to reference these changes. I can check this out on Github. 
@@ -376,7 +376,7 @@ If I check the Github, I can see the new files are now added to the repository.
 
 ```{r Github-repo-changes, echo=FALSE}
 # fs::dir_ls("images")
-knitr::include_graphics(path = "images/check-pushed-changes-github.png")
+knitr::include_graphics(path = "draft-images/check-pushed-changes-github.png")
 ```
 
 # Recap
