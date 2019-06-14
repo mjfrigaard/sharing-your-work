@@ -136,7 +136,7 @@ As researchers, we consider our jobs are done when someone has heard and underst
 
 ***
 
-::Footnotes::
+##### Footnotes
 
 1. The scientific journal industry is not looking out for your best interests:  
  - They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist),  
