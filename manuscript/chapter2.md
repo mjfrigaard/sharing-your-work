@@ -1,20 +1,35 @@
-
 # Part 2: the toolset
 
-This text is an opinionated technical manual for graduate students to share their work with a broad audience through a variety of mediums. We'll be making recommendations based on what we were taught to use in school, learned to use at various jobs, and what we've abandoned. We are not saying there aren't equally effective or productive ways of accomplishing the same tasks; we've just found the most success using the tools in this text. 
+**Disclaimer:** This text is an opinionated technical manual for graduate students to share their work with a broad audience through a variety of mediums. We'll be making recommendations based on what we were taught to use in school, learned to use at various jobs, and what we've abandoned. We primarily recommend RStudio, Git/Github, and Unix-based command line tools. We are not saying there aren't equally effective or productive ways of accomplishing the same tasks; we've just found the most success using the tools in this text. 
 
-## Open-source tools
+## Open source tools
 
-All of the tools in this book are available completely free. The reason we recommend using open-source software is the communities that you'll become a part of when you start adopting them. The other purpose is because we believe these are the best options for researching a computer. The ['four freedoms' of open source software](https://www.gnu.org/philosophy/free-sw.html) outlined below capture the reason and ethics behind our choice. 
+All of the tools in this book are free. The primary reason we recommend using open source software is the communities that you'll become a part of when you start adopting them. The other reason is philosophical: we all benefit from using these tools and sharing improvements on them together. This is captured in the ['four freedoms' of open source software](https://www.gnu.org/philosophy/free-sw.html) outlined below. 
 
-> - **Freedom 0**: The freedom to run the program as you wish, for any purpose. 
-
-> - **Freedom 1**: The freedom to study how the program works, and change it so it does your computing as you wish. 
-
-> - **Freedom 2**: The freedom to redistribute copies so you can help your neighbor. 
-
+> - **Freedom 0**: The freedom to run the program as you wish, for any purpose.  
+> - **Freedom 1**: The freedom to study how the program works, and change it so it does your computing as you wish.  
+> - **Freedom 2**: The freedom to redistribute copies so you can help your neighbor.  
 > - **Freedom 3**: The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes.
 
+We also think it's overly onerous to require graduate students (and other scientists) to purchase proprietary software licenses in order to participate in science. 
+
+Examples of open source tools are displayed in the image below:
+
+![](images/00-open-source-tech.png)
+
+
+- [Git](https://git-scm.com/)   
+- [Github](https://github.com/)   
+- [Linux](https://www.linux.org/)   
+- [MySQL](https://www.mysql.com/)    
+- [Netlify](https://www.netlify.com/)  
+- [Python](https://www.python.org/)    
+- [R](https://www.r-project.org/)    
+- [RStudio](https://www.rstudio.com/)    
+
+***
+  
+  
 ## The computer science in science
 
 Computers, code, and the internet have become pretty standard in modern professional work, especially if that work involves research. Just about every field of science now has a 'computational' area or journal to accompany it.  [Archaeologists](https://en.wikipedia.org/wiki/Computational_archaeology) use computers to study geographical information systems (GIS) data and simulate human behavior.  [Chemists](https://en.wikipedia.org/wiki/Computational_chemistry) use data and simulation to determine the arrangements and features of molecules and particles, or to estimate binding affinities for drug molecules on a given receptor or target. [Biologists](https://en.wikipedia.org/wiki/Computational_biology) use computers to build models and simulate biological, ecological, behavioral, and social systems. The list goes on and on...
@@ -56,29 +71,34 @@ For example, it's hard to keep track of everywhere a user clicks (or the order o
 
 The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason these tools haven't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen, but after a few examples of what's possible from on the command-line and you'll see the power of using these tools. 
 
+![](images/03-terminal.png)
+
 Don't worry-- we're not going to advise you start only interacting with your computer via the command line. There are plenty of tasks that are better suited for a GUI (*imagine how fun it would be if you had to play angry birds on a command line*). But as someone who'll be using a computer to document and communicate their research, you do need to understand the technologies that are used to store, manipulate, and analyze data. 
 
 We also need to make a distinction between the command line, GUIs, and writing code. **We are recommending you write code**. We've noticed that clarity in writing brings clarity in thought, and code is a form of expression. 
 
-Hadley Wickham made this point in an excellent talk aptly titled," [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA) "
+Hadley Wickham made this point in an excellent talk aptly titled, [You can't do data science in a GUI](https://www.youtube.com/watch?v=cpbtcsGE0OA)
 
-> "*The gooey is the easiest type of approach where you point and click, and everything is laid out in front of you. All of the options are laid out in front of you, which is great because you can see everything you can do. But it's also terrible because you have constraints--you can only do what the inventors of (SAS or Excel) wanted. Whereas with R--or other programming languages--is the opposite. All you get is this blinking cursor, and it's just telling you can do literally anything, but it's not gonna give you much...*"
-
-> "*So I think an important thing about programming languages--like R or Python--is they give you a language to express your ideas, they give you very few constraints, which makes life tough for your learning or doing data science things occasionally, but the payoff for investing in a programming language is you get this whole this new language, and what you can express with them.*
+> *The gooey is the easiest type of approach where you point and click, and everything is laid out in front of you. All of the options are laid out in front of you, which is great because you can see everything you can do. But it's also terrible because you have constraints--you can only do what the inventors of (SAS or Excel) wanted. Whereas with R--or other programming languages--is the opposite. All you get is this blinking cursor, and it's just telling you can do literally anything, but it's not gonna give you much...*
+> 
+> *So I think an important thing about programming languages--like R or Python--is they give you a language to express your ideas, they give you very few constraints, which makes life tough for your learning or doing data science things occasionally, but the payoff for investing in a programming language is you get this whole this new language, and what you can express with them.*
 
 You should write code because it makes you think explicitly about what you want to do with your computer. Writing out instructions for how to use a GUI is possible, but it amounts to a bunch of pictures with text saying *"click here, then click here"*. Learning to code well is like learning to write well--the better you get, the more clear your intentions become to *both* your computer and everyone else reading your code.  
 
 ## Use R and RStudio 
 
-**What is R?** 
+***What is R?***
 
 [R](https://www.r-project.org/) is a free statistical modeling software application and language.
 
-**What is RStudio?** 
+***What is RStudio?***
 
 [RStudio](https://www.rstudio.com/products/RStudio/) is an integrated development environment (IDE) for using R. If you can't install RStudio on your computer, you can also use [RStudio.cloud](https://rstudio.cloud/).
 
-RStudio is a free and open-source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. 
+![](images/00-IDE-layout.png)
+
+
+RStudio is a free and open source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. 
 
 These applications typically come with a code editor (with syntax highlighting), a graphical/drag-and-drop tools, and some debugging display. Other examples of IDEs are [DataGrip](https://www.jetbrains.com/datagrip/) for relational data, [Spyder IDE](https://www.spyder-ide.org/) for Python, or  [Stata](https://www.stata.com/why-use-stata/). *These are not free*.
 
@@ -104,7 +124,7 @@ RStudio does not remove the complexity of doing data analysis, writing blog post
 
 There have been considerable efforts from the scientists at RStudio to create an environment and ecosystem of tools (called `packages`) to make data analysis less painful (and even fun). We're confident you'll find it helps you think about the inputs and outputs of your work in productive and creative ways. 
 
-## Getting R/RStudio set up
+## Download R & RStudio 
 
 1. Download and install R from [CRAN](https://cran.r-project.org/)   
 
@@ -123,5 +143,4 @@ You'll also find a massive network of support on [Stackoverflow](https://stackov
 	- [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
 	- [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
 	- [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
-
 
