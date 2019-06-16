@@ -1,4 +1,4 @@
-# Part 1: getting started in modern research tools 
+# Getting started in modern research tools
 
 Congratulations! You've just entered graduate school, and you're on your way to more specialized education and training. Hopefully, after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be an excellent investment for your future. 
 
@@ -6,7 +6,8 @@ I loved my graduate school experience. I made friends and colleagues I'm still i
 
 We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io.`
 
-#### Who should read this
+#### Who should read this?    
+
 
 We wrote this book for graduate students who'll be doing research, but many of these tools extend to anyone who needs to extract meaningful information from data and would like to do that using a state-of-the-art toolset. Many of the concepts covered in this text came from our observations as we transitioned from graduate school into professional work (non-profit and private sector jobs), and we've included other lessons from colleagues who were generous enough to share their insights. 
 
@@ -22,6 +23,7 @@ Although one person put this information together in this particular format, we 
 
 ## What does modern science look like?
 
+
 The quote below comes from the excellent book ["How to be a modern scientist"](https://leanpub.com/modernscientist) by Jeff Leek.
 
 > *The modern academic scientist develops code in the open, publishes data and code open source, posts preprints of their academic work, still submits to traditional journals, and reviews for those journals, but may also write blog posts or use social media to critique published work in post-publication review fora. These activities can dramatically increase the profile of scientists, particularly junior scientists, if done well. But their value for important career milestones such as promotion and tenure or getting grants, is still often muted or fuzzy.*
@@ -34,17 +36,17 @@ You have entered graduate school in exciting times, but the future of how we'll 
 
 More importantly, the amount of published scientific information is growing faster than we can keep track of it. The [1986 article by Don Swanson](https://www.jstor.org/stable/4307965?seq=1#page_scan_tab_contents) predicted this phenomenon. Swanson describes a scenario where a team of scientists discovers the presence of a black swan in a world where the accepted scientific consensus is that all swans are white, 
 
-> *...a report of a family of black swans is presumed to be an acceptable and well-corroborated fact in the published literature, a fact that refutes a published hypothesis that all swans are white. But these two elements of information-the hypothesis and its refutation-may not both be known to any one person, at least not for some period of time, owing to the difficulties of identifying, locating, and gaining access to the relevant published information. Thus I have shown that it is possible for the refutation of a theory to stand, even if temporarily, as undiscovered public knowledge.*
+> *...a report of a family of black swans is presumed to be an acceptable and well-corroborated fact in the published literature, a fact that refutes a published hypothesis that all swans are white. But these two elements of information-the hypothesis and its refutation-may not both be known to any one person, at least not for some period of time, owing to the difficulties of identifying, locating, and gaining access to the relevant published information. Thus I have shown that it is possible for the refutation of theory to stand, even if temporarily, as undiscovered public knowledge.*
 
-**Undiscovered public knowledge** --that's what we're trying to prevent. We want your work to get discovered by the right people, in the right field, and in a way that advances your career. We see this as a "win-win" because your good work should be shared, and you should get rewarded for creating and sharing that work.  
+**Undiscovered public knowledge** -- that's what we're trying to prevent. We want your work to get discovered by the right people, in the right field, and in a way that advances your career. We see this as a "win-win" because your good work should be shared, and you should get rewarded for creating and sharing that work.  
 
-### How the internet changed science
+### The internet changed science
 
 The internet has made information easily accessible to everyone, and most people are walking around with more computational power in their pockets than previous generations ever imagined possible. With a laptop and internet browser, we can get access to nearly all the accumulated knowledge of the human species (and an unreasonable number of cat pictures). Part of this reason this is all so amazing is the relatively short time it took to happen.
 
 Here is an example to demonstrate this rate of change: in a [2000 paper in Nature](https://www.nature.com/articles/21987) by Steve Lawrence and C. Lee Giles titled, "Accessibility of information on the web." The authors open with what was considered by many to be a jaw-dropping statistic at the time, "*[the internet] is 800 million pages, encompassing about six terabytes of text data on about 3 million servers.*." 
 
-Sixteen years later, Google will claim to be indexing [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. At the time of this writing, the Indexed Web has an estimated 5.64 billion pages ( [Monday, 10 June, 2019](https://www.worldwidewebsize.com/) ).
+Sixteen years later, Google will claim to be indexing [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. At the time of this writing, the Indexed Web has an estimated 5.64 billion pages ( [Monday, 10 June 2019](https://www.worldwidewebsize.com/) ).
 
 
 ![](images/00-2018-google-worldwidewebsize.png)
@@ -52,7 +54,7 @@ Sixteen years later, Google will claim to be indexing [130 trillion pages](https
 
 We've never had more access to information than we do right now, and it's unlikely that there will ever be less available information any time soon. 
 
-### Getting the most out of your publications
+### Getting the most out of publications
 
 > "*Your work should speak for itself...*" - author unknown
 
@@ -60,7 +62,7 @@ The sea of information on the internet means competing voices for your audience'
 
 ![](images/00-the-internet.png)
 
-***Don't rely solely on your scientific papers to showcase your work***
+*** Don't rely solely on your scientific papers to showcase your work***
 
 > "*What a strange document a scientific journal article is. We work on them for months or even years. We write them in a highly specialized vernacular that even most other scientists don't share. We place them behind a paywall and charge something ridiculous, like $34.95, for the privilege of reading them. We so readily accept their inaccessibility that we have to start "journal clubs" in the hopes that our friends might understand them and summarize them for us.*" - [ScienceMag - How to read a scientific paper](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper)
 
@@ -92,6 +94,19 @@ And like most advertising, peer-reviewed papers leave many of the essential deta
 
 A few papers that were written and edited by a committee and some PowerPoint presentations won't adequately capture how you developed professionally through your graduate school adventure. We're going to show you a few ways to create more research artifacts, get discovered, get and give feedback, and connect to a community throughout the entire process.
 
+## Computer science and science
+
+Computers, code, and the internet have become pretty standard in modern professional work, especially if that work involves research. Just about every field of science now has a 'computational' area or journal to accompany it.  [Archaeologists](https://en.wikipedia.org/wiki/Computational_archaeology) use computers to study geographical information systems (GIS) data and simulate human behavior.  [Chemists](https://en.wikipedia.org/wiki/Computational_chemistry) use data and simulation to determine the arrangements and features of molecules and particles, or to estimate binding affinities for drug molecules on a given receptor or target. [Biologists](https://en.wikipedia.org/wiki/Computational_biology) use computers to build models and simulate biological, ecological, behavioral, and social systems. The list goes on and on...
+
+ * [Economics](https://en.wikipedia.org/wiki/Computational_economics)  
+ * [History](https://en.wikipedia.org/wiki/Computational_history)  
+ * [Finance](https://en.wikipedia.org/wiki/Computational_finance)  
+ * [Linguistics](https://en.wikipedia.org/wiki/Computational_linguistics)  
+ * [Law](https://en.wikipedia.org/wiki/Computational_law)   
+ * [Sociology](https://en.wikipedia.org/wiki/Computational_sociology)  
+
+I suspect most of the people in these fields probably weren't thinking they'd be writing code or designing algorithms, but the widespread adoption of computation throughout science is a sign of its near-universal utility. To fully capitalize on the potential of what our computers can do, we need to dig a little deeper into how they work (and how we interact with them).
+
 ### Shinning examples to emulate 
 
 This book will show you some of the tools to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientists who have successfully communicated their work. These scientists have used the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes, and share more about what it means to conduct research. 
@@ -102,11 +117,11 @@ Or take Thomas Lin Pedersen, a former bioinformaticist who now designs software.
 
 Both of these researchers did two things very well: they created outstanding work, and they put it online for people to find. Of course, they had to know their subject areas, and have something worth sharing online, but they didn't wait until they were done with their research, either. They started engaging with people while they were completing their research training.
 
-## What we're going to cover
+## What we'll cover
 
 This book is a technical manual that covers how to get started with RStudio. We use RStudio for most of our research activities, and it's the sheer number of things we can accomplish in RStudio that makes us recommend it to you. Research is, by design, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We've focused on distilling these topics into a toolset that you can absorb quickly because your time is limited. We'll also be giving you plenty of resources where you can come back and learn more as you need it. 
 
-### Overcoming the language barriers 
+### Overcoming language barriers
 
 > "*You must learn to talk clearly. The jargon of scientific terminology which rolls off your tongues is mental garbage*." - Martin H. Fischer
 
@@ -145,9 +160,9 @@ As researchers, we consider our jobs are done when someone has heard and underst
 
 2. The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
 
-3. John Ioannidis has led the charge in pointing out some of the ways science publication is flawed. [Massive citations to misleading methods and research tools: Mattheweffect, quotation error and citation copying](https://link.springer.com/article/10.1007/s10654-018-0449-x).
+3. John Ioannidis has led the charge in pointing out some of the ways science publication is flawed. [Massive citations to misleading methods and research tools: Matthew effect, quotation error, and citation copying](https://link.springer.com/article/10.1007/s10654-018-0449-x).
 
 4. Here are more perspectives on the reproducibility crisis and publishing practices.    
 * [Opinion: Is science really facing a reproducibility crisis, and do we need it to?](https://www.pnas.org/content/115/11/2628)     
-* [Publish or Perish: Is Milton’s Paradise Lost on Academia?](https://areomagazine.com/2018/10/09/publish-or-perish-is-miltons-paradise-lost-on-academia/)  
+* [Publish or Perish: Is Milton's Paradise Lost on Academia?](https://areomagazine.com/2018/10/09/publish-or-perish-is-miltons-paradise-lost-on-academia/)  
 

@@ -12,45 +12,7 @@ The good thing about using tracked changes in .docx files is that we can see 1) 
 
 Unfortunately, this only applies to a single document. When you're writing by committee (which is quite often in science), you know asking someone to change a single sentence can result in changes to dozens of files. Fortunately, this change is suggesting a deletion, so this is unlikely to result in generating additional analyses, tables, write-ups, etc. 
 
-## "Keep Knowledge in Plain Text"
 
-In the classic text [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
-
-We recommend you keep track of your changes, notes, and any pertinent documentation about your project in plain text `README` files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
-
-- plain text lasts forever (files written 40 years ago are still readable today)  
-- plain text can be *converted* to any other kind of document  
-- plain text is text searchable (ctrl+F or cmd+F allows us to find keywords or phrases)  
-
-These all sound great, but you might still be wondering what makes a file 'plain text,' so we'll define this below. This chapter will also cover why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
-
-### What *isn't* plain text
-
-Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
-
-> "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
-
-### What *is* plain text
-
-So if binary files aren't plain text, what is a plain text file? The language from the [Wikipedia](https://en.wikipedia.org/wiki/Text_file) description is helpful here: 
-
-> *When opened in a text editor, plain text files display computer and human-readable content*.
-
-And here is the most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/)
-
-### Why would I change what I'm doing if it works?
-
-We get it--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
-
-As Prof. Kieran Healy acknowledges the benefits (and downsides) of having collaborators working in binary file formats in his [text](http://plain-text.co/), "The Plain Person's Guide to Plain Text Social Science," 
-
-> "...it is generally easier for you to use their software than vice versa, if only because you are likely to have a copy of Word on your computer already. In these circumstances you might also collaborate using Google Docs or some other service that allows for simultaneously editing the master copy of a document. This may not be ideal, but it is better than not collaborating. There is little to be gained from plain-text dogmatism in a .docx world."
-
-The problem with some of these technologies is they don't scale (imagine 100+ collaborators), and they come with a task-switching cost (see attentional residue from chapter 2). 
-
-### Using markdown & Rmarkdown
-
-A common type of plain text file is a markdown file, or `.md` file. Markdown has a straightforward syntax that is easy for both humans and computers to read, and it allows for some formatting options to aid with communication. I recommend reading up on R and RMarkdown because of how many different outputs this combination can be used to produce (see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site, and [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more information).
 
 ***
 

@@ -18,6 +18,10 @@ In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_versio
 
 Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
 
+## Command line interfaces (shells, terminals, and text)
+
+The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason these tools haven't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen, but after a few examples of what's possible from on the command-line and you'll see the power of using these tools. 
+
 ### What Terminal looks like
 
 Below is an image of what the terminal application looks like on macOS with Homebrew syntax highlighting. 
@@ -31,7 +35,6 @@ The Terminal pane is also available in RStudio under *Tools* > *Terminal* > *New
 ![](images/04-terminal-pane.png)
 
 ## Some common Terminal commands
-
 
 **FAIR WARNING**--command line interfaces can be frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
 
