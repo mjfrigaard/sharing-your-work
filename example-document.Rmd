@@ -1,0 +1,39 @@
+---
+title: "Rmarkdown Document"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## R Markdown
+
+This is an R Markdown document. Read more details on using R Markdown [here](https://bookdown.org/yihui/rmarkdown/).
+
+Load the `tidyverse`.
+
+```{r tidyverse, echo=TRUE}
+tidyverse::tidyverse_logo()
+```
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r starwars}
+ggplot2::diamonds %>% glimpse(78)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r carat-price}
+diamonds %>% 
+    ggplot(aes(x = carat,
+               y = price,
+               color = cut)) + geom_point()
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
