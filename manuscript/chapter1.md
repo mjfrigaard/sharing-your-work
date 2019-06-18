@@ -14,9 +14,9 @@ We originally wrote this text as a manual for graduate students beginning their 
 
 ### The assumptions we've made
 
-We assume you'll be working on a computer (laptop or desktop), and have the ability to download, locate, and install software applications. Although the examples in this book use a macOS operating system, you can extend most of these commands to any Unix operating system (such as the [Ubuntu-based operating systems](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based), like MATE).
+We assume you'll be working on a computer (laptop or desktop), and have the ability to download, locate, and install software applications. Although the examples in this book use a macOS operating system, you can extend most of these commands to any Unix operating system (such as the [Ubuntu-based operating systems](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based), like [MATE](https://mate-desktop.org/)).
 
-We assume you've been using your computer to send/receive emails, write papers, and explore the internet. People encounter a need for these tools at different times in their lives, so we realize there's a chance you'll be familiar with the materials we're covering. If this is the case, hopefully, we cover it in a novel and painless way that doesn't make reading it feel like a waste of time. 
+We also assume you've been using your computer to send/receive emails, write papers, and explore the internet. People encounter a need for these tools at different times in their lives, so we realize there's a chance a few of you will be familiar with some of the content we're covering. If this is the case, hopefully, we cover it in a novel and painless way that doesn't make reading it feel like a waste of time. 
 
 ### Language and style in this book
 
@@ -24,13 +24,17 @@ Although one person put this information together in this particular format, we 
 
 The text uses the following style guide: 
 
-`code` 
+`this is code` 
 
-> *quoted text*
+```sh
+# this a code chunk
+```
 
-[hyperlink]()
+> *some quoted text*
 
-plain text 
+[click on hyperlinks]()
+
+plain text for our thoughts 
 
 ---
 
@@ -44,9 +48,9 @@ It's been over three years since this post was published, and it's only become m
 
 As the quote above alludes to, academic publishing isn't the guaranteed pathway to success it used to be. As I write this, many scientists believe [science is in the midst of a reproducibility crisis](https://www.nature.com/news/1.19970), some people are pushing to [make every scientific journal article free](https://www.sciencealert.com/this-woman-has-illegally-uploaded-millions-of-journal-articles-in-an-attempt-to-open-up-science), and the University of California college system [dropped their $11 million annual subscription contract with Elsevier](https://www.vox.com/the-highlight/2019/6/3/18271538/open-access-elsevier-california-sci-hub-academic-paywalls).    
 
-You have entered graduate school in exciting times, but the future of how we'll be measuring scientific productivity and contributions are still somewhat uncertain. The traditional advice of "publish or perish" makes sense in a world where writing papers, getting published, then getting cited made your work highly visible. But it's lead to creating a [system doesn't work as well as intended](https://www.nature.com/news/the-top-100-papers-1.16224), and encouraged citation metrics which are [easily manipulated](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). 
+You have entered graduate school in exciting times, but the future of how we'll be measuring scientific productivity and contributions are still somewhat uncertain. The traditional advice of "publish or perish" makes sense in a world where writing papers, getting published, then getting that work cited made your work highly visible. But it's lead to creating a [system doesn't work as well as intended](https://www.nature.com/news/the-top-100-papers-1.16224), and encouraged citation metrics which are [easily manipulated](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). 
 
-More importantly, the amount of published scientific information is growing faster than we can keep track of it. The [1986 article by Don Swanson](https://www.jstor.org/stable/4307965?seq=1#page_scan_tab_contents) predicted this phenomenon. Swanson describes a scenario where a team of scientists discovers the presence of a black swan in a world where the accepted scientific consensus is that all swans are white, 
+The explosion in scientific literature has grown too fast for anyone to makes sense of it, and it's getting harder for researchers to get discovered. The [1986 article by Don Swanson](https://www.jstor.org/stable/4307965?seq=1#page_scan_tab_contents) predicted this phenomenon. Swanson describes a scenario where a team of scientists finds the presence of a black swan in a world where the accepted scientific consensus is that all swans are white, 
 
 > *...a report of a family of black swans is presumed to be an acceptable and well-corroborated fact in the published literature, a fact that refutes a published hypothesis that all swans are white. But these two elements of information-the hypothesis and its refutation-may not both be known to any one person, at least not for some period of time, owing to the difficulties of identifying, locating, and gaining access to the relevant published information. Thus I have shown that it is possible for the refutation of theory to stand, even if temporarily, as undiscovered public knowledge.*
 
@@ -74,15 +78,15 @@ The sea of information on the internet means competing voices for your audience'
 
 ![](images/00-the-internet.png)
 
-*** Don't rely solely on your scientific papers to showcase your work***
+***Don't rely solely on scientific publications to showcase your work***
 
 > "*What a strange document a scientific journal article is. We work on them for months or even years. We write them in a highly specialized vernacular that even most other scientists don't share. We place them behind a paywall and charge something ridiculous, like $34.95, for the privilege of reading them. We so readily accept their inaccessibility that we have to start "journal clubs" in the hopes that our friends might understand them and summarize them for us.*" - [ScienceMag - How to read a scientific paper](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper)
 
-Be honest--how many theses/dissertations have you read? How many peer-reviewed articles would you recommend for people to read for pure enjoyment? I suspect that even if you asked your most bibliophilic friends what their favorite peer-reviewed article is, or what dissertation they think everyone *must* read, they couldn't give you one quickly. These documents aren't a waste of time--they serve a different purpose (and it's not to make sure all of your hard work reaches a broad audience).
+Be honest--how many theses/dissertations have you read? How many peer-reviewed articles would you recommend for people to read for pure enjoyment? I suspect that even if you asked your most bibliophilic friends what their favorite peer-reviewed article is, or what dissertation they think everyone *must* read, they couldn't give you a quick answer. These documents aren't a waste of time--they serve a different purpose (and it's not to make sure all of your hard work reaches a broad audience).
 
-Even if you decide to convert your graduate research into a peer-reviewed manuscript, it'll be for a very niche audience, and rarely in a way that makes the contents interesting beyond a few researchers who are closest to the subject matter. 
+If you decide to convert your graduate research into a peer-reviewed manuscript, it'll be for a very niche audience, and rarely in a way that makes the contents interesting beyond a few researchers who are closest to the subject matter. 
 
-Scientific papers are still essential to advancing science (and your career as a scientist), but they're not a demonstration of all the skills you've developed in graduate school. These artifacts represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
+Scientific papers are still essential to advancing science and your career as an academic scientist. These artifacts represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). But publications also fail to capture many essential skills and abilities you'll want to share. This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
 
 > "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*." 
 
@@ -135,17 +139,24 @@ Both of these researchers did two things very well: they created outstanding wor
 
 ## What we'll cover
 
-This book is a technical manual that covers how to get started with RStudio. We use RStudio for most of our research activities, and it's the sheer number of things we can accomplish in RStudio that makes us recommend it to you. Research is, by design, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We've focused on distilling these topics into a toolset that you can absorb quickly because your time is limited. We'll also be giving you plenty of resources where you can come back and learn more as you need it. 
+This book is a technical manual that covers how to get started with RStudio, Git, and Github. We use RStudio every day for our past research activities, but this wasn't always the case. We began our careers in other statistical programs (SPSS, Stata, SAS), and abandoned them for one reason or another.  We've continued using R+RStudio because of the sheer number of tasks we can accomplish, and that's what makes us recommend it to you. 
 
-### Overcoming language barriers
+Research is, increasingly, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We wrote this book to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because your time is limited). 
+
+We also understand there are alternative approaches to accomplishing the same goal, so we've tried to provide alternatives wherever possible. 
+
+The two other goals we hope to accomplish in this text are 1) overcoming the language/jargon barrier in data science, and 2) providing resources and examples for communicating your new knowledge, skills, and findings to a wide range of audiences. 
+
+
+### Technical jargon & acronyms 
 
 > "*You must learn to talk clearly. The jargon of scientific terminology which rolls off your tongues is mental garbage*." - Martin H. Fischer
 
-The most substantial barrier to understanding new disciplines or technologies is getting a handle on the jargon. Because this book sits at the intersection of computer science, statistics, and web technologies, the vocabulary can often seem like learning a foreign language. 
+The most substantial barrier to understanding new disciplines or technologies is getting a handle on their jargon. Because this book sits at the intersection of computer science, statistics, and web technologies, all the new vocabulary can often seem like learning a foreign language. 
 
 Wherever possible, we'll do our best to clear up or define any terms related to computer science, data management system, web technology, or statistics. To maximize the power of the tools in this text, it will help to know a little about their history, so we'll also cover some background.
 
-### Practicing your communication
+### Communication takes practice
 
 No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey its importance. 
 
@@ -159,9 +170,9 @@ When we were kids in math class, the teacher would ask us to "show our work." Te
 
 ## The path forward 
  
-Communicating our work should be the goal of anyone doing research. After leaving graduate school, I realized how few people had the skills I was taking into the world (and how many people would benefit from them). One of the most attractive things about understanding math and science is that small investments in understanding can yield significant returns. 
+Communicating our work should be the goal of anyone doing research. After leaving graduate school, we realized how few people had the skills we were taking into the world (and how many people would benefit from them). One of the most attractive things about understanding math and science is that small investments in understanding can yield significant returns. 
 
-I've realized we don't communicate the importance of being 'good enough' at math and science, and that's a shame. Being 'good enough' means you could read about technology and be capable of distinguishing it from magic, or that you can imagine a metric that might matter to your business or personal life, and then devise a way to measure it. Perhaps more importantly, an emphasis on a 'good enough' understanding of math and science could help break down the "us vs. them" mentality that arises when science inevitably makes its way into the public sphere. 
+We've realized we don't communicate the importance of being 'good enough' at math and science, and that's a shame. Being 'good enough' means you could read about technology and be capable of distinguishing it from magic, or that you can imagine a metric that might matter to your business or personal life, and then devise a way to measure it. Perhaps more importantly, an emphasis on a 'good enough' understanding of math and science could help break down the "us vs. them" mentality that arises when science inevitably makes its way into the public sphere. 
 
 In our opinion, the job of a scientist or researcher isn't done when they defend a thesis/dissertation and get their degree; it isn't done when their research has been submitted and accepted to a conference or high-impact journal; it isn't even done when someone reads that article or attends their talk. 
 
