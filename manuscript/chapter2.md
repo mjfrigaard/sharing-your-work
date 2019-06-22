@@ -35,7 +35,7 @@ We've displayed some examples of open source tools for data management, statisti
 
 ### Use R, RStudio, Git, and Github
 
-We recommend using R, RStudio, Git, and Github for the majority of your work.  
+We recommend using R, RStudio, Git, and Github for the majority of your work. You can discover more about these tools [here](https://www.rstudio.com/).
 
 ### What is R?
 
@@ -43,9 +43,9 @@ We recommend using R, RStudio, Git, and Github for the majority of your work.
 
 ### What is RStudio?
 
-![](images/00-IDE-layout.png)
-
 [RStudio](https://www.rstudio.com/products/RStudio/) is a free and open source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. 
+
+![](images/00-IDE-layout.png)
 
 The IDE has four separate panes, each serving a specific function. 
 
@@ -54,11 +54,13 @@ The IDE has four separate panes, each serving a specific function.
 - the `Console` displays the results from our written code 
 - the `Files` gives us a few of happenings outside the RStudio environment (imported raw data, exported results, etc.)
 
-If you can't install RStudio on your computer, you can also use [RStudio.cloud](https://rstudio.cloud/). Follow the steps below to install R and RStudio.  
+Follow the steps below to install R and RStudio.  
 
 1. First, you'll need to download and install R from [CRAN](https://cran.r-project.org/).  
 2. Second, download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R   
 3. An alternative to downloading and installing R and RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join)  
+
+
 
 **BONUS:** You'll also find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
 
@@ -70,13 +72,13 @@ If you can't install RStudio on your computer, you can also use [RStudio.cloud](
 
 [Github](https://github.com/) is the web-based hosting service for Git. You should set up a free an account with Github [here](https://github.com/join?source=header). 
 
-We will cover more on Git/Github in later sections, but these tools will allow you to keep track of changes to your project over time. 
+We will cover more on Git/Github in later sections, but for now, know these tools will allow you to keep track of changes to your project over time. 
 
 **Note:** *You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. We're confident you'll see RStudio is well suited to handle >90% of the things you'll want to accomplish.* 
 
 ---
   
-## Principle 2: Write, don't click 
+## Principle 2: Prefer code to clicks
 
 Usually, people interact with their computers using point-and-click [graphical user interfaces](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUIs (pronounced 'gooey'). GUIs are quick and easy to learn because their design environment usually mimics an actual physical space (i.e., desktops, folders, documents). GUIs are a mostly positive development because designing software with a more [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) is one of the main reasons technology adoption has been on the rise for the 20+ years. 
 
@@ -98,14 +100,14 @@ We recommend an alternative to the copy + paste workflow based on the activities
 4. Submit and review for traditional journals  
 5. Blog or use social media to critique published work 
 
-Two things stand out from the list above: first, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on, "write, don't click" wherever possible. 
+Two things should stand out from the list above: first, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on, "*code, not clicks*" wherever possible. 
 
-**NOTE:** A 'write, don't click' workflow adds more work for those of you who don't like to type, but it's an unavoidable necessity for doing research. 
+**NOTE:** A '*code, not clicks*' workflow means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for doing research. 
 
 
 ### Software isn't a solution
 
-An extension of the "*write, don't click*" philosophy is to view software applications as tools for improving the scientific process, not oversimplifying or obfuscating it. 
+An extension of the "*code, not clicks*" philosophy is to view software applications as tools for improving the scientific process, not oversimplifying or obfuscating it. 
 
 As we stated in chapter 1, science is a process. An iterative, problem-solving process with specific steps:
 
@@ -123,11 +125,11 @@ Furthermore, most GUIs come with a limited collection of possible operations. Th
 
 Lastly, although these applications give you the ability to write code, these are typically not seen as programming languages. The esoteric structure and syntax for the code is a direct result of the language being dependent on its parent application (*the reason the applications cost money is because they're trying to attract users who don't want to program*). 
 
-### What do we mean by workflow?
+### What do we mean by 'a workflow'?
 
 > "I've come to realize that a lot of people don't even know what they did. People don't have a workflow, they have a bunch of numbers, and they start screwing around with the numbers and putting calculations in different places on their spreadsheet, and then at the end, they pull a number out and write it down and type it into their report." - [Andrew Gelman](https://soundcloud.com/dataframed/election-forecasting-polling) 
 
-The quote above is from an interview with Andrew Gelman, a statistician from Cornell, who is an author on the excellent blog [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/). I've included it here to emphasize the need for having **any kind of workflow**. Your workflow is your chosen software tools you use (or the '*how*' you got your results). As the quote above shows, this is just as relevant as the results you get, which means you should strive to have a start-to-finish chain of documentation for your analytic or scientific process. 
+The quote above is from an interview with Andrew Gelman, a statistician from Cornell, who is an author on the excellent blog [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/). I've included it here to emphasize the need for having **any workflow**. Your workflow is your chosen set of software tools you'll use to show '*how*' you got your results. As the quote above shows, this is just as relevant as the results you get, which means you should strive to have a start-to-finish chain of documentation for your analytic or scientific process. 
 
 Data analysis and research are complicated, and in order organize that complexity, we need to have a workflow that gives us the ability to 1) document our thoughts and intentions clearly, and 2) write code that translates those thoughts and intentions into something a computer can execute. Plain text files are a great way to accomplish these tasks. 
 
@@ -145,9 +147,20 @@ We recommend you keep track of your changes, notes, and any pertinent documentat
 
 These all sound great, but you might still be wondering what makes a file 'plain text,' so we'll define this below. This chapter will also cover why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
 
+### Wait--why would I change what I'm doing if it works?
+
+We get it--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
+
+The problems with the copy+paste (Word, SPSS, Stata, Excel, etc.) workflow have been discussed elsewhere (see [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary), but we will briefly summarize, 
+
+1. It's not reproducible  
+2. It's not logical or necessarily honest to separate computation from the analysis or presentation 
+4. It's error prone  
+
+
 ### What *isn't* plain text
 
-Non-plain text files are usually binary files (the `0`/`1` kind of binary). Binary files (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
+Non-plain text files are usually called binary (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
 > "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
 
@@ -158,17 +171,6 @@ So if binary files aren't plain text, what is a plain text file? The language fr
 > *When opened in a text editor, plain text files display computer and human-readable content*.
 
 And here is the most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/)
-
-### Why would I change what I'm doing if it works?
-
-We get it--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
-
-The problems with the copy+paste (Word, SPSS, Stata, Excel, etc.) workflow have been discussed elsewhere (see [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary), but we will briefly summarize, 
-
-1. It's not reproducible  
-2. It's not logical or necessarily honest to separate computation from the analysis or presentation 
-4. It's error prone  
-
 
 ### Markdown & Rmarkdown
 

@@ -1,14 +1,22 @@
-# Part 3: Organizing your files
+# Part 3: Organizing your projects
 
 ***NOTE:*** *Statistical coursework rarely covers file organization, but it directly contributes to your ability to be productive. Fortunately, there have been numerous publications in recent years that cover topics like [working with data in spread sheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989), [sharing data with collaborators](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375987), [how to names your files](https://speakerdeck.com/jennybc/how-to-name-files), and the [importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719).*
 
 To help guide you through learning these technologies, we've made a code repository of some files typically found in a research project. The files in this repository were used to create this [master's thesis](http://csuchico-dspace.calstate.edu/handle/10211.3/10211.4_387) and [this peer-reviewed publication](https://journals.sagepub.com/doi/abs/10.1177/1941406412470719).
 
-Download these files by clicking on the green icon and downloading the zip file. 
+## An example 
+
+The example we will work through in this text follows a common scenario: you have a data set with a brief description of it's contents, and a problem to solve. There are times when you'll have to collect data to address a problem, but data colletion methods can very different depending on the context, so this topic will be covered in another text. 
+
+The data are available for download in [this Dropbox folder](http://bit.ly/2XZA0Yk). Follow the link and download the data file (`IcanBP.csv`) onto your computer into a recognizable place (like the `Documents` folder or on your `Desktop`). 
+
+### A common scenario
+
+So, now have a data set that's been downloaded onto your computer. What 
 
 ![](images/02-download-repo.png)
 
-Put the zipped file in a recognizable place (like the `Documents` folder or on your `Desktop`). Unzip the folder and examine its contents. We'll be using these files throughout the rest of the text. 
+Put the zipped file  Unzip the folder and examine its contents. We'll be using these files throughout the rest of the text. 
 
 As discussed in the previous chapters, if you can't download these files onto your computer, you can use [RStudio.Cloud](https://rstudio.cloud/). We recommend setting up a Github account to sign in with. 
 

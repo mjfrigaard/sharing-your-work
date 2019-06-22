@@ -1,10 +1,13 @@
 # Welcome!
 
-Congratulations! You've just entered graduate school, and you're on your way to more specialized education and training. Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be an excellent investment for your future. And after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. 
+*Dear graduate students,*
+*Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be an excellent investment for your future. And after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. We loved graduate school--we made friends and colleagues we are still in contact with and received some excellent advice from outstanding (and unexpected) mentors. As we write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, we decided to write a technical guide that covered a few topics that were missing from our graduate education. We wanted to share what we've learned with the hopes it would make the transition from school to work a little less shocking.*
 
-## About us
+---
 
-I loved my graduate school experience. I made friends and colleagues I'm still in contact with, and received some excellent advice from outstanding (and unexpected) mentors. As I write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, my colleague and I have decided to write this technical guide. We felt a few topics were missing from our graduate education, and wanted to share what we've learned in the hopes it would make the transition from school to work a little less shocking.
+Welcome! You've interested in statistics, data science, or research. 
+
+Whether you just entered graduate school, started in a new position at work, began a boot camp for more specialized education and training, or you're interested in data analysis, this book will help you get started. 
 
 We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io.`
 
@@ -74,7 +77,7 @@ We've never had more access to information than we do right now, and it's unlike
 
 > "*Your work should speak for itself...*" - author unknown
 
-The sea of information on the internet means competing voices for your audience's attention. All that excellent work you're doing in graduate school needs to be discoverable on the internet by people who can advance (and refine) your ideas. For that to happen, you have to create more than just a single thesis, dissertation, or manuscript. If your future collaborators, prospective employers, and fellow graduate students are going to find you, that means keeping an ongoing catalog of what you've done discoverable by searching the internet. And unless you're willing to pay for advertisements, that means creating useful content that people read and share. 
+The sea of information on the internet means competing voices for your audience's attention. All that excellent work you're doing needs to be discoverable on the internet by people who can advance (and refine) your ideas. For that to happen, you have to create more than just a single thesis, dissertation, or paper. If your future collaborators, prospective employers, and fellow graduate students are going to find you, that means keeping an ongoing catalog of what you've done discoverable by searching the internet. And unless you're willing to pay for advertisements, that means creating useful content that people read and share. 
 
 ![](images/00-the-internet.png)
 
@@ -86,11 +89,11 @@ Be honest--how many theses/dissertations have you read? How many peer-reviewed a
 
 If you decide to convert your graduate research into a peer-reviewed manuscript, it'll be for a very niche audience, and rarely in a way that makes the contents interesting beyond a few researchers who are closest to the subject matter. 
 
-Scientific papers are still essential to advancing science and your career as an academic scientist. These artifacts represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). But publications also fail to capture many essential skills and abilities you'll want to share. This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
+Peer-reviewed papers are still essential to advancing science and your career as an academic researcher. These papers represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). But publications also fail to capture many essential skills and abilities you'll want to share. This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
 
 > "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*." 
 
-And like most advertising, peer-reviewed papers leave many of the essential details out. For example, consider the following activities that are common in graduate school:
+Like most advertising, peer-reviewed papers leave out many of the essential details. For example, consider the following activities that are common in graduate school:
 
 * Coming up with an idea, 
 * Turning that idea into a research question, 
@@ -139,11 +142,11 @@ Both of these researchers did two things very well: they created outstanding wor
 
 ## What we'll cover
 
-This book is a technical manual that covers how to get started with RStudio, Git, and Github. We use RStudio every day for our past research activities, but this wasn't always the case. We began our careers in other statistical programs (SPSS, Stata, SAS), and abandoned them for one reason or another.  We've continued using R+RStudio because of the sheer number of tasks we can accomplish, and that's what makes us recommend it to you. 
+This book is a technical manual that covers how to get started with RStudio, Git, and Github. We use RStudio daily now, but this wasn't always the case. We began our careers in other statistical programs (SPSS, Stata, SAS), and abandoned them for one reason or another.  We've continued using R/RStudio because of the sheer number of tasks we can accomplish, and that's what makes us recommend it to you. 
 
 Research is, increasingly, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We wrote this book to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because your time is limited). 
 
-We also understand there are alternative approaches to accomplishing the same goal, so we've tried to provide alternatives wherever possible. 
+We also understand there are alternative approaches to accomplishing the same goal, so we've tried to provide these examples wherever possible. 
 
 The two other goals we hope to accomplish in this text are 1) overcoming the language/jargon barrier in data science, and 2) providing resources and examples for communicating your new knowledge, skills, and findings to a wide range of audiences. 
 
@@ -182,16 +185,13 @@ As researchers, we consider our jobs are done when someone has heard and underst
 
 #### Footnotes
 
-1. The scientific journal industry is not looking out for your best interests:  
- - They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist),  
- - Other [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices),  
- - and they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
+- The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), and other [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices). And they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
-2. The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
+- The metrics previously used to measure success in academic publishing are [unreliable and susceptible to being gamed](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). You don't want to have these be your sole measure of productivity. 
 
-3. John Ioannidis has led the charge in pointing out some of the ways science publication is flawed. [Massive citations to misleading methods and research tools: Matthew effect, quotation error, and citation copying](https://link.springer.com/article/10.1007/s10654-018-0449-x).
+- John Ioannidis has led the charge in pointing out some of the ways science publication is flawed. [Massive citations to misleading methods and research tools: Matthew effect, quotation error, and citation copying](https://link.springer.com/article/10.1007/s10654-018-0449-x).
 
-4. Here are more perspectives on the reproducibility crisis and publishing practices.    
+Here are more perspectives on the reproducibility crisis and publishing practices.    
 * [Opinion: Is science really facing a reproducibility crisis, and do we need it to?](https://www.pnas.org/content/115/11/2628)     
 * [Publish or Perish: Is Milton's Paradise Lost on Academia?](https://areomagazine.com/2018/10/09/publish-or-perish-is-miltons-paradise-lost-on-academia/)  
 
