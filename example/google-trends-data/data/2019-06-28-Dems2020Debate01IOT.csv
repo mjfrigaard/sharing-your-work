@@ -1,0 +1,1681 @@
+data,date,hits,geo,time,keyword,gprop,category,gender,prior_vperc,prior_vperc_fct
+1,2019-06-21T16:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T17:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T18:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T19:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T20:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T21:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T22:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T23:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T00:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T01:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T02:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T03:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T04:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T05:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T06:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T07:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T08:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T09:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T10:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T11:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T12:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T13:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T14:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T15:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T16:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T17:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T18:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T19:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T20:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T21:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T22:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T23:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T00:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T01:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T02:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T03:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T04:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T05:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T06:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T07:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T08:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T09:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T10:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T11:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T12:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T13:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T14:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T15:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T16:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T17:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T18:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T19:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T20:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T21:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T22:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T23:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T00:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T01:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T02:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T03:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T04:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T05:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T06:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T07:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T08:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T09:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T10:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T11:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T12:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T13:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T14:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T15:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T16:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T17:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T18:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T19:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T20:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T21:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T22:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T23:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T00:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T01:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T02:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T03:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T04:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T05:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T06:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T07:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T08:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T09:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T10:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T11:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T12:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T13:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T14:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T15:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T16:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T17:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T18:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T19:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T20:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T21:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T22:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T23:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T00:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T01:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T02:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T03:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T04:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T05:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T06:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T07:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T08:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T09:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T10:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T11:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T12:00:00Z,0,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T13:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T14:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T15:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T16:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T17:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T18:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T19:00:00Z,NA,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T20:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T21:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T22:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T23:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T00:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T01:00:00Z,18,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T02:00:00Z,42,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T03:00:00Z,22,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T04:00:00Z,7,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T05:00:00Z,11,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T06:00:00Z,7,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T07:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T08:00:00Z,7,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T09:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T10:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T11:00:00Z,6,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T12:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T13:00:00Z,5,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T14:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T15:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T16:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T17:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T18:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T19:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T20:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T21:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T22:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T23:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T00:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T01:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T02:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T03:00:00Z,5,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T04:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T05:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T06:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T07:00:00Z,4,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T08:00:00Z,5,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T09:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T10:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T11:00:00Z,3,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T12:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T13:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T14:00:00Z,1,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T15:00:00Z,2,US,now 7-d,Bill de Blasio 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T16:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T17:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T18:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T19:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T20:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T21:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T22:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T23:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T00:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T01:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T02:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T03:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T04:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T05:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T06:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T07:00:00Z,0,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T08:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T09:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T10:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T11:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T12:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T13:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T14:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T15:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T16:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T17:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T18:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T19:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T20:00:00Z,NA,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T21:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T22:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-22T23:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T00:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T01:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T02:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T03:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T04:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T05:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T06:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T07:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T08:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T09:00:00Z,0,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T10:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T11:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T12:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T13:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T14:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T15:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T16:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T17:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T18:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T19:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T20:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T21:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T22:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-23T23:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T00:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T01:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T02:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T03:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T04:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T05:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T06:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T07:00:00Z,0,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T08:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T09:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T10:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T11:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T12:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T13:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T14:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T15:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T16:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T17:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T18:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T19:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T20:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T21:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T22:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-24T23:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T00:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T01:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T02:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T03:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T04:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T05:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T06:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T07:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T08:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T09:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T10:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T11:00:00Z,NA,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T12:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T13:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T14:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T15:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T16:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T17:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T18:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T19:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T20:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T21:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T22:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-25T23:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T00:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T01:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T02:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T03:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T04:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T05:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T06:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T07:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T08:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T09:00:00Z,0,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T10:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T11:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T12:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T13:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T14:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T15:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T16:00:00Z,1,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T17:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T18:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T19:00:00Z,2,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T20:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T21:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T22:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-26T23:00:00Z,3,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T00:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T01:00:00Z,64,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T02:00:00Z,100,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T03:00:00Z,66,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T04:00:00Z,18,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T05:00:00Z,14,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T06:00:00Z,14,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T07:00:00Z,10,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T08:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T09:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T10:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T11:00:00Z,13,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T12:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T13:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T14:00:00Z,11,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T15:00:00Z,8,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T16:00:00Z,9,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T17:00:00Z,9,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T18:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T19:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T20:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T21:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T22:00:00Z,7,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-27T23:00:00Z,7,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T00:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T01:00:00Z,8,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T02:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T03:00:00Z,15,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T04:00:00Z,13,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T05:00:00Z,11,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T06:00:00Z,12,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T07:00:00Z,7,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T08:00:00Z,9,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T09:00:00Z,5,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T10:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T11:00:00Z,8,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T12:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T13:00:00Z,8,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T14:00:00Z,6,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-28T15:00:00Z,4,US,now 7-d,Cory Booker 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+1,2019-06-21T16:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T17:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T18:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T19:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T20:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T21:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T23:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T01:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T02:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T03:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T04:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T05:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T06:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T09:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T11:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T12:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T13:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T14:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T15:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T16:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T17:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T18:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T19:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T20:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T21:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-22T23:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T01:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T02:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T03:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T04:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T05:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T06:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T09:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T11:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T12:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T13:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T14:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T15:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T16:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T17:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T18:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T19:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T20:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T21:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-23T23:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T01:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T02:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T03:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T04:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T05:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T06:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T09:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T11:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T12:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T13:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T14:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T15:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T16:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T17:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T18:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T19:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T20:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T21:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-24T23:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T01:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T02:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T03:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T04:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T05:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T06:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T09:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T11:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T12:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T13:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T14:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T15:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T16:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T17:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T18:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T19:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T20:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T21:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T22:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-25T23:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T01:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T02:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T03:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T04:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T05:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T06:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T09:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T11:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T12:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T13:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T14:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T15:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T16:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T17:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T18:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T19:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T20:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T21:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-26T23:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T00:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T01:00:00Z,2,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T02:00:00Z,3,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T03:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T04:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T05:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T06:00:00Z,2,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T07:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T09:00:00Z,3,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T10:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T11:00:00Z,2,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T12:00:00Z,2,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T13:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T14:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T15:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T16:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T17:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T18:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T19:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T20:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T21:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T22:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-27T23:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T00:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T01:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T02:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T03:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T04:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T05:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T06:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T07:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T08:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T09:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T10:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T11:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T12:00:00Z,1,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T13:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T14:00:00Z,NA,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-28T15:00:00Z,0,US,now 7-d,Julián Castro 2020,web,0,Men,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+1,2019-06-21T16:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T17:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T18:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T19:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T20:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T21:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T22:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T23:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T00:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T01:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T02:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T03:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T04:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T05:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T06:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T07:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T08:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T09:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T10:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T11:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T12:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T13:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T14:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T15:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T16:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T17:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T18:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T19:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T20:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T21:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T22:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-22T23:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T00:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T01:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T02:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T03:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T04:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T05:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T06:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T07:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T08:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T09:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T10:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T11:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T12:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T13:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T14:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T15:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T16:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T17:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T18:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T19:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T20:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T21:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T22:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-23T23:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T00:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T01:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T02:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T03:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T04:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T05:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T06:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T07:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T08:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T09:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T10:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T11:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T12:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T13:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T14:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T15:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T16:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T17:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T18:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T19:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T20:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T21:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T22:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-24T23:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T00:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T01:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T02:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T03:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T04:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T05:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T06:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T07:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T08:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T09:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T10:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T11:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T12:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T13:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T14:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T15:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T16:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T17:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T18:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T19:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T20:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T21:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T22:00:00Z,NA,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-25T23:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T00:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T01:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T02:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T03:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T04:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T05:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T06:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T07:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T08:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T09:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T10:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T11:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T12:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T13:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T14:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T15:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T16:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T17:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T18:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T19:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T20:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T21:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T22:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-26T23:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T00:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T01:00:00Z,44,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T02:00:00Z,54,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T03:00:00Z,30,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T04:00:00Z,10,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T05:00:00Z,8,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T06:00:00Z,7,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T07:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T08:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T09:00:00Z,0,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T10:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T11:00:00Z,8,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T12:00:00Z,9,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T13:00:00Z,7,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T14:00:00Z,5,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T15:00:00Z,5,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T16:00:00Z,6,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T17:00:00Z,6,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T18:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T19:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T20:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T21:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T22:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-27T23:00:00Z,5,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T00:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T01:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T02:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T03:00:00Z,5,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T04:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T05:00:00Z,3,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T06:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T07:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T08:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T09:00:00Z,4,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T10:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T11:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T12:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T13:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T14:00:00Z,2,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-28T15:00:00Z,1,US,now 7-d,John Delaney 2020,web,0,Men,0.2% of voters,0.2% of voters
+1,2019-06-21T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T17:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T18:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T19:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T20:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T21:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T22:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-21T23:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T00:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T01:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T02:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T03:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T04:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T05:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T06:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T07:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T08:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T09:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T10:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T11:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T12:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T13:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T14:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T15:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T17:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T18:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T19:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T20:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T21:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T22:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-22T23:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T00:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T01:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T02:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T03:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T04:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T05:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T06:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T07:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T08:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T09:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T10:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T11:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T12:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T13:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T14:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T15:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T17:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T18:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T19:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T20:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T21:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T22:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-23T23:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T00:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T01:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T02:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T03:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T04:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T05:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T06:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T07:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T08:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T09:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T10:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T11:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T12:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T13:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T14:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T15:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T17:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T18:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T19:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T20:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T21:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T22:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-24T23:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T00:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T01:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T02:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T03:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T04:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T05:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T06:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T07:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T08:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T09:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T10:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T11:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T12:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T13:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T14:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T15:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T17:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T18:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T19:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T20:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T21:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T22:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-25T23:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T00:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T01:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T02:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T03:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T04:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T05:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T06:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T07:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T08:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T09:00:00Z,0,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T10:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T11:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T12:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T13:00:00Z,NA,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T14:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T15:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T16:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T17:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T18:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T19:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T20:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T21:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T22:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-26T23:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T00:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T01:00:00Z,22,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T02:00:00Z,35,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T03:00:00Z,23,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T04:00:00Z,9,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T05:00:00Z,7,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T06:00:00Z,6,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T07:00:00Z,5,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T08:00:00Z,7,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T09:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T10:00:00Z,4,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T11:00:00Z,5,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T12:00:00Z,5,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T13:00:00Z,4,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T14:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T15:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T16:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T17:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T18:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T19:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T20:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T21:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T22:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-27T23:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T00:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T01:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T02:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T03:00:00Z,4,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T04:00:00Z,4,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T05:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T06:00:00Z,3,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T07:00:00Z,5,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T08:00:00Z,4,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T09:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T10:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T11:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T12:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T13:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T14:00:00Z,2,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+1,2019-06-28T15:00:00Z,1,US,now 7-d,Jay Inslee 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T16:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T17:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T18:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T19:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T20:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T21:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T22:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T23:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T00:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T01:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T02:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T03:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T04:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T05:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T06:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T07:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T08:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T09:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T10:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T11:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T12:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T13:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T14:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T15:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T16:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T17:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T18:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T19:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T20:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T21:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T22:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-22T23:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T00:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T01:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T02:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T03:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T04:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T05:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T06:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T07:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T08:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T09:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T10:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T11:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T12:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T13:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T14:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T15:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T16:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T17:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T18:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T19:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T20:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T21:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T22:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-23T23:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T00:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T01:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T02:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T03:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T04:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T05:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T06:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T07:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T08:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T09:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T10:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T11:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T12:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T13:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T14:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T15:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T16:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T17:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T18:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T19:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T20:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T21:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T22:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-24T23:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T00:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T01:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T02:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T03:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T04:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T05:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T06:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T07:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T08:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T09:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T10:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T11:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T12:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T13:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T14:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T15:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T16:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T17:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T18:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T19:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T20:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T21:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T22:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-25T23:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T00:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T01:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T02:00:00Z,NA,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T03:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T04:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T05:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T06:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T07:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T08:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T09:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T10:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T11:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T12:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T13:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T14:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T15:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T16:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T17:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T18:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T19:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T20:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T21:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T22:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-26T23:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T00:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T01:00:00Z,29,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T02:00:00Z,34,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T03:00:00Z,30,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T04:00:00Z,9,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T05:00:00Z,9,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T06:00:00Z,8,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T07:00:00Z,7,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T08:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T09:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T10:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T11:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T12:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T13:00:00Z,4,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T14:00:00Z,4,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T15:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T16:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T17:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T18:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T19:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T20:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T21:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T22:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-27T23:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T00:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T01:00:00Z,4,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T02:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T03:00:00Z,8,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T04:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T05:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T06:00:00Z,5,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T07:00:00Z,1,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T08:00:00Z,0,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T09:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T10:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T11:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T12:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T13:00:00Z,3,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T14:00:00Z,2,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-28T15:00:00Z,4,US,now 7-d,Amy Klobuchar 2020,web,0,Women,0.5 - 0.9% of voters,0.5 - 0.9% of voters
+2,2019-06-21T16:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T17:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T18:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T19:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T20:00:00Z,NA,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T21:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T22:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T23:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T00:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T01:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T02:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T03:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T04:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T05:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T06:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T07:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T08:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T09:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T10:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T11:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T12:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T13:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T14:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T15:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T16:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T17:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T18:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T19:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T20:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T21:00:00Z,NA,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T22:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T23:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T00:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T01:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T02:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T03:00:00Z,NA,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T04:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T05:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T06:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T07:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T08:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T09:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T10:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T11:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T12:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T13:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T14:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T15:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T16:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T17:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T18:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T19:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T20:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T21:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T22:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T23:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T00:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T01:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T02:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T03:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T04:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T05:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T06:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T07:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T08:00:00Z,5,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T09:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T10:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T11:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T12:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T13:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T14:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T15:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T16:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T17:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T18:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T19:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T20:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T21:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T22:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T23:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T00:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T01:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T02:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T03:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T04:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T05:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T06:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T07:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T08:00:00Z,0,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T09:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T10:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T11:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T12:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T13:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T14:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T15:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T16:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T17:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T18:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T19:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T20:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T21:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T22:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T23:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T00:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T01:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T02:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T03:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T04:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T05:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T06:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T07:00:00Z,1,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T08:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T09:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T10:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T11:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T12:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T13:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T14:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T15:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T16:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T17:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T18:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T19:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T20:00:00Z,3,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T21:00:00Z,2,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T22:00:00Z,4,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T23:00:00Z,4,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T00:00:00Z,6,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T01:00:00Z,55,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T02:00:00Z,100,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T03:00:00Z,79,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T04:00:00Z,34,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T05:00:00Z,27,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T06:00:00Z,25,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T07:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T08:00:00Z,16,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T09:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T10:00:00Z,24,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T11:00:00Z,23,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T12:00:00Z,22,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T13:00:00Z,22,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T14:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T15:00:00Z,14,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T16:00:00Z,17,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T17:00:00Z,14,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T18:00:00Z,12,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T19:00:00Z,11,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T20:00:00Z,11,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T21:00:00Z,10,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T22:00:00Z,8,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T23:00:00Z,9,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T00:00:00Z,13,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T01:00:00Z,15,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T02:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T03:00:00Z,26,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T04:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T05:00:00Z,18,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T06:00:00Z,15,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T07:00:00Z,17,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T08:00:00Z,13,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T09:00:00Z,10,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T10:00:00Z,8,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T11:00:00Z,9,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T12:00:00Z,11,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T13:00:00Z,8,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T14:00:00Z,10,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T15:00:00Z,6,US,now 7-d,Tulsi Gabbard 2020,web,0,Women,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T16:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T17:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T18:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T19:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T21:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T22:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T23:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T01:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T02:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T03:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T13:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T14:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T15:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T16:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T17:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T18:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T19:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T21:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T22:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T23:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T01:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T02:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T03:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T13:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T14:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T15:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T16:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T17:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T18:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T19:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T21:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T22:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T23:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T00:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T01:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T02:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T03:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T13:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T14:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T15:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T16:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T17:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T18:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T19:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T21:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T22:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T23:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T01:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T02:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T03:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T13:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T14:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T15:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T16:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T17:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T18:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T19:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T20:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T21:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T22:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T23:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T01:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T02:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T03:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T13:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T14:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T15:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T16:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T17:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T18:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T19:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T21:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T22:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T23:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T01:00:00Z,1,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T02:00:00Z,1,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T03:00:00Z,1,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T04:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T05:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T11:00:00Z,1,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T12:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T13:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T14:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T15:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T16:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T17:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T18:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T19:00:00Z,1,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T20:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T21:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T22:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T23:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T00:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T01:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T02:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T03:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T04:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T05:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T06:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T07:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T08:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T09:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T10:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T11:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T12:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T13:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T14:00:00Z,NA,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T15:00:00Z,0,US,now 7-d,Beto O’Rourke 2020,web,0,Men,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T16:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T17:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T18:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T19:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T20:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T21:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T22:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T23:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T00:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T01:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T02:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T03:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T04:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T05:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T06:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T07:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T08:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T09:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T10:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T11:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T12:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T13:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T14:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T15:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T16:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T17:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T18:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T19:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T20:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T21:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T22:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-22T23:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T00:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T01:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T02:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T03:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T04:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T05:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T06:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T07:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T08:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T09:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T10:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T11:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T12:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T13:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T14:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T15:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T16:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T17:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T18:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T19:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T20:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T21:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T22:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-23T23:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T00:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T01:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T02:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T03:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T04:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T05:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T06:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T07:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T08:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T09:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T10:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T11:00:00Z,4,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T12:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T13:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T14:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T15:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T16:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T17:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T18:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T19:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T20:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T21:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T22:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-24T23:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T00:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T01:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T02:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T03:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T04:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T05:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T06:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T07:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T08:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T09:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T10:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T11:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T12:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T13:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T14:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T15:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T16:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T17:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T18:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T19:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T20:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T21:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T22:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-25T23:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T00:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T01:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T02:00:00Z,NA,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T03:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T04:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T05:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T06:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T07:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T08:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T09:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T10:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T11:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T12:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T13:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T14:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T15:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T16:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T17:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T18:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T19:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T20:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T21:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T22:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-26T23:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T00:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T01:00:00Z,22,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T02:00:00Z,57,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T03:00:00Z,36,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T04:00:00Z,9,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T05:00:00Z,8,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T06:00:00Z,6,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T07:00:00Z,7,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T08:00:00Z,7,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T09:00:00Z,5,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T10:00:00Z,4,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T11:00:00Z,5,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T12:00:00Z,6,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T13:00:00Z,7,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T14:00:00Z,5,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T15:00:00Z,5,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T16:00:00Z,6,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T17:00:00Z,4,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T18:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T19:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T20:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T21:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T22:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-27T23:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T00:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T01:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T02:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T03:00:00Z,4,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T04:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T05:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T06:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T07:00:00Z,2,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T08:00:00Z,3,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T09:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T10:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T11:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T12:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T13:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T14:00:00Z,1,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-28T15:00:00Z,0,US,now 7-d,Tim Ryan 2020,web,0,Men,0.2 - 0.4% of voters,0.2 - 0.4% of voters
+2,2019-06-21T16:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T17:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T18:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T19:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T20:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T21:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T22:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-21T23:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T00:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T01:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T02:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T03:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T04:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T05:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T06:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T07:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T08:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T09:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T10:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T11:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T12:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T13:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T14:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T15:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T16:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T17:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T18:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T19:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T20:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T21:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T22:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-22T23:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T00:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T01:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T02:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T03:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T04:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T05:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T06:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T07:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T08:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T09:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T10:00:00Z,2,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T11:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T12:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T13:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T14:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T15:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T16:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T17:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T18:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T19:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T20:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T21:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T22:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-23T23:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T00:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T01:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T02:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T03:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T04:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T05:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T06:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T07:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T08:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T09:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T10:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T11:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T12:00:00Z,3,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T13:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T14:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T15:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T16:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T17:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T18:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T19:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T20:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T21:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T22:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-24T23:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T00:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T01:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T02:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T03:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T04:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T05:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T06:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T07:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T08:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T09:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T10:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T11:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T12:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T13:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T14:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T15:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T16:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T17:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T18:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T19:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T20:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T21:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T22:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-25T23:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T00:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T01:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T02:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T03:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T04:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T05:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T06:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T07:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T08:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T09:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T10:00:00Z,4,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T11:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T12:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T13:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T14:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T15:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T16:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T17:00:00Z,6,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T18:00:00Z,8,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T19:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T20:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T21:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T22:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-26T23:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T00:00:00Z,14,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T01:00:00Z,53,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T02:00:00Z,60,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T03:00:00Z,60,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T04:00:00Z,40,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T05:00:00Z,24,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T06:00:00Z,27,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T07:00:00Z,16,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T08:00:00Z,19,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T09:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T10:00:00Z,13,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T11:00:00Z,19,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T12:00:00Z,18,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T13:00:00Z,16,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T14:00:00Z,14,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T15:00:00Z,16,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T16:00:00Z,14,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T17:00:00Z,14,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T18:00:00Z,12,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T19:00:00Z,12,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T20:00:00Z,10,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T21:00:00Z,9,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T22:00:00Z,10,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-27T23:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T00:00:00Z,12,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T01:00:00Z,18,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T02:00:00Z,35,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T03:00:00Z,31,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T04:00:00Z,22,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T05:00:00Z,17,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T06:00:00Z,15,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T07:00:00Z,14,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T08:00:00Z,12,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T09:00:00Z,5,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T10:00:00Z,7,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T11:00:00Z,10,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T12:00:00Z,10,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T13:00:00Z,10,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T14:00:00Z,11,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters
+2,2019-06-28T15:00:00Z,15,US,now 7-d,Elizabeth Warren 2020,web,0,Women,> 1.0% of voters,> 1.0% of voters

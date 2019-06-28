@@ -1,12 +1,26 @@
 # Part 3: Project organization
 
-***NOTE:*** *Now that we've recommend a set of tools (R+RStudio+Git+Github), we'll demonstrate how powerful this workflow can be with an example. But before we can do this, we need to spend a few minutes on project organization. This topic was rarely covered in our statistical coursework, but how you organize your files and folders will directly contribute to your ability to be productive. In the same way it's hard to get things done in a messy space, it'll be hard to do data analysis with unorganized files.*
+Now that we've recommend a set of tools (R+RStudio+Git+Github), we'll demonstrate how powerful this workflow can be with an example data project. This example gives us an opportunity to cover project organization--a topic that was rarely covered in our statistical coursework. We are covering it because how you organize your files and folders will directly contribute to your ability to be productive. In the same way it's hard to get things done in a messy space, it'll be hard to do data science if you can't find your files.
 
 ---
 
-## A common scenario with data
+## A typical scenario 
 
-We've created [a Dropbox folder with some files](http://bit.ly/ican-data) that are typically part of a research project. The data file, **IcanBP.csv**, and a data dictionary **data-dictionary-icanbp.txt**. We say "typically" with caution here, because many times you might only end up with a data set and an email with some questions. The data are in a comma-separated values (.csv) file, and the documentation is in a plain text (.txt) file. 
+We've been asked to investigate Google trend searches during the 2018 Camp Fire in the Butte County region of northern California. We say "typically" with some caution here, because many times you might end up with a data set and an email with some questions. Other variations on this scenario include:  
+
+- solve a problem (or answer a question) using data you don't currently posses or know if they even exist
+
+- you've been told there are data in a database, but these data need to be retrieved, restructured, and presented in a way that allows for visualizations and models
+
+- you need to combine data from multiple sources (APIs, web-scraping, local data) and different formats (JSON, SQL, Excel, etc.) into a model or dashboard 
+
+We've encountered all of these situations, but the common thread between all of them is they contain data files and some accompanying documentation. 
+
+### Accessing Google trend data
+
+We'll be accessing the data for this project using the `gtrendsR` package in R. We've provided an RMarkdown document in this Github repository to get you started. 
+
+RMarkdown files are written in plain text, so they can be easily read by most text editor applications. 
 
 
 It's a good habit to pay attention to file extensions and the programs that can open them. Both of these files are considered 'plain text' files, and this means they can be opened with a wide variety of applications (including R, RStudio, and the Terminal). Download these files following the instructions below. 
@@ -15,15 +29,9 @@ It's a good habit to pay attention to file extensions and the programs that can 
 
 The example we will work through in this text follows a common scenario: *you have a data set and an incomplete description of it's contents, and a problem to solve.* 
 
-Other variations on this scenario include:  
 
-- solve a problem (or answer a question) using data you don't currently posses  
 
-- there are data in a database, but these data need to be retrieved, restructured, and presented in a way that doesn't currently exist  
-
-- combine data from multiple sources (APIs, web-scraping, local data) stored in different types (JSON, SQL, Excel, etc.) into a model or dashboard 
-
-We've encountered all of these situations, but the common thread between all of them is they contain data files and some accompanying documentation. In the example we've provided, there are only two files **data-dictionary-icanbp.txt** and **IcanBP.csv**, but it's easy to how this number can grow over the life of a project. 
+In the example we've provided, there are only two files **data-dictionary-icanbp.txt** and **IcanBP.csv**, but it's easy to how this number can grow over the life of a project. 
 
 In this next session we are going to cover operating system differences, Terminal commands, and how to use command line tools effectively. 
 

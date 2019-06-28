@@ -1,0 +1,273 @@
+---
+title: "Wrangle Google trend data"
+author: "John Doe"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+# create image folder ----
+if (!file.exists("figs/")) {
+    dir.create("figs/")
+}
+# create data folder ----
+if (!file.exists("data/")) {
+    dir.create("data/")
+}
+knitr::opts_chunk$set(
+    echo = TRUE, # show all code
+    eval = TRUE,
+    message = FALSE, 
+    comment = "#> ",
+    warning = TRUE,
+    tidy = FALSE, # cleaner code printing
+    size = "small",
+    fig.path = "figs/") # smaller code
+knitr::opts_knit$set(
+    width = 78)
+base::options(tibble.print_max = 25,
+              tibble.width = 78)
+```
+
+
+## Packages
+
+The Google search trends are accessible via the [gtrendsR](https://github.com/PMassicotte/gtrendsR) package. This and other packages are in the `00-packages.R` script. We load these packages in the code chunk below. 
+
+```{r 00-packages.R, eval=TRUE}
+fs::dir_tree(".")
+library(gtrendsR)
+library(maps)
+library(ggplot2)
+library(lettercase)
+library(viridis)
+library(pals)
+library(scico)
+library(ggrepel)
+library(tidyverse)
+library(skimr)
+```
+
+## Import data
+
+```{r import-data}
+# import the 2019-06-27 data -------
+# import the 2019-06-27 data using the script below
+Dems2020Group1 <- readr::read_rds("data/raw/2019-06-28-Dems2020Group1.rds")
+Dems2020Group2 <- readr::read_rds("data/raw/2019-06-28-Dems2020Group2.rds")
+
+# import the 2019-06-28 data -------
+# import the 2019-06-28 data using the script below
+Dems2020Round2Group1 <- readr::read_rds("data/raw/2019-06-28-Dems2020Round2Group1.rds")
+Dems2020Round2Group2 <- readr::read_rds("data/raw/2019-06-28-Dems2020Round2Group2.rds")
+
+# import poll data --------------------------------------------------------
+# fs::dir_tree("data")
+RCPollData <- readr::read_csv("data/2019-06-28-RCPollData.csv")
+```
+
+### A little R programming
+
+Your code will always be communicating to at least two audiences: your computer, and your future self. Be nice to both of them!
+
+Things like the pipe `%>%` in R can help with clarity. It takes code written like this:
+
+```r
+outer_function(inner_function(Data_X), Data_Y)
+```
+
+And makes it look like this:
+
+```r
+Data_X %>% # do this 
+   inner_function() %>% # then do this
+   outer_function(Data_Y)
+```
+
+Convert to tibble. 
+
+```{r Dems2020Group1, message=FALSE, warning=FALSE}
+# convert Dems2020Group1 to tibble
+Dems2020Group1IOT <- Dems2020Group1$interest_over_time %>% as_tibble()
+# convert Dems2020Group2 to tibble
+Dems2020Group2IOT <- Dems2020Group2$interest_over_time %>% as_tibble()
+Dems2020Group1IOT %>% glimpse(78)
+Dems2020Group2IOT %>% glimpse(78)
+```
+
+Change the `hits` to numeric (from string)
+
+```{r numeric-hits, message=FALSE, warning=FALSE}
+# create numeric hits 
+Dems2020Group1IOT <- Dems2020Group1IOT %>% 
+  dplyr::mutate(hits = as.numeric(hits)) 
+Dems2020Group2IOT <- Dems2020Group2IOT %>%
+  dplyr::mutate(hits = as.numeric(hits)) 
+Dems2020Group1IOT %>% glimpse(78)
+Dems2020Group2IOT %>% glimpse(78)
+```
+
+Bind these together. 
+
+```{r Dems2020Debate01IOT}
+# bind
+Dems2020Debate01IOT <- bind_rows(Dems2020Group1IOT, 
+          Dems2020Group2IOT,
+          .id = "data") 
+```
+
+Check the min and max for the date. 
+
+```{r min-max}
+# get min
+min(Dems2020Debate01IOT$date)
+# get max
+max(Dems2020Debate01IOT$date)
+```
+
+This is measuring interest from  `r min(Dems2020Debate01IOT$date)` until `r max(Dems2020Debate01IOT$date)` the next day.
+
+## Wrangle
+
+We will perform a few functions to get these data ready for visualizations.
+
+### Men and Women
+
+Create a `gender` variable for each candidate. 
+
+```{r assign-gender}
+Dems2020Debate01IOT <- Dems2020Debate01IOT %>% 
+  dplyr::mutate(gender = case_when(
+    stringr::str_detect(keyword, "Elizabeth Warren") ~ "Women", 
+    stringr::str_detect(keyword, "Amy Klobuchar") ~ "Women",
+    stringr::str_detect(keyword, "Tulsi Gabbard") ~ "Women",
+    TRUE ~ "Men"))
+# get distinct
+Dems2020Debate01IOT <- Dems2020Debate01IOT %>% distinct()
+# check new gender variable 
+Dems2020Debate01IOT %>% 
+  count(keyword, gender) %>%
+  tidyr::spread(gender, n)
+```
+
+
+### Prior: Calculate the % of likely Democratic voters 
+
+We will split the Men into three groups based on the [article updated on JUN. 26, 2019, AT 5:53 PM by fivethirtyeight](https://projects.fivethirtyeight.com/democratic-debate-poll/), "Who likely Democratic voters would vote for if the election were held today."
+
+These groups were: `"> 1.0% of voters"`, `"0.5 - 0.9% of voters"`, `"0.2 - 0.4% of voters"`, and `"0.2 % of voters"`
+
+See the categories below. 
+
+```{r Dems2020Debate01IOT-prior_vperc}
+Dems2020Debate01IOT <- Dems2020Debate01IOT %>% 
+  dplyr::mutate(prior_vperc = case_when(
+    stringr::str_detect(keyword, "O’Rourke") ~ "> 1.0% of voters",
+    stringr::str_detect(keyword, "Warren") ~ "> 1.0% of voters",
+    stringr::str_detect(keyword, "Booker") ~ "> 1.0% of voters",
+    
+    stringr::str_detect(keyword, "Klobuchar") ~ "0.5 - 0.9% of voters",
+    stringr::str_detect(keyword, "Castro") ~ "0.5 - 0.9% of voters",
+
+
+    stringr::str_detect(keyword, "Gabbard") ~ "0.2 - 0.4% of voters",
+    stringr::str_detect(keyword, "Ryan") ~ "0.2 - 0.4% of voters",
+    stringr::str_detect(keyword, "Inslee") ~ "0.2 - 0.4% of voters",
+    stringr::str_detect(keyword, "de Blasio") ~ "0.2 - 0.4% of voters",
+
+    stringr::str_detect(keyword, "Delaney") ~ "0.2% of voters"))
+Dems2020Debate01IOT %>% 
+  count(prior_vperc, keyword) %>%
+  tidyr::spread(prior_vperc, n)
+```
+
+Assign labels here. 
+
+```{r prior_vperc_fct}
+# assing labels
+Dems2020Debate01IOT <- Dems2020Debate01IOT %>% 
+  dplyr::mutate(prior_vperc_fct = factor(x = prior_vperc))
+# check levels 
+dput(Dems2020Debate01IOT$prior_vperc_fct %>% levels())
+```
+
+```{r relevel}
+Dems2020Debate01IOT <- Dems2020Debate01IOT %>% 
+  dplyr::mutate(prior_vperc_fct = forcats::fct_relevel(.f = prior_vperc_fct,
+                    "> 1.0% of voters",
+                    "0.5 - 0.9% of voters",
+                    "0.2 - 0.4% of voters",
+                    "0.2% of voters"))
+
+# check levels 
+Dems2020Debate01IOT$prior_vperc_fct %>% levels()
+```
+
+```{r export}
+# export Dems2020Debate01IOT data
+readr::write_csv(as.data.frame(Dems2020Debate01IOT), paste0("data/",
+                                        noquote(lubridate::today()),
+                                        "-Dems2020Debate01IOT.csv"))
+```
+
+
+## Wrangle map data
+
+What does the interest look like by location (i.e. `"region"`)? We can do a little wrangling and answer this question.
+
+```{r WomanDems2020InterestByRegion}
+# convert to tibble (another data structure in R)
+Dems2020IBRGroup1 <- tibble::as_tibble(Dems2020Group1$interest_by_region)
+Dems2020IBRGroup2 <- tibble::as_tibble(Dems2020Group2$interest_by_region)
+# bind these together 
+Dems2020IBR <- bind_rows(Dems2020IBRGroup1, 
+                              Dems2020IBRGroup2, .id = "data")
+Dems2020IBR %>% count(keyword)
+```
+
+
+
+Now we do a little wrangling on the `location` and `"state"`
+
+```{r region}
+# convert the region to lowercase
+Dems2020InterestByRegion <- Dems2020IBR %>% 
+  dplyr::mutate(region = stringr::str_to_lower(location))
+# create a data set for the states in the US
+statesMap = ggplot2::map_data("state")
+# now merge the two data sources together
+Dems2020InterestByRegion <- Dems2020InterestByRegion %>% 
+  dplyr::inner_join(x = .,
+                   y = statesMap, 
+                   by = "region")
+```
+
+
+We've created a new data structure. What does it look like?
+
+```{r Dems2020InterestByRegion}
+# recheck the structure
+Dems2020InterestByRegion %>%
+  skimr::skim_to_wide() %>% 
+  dplyr::filter(type %in% c("integer", "numeric")) %>% 
+  dplyr::select(variable, 
+                n, 
+                mean, 
+                sd, 
+                median = p50, 
+                hist)
+```
+
+
+It looks like the variable of interest (`hits`) is pretty lopsided--what can we do about it? After googling, we discover [this article](https://medium.com/@TheDataGyan/day-8-data-transformation-skewness-normalization-and-much-more-4c144d370e55) with this information, 
+
+> "The logarithm, x to log base 10 of x, or x to log base e of x (ln x), or x to log base 2 of x, is a strong transformation and can be used to reduce right skewness."
+
+### Export Map data
+
+```{r export-Dems2020InterestByRegion}
+# export Dems2020Debate01IOT data
+readr::write_csv(as.data.frame(Dems2020InterestByRegion), paste0("data/",
+                                        noquote(lubridate::today()),
+                                        "-Dems2020InterestByRegion.csv"))
+```
+

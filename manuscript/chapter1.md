@@ -1,29 +1,38 @@
-# Welcome!
+# What's in this book?
 
-*Dear graduate students,*
-*Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a graduate school degree is still likely to be an excellent investment for your future. And after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. We loved graduate school--we made friends and colleagues we are still in contact with and received some excellent advice from outstanding (and unexpected) mentors. As we write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, we decided to write a technical guide that covered a few topics that were missing from our graduate education. We wanted to share what we've learned with the hopes it would make the transition from school to work a little less shocking.*
+This text outlines how to get started doing data science using open source tools. We'll briefly cover programming, data analysis, visualizations, computer science, and a few other topics.  We've included enough content to get you up and running in the next few pages, and used as many screenshots and diagrams as possible. We've reduced the amount of technical jargon and spelled out any acronyms. At the end of each chapter, we've given a list of additional resources. 
 
----
+### Who should read this?  
 
-Welcome! You've interested in statistics, data science, or research. 
+This text introduces a workflow for doing data science in a reproducible way.  Whether you're a scientist, data analyst, journalist, grad student, product manager, or decision-maker, this book is for you. 
 
-Whether you just entered graduate school, started in a new position at work, began a boot camp for more specialized education and training, or you're interested in data analysis, this book will help you get started. 
+Many of the concepts covered in this text came from our personal experiences. When we left college and entered our professions, we didn't have these skills. We are writing them down, so you are more prepared than we were. We've also included lessons from our colleagues who shared their insights.  
 
-We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io.`
+### What we'll cover
 
-### Who should read this?    
+This book is a technical manual that covers how to get started with RStudio, Git, and Github. We use RStudio daily now, but this wasn't always the case. We began our careers in other statistical programs (SPSS, Stata, SAS), and abandoned them for one reason or another.  We've continued using R/RStudio because of the sheer number of tasks we can accomplish, and that's what makes us recommend it to you. 
 
-We originally wrote this text as a manual for graduate students beginning their research, but anyone who needs to extract meaningful information from data (using a state-of-the-art toolset) will find this text useful. Many of the concepts covered in this text came from our observations as we transitioned from graduate school into professional work (non-profit and private sector jobs), and we've included other lessons from colleagues who were generous enough to share their insights. 
+Research is, increasingly, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We wrote this book to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because your time is limited). 
+
+We also understand there are alternative approaches to accomplishing the same goal, so we've tried to provide these examples wherever possible. 
+
+The two other goals we hope to accomplish in this text are 1) overcoming the language/jargon barrier in data science, and 2) providing resources and examples for communicating your new knowledge, skills, and findings to a wide range of audiences. 
 
 ### The assumptions we've made
 
-We assume you'll be working on a computer (laptop or desktop), and have the ability to download, locate, and install software applications. Although the examples in this book use a macOS operating system, you can extend most of these commands to any Unix operating system (such as the [Ubuntu-based operating systems](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based), like [MATE](https://mate-desktop.org/)).
+We assume you'll be working on a computer (laptop or desktop), and have the ability to download, locate, and install software applications. Although the examples in this book use a Mac operating system (macOS), it's possible to recreate everything on a Windows machine.
 
-We also assume you've been using your computer to send/receive emails, write papers, and explore the internet. People encounter a need for these tools at different times in their lives, so we realize there's a chance a few of you will be familiar with some of the content we're covering. If this is the case, hopefully, we cover it in a novel and painless way that doesn't make reading it feel like a waste of time. 
+We also assume you've been using your computer to send/receive emails, write papers, and explore the internet. People encounter a need for data science skills at different times in their lives, so we realize there's a chance a few of you will be familiar with some of the content we're covering. If this is the case, hopefully, we cover it in a novel and painless way that doesn't make reading it feel like a waste of time. 
 
 ### Language and style in this book
 
-Although one person put this information together in this particular format, we use the plural 'we' because this is the result of many conversations, emails, comment threads, and communications that could not have happened in isolation. 
+We wrote this text to be a field manual, modeled after the US Army Field Manuals (FMs). Army FMs are amazing--they cover almost any topic you can imagine. Each presents the material in everyday language, using diagrams and hand-drawn pictures. Below is an example diagram from FM 22-5 Army Drill and Ceremony. 
+
+![](images/01-fm-22-5-counter-column.png)
+
+The image shows how to turn around a platoon of soldiers (made up of four squads) marching the wrong way. Describing something like this with words overcomplicates things and is not ideal. We've included it here to show how pictures help communicate complicated concepts. 
+
+Although one person put this information together in this particular format, we use the plural 'we' throughout the text because it is the result of many conversations, emails, comment threads, and communications that could not have happened in isolation. 
 
 The text uses the following style guide: 
 
@@ -41,23 +50,19 @@ plain text for our thoughts
 
 ---
 
-## Modern research
+## Part 1: Doing modern research
 
 Science has undergone significant changes in the last 10+ years. Computers have made writing papers and analyzing data accessible to wider audiences, and the internet has made publishing faster and easier. These changes and others are described in the excellent book, ["How to be a modern scientist"](https://leanpub.com/modernscientist), by the biostatistician and Professor at Johns Hopkins Bloomberg School of Public Health, Jeff Leek,
 
-> *The modern academic scientist develops code in the open, publishes data and code open source, posts preprints of their academic work, still submits to traditional journals, and reviews for those journals, but may also write blog posts or use social media to critique published work in post-publication review fora. These activities can dramatically increase the profile of scientists, particularly junior scientists, if done well. But their value for important career milestones such as promotion and tenure or getting grants, is still often muted or fuzzy.*
+> *The modern academic scientist develops code in the open, publishes data and code open source, posts preprints of their academic work, still submits to traditional journals, and reviews for those journals, but may also write blog posts or use social media to critique published work in post-publication review fora. These activities can dramatically increase the profile of scientists, particularly junior scientists if done well. But their value for important career milestones such as promotion and tenure or getting grants is still often muted or fuzzy.*
 
-It's been over three years since this post was published, and it's only become more accurate. Modern scientific work is increasingly [done in the open](https://www.nature.com/articles/d41586-018-01414-6), using [open source code and software](https://www.nature.com/articles/nphys3313), with [pre-prints](https://peerj.com/collections/50-practicaldatascistats/) and [social media](https://twitter.com/hashtag/datascience?lang=en) (and other [mediums](https://www.listennotes.com/search/?q=data%20science&scope=podcast)). 
+It's been over three years since this book was published, and it's only become more accurate. Modern scientific work is increasingly [done in the open](https://www.nature.com/articles/d41586-018-01414-6), using [open source code and software](https://www.nature.com/articles/nphys3313), with [pre-prints](https://peerj.com/collections/50-practicaldatascistats/) and [social media](https://twitter.com/hashtag/datascience?lang=en) (and other [mediums to communicate](https://www.listennotes.com/search/?q=data%20science&scope=podcast)). 
 
-As the quote above alludes to, academic publishing isn't the guaranteed pathway to success it used to be. As I write this, many scientists believe [science is in the midst of a reproducibility crisis](https://www.nature.com/news/1.19970), some people are pushing to [make every scientific journal article free](https://www.sciencealert.com/this-woman-has-illegally-uploaded-millions-of-journal-articles-in-an-attempt-to-open-up-science), and the University of California college system [dropped their $11 million annual subscription contract with Elsevier](https://www.vox.com/the-highlight/2019/6/3/18271538/open-access-elsevier-california-sci-hub-academic-paywalls).    
+Visibility is getting harder for scientists. As the quote above alludes to, academic publishing isn't a guaranteed pathway to success like it's been in the past. As I write this, many scientists believe [science is in the midst of a reproducibility crisis](https://www.nature.com/news/1.19970), people are pushing to [make every scientific journal article free](https://www.sciencealert.com/this-woman-has-illegally-uploaded-millions-of-journal-articles-in-an-attempt-to-open-up-science), and the University of California college system just [dropped their $11 million annual subscription contract with Elsevier](https://www.vox.com/the-highlight/2019/6/3/18271538/open-access-elsevier-california-sci-hub-academic-paywalls).    
 
-You have entered graduate school in exciting times, but the future of how we'll be measuring scientific productivity and contributions are still somewhat uncertain. The traditional advice of "publish or perish" makes sense in a world where writing papers, getting published, then getting that work cited made your work highly visible. But it's lead to creating a [system doesn't work as well as intended](https://www.nature.com/news/the-top-100-papers-1.16224), and encouraged citation metrics which are [easily manipulated](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). 
+If you've recently entered graduate school, the future of how we'll be measuring scientific productivity and contributions are somewhat uncertain. The traditional advice of "publish or perish" makes sense in a world where writing papers, getting published, then getting that work cited made your work highly visible. But it's lead to creating a [system doesn't work as well as intended](https://www.nature.com/news/the-top-100-papers-1.16224), and encouraged citation metrics which are [easily manipulated](https://academic.oup.com/gigascience/article/8/6/giz053/5506490). 
 
-The explosion in scientific literature has grown too fast for anyone to makes sense of it, and it's getting harder for researchers to get discovered. The [1986 article by Don Swanson](https://www.jstor.org/stable/4307965?seq=1#page_scan_tab_contents) predicted this phenomenon. Swanson describes a scenario where a team of scientists finds the presence of a black swan in a world where the accepted scientific consensus is that all swans are white, 
-
-> *...a report of a family of black swans is presumed to be an acceptable and well-corroborated fact in the published literature, a fact that refutes a published hypothesis that all swans are white. But these two elements of information-the hypothesis and its refutation-may not both be known to any one person, at least not for some period of time, owing to the difficulties of identifying, locating, and gaining access to the relevant published information. Thus I have shown that it is possible for the refutation of theory to stand, even if temporarily, as undiscovered public knowledge.*
-
-**Undiscovered public knowledge** -- that's what we're trying to prevent. We want your work to get discovered by the right people, in the right field, and in a way that advances your career. We see this as a "win-win" because your good work should be shared, and you should get rewarded for creating and sharing that work.  
+We want your work to get discovered by the right people, in the right field, and in a way that advances your career. We see this as a "win-win" because your good work should be shared, and you should get rewarded for creating and sharing your work.  
 
 ### Science and the internet
 
@@ -67,17 +72,15 @@ Here is an example to demonstrate this rate of change: in a [2000 paper in Natur
 
 Sixteen years later, Google will claim to be indexing [130 trillion pages](https://searchengineland.com/googles-search-indexes-hits-130-trillion-pages-documents-263378) across the web. At the time of this writing, the Indexed Web has an estimated 5.64 billion pages ( [Monday, 10 June 2019](https://www.worldwidewebsize.com/) ).
 
-
 ![](images/00-2018-google-worldwidewebsize.png)
-
 
 We've never had more access to information than we do right now, and it's unlikely that there will ever be less available information any time soon. 
 
-### Getting your science *on* the internet
+### Getting your science noticed on the internet
 
 > "*Your work should speak for itself...*" - author unknown
 
-The sea of information on the internet means competing voices for your audience's attention. All that excellent work you're doing needs to be discoverable on the internet by people who can advance (and refine) your ideas. For that to happen, you have to create more than just a single thesis, dissertation, or paper. If your future collaborators, prospective employers, and fellow graduate students are going to find you, that means keeping an ongoing catalog of what you've done discoverable by searching the internet. And unless you're willing to pay for advertisements, that means creating useful content that people read and share. 
+The sea of information on the internet means competing voices for your audience's attention. All that excellent work you're doing needs to be discoverable on the internet by people who can advance (and refine) your ideas. For that to happen, you have to create more than just a single artifact (like a thesis, dissertation, or white paper). If your future collaborators, prospective employers, and fellow graduate students are going to find what you're up to, it means keeping an ongoing catalog of what you've done and making sure it's discoverable by searching the internet. And unless you're willing to pay for advertisements, that means creating useful content that people read and share. 
 
 ![](images/00-the-internet.png)
 
@@ -85,33 +88,11 @@ The sea of information on the internet means competing voices for your audience'
 
 > "*What a strange document a scientific journal article is. We work on them for months or even years. We write them in a highly specialized vernacular that even most other scientists don't share. We place them behind a paywall and charge something ridiculous, like $34.95, for the privilege of reading them. We so readily accept their inaccessibility that we have to start "journal clubs" in the hopes that our friends might understand them and summarize them for us.*" - [ScienceMag - How to read a scientific paper](https://www.sciencemag.org/careers/2016/01/how-read-scientific-paper)
 
-Be honest--how many theses/dissertations have you read? How many peer-reviewed articles would you recommend for people to read for pure enjoyment? I suspect that even if you asked your most bibliophilic friends what their favorite peer-reviewed article is, or what dissertation they think everyone *must* read, they couldn't give you a quick answer. These documents aren't a waste of time--they serve a different purpose (and it's not to make sure all of your hard work reaches a broad audience).
+Peer-reviewed papers are essential to advancing science and your career as an academic researcher. These papers represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). But publications also fail to capture many essential skills and abilities you'll want to share. This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
 
-If you decide to convert your graduate research into a peer-reviewed manuscript, it'll be for a very niche audience, and rarely in a way that makes the contents interesting beyond a few researchers who are closest to the subject matter. 
+> "*An article about computational science in a scientific publication is not the scholarship itself; it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*." 
 
-Peer-reviewed papers are still essential to advancing science and your career as an academic researcher. These papers represent the end of a long process in which you've demonstrated many different skills (reading and summarizing previous research, designing a study, data analysis, and communication). But publications also fail to capture many essential skills and abilities you'll want to share. This sentiment is summarized well in the quote from [Jonathan Buckheit and David Donoho at Stanford](http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf),
-
-> "*An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.*." 
-
-Like most advertising, peer-reviewed papers leave out many of the essential details. For example, consider the following activities that are common in graduate school:
-
-* Coming up with an idea, 
-* Turning that idea into a research question, 
-* Convincing people the idea is worthy of scholarship (or a version of it is), 
-* Collecting your data, 
-* Teaching labs/lectures, 
-* Recruiting volunteers, 
-* Entering your data, 
-* Managing your committee member's expectations (and egos), 
-* Cleaning your data, 
-* Persuading someone to read early drafts, 
-* Analyzing your data  
-* Politely reminding your committee to give you constructive criticism (promptly so you can graduate), and 
-* Re-analyzing your data 
-* Wondering why you've done this to yourself 
-* Finding a position or job to transition to after you graduate 
-
-A few papers that were written and edited by a committee and some PowerPoint presentations won't adequately capture how you developed professionally through your graduate school adventure. We're going to show you a few ways to create more research artifacts, get discovered, get and give feedback, and connect to a community throughout the entire process.
+Like most advertising, peer-reviewed papers leave out many of the essential details. 
 
 ---
 
@@ -130,7 +111,7 @@ I suspect most of the people in these fields probably weren't thinking they'd be
 
 ### Examples
 
-This book will show you some of the tools to make your work more discoverable. We'll introduce you to the technologies, methods, and places used by scientists who have successfully communicated their work. These scientists have used the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes, and share more about what it means to conduct research. 
+We'll introduce you to the technologies, methods, and mediums used by successful scientists who are excellent communicators for their work. These scientists use the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
 For example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-doc at Johns Hopkins Bloomberg School of Health. She maintains a [blog](https://livefreeordichotomize.com/), publishes [ebooks](https://leanpub.com/ggplot2in2), has [online courses](https://leanpub.com/u/lucymcgowan), and also attempts to create a [real BB-8](https://magazine.amstat.org/blog/2017/11/01/lucy-dagostino-mcgowan-and-ryan-jarrett/). Her work is *highly discoverable* and showcases a wide range of skills. 
 
@@ -139,17 +120,6 @@ Or take Thomas Lin Pedersen, a former bioinformaticist who now designs software.
 Both of these researchers did two things very well: they created outstanding work, and they put it online for people to find. Of course, they had to know their subject areas, and have something worth sharing online, but they didn't wait until they were done with their research, either. They started engaging with people while they were completing their research training.
 
 ---
-
-## What we'll cover
-
-This book is a technical manual that covers how to get started with RStudio, Git, and Github. We use RStudio daily now, but this wasn't always the case. We began our careers in other statistical programs (SPSS, Stata, SAS), and abandoned them for one reason or another.  We've continued using R/RStudio because of the sheer number of tasks we can accomplish, and that's what makes us recommend it to you. 
-
-Research is, increasingly, an interdisciplinary endeavor because it requires being competent in various topics outside your primary area of study: computer science, data analysis, data management, programming, and verbal/non-verbal communication. We wrote this book to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because your time is limited). 
-
-We also understand there are alternative approaches to accomplishing the same goal, so we've tried to provide these examples wherever possible. 
-
-The two other goals we hope to accomplish in this text are 1) overcoming the language/jargon barrier in data science, and 2) providing resources and examples for communicating your new knowledge, skills, and findings to a wide range of audiences. 
-
 
 ### Technical jargon & acronyms 
 
@@ -167,19 +137,21 @@ The best science writers capture their audience by weaving science into a compel
 
 Remember, **science is a method, not a product**. That process of how you found what you found is the most critical part of your research because it's the part that tells us 1) why we can trust what you published, and 2) how we can try to reproduce your findings. 
 
-When we were kids in math class, the teacher would ask us to "show our work." Teachers gave these instructions so they could follow our thought processes through a problem, and see where our thinking was incomplete or mistaken (and probably also to make sure we weren't looking at someone else's paper). If you regularly show your work, you'll be able to follow your line of thinking as you progress through graduate school. More importantly, people who find your work will see you're an actual human, with a full range of human experiences, and not just another CV and headshot. 
+When we were kids in math class, the teacher would ask us to "show our work." Teachers gave these instructions so they could follow our thought processes through a problem, and see where our thinking was incomplete or mistaken (and probably also to make sure we weren't looking at someone else's paper). If you're regularly showing your work, you'll be able to follow your line of thinking as you progress throughout your career. More importantly, people who find your work will see you're an actual human, with a full range of human experiences, and much more than a CV, résumé, or headshot. 
 
 ---
 
-## The path forward 
+## Looking ahead
  
-Communicating our work should be the goal of anyone doing research. After leaving graduate school, we realized how few people had the skills we were taking into the world (and how many people would benefit from them). One of the most attractive things about understanding math and science is that small investments in understanding can yield significant returns. 
+Communication should be the goal of data scientists. After leaving graduate school, we realized how few people had the skills we were taking into the world (and how many people would benefit from them). One of the most attractive things about understanding math and science is that small investments in understanding can yield substantial returns. 
 
-We've realized we don't communicate the importance of being 'good enough' at math and science, and that's a shame. Being 'good enough' means you could read about technology and be capable of distinguishing it from magic, or that you can imagine a metric that might matter to your business or personal life, and then devise a way to measure it. Perhaps more importantly, an emphasis on a 'good enough' understanding of math and science could help break down the "us vs. them" mentality that arises when science inevitably makes its way into the public sphere. 
+You probably haven't heard the importance of being 'good enough' at math and science, and that's a shame. Being 'good enough' means you could read about a tool or technology and be capable of distinguishing it from magic, or that you can imagine a metric that might matter to your business or personal life, and then devise a way to measure it. Perhaps more importantly, an emphasis on a 'good enough' understanding of math and science could help break down the "us vs. them" mentality that arises when science inevitably makes its way into the public sphere. 
 
-In our opinion, the job of a scientist or researcher isn't done when they defend a thesis/dissertation and get their degree; it isn't done when their research has been submitted and accepted to a conference or high-impact journal; it isn't even done when someone reads that article or attends their talk. 
+In our opinion, the job of a scientist or researcher isn't done when they defend a thesis/dissertation and graduate; it isn't done when they publish their research or present at a conference; it isn't even done when another scientist reads that article or attends their talk. 
 
-As researchers, we consider our jobs are done when someone has heard and understood our research, and knows the impact it will have on the world. 
+As researchers and scientists, we consider our jobs done when someone has heard and understood our research, knows the impact it will have on the world and can reproduce what we've found. 
+
+We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io.`
 
 ---
 
@@ -195,3 +167,5 @@ Here are more perspectives on the reproducibility crisis and publishing practice
 * [Opinion: Is science really facing a reproducibility crisis, and do we need it to?](https://www.pnas.org/content/115/11/2628)     
 * [Publish or Perish: Is Milton's Paradise Lost on Academia?](https://areomagazine.com/2018/10/09/publish-or-perish-is-miltons-paradise-lost-on-academia/)  
 
+*A special note for graduate students,*
+*Provided you did your [research](https://www.usnews.com/education/best-graduate-schools/top-graduate-schools/paying), a postgraduate school degree is still likely to be an excellent investment for your future. And after a few challenging years and sleepless nights, you'll be on your way to a rewarding career. We loved graduate school--we made friends and colleagues we are still in contact with and received some excellent advice from outstanding (and unexpected) mentors. As we write this, the cost of college tuition has grown faster than the amount of [financial aid available](https://www.insidehighered.com/news/2017/10/25/tuition-and-fees-still-rising-faster-aid-college-board-report-shows), and studies are showing degrees is some fields [have more value than others](https://www.eurekalert.org/pub_releases/2015-09/uok-coc091115.php). In recognition of these changes, we decided to write a technical guide that covered a few topics that were missing from our graduate education. We wanted to share what we've learned with the hopes it would make the transition from school to work a little less shocking.*
