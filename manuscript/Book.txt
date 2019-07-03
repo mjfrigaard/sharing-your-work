@@ -1,6 +1,7 @@
-chapter1.md
-chapter2.md
-chapter3.md
-chapter4.md
-chapter5.md
-conclusion.md
+00intro.md
+01chapter.md
+02chapter.md
+03chapter.md
+04chapter.md
+05chapter.md
+06conclusion.md
