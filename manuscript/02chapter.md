@@ -1,14 +1,14 @@
 # Part 2: Have a workflow
 
-This chapter will cover the three principles of our recommended workflow. 
+This chapter will cover the three principles of the workflow we recommend. 
 
-1. Use open source software
-2. Use your words 
-3. Use plain text
+1. Use free open source software
+2. Write code  
+3. Document everything in plain text 
 
-## Principle 1: Use open source software
+## Principle 1: Use open-source software
 
-All of the tools in this book are available open source and available free of charge. The cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when you take into account the price of tuition.
+All of the tools in this book are available open-source and available free of charge. The cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when you take into account the price of tuition.
 
 A more important reason we recommend open source tools are the communities that you'll get access to when you start using them. By entering the universe of open source software, you get to take advantage of seeing problems solved in the open. You'll also find people like you, grappling with the same issues, and it's hard to overstate the benefit of this shared camaraderie. 
 
@@ -16,11 +16,11 @@ The final reason is philosophical: we all benefit from using open source tools a
 
 **Freedom 0**: The freedom to run the program as you wish, for any purpose.
 
-**Freedom 1**: The freedom to study how the program works, and change it so it does your computing as you wish.  
+**Freedom 1**: The freedom to study how the program works, and change it, so it does your computing as you wish.  
 
 **Freedom 2**: The freedom to redistribute copies so you can help your neighbor.  
 
-**Freedom 3**: The freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes.
+**Freedom 3**: The freedom to distribute copies of your modified versions to others. By doing this, you can give the whole community a chance to benefit from your changes.
 
 We also think it's onerous to require graduate students (and other scientists) to purchase proprietary software licenses to participate in science. 
 
@@ -57,7 +57,7 @@ We recommend using R, RStudio, Git, and Github for the majority of your work. Yo
 
 The IDE has four separate panes, each serving a specific function. 
 
-- the `Code` pane is where we can document both human readable and computer readable text  
+- the `Code` pane is where we can document both human-readable and computer-readable text  
 - the `Workspace` holds the data, functions, and other data analysis artifacts  
 - the `Console` displays the results from our written code 
 - the `Files` gives us a few of happenings outside the RStudio environment (imported raw data, exported results, etc.)
@@ -84,7 +84,7 @@ We will cover more on Git/Github in later sections, but for now, know these tool
 
 ---
   
-## Principle 2: Use your words
+## Principle 2: Write code
 
 Usually, people interact with their computers using point-and-click [graphical user interfaces](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUIs (pronounced 'gooey'). GUIs are quick and easy to learn because their design environment usually mimics an actual physical space (i.e., desktops, folders, or documents). GUIs are a mostly positive development because designing software with a more [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) is one of the main reasons technology adoption has been on the rise for the past 20+ years. 
 
@@ -106,11 +106,11 @@ We recommend an alternative to the copy + paste workflow based on the activities
 4. Submit and review for traditional journals  
 5. Blog or use social media to critique published work 
 
-Two things should stand out from the list above: first, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on, "*using your words*" wherever possible. 'Using your words' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for data science. 
+Two things should stand out from the list above: first, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on "*writing code*" wherever possible. 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
 
 ### Software isn't a solution
 
-An extension of the "*use your words*" philosophy is to view software applications as instruments for gaining a deeper understanding of the world (but not oversimplifying or obfuscating it). 
+An extension of the "*writing code*" philosophy is to view software applications as instruments for gaining a deeper understanding of the world (but not oversimplifying or obfuscating it). 
 
 As we stated in chapter 1, science is a process. We recommend viewing software as a tool to help move that process along faster. Software that improves our understanding shortens the distance between questions and answers but doesn't leave out any crucial details. 
 
@@ -132,7 +132,7 @@ To recap, data science is complicated, and in order organize that complexity, yo
 
 ***
 
-## Principle 3: Use plain text
+## Principle 3: Document everything in plain text
 
 In [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
 
@@ -152,7 +152,7 @@ We covered the problems with a copy+paste workflow previously, but there are add
 
 1. It's not reproducible  
 2. It's not logical or necessarily honest to separate computation from the analysis or presentation 
-4. It's error prone  
+4. It's error-prone  
 
 ### What *isn't* plain text
 
@@ -204,7 +204,7 @@ Five different GUIs, each with their design characteristics, and each costing me
 
 The third reason is the design of the IDE itself. RStudio is a complementary cognitive artifact, something described in [this article from David Krakauer](http://nautil.us/blog/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature),
 
-> "*[complementary cognitive artifacts are] certainly amplifiers, but in many cases they're much, much more. They're also teachers and coaches...Expert users of the abacus are not users of the physical abacus—they use a mental model in their brain. And expert users of slide rules can cast the ruler aside having internalized its mechanics. Cartographers memorize maps, and Edwin Hutchins has shown us how expert navigators form near symbiotic relationships with their analog instruments.*"
+> "*[complementary cognitive artifacts are] certainly amplifiers, but in many cases, they're much, much more. They're also teachers and coaches...Expert users of the abacus are not users of the physical abacus—they use a mental model in their brain. And expert users of slide rules can cast the ruler aside having internalized its mechanics. Cartographers memorize maps, and Edwin Hutchins has shown us how expert navigators form near symbiotic relationships with their analog instruments.*"
 
 These are in contrast to competitive cognitive artifacts, which is what a GUI does. 
 
@@ -218,7 +218,7 @@ There have been considerable efforts from the scientists at RStudio to create an
 
 #### FOOTNOTES
 
-- The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open source software. 
+- The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open-source software. 
 - Read these articles on attentional residue and multitasking (then try to stop doing it). 
     - [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
     - [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)

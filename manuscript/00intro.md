@@ -1,16 +1,16 @@
 # What's in this manual?
 
-"If you can't describe what you are doing as a process, you don't know what you're doing." - W. Edwards Deming
+"*If you can't describe what you are doing as a process, you don't know what you're doing.*" - W. Edwards Deming
 
-This is a manual for geting started in data science using R & RStudio, and Git & Github. We will also cover some practical principles of programming, data collection, analysis, and visualizations, and a few computer science topics. 
+This manual is for getting started in data science using R & RStudio, and Git & Github. We will also cover some practical principles of programming, data collection, analysis, and visualizations, and a few computer science topics. 
 
-This manual was inspired by growing number of excellent publications on a variety of topics in data science (see list below). Rather than write a manual that focused on one of these tools or topics, we wrote a manual for *how these technologies work together*. Because this is a very "high level" manual, we also encourage readers to consult the original publications for more details on each specific topic. 
+There have been a growing number of excellent publications on a variety of topics in data science (see list below). Rather than write a manual that focused on one of these tools or methods, we wrote a manual for *how these technologies work together*. Because this is a very "high level" manual, we also encourage readers to consult the original publications for more details on each specific topic. 
 
-Our goal is to include enough information to get you up and running and at the same time, not overwhelm you. Odds are you've already Googled "*Getting start in [insert open source software]*," and you know there are a ton of resources available online for anything related to data science, data visualization, machine learning, etc. Figuring out where to start can feel like trying to get a drink of water from a fire hose. Given the massive number of resources, we decided to distil what we consider to be the "common threads" that run through each of these technologies. Along the way we are going to introduce a few computer science concepts that will help you build a toolkit, get started on a project, take that project to an outcome, and communicate the findings. 
+Our goal is to include enough information to get you up and running and at the same time, not overwhelm you. Odds are you've already Googled "*Getting started in [insert open-source software]*," and you know there are a ton of resources available online for anything related to data science, data visualization, machine learning, etc. Figuring out where to start can feel like trying to get a drink of water from a fire hose. Given the massive number of resources, we decided to distill what we consider to be the "common threads" that run through each of these technologies. Along the way, we are going to introduce a few computer science concepts that will help you build a toolkit, get started on a project, take that project to an outcome, and communicate the findings. 
 
 ## Who this manual is for
 
-We've tried to keep this manual accessible to everyone. Whether you're currently using data in your job and want to add these tools to your skill set, or you'd like to start using data to improve what you do. Or maybe you have a knack for counting things and creating pictures. In the next few pages, we're going to introduce you to a workflow (a set of tools) for collecting, manipulating, summarizing, and visualizing data in a reproducible way.   We wrote this manual to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because we know your time is limited). 
+We've tried to keep this manual accessible to everyone. Whether you're currently using data in your job and want to add these tools to your skillset, or you'd like to start using data to improve what you do. Or maybe you have a knack for counting things and creating pictures. In the next few pages, we're going to introduce you to a workflow (a set of tools) for collecting, manipulating, summarizing, and visualizing data in a reproducible way.   We wrote this manual to try and distill these topics into a 'bare-minimum' toolset that you can learn and use quickly (because we know your time is limited). 
 
 Whether you're an accountant, scientist, data analyst, journalist, grad student, product manager, or decision-maker, this manual is for you. 
 
@@ -58,7 +58,7 @@ The image shows how to turn a platoon of soldiers (made up of four squads) aroun
 
 > "...there are lots of other books that explain what things are called. This book explains what they do." Randall Munroe, Thing Explainer
 
-The quote above comes from an excellent book we recommend everyone reads. The author uses pictures and plain languge to describe multiple complicated things (rocket ships, the periodic table, laptops, etc.). The subtitle of the book, "*Complicated stuff in simple words*" is what we're trying to replicate here. Wherever possible, we've dropped unnecessary technical jargon and spelled out any acronyms. We've also created images and diagrams instead of words to explain complicated concepts.
+The quote above comes from an excellent book we recommend everyone reads. The author uses pictures and plain language to describe multiple complicated things (rocket ships, the periodic table, laptops, etc.). The subtitle of the book, "*Complicated stuff in simple words*" is what we're trying to replicate here. Wherever possible, we've dropped unnecessary technical jargon and spelled out any acronyms. We've also created images and diagrams instead of words to explain complicated concepts.
 
 ## Our goals for you
 
@@ -70,7 +70,7 @@ We assume you'll be working on a computer (laptop or desktop), and have the abil
 
 We also assume you've been using your computer to send/receive emails, write papers, and explore the internet. People encounter a need for data science skills at different times in their lives, so we realize there's a chance a few of you will be familiar with some of the content we're covering. If this is the case, hopefully, we cover it in a novel and painless way that doesn't make reading it feel like a waste of time. 
 
-We use the plural 'we' throughout the manual based on the [excellent advice](http://www.econ.uiuc.edu/~econ508/Papers/mathwriting.pdf) from Donald Knuth, Tracy Larabee, and Paul Roberts, "*think of a dialog between author and reader.*" As with most written works, the topics in this manual are the result of many conversations, emails, comment threads, and communications that could not have happened in isolation. 
+We use the plural 'we' throughout the manual based on the [excellent advice](http://www.econ.uiuc.edu/~econ508/Papers/mathwriting.pdf) from Donald Knuth, Tracy Larabee, and Paul Roberts, "*think of a dialog between author and reader.*." As with most written works, the topics in this manual are the result of many conversations, emails, comment threads, and communications that could not have happened in isolation. 
 
 ## Style guide
 
