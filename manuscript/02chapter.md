@@ -1,6 +1,6 @@
-# Part 2: Have a workflow
+# Part 2: "Have a workflow."
 
-This chapter will cover the three principles of the workflow we recommend. 
+A workbench is a place to keep and organize tools, and workflow is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
 
 1. Use free open source software
 2. Write code  
@@ -8,7 +8,7 @@ This chapter will cover the three principles of the workflow we recommend.
 
 ## Principle 1: Use open-source software
 
-All of the tools in this book are available open-source and available free of charge. The cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when you take into account the price of tuition.
+All of the tools in this book are available open-source and available free of charge. Just as a point of reference, the cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when you take into account the rising price of tuition.
 
 A more important reason we recommend open source tools are the communities that you'll get access to when you start using them. By entering the universe of open source software, you get to take advantage of seeing problems solved in the open. You'll also find people like you, grappling with the same issues, and it's hard to overstate the benefit of this shared camaraderie. 
 
@@ -41,46 +41,63 @@ Follow the links below to learn more.
 
 ***
 
-### Use R, RStudio, Git, and Github
+## The integrated development environment (aka data science workbench)
 
-We recommend using R, RStudio, Git, and Github for the majority of your work. You can discover more about these tools [here](https://www.rstudio.com/).
+An [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) is an application typically used by programmers to build and test software. We find it helpful to think of a woodworkers workbench as an analogy. The image below is an example of a workbench with a simple rolling cart design (for people with minimal garage space).
 
-### What is R?
+![source: https://www.finewoodworking.com/2008/12/11/lighted-storage-cart-for-tools-and-lumber](images/02-workbench.png)
 
-[R](https://www.r-project.org/) is a free statistical modeling software application and language.
+As we can see, this workbench is efficiently designed to keep essential tools for the job within arms reach, and it uses storage space efficiently. IDE design follows these same principles. However, we also know some models are better than others. For example, consider the design of a  different workbench below. 
 
-### What is RStudio?
+![source: https://www.finewoodworking.com/2010/11/12/free-plan-space-saving-tool-rack](images/02-better-workbench.png)
 
-[RStudio](https://www.rstudio.com/products/RStudio/) is a free and open source [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) for R. 
+ By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job and tools required, the woodworker can customize the panel arrangement as they see fit (or as the website describes it, "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*")
+
+These examples illustrate how differences in the design of a workbench can have a meaningful impact on levels of productivity. Well-designed workbenches give us access to more tools without making these tools more difficult to find. 
+
+### Our workbench
+
+We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (* they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
 
 ![](images/00-IDE-layout.png)
 
-The IDE has four separate panes, each serving a specific function. 
+RStudio has four primary panes, each serving a specific function. 
 
-- the `Code` pane is where we can document both human-readable and computer-readable text  
-- the `Workspace` holds the data, functions, and other data analysis artifacts  
-- the `Console` displays the results from our written code 
-- the `Files` gives us a few of happenings outside the RStudio environment (imported raw data, exported results, etc.)
+- the **Code** or **Source** pane is where we can document both human-readable and computer-readable text  
+- the **Workspace** holds the data, functions, and other data analysis objects  
+- the **Console** displays the results from our written code (and allows us to enter commands directly)
+- the **Files** gives us access to the happenings outside the RStudio environment (imported raw data, exported results, etc.)
 
-Follow the steps below to install R and RStudio.  
+Just like any workbench, we need to fill RStudio with the proper tools. RStudio plays well with many different tools, but for now, we are just going to focus on R and Git.
+
+### What is R?
+
+[R is a free statistical modeling software](https://www.r-project.org/)  application and language. If you are using the desktop application, follow the links below to install R. 
+
+**Installing R & RStudio**
 
 1. First, you'll need to download and install R from [CRAN](https://cran.r-project.org/).  
-2. Second, download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R   
-3. An alternative to downloading and installing R and RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join)  
+2. Second, download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R 
 
-**BONUS:** You'll also find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+**Working in the browser**
+
+3. An alternative to downloading and installing R and RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join). 
+
+**Open-source software bonus:** As mentioned previously, you'll also find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
 
 ### What is Git?
 
-[Git](https://git-scm.com/) is a version control system (VCS). VCSs are used to track changes to projects with code. You can read more about Git in this online [text](https://git-scm.com/book/en/v2).
+[Git](https://git-scm.com/) is a version control system (VCS). VCSs are used to track changes to projects with code. You can read more about Git in their online [text here](https://git-scm.com/book/en/v2).
 
 ### What is Github?
 
 [Github](https://github.com/) is the web-based hosting service for Git. You should set up a free an account with Github [here](https://github.com/join?source=header). 
 
+### What do Git/Github do?
+
 We will cover more on Git/Github in later sections, but for now, know these tools will allow you to keep track of changes to your project over time. 
 
-**Note:** *You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. We're confident you'll see RStudio is well suited to handle >90% of the things you'll want to accomplish.* 
+**Note:** *You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. We're confident you'll see RStudio is well suited to handle more than most of the things you'll want to accomplish.* 
 
 ---
   
@@ -106,13 +123,13 @@ We recommend an alternative to the copy + paste workflow based on the activities
 4. Submit and review for traditional journals  
 5. Blog or use social media to critique published work 
 
-Two things should stand out from the list above: first, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on "*writing code*" wherever possible. 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
+Two things should stand out from the list above: First, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on "*writing code*" wherever possible. We are aware that 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
 
 ### Software isn't a solution
 
-An extension of the "*writing code*" philosophy is to view software applications as instruments for gaining a deeper understanding of the world (but not oversimplifying or obfuscating it). 
+An extension of the "*writing code*" philosophy is to view data science software applications as tools for gaining a deeper understanding of the world (but not oversimplifying or obfuscating it). 
 
-As we stated in chapter 1, science is a process. We recommend viewing software as a tool to help move that process along faster. Software that improves our understanding shortens the distance between questions and answers but doesn't leave out any crucial details. 
+As we stated in chapter 1, the scientific method is a process. Software is a tool to help move that process along faster. Tools that improve our understanding shorten the distance between questions and answers, but doesn't leave out any crucial details. 
 
 For this reason, we recommend avoiding point-and-click environments in most proprietary software applications (SPSS, Stata, SAS, etc.). It's hard to keep track of everything you click on (or the order of you clicked on them in) inside these environments, and this makes it hard to know what step you're currently doing.
 
@@ -124,11 +141,11 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 > **Question:** "I'm wondering how you, as an educator and statistician, would like to see statistical and data literacy change in general for a general population?"
 
-> **Answer:** "...I've come to realize that a lot of people don't even know what they did. People don't have a workflow, they have a bunch of numbers, and they start screwing around with the numbers and putting calculations in different places on their spreadsheet, and then at the end, they pull a number out and write it down and type it into their report." - [Andrew Gelman](https://soundcloud.com/dataframed/election-forecasting-polling) 
+> **Answer:** "... I've come to realize that a lot of people don't even know what they did. People don't have a workflow, they have a bunch of numbers, and they start screwing around with the numbers and putting calculations in different places on their spreadsheet, and then at the end, they pull a number out and write it down and type it into their report." - [Andrew Gelman](https://soundcloud.com/dataframed/election-forecasting-polling) 
 
 As the quote above illustrates, how you got an answer is just as relevant as the answer you got.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions.
 
-To recap, data science is complicated, and in order organize that complexity, you'll need a workflow that gives you the ability to 1) document your plans and ideas, and 2) write code that translates those thoughts and intentions into something a computer can execute. Plain text files are a great way to accomplish these tasks. 
+Recap: data science jobs need a particular set of tools, and a workbench to organize these tools. Data science jobs also have a lot of moving parts, and in order manage that complexity, you'll need a workflow that gives you the ability to 1) write down what you want to do and how you want to do it, and 2) write code that translates those thoughts and intentions into something a computer can execute. These two points bring us to our next topic: documentation. As you'll discover, plain text files are a great way to accomplish these tasks. 
 
 ***
 
@@ -225,4 +242,5 @@ There have been considerable efforts from the scientists at RStudio to create an
     - [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
 -  see [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
 -  This text is an *opinionated technical manual* anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. We primarily recommend performing these tasks with R & RStudio (via RStudio.Cloud), and Git/Github. We're not saying there aren't other means or tools capable of accomplishing the same activities; these are the tools we've found success with, so they're what we recommend.
+
 

@@ -30,7 +30,7 @@ The difference between these two cultures is captured well by the Google enginee
 
 In business, the results of an experiment or model are often used to drive decisions that will result in either profits or losses for that company, which is why people tend to label these methods "applied data science." 
 
-* It's important to note that not every problem in business can (or should) be answered using models or data. Many times the existing knowledge of a business's goals, employees, products, and customers can be a better guide for decision-makers.*
+*It's important to note that not every problem in business can (or should) be answered using models or data. Many times the existing knowledge of a business's goals, employees, products, and customers can be a better guide for decision-makers.*
 
 The largest companies in the world are using data and research to drive their decisions, and it's safe to bet that the companies in the future will rely on data even more. [According to Nasdaq](https://www.nasdaq.com/article/6-companies-spending-the-most-on-rd-cm1004333), Amazon and Alphabet (Google's parent company) spent more than any other company in 2017 Amazon spent over \$26 billion, Google spent over \$16 billion. But it's not only internet companies investing in research. Volkswagen spent over \$15 Billion dollars on research into virtual technology, automation, and lightweight construction in 2017. 
 

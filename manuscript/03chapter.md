@@ -1,107 +1,125 @@
-# Part 3: Getting organized 
+# Part 3: Project files and organization
 
-Now that we've recommend a set of tools (R+RStudio+Git+Github), we will show how these tools get put together into a powerful and adaptive workflow with an example data project. We want to get started with an early, because this gives us an opportunity to cover project organization--a topic that was rarely covered in statistical coursework.
+Now that we've recommended a workbench (RStudio) and a set of tools (R, Git, Github), we'll use an example project to show how combining these tools create a durable and adaptive workflow. We want to get started with an example early because having a job to do allows us to cover project organization.
 
-Project setup--how you organize files and folders--will directly contribute to your ability to be productive. In the same way it's hard to get things done in a messy office, it will be hard to do data science if you can't find your files.
+Our statistical coursework rarely covered how to set up a project setup (we often marvel at how much time we wasted trying to find our files). The way we set our projects up--how we organize files and folders--will directly contribute to our ability to be productive. You've probably discovered it's hard to get things done in a messy office? Well, it will be hard to do data science if we don't organize our files in a logical way that helps us get things done.
 
 ---
 
-## One "typical" scenario 
+## Example project: motivation for getting data
 
-***You read something on the internet, got curious, and decided you wanted to dig a little deeper.*** 
+***We read something on the internet, got curious, and decided we wanted to dig a little deeper.*** 
 
-The scenario above is one of many possible circumstances where this workflow is invaluable, but it isn't an uncommon one. In fact, some of the most interesting data projects are born of basic curiosity. 
+The scenario I've described above might seem vague, but we want to show how powerful these tools can be, and we've found some of the most exciting data projects are born of basic curiosity. 
 
-Let's assume we read something about the first round of the 2019 Democratic Presidential Debates, and now we want to investigate how each candidate performed. 
+In this case, let's imagine we read something about the first round of the [2019 Democratic Presidential Debates](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums), but we missed all the news coverage. 
 
-We say "*typical*" with some caution here, because we've found an endless number of opportunities to use this workflow. For example:
-
-- You've been asked to solve a problem or answer a question using data you don't currently posses, but know they exist in an [Application programming interface]((https://en.wikipedia.org/wiki/Application_programming_interface)) or API.
-
-- There are data in a relational database management system or [RDBMS](https://en.wikipedia.org/wiki/Relational_database#RDBMS), but these data need to be retrieved, restructured, and presented in a way that allows for visualizations and models
-
-- You need to combine data from multiple sources (APIs, web-scraping, or a RDBMS) and different formats (JSON, SQL, Excel, etc.) into a model or dashboard 
-
-These are all situations where the R+RStudio+Git+Github workflow will come in handy as a "one-stop-shop", because the common threads between all of these situations are they 1) have data files and 2) require something to be built. 
-
-
-### Our example data sources
-
-To demonstrate how powerful R/RStudio can be, we are going to combine data from four different sources:
-
-1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to use this to import data on Google searches for the candidates before and after the night of the debates.
-
-2) [`rtweet`](https://rtweet.info/) package in R can be used to download Twitter data, but takes a little bit to get set up. Fortunately, we've written a tutorial [here](http://www.storybench.org/get-twitter-data-rtweet-r/) and the package has excellent documentation (see [here](https://rtweet.info/articles/auth.html) and [here](https://rtweet.info/articles/intro.html)).  
-
-3) There are data from voters on how they felt about each candidate going into the debates stored in a Google Sheet [here](http://bit.ly/2YEVASu) that we've accessed using the [`googlesheets`](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html) package in R (*you will need to copy this sheet into your Google drive to get this data set*). Another option is to use the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. 
-
-4) There is a [Wikipedia](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums) page dedicated to the debates. We will be extracting the tables with airtime for candidate using the [`xml2`](https://cran.r-project.org/web/packages/xml2/index.html) and [`rvest`](https://rvest.tidyverse.org/) packages. 
-
-### Some background 
-
-The data journalism site  [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/) published an article looking at which candidates had high favorability going into the first night of the debates. These data were originally published in a table, but now they are in the graph below. 
+We happened to read an article from the data journalism website [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/), and it displayed an image showing how voters had changed their minds after seeing the candidates. 
 
 ![source: https://projects.fivethirtyeight.com/democratic-debate-poll/](images/03-538-night-one-debates.png)
 
-As you can see from the figure, some people changed their minds about who they might potentially vote for in the debates. We are going to use freely accessible data from the internet to explore if this is a pattern that emerges in other areas (like Google searches and Twitter), and to see if there is any relationship to airtime.
+Wanting to be informed citizens (and knowing how to collect and analyze data), we decide to investigate how each candidate performed using various sources of data. 
+
+#### Data journalism = "social science in real time"
+
+Journalists are a bit like statisticians in the sense that both get to ["*play in everyone's backyard*"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalism explicitly combines analysis and communication skills, which makes it a great place to look for tools and methods we can adapt to various projects.  
+
+Data journalists like [Aleszu Bajak](https://twitter.com/aleszubajak), [Andrew Flowers](https://twitter.com/andrewflowers), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom. The best data journalism pieces combine the rigor of numbers and math with an ability to **write something people will read**. 
+
+More importantly, journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
+
+> *"Journalists can approach data differently than those more trained in computer sciences. Take, for instance, matching databases. Traditional IT managers compare data sets that were designed to talk with each other. Journalists may wonder if the payroll list of school teachers includes registered sex offenders."*
+
+More brains are better than one when it comes to looking at data, and that's usually because of the different types of questions that come out of these brains. 
+
+### Modern data 
+
+To demonstrate how powerful R/RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R + RStudio. 
+
+1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to use this to import data on Google searches for the candidates before and after the night of the debates.
+
+2) [`rtweet`](https://rtweet.info/) package in R can be used to download Twitter data but takes a few steps to get set up. Fortunately, we've written a tutorial [here](http://www.storybench.org/get-twitter-data-rtweet-r/) and the package has excellent documentation (see [here](https://rtweet.info/articles/auth.html) and [here](https://rtweet.info/articles/intro.html)). 
+
+3) There is a [Wikipedia](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums) page dedicated to the debates. We'll be scraping the tables with airtime for a candidate using the [`xml2`](https://cran.r-project.org/web/packages/xml2/index.html) and [`rvest`](https://rvest.tidyverse.org/) packages. 
+
+4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates stored in a [Google Sheet](http://bit.ly/2YEVASu) that we've accessed using the [`googlesheets`](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html) package in R (*you will need to copy this sheet into your Google drive to get this data set*). Another option is to use the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. 
+
 
 ---
 
-## Get started with Github & RStudio.Cloud
+### Step 1: Github
 
 In this example, we will be using an RStudio.Cloud environment to perform the analyses. All of these steps can be accomplished using the RStudio IDE on your local desktop, too. 
 
-Head over to [Github and sign up](https://github.com/join) for a free account. After you've completed the necessary forms (*remember you only need a free account!*), you should see a page with a message telling you "**You don't have any public repositories yet**". 
+Head over to [Github and sign up](https://github.com/join) for a free account. 
+
+![Join Github](images/03-join-github.png)
+
+After you've completed the necessary forms (*remember you only need a free account!*), you should see a page with a message telling you "**You don't have any public repositories yet**". 
 
 ![Github profile overview](images/03-new-github-account.png)
 
-We will eventually create our own repository, but for now let's head over to RStudio.Cloud and use our Github account to [sign into RStudio.Cloud](https://rstudio.cloud/). After we're all signed in, we will see the screen below:
+### Step 2: RStudio.Cloud
+
+We will eventually create our repositories, but for now, let's head over and use our Github account to [sign into RStudio.Cloud](https://rstudio.cloud/). After we're all signed in, we will see the screen below:
 
 ![RStudio.Cloud environment](images/03-welcome-rstudio-cloud.png)
 
-The various resources, projects, and work spaces are outlined in the image above. We are going to download a repository from Github and open it in RStudio.Cloud. 
+We've outlined the various resources, projects, and workspaces in the image above (we will go over each in more detail in a later section). For now, we are going to download a repository from Github and open it in RStudio.Cloud. 
 
-### Download a repository 
+### Step 3: Download a repository from Github
 
-Most Github repositories are free for you to download and use, and you can do this by clicking on the green **Clone or download** button and click **Download ZIP**.
+Most of the repos on Github are free for us to download and use. We can do this by clicking on the green **Clone or download** button and click **Download ZIP**.
 
 ![](images/03-download-github-zip.png)
 
-After you've picked a spot to put your project, download the zipped Github folder. 
+Pick a location on your computer to put your project and download the zipped Github folder. 
 
-### Upload the files into RStudio.Cloud
+### Step 4: Upload files into RStudio.Cloud
 
-In the RStudio.Cloud browser, we're going to click on the **New Project** icon. It should display the RStudio IDE in the browser like the image below:
+Back in the RStudio.Cloud browser, we're going to click on the **New Project** button. It should display the RStudio IDE in the browser like the image below:
 
 ![](images/03-rstudio-new-project.png)
 
-We are going to name this `Untitled` project as `dem-pres-debate-2019`. The results should look like the image below:
+We are going to change the name of this **Untitled** project to **dem-pres-debate-2019**. The results should look like the image below:
 
 ![](images/03-name-new-project.png)
 
-In the **Files** pane in the lower right corner, we're going to click on the **Upload** button, then we click on **Choose files** and locate our recently downloaded zipped Github folder and upload it into the `/cloud/project/` folder. 
+Look at the **Files** pane in the lower right corner and click on the **Upload** button, then click on **Choose files** and locate the recently downloaded zipped Github folder. Upload this file into the RStudio.Cloud project workspace. 
 
 ![upload window](images/03-upload-files.png)
 
-This might take some time to fully upload, but after this folder gets uploaded into the cloud, we see the `dem-pres-debate-2019-master` folder in the **Files** pane. 
+#### Accessing files in RStudio.Cloud
+
+Uploading these files might take some time, but when everything is in RStudio.Cloud, we'll see the `dem-pres-debate-2019-master` folder in the **Files** pane. 
 
 ![uploaded files](images/03-uploaded-files.png)
 
-We want to move the contents of the `dem-pres-debate-2019-master` folder into the `project` folder. 
+The unzipped the file we uploaded and created a folder called `dem-pres-debate-2019-master`. Unfortunately, it put this folder *inside* the `cloud/project` folder. We wanted to upload the *contents* of the `dem-pres-debate-2019-master` file into the `cloud/project` folder (and not the folder itself). 
 
-![upload window](images/03-move-folder-contents.png)
+![](images/03-move-to-parent-folder.png)
 
-We are going to use the command line to do this, but before we can, we'll do a quick crash course on working from the **Terminal** in RStudio.Cloud. The next session will cover operating system differences, **Terminal** commands, and how to use command line tools effectively. 
+We are going to use this opportunity to introduce a few command line tools. To do this, we'll be working from the **Terminal** pane in RStudio.Cloud. The next session will be a quick "crash course" in operating system terms, their differences, a few **Terminal** commands, why we still have these command line tools, and how to use them effectively. 
 
-## Unix and Windows
+## The Command line: Unix and Windows
 
-In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). You can use most Linux commands on a Mac.  
+In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). Most Linux commands also work on macOS. 
 
 Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
 
-### Command line tools
+### Command line interfaces
 
 The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason these tools haven't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen, but after a few examples of what's possible from on the command-line and you'll see the power of using these tools. 
+
+### What am I getting out of this?
+
+That is a fair question--being able to use the command line gives us more 'under-the-hood' access to any computer. We can use the command line to navigate our computer's files, install new programs or libraries, and track changes to files. It might seem clunky and ancient, but people keep this technology around because of it's 1) specificity and 2) modularity (also the two features that make Unix programs so powerful). What do we mean by this?
+
+- [Specificity](https://www.dictionary.com/browse/specific) means each Unix command or tool does one thing very well (or [DOTADIW](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well))
+
+- [Modularity](https://en.wikipedia.org/wiki/Modularity#Table_1:_The_use_of_modularity_by_discipline[34]) is the ability to mix and match these tools together with 'pipes,' a kind of grammatical glue that allows users to expand these tools in seemingly endless combinations 
+
+Having these skills have also make us more comfortable when we've had to interact with remote machines or foreign operating systems (Linux, per se). We will work through an example to demonstrate some of these features. 
 
 ### The Terminal (mac0S)
 
@@ -117,214 +135,337 @@ The Terminal pane is also available in RStudio under **Tools** > **Terminal** > 
 
 ![](images/03-tools-terminal-new.png)
 
-Now that we have a new Terminal window open, we can start to learning some common command line commands, understand relative vs. absolute paths, folder and file locations, and project organization.
+The **Terminal pane** will open in the same pane as the **Console pane**.
 
-### Common Terminal commands
+![](images/03-new-terminal-window.png)
 
-**FAIR WARNING**--command line interfaces can be frustrating. Most of the technologies we interact with daily don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains you'll have in control, flexibility, automation, and reproducibility.
+Now we will get some practice organizing our data science project using the command line.
+
+## Good enough command line tools
+
+**FAIR WARNING**--command line interfaces can be frustrating. Computers don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains we'll have in control, flexibility, automation, and reproducibility.
 
 Here is a quick list of commonly used Terminal commands.
 
 * **`pwd`** - `p`rint `w`orking `d`irectory 
-* **`cd`** - `c`hange `d`irectories  
-* **`cp`** - `c`o`p`y files from one directory to another  
+* **`cd`** - `c`hange `d`irectories 
+* **`cp`** - `c`o`p`y files from one directory to another 
 * **`ls`** - `l`i`s`t all files
 * **`ls -la`** - `l`i`s`t all files, including hidden ones
-* **`mkdir`** - `m`a`k`e `dir`ectory  
+* **`mkdir`** - `m`a`k`e `dir`ectory 
 * **`rmdir`** - `r`e`m`ove a `dir`ectory 
 * **`cat`** - display a text file in Terminal screen
 * **`echo`** - outputs text as arguments, prints to Terminal screen, file, or in a pipeline
 * **`touch`** - create a few files
 * **`grep`** - "`g`lobally search a `r`egular `e`xpression and `p`rint"
 * **`>>`** and **`>`** - redirect output of program to a file (don't display on Terminal screen)
-* **`sudo`** and **`sudo -s`** (**BE CAREFUL!!**) perform commands as **`root`** user, which can carry some heavy consequences.
+* **`sudo`** and **`sudo -s`** (**BE CAREFUL!!**) performing commands as **`root`** user can carry some heavy consequences.
 
-### Why are we using the command line?
+### Command line skill #1: who is using what?
 
-Being able to use the command line gives you more 'under-the-hood' access to your computer. We'll use the command line to navigate our computer's files, install new programs or libraries, and track changes to files. It might seem clunky and ancient, but there's a reason this technology is still around. The two key features that make the Unix programs so powerful are 1) specificity and 2) modularity.
+After downloading the files from Github, we've uploaded the zipped folder into the `Cloud/project`. In the RStudio.Cloud **Terminal** pane, we should see something like this: 
 
-- [Specificity](https://www.dictionary.com/browse/specific) means each Unix command or tool does one thing very well (or [DOTADIW](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well))
+![Cloud terminal prompt](images/03-cloud-terminal-prompt.png)
 
-- [Modularity](https://en.wikipedia.org/wiki/Modularity#Table_1:_The_use_of_modularity_by_discipline[34]) is the ability to mix and match these tools together with 'pipes,' a kind of grammatical glue that allows users to expand these tools in seemingly endless combinations  
+This looks like gobbledygook at first, but command line interfaces have a recognizable pattern if we know what we're looking for:
 
+- First, we can almost always expect some kind of `user@machine` identifier to tell us who we're signed is as and on what machine
 
-We will work through an example to demonstrate some of these features. 
+- Second, there's usually some way of displaying the **`home`** directory. In this case, it's the stuff between the colon (`:`) and the dollar sign `$` (**`/cloud/project`**)
 
-### Putting the command line to work: Finding your stuff
-
-After downloading the files from Github, we've uploaded the zipped folder into the `Cloud/project`. In the RStudio.Cloud **Terminal** pane, we see the following: 
-
-```sh
-rstudio-user@6e4f199c041b:/cloud/project$
-```
-
-Everything up to the colon (`:`) represents the machine we are working on (`rstudio-user@6e4f199c041b`). The stuff between the colon and the dollar sign `$` is our current location (`/cloud/project`). 
-
-If we were working on our local Mac laptop, 
+Let's check a few things to help figure out what's going on. 
 
 ```sh
-Martins-MacBook-Pro:~ martinfrigaard$
+rstudio-user@f5aefc99e5d9:/cloud/project$ whoami
+rstudio-user
 ```
 
-The machine information would be `Martins-MacBook-Pro` and the location to be the home directory `~` (the top level folder) for the user `martinfrigaard`. 
-
-File paths can get confusing, but the most important thing to pay attention to is whether you are looking at an absolute file path or a relative file path.
-
-![](images/03-file-paths.png)
-
-Now, this might be about as clear as mud, but it'll make more sense when we start moving things around. 
-
-### Absolute vs. relative file paths
-
-We're working in RStudio.Cloud, but the GUI representation of our folder structure won't be much different if we were working on a our local laptop. Remember, we want to move the contents of `dem-pres-debate-2019-master` into `cloud/project`. 
-
-The command to move files from one place to another is `cp`, but we are going to add an two options, `-a` and `.`. There are many other options for using `cp`, read about them [here](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html#cp-invocation)
+We are the `rstudio-user` on this machine `f5aefc99e5d9`. The same information on a local MacBook laptop might look like this:
 
 ```sh
-/Users/martinfrigaard/Documents/dem-pres-debate-2019-master
+Martins-MacBook-Pro:~ martinfrigaard$ whoami
+martinfrigaard
 ```
 
-While the path on a Windows machine will look like this:
+In this case, the machine information would be `Martins-MacBook-Pro` and the location to be the **`home`** directory `~` (the top level folder) for the user `martinfrigaard`. 
+
+### Command line skill #2: where am I?
+
+In the RStudio.Cloud **Terminal** pane, enter the print working directory (`pwd`) command:
+
+*I've omitted everything preceeding the prompt (`$`) for easier printing*
+
+```sh
+$ pwd
+/cloud/project
+```
+
+`pwd` tells us where we are, otherwise known as the current working directory. Imagine the current working directory as the spot we're standing, and file path `/cloud/project` as the way back to our **`root`**  folder.
+
+To get a sense of our surroundings, lets list the files in `/cloud/project` using `ls`
+
+```sh
+$ ls
+dem-pres-debate-2019-master  project.Rproj
+```
+
+We can see the folder (`dem-pres-debate-2019-master`) and the RStudio project file (`project.Rproj`). On a side note, it's always a good idea to pay attention to file extensions (`.Rproj`, `.R`, `.md`, etc.), because different files interact with the **Terminal** in different ways.
+
+### Command line skill #3: moving around 
+
+Now that we know where we are, and what files and folders are in here with us, we can start to stretch our legs and move around. Let's start by changing directories `cd` to the `dem-pres-debate-2019-master` folder, then check with `pwd`.
+
+```sh
+$ cd dem-pres-debate-2019-master
+$ pwd
+/cloud/project/dem-pres-debate-2019-master
+```
+
+Now we can check the files in this new directory with `ls`
+
+```sh
+$ ls
+01-import.Rmd     README.Rmd  data
+02-wrangle.Rmd    README.md   dem-pres-debate-2019.Rproj
+03-visualize.Rmd  code        figs
+```
+
+The output from `ls` shows me there are four sub-folders in the `dem-pres-debate-2019-master` folder, two `.Rmd` files, one `.md`, and one `.Rproj` file.
+
+Now that we've moved into this folder and looked around, let's climb back out of it. We can always move up one folder by executing the `cd ..` command. 
+
+```sh
+$ cd ..
+$ pwd
+cloud/project
+```
+
+Let's move back into `dem-pres-debate-2019-master` using `cd` again, but this time we will move up one folder using `cd /cloud/project`. 
+
+```sh
+$ cd /cloud/project
+$ ls
+dem-pres-debate-2019-master  project.Rproj
+```
+
+We can also check the files in `dem-pres-debate-2019-master` using `ls` and the folder name. 
+
+```sh
+$ ls dem-pres-debate-2019-master
+01-import.Rmd     README.Rmd  data
+02-wrangle.Rmd    README.md   dem-pres-debate-2019.Rproj
+03-visualize.Rmd  code        figs
+```
+
+This tells **Terminal** to list the files in the folder at the end of the file path. 
+
+#### Absolute vs. relative file paths 
+
+An **absolute file path** starts at the root directory (`~` or `\`) and follows along the path, folder by folder, until it lands in the last folder or file.
+
+**`/start/from/absolutely/where/i/tell/us`**
+
+A **relative file path** starts at a folder but leaves the rest 'relative' to wherever that folder is located. 
+
+**`start/from/wherever/we/put/me`**
+
+#### Folder trees
+
+Below is an example folder tree structure on a macOS. 
+
+![](images/03-home-comp-file-paths.png)
+
+The **`root`** folder is the "upper most" location of this machine's folders and files. In macOS, `root` is represented with a tilde (`~`). In Windows, the `root` folder is located with the forward slash (`/`). If we have the right priviliges, we can log in as the `root` user, and the prompt will change from `$` to `#` (be careful here!)
+
+When we log into a computer, we start in a **`home`** folder (usually with a shorter version of that user's full name they used to set up their operating system). The `home` folder is the typical "starting point" for that `user`'s folders and files. If we are working on macOS, this is the folder with a little house on it.
+
+Depending on the operating system, this location starts off with some standard default folders (`Desktop`, `Documents`, `Downloads`, and `Applications`)
+
+#### Special case: Windows machines 
+
+On a Windows machines, the file path to `dem-pres-debate-2019-master` might look like this:
 
 ```sh
 C:\Users\martinfrigaard\Documents\dem-pres-debate-2019-master
 ```
 
-In R, the `\` is called an escape character, so in order to navigate through folders you will have to use two backslashes `\\`, which makes the above project located here:
+But we would need to write it like this: 
 
 ```sh
 C:\\Users\\martinfrigaard\\Documents\\dem-pres-debate-2019-master
 ```
 
-We will cover a few other differences between these two common operating systems below. 
+This is because in R, the `\` is called an escape character, so in order to navigate through folders we will have to use two backslashes `\\`. 
 
-#### Absolute file paths 
+Below is the folder tree on RStudio.Cloud:
 
-An absolute file path starts from a specific place (i.e. an absolute place). If you're working on a Mac, the root structure is accessed using the tilde (`~`) or forward slash. For example, if I open a fresh Terminal window, I'll be able to see my location.
+![](images/03-cloud-file-paths.png)
 
-![](images/03-new-terminal.png)
+Now, this image might be about as clear as mud, but it'll make more sense when we start moving things around. 
 
-I am on `Martins-MacBook-Pro:` in the root `~` folder, signed in as `martinfrigaard`. If I want to move into the `ican-data` folder located inside `/Users/martinfrigaard/Documents`, I can use the `cd` or change directory command. 
+### Command line skill #4: moving things around 
 
-```sh
-cd /Users/martinfrigaard/Documents/ican-data
-```
+We're working in RStudio.Cloud, but the GUI representation of our folder structure won't be much different if we were working on our local laptop. 
 
-Now when I look at the Terminal window, I see the following: 
+Remember, we want to move the contents of `dem-pres-debate-2019-master` into `cloud/project`. The command for moving files from one place to another is `mv`, but we are going to add an two options, `-v` and `*`. There are many other options for using `mv`, read about them [here](https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html#mv-invocation). 
 
-![](images/03-new-terminal-absolute.png)
-
-The Terminal application is showing that I am still using `Martins-MacBook-Pro:`, but now I am in `ican-data`. 
-
-#### Relative file paths
-
-A relative file path is the location of a folder or files starting from wherever you happen to be. This might seems confusing, but we can demonstrate the difference. We are currently in the `ican-data` folder. We will return the `root` folder using: 
+The sequence of commands we'll enter in the RStudio.Cloud Terminal are below:
 
 ```sh
-cd ~
+$ mv -v dem-pres-debate-2019-master/* /cloud/project
 ```
 
-This places us in `/Users/martinfrigaard`, and if we want to get back to the `ican-data` folder, we can simply move forward from `/Users/martinfrigaard` using `cd` 
+You will see the following changes in **Terminal**:
 
 ```sh
-Martins-MacBook-Pro:~ martinfrigaard$ cd Documents/ican-data
-Martins-MacBook-Pro:ican-data martinfrigaard$ 
+'dem-pres-debate-2019-master/01-import.Rmd' -> '/cloud/project/01-import.Rmd'
+'dem-pres-debate-2019-master/02-wrangle.Rmd' -> '/cloud/project/02-wrangle.Rmd'
+'dem-pres-debate-2019-master/03-visualize.Rmd' -> '/cloud/project/03-visualize.Rmd'
+'dem-pres-debate-2019-master/README.Rmd' -> '/cloud/project/README.Rmd'
+'dem-pres-debate-2019-master/README.md' -> '/cloud/project/README.md'
+'dem-pres-debate-2019-master/code' -> '/cloud/project/code'
+'dem-pres-debate-2019-master/data' -> '/cloud/project/data'
+'dem-pres-debate-2019-master/dem-pres-debate-2019.Rproj' -> '/cloud/project/dem-pres-debate-2019.Rproj'
+'dem-pres-debate-2019-master/figs' -> '/cloud/project/figs'
 ```
+And the following changes in the **Files** pane:
 
-Both of these got us to the same place, but the second is preferred. Why? Not everyone's folders are set up the same, so it's best not to assume that `/Users/martinfrigaard/Documents` means anything to a computer other than mine.
+![mv-ed files](images/03-moved-files.png)
 
-#### Using RStudio.Cloud
+This tells us all of the files have been moved. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
 
-As discussed in the previous chapters, if you can't download these files onto your computer, you can use [RStudio.Cloud](https://rstudio.cloud/). We recommend setting up a Github account to sign in with. 
+### Command line skill #5: Deleting things
 
-The next few sessions cover some background on standard operating systems, jargon, and some handy Terminal commands. 
-
-***
-
-If you're using RStudio.Cloud, you will need to create a *New Project* and upload the `ican-data.zip` file. 
-
-![](images/03-upload-files.png)
-
-We're going to use the Terminal pane in RStudio to explore the contents of this folder, starting with `ls` to list the files. 
-
-![](images/03-rstudio-new-terminal.png)
+To delete a folder, we can either use `rmdir` or `rm -Ri`. 
 
 ```sh
-$ ls
-
+$ rm dem-pres-debate-2019-master -Ri
+rm: descend into directory 'dem-pres-debate-2019-master'? 
 ```
 
-The output shows the RStudio project file, and the folder we uploaded. We want to bring these files into the [root folder](https://techterms.com/definition/root_directory). The root folder is the [parent folder](https://www.pcmag.com/encyclopedia/term/68042/parent-folder) to the `syw-example-master` folder.
-
-![](images/07-parent-folder.png)
-
-We are going to copy the files into the `root` folder from the `syw-example-master` using the following commands. 
-
-
-`cp -a /syw-example-master/. /./`
-
-It's not necessary that you fully understand what these commands are doing, but be sure to *type them into the Terminal*. 
-
+This command is helpful because the `i` option tells **Terminal** to check wiht us before doing anthing. Go ahead and enter `n` and try using `rmdir` to delete the `dem-pres-debate-2019-master` folder. 
 
 ```sh
-$ cp -a syw-example-master/. .
+$ rmdir dem-pres-debate-2019-master
+rmdir: failed to remove 'dem-pres-debate-2019-master': Directory not empty
 ```
 
-Now we can check for the files again with `ls`
+**Terminal** does it's best to save us from ourrselves, but thats not always possible. As Doug Gwyn said, 
+
+> "*Unix was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things.*"
+
+Well what does `rmdir` actually do then? We can figure this out with `rmdir --help`
+
+To delete a folder with files, in it, we have to add the `` option 
 
 ```sh
-$ ls
-README.md  docs           show-your-work-example.Rproj  syw-example-master
-data       project.Rproj  src
+$  rmdir --help
 ```
 
-Ok, but we don't need the old folder, `syw-example-master`, so we will remove it with `rm` and combine it with two flags `i` and `R`. 
-
-Type the following into the Terminal to learn more about the `rm` command. 
-
-### Getting help 
+This command will print some useful information about the `rmdir` command:
 
 ```sh
-$ info rm
+$  rmdir --help
+Usage: rmdir [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+# else omitted...
 ```
 
-If we scroll down, we learn the following about the `i` flag.
+Now we know this is not the right tool for the job (the folder isn't empty), so we will use `rm -Ri dem-pres-debate-2019-master`. Each folder and file will prompt a question that needs a response before **Terminal** can delete anything. 
 
-```
- -i     Request confirmation before attempting to remove each file,  
-        regardless of the file's permissions, or whether or not the  
-        standard input device is a terminal.  The -i option overrides  
-        any previous -f options.
-```
-
-
-*What does the `R` do?*
-
-After you've answered that question, type the following into the terminal pane, and hit return/enter. 
-
+The **Terminal** pane should have the following contents when we're finished:
 
 ```sh
-$ rm -iR syw-example-master
+$ rm -Ri dem-pres-debate-2019-master
+rm: descend into directory 'dem-pres-debate-2019-master'? y
+rm: remove regular file 'dem-pres-debate-2019-master/.DS_Store'? y
+rm: remove regular file 'dem-pres-debate-2019-master/.gitignore'? y
+rm: remove directory 'dem-pres-debate-2019-master'? y
 ```
 
-The Terminal is going to ask you if you want to delete each file. The process is a little tedious, but it's better than deleting everything before reviewing the files. 
+### Command line skill #6: Printing things
 
-First, Terminal asks if you want to `descend into directory 'syw-example-master'?`, and we do, so we type `y`. Then we are asked if we're going to head into the `docs` folder (we do), then we get asked if we want to `remove regular file` in the `docs` folder, `2012-10-62-ican-manuscript-revision-v02.docx`, and we do so we enter `y` and hit enter or return. After we've deleted all of the files, we can check the files in the root folder using `ls` again. 
+**Terminal** works very well with plain text format. For example, I can use `head` and the name of a file I want to see.
 
 ```sh
-$ ls 
-
+$ head README.md
 ```
 
-Hm, this looks like a list of the files and folders, but not the files *in* the folders. Is there a way to get a beautiful [folder tree](https://en.wikipedia.org/wiki/Tree_(command)) that shows the entire project? 
+![](images/03-head-readme.png)
 
-### Install homebrew
+As we can see, this is the first few lines of the `README.md`. Markdown is a plain text format, so it will print clearly to the **Terminal** window. In addition to `head`, we can also use the `tail` command to view the bottom of the `README.md` file. 
 
-The bash shell on macOS comes with a whole host of packages you can install with [homebrew](https://brew.sh/), the "The missing package manager for macOS (or Linux)".
+What if we want to see all the contents in `README.md`? Well, before doing this we want to see how big the file is, and we can do that using `wc` (which stands for "word count").
+
+```sh
+$ wc README.md
+# 462  1739 14415 README.md
+```
+
+The three numbers above are the number of lines (`462`), the number of words (`1739`), and the number of characters (`14415`). 
+
+This is telling us that `README.md` might be hard to read on the Terminal window. Fortunately, that's where the `less` command comes in.
+
+```sh
+$ less README.md
+```
+
+`less` will display the contents of `README.md`, but in a way that allows us to scroll through the file using the arrow keys. After we're done viewing the file, we can exit `less` using `q`.
+
+Another option to print is `cat`, but this will print the entire contents to the **Terminal** window, so use `wc` first to see if that's the best choice. 
+
+### Command line skill #7: Create things 
+
+Sometimes we might need to create a new file and add some text to it. This skill is handy if we don't have to open any new applications.
+
+The `touch` command will create a new file (`CHANGELOG.txt`), and `echo` will put the "some thoughts" on this file (which we can verify with `cat`).
+
+```sh
+$ touch CHANGELOG.txt
+$ echo "some thoughts" > CHANGELOG.txt
+$ cat CHANGELOG.txt
+some thoughts
+```
+
+The `>` symbol tells **Terminal** to send `echo "some thoughts"` to `CHANGELOG.txt`. When we use `car`, we see these commands put "some thoughts" into the top lines of the new file, `CHANGELOG.txt`.
+
+The `CHANGELOG.txt` file is for writing notes about changes to our project, but we should add a date to make sure they're listed chronologically. Unix has a `date` variable we can access using `$(date)` (which essentially 'attaches' the output from the command date with "some thoughts"), so we will repeat the process above, but include today's date with `$(date)`.
+
+```sh
+$ echo $(date) "some thoughts" > CHANGELOG.txt
+$ cat CHANGELOG.txt
+```
+
+In Unix systems, we can always access today's date with the `date` or `cal`.
+
+### Command line skill #8: Combine things 
+
+The commands above are great for creating new files and adding new text, but what if `CHANGELOG.txt` already exists and we wanted to add more thoughts to it? We can do this by changing the `>` symbol to `>>`.
+
+```sh
+$ echo $(date) "more thoughts" >> CHANGELOG.txt
+$ cat CHANGELOG.txt
+# Thu Jul 11 13:45:57 UTC 2019 some thoughts
+# Thu Jul 11 13:49:42 UTC 2019 more thoughts
+```
+
+`>>` tells **Terminal** to append the output from `echo` to `CHANGELOG.txt` on a new line. 
+
+Another powerful tool in the Unix toolkit is the pipe (`|`). This can be used to 'direct' outputs from one command to another. For example, if I wanted to see how many R script files are in `code` folder, I could use the following:
+
+```sh
+$ ls code | grep ".R" | less
+```
+
+We will leave the `grep` command for you to investigate with `--help` to figure out what's happening here.
+
+#### Other command line stuff: homebrew
+
+The bash shell on macOS comes with a whole host of packages we can install with [homebrew](https://brew.sh/), the "The missing package manager for macOS (or Linux)".
 
 *(You won't be able to do this on RStudio Terminal, but there are other options we will list below)*
 
-After installing homebrew, you can install the [`tree`](https://brewinstall.org/Install-tree-on-Mac-with-Brew/) package, then enter the following commands to get the `tree` package.  
+After installing homebrew, we recommend installing the [`tree`](https://brewinstall.org/Install-tree-on-Mac-with-Brew/) package.
 
 ```sh
 $ # install tree with homebrew
@@ -333,68 +474,34 @@ $ # get a folder tree for this project
 $ tree
 ```
 
-The `tree` command gives us the following output:
+The `tree` command gives us output like the folder tree below. 
 
 ```sh
-
+├── 01-import.Rmd
+├── 02-wrangle.Rmd
+├── 03-visualize.Rmd
+├── README.Rmd
+├── README.md
+├── code
+├── data
+│   ├── processed
+│   └── raw
+└── dem-pres-debate-2019.Rproj
 ```
+
+Folder trees come in handy for documenting the project files (and any changes to them). 
+
+## Command line recap
+
+We've covered eight command line tools, and we hope you can see how these can be combined to create very efficient workflows and procedures. By tethering commands together, we can move inputs and outputs around with a lot of flexibility.
+
+***
 
 ## Organizing your project files
 
-As we can see, `tree` gives us a printout of the project folder in a hierarchy (or tree). The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src`. The folders listed in `syw-example-master` represent somewhat of a 'bare minimum of folders' each research project should contain. 
+As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
-## Organizing your project files
-
-As we can see, `tree` gives us a printout of the project folder in a hierarchy (or tree). The thing to notice is the separation of files into folders titled, 	`data`, `docs`, and `src`. The folders listed in `syw-example-master` represent somewhat of a 'bare minimum of folders' each research project should contain.  
-
-We can imagine a situation where an output like the one above would be helpful, but it would be better if we could store it somewhere with our project files. It's probably never a bad idea to save the original folder contents somewhere as a backup. 
-
-We are going to use a few Terminal commands to document our file and folder organization.
-
-### Create a file
-
-We want to create a new file, `YYYY-MM-DD-syw-folder-backup.txt`, but have today's date in the `YYYY-MM-DD` position. We can do this by combining `touch`--a bash command--with the date variable (as `$(date +%Y-%m-%d)`) with the new file title (`-ican-folder-backup.txt`)
-
-```sh
-$ touch $(date +%Y-%m-%d)-ican-folder-backup-.txt
-```
-
-Check to see if this file has been created with `ls`. 
-
-```sh
-$ ls
-
-```
-
-To accomplish this, we will 'pipe' the output from `tree` into a plain text file and call it `ican-folder-backup`. We will also include today's `date`. Check out `date` and `(date +%Y-%m-%d)` in the Terminal to see what gets printed. 
-
-```sh
-$ date
-Sun Jun 16 18:32:10 PDT 2019
-```
-
-```sh
-$ (date +%Y-%m-%d)
-2019-06-16
-```
-
-```sh
-$ tree >> $(date +%Y-%m-%d)-ican-folder-backup.txt
-
-```
-
-Now we can view the contents of this file using the `cat` command. 
-
-```sh
-
-```
-
-There we have it! We've backed up the original file contents and structure and time-stamped it. 
-
-The main takeaways from this activity are 1) keep raw data in a separate folder and 2) document everything in `README.md` files. 
-
-
-We've covered a small taste of how these commands can be combined to create very efficient workflows and procedures. I can tether commands together, and move inputs and outputs around with a lot of flexibility (and a little reading).
+The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. These folder names were not chosen at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have a organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
 
 ## Getting more help
 
@@ -419,6 +526,4 @@ The command line can seem intimidating because of its power and ability to destr
 - [how to name your files](https://speakerdeck.com/jennybc/how-to-name-files), and 
 - [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719).
 
-##### Terminals vs. Shells 
-
-Sometimes you'll hear the term "shell" thrown around when researching command line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
+**Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
