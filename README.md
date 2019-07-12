@@ -1,13 +1,70 @@
 README for Showing your work
 ==========
 
-# Contents 
+# Book outline
 
-1. Getting discovered in the information age
+```sh
+├── README.md
+├── book-outline.md
+├── manuscript
+│   ├── 00intro.md
+│   ├── 01chapter.md
+│   ├── 02chapter.md
+│   ├── 03chapter.md
+│   ├── 04chapter.md
+│   ├── 05chapter.md
+│   ├── 06conclusion.md
+│   ├── Book.txt
+│   └── images/
+└── sharing-your-work.Rproj
 
-2. Taking control of the command line
+2 directories, 64 files
+```
 
-3. Keeping track of the changes to your work
+## Intro
+
+The intro covers 
+
+- Why we wrote this
+    + Our goal for anyone reading this book
+    + Who this book is for
+        * Technical assumptions
+    + What this book covers
+    + What this book doesn't cover
+    + How this book is structured
+    + What you'll walk away with
+        * Language and style guide
+
+
+`00intro.md`: Our over-arching goal, who this text is for, assumptions about the audience, language and style.
+        1. **added the importance of having a finished project**
+
+---
+
+
+
+---
+
+*intro*
+# What's in this manual?
+##  Who this manual is for
+##  What this manual covers 
+##  What this manual doesn't cover
+##  Our approach to writing 
+##  Assumptions we've made
+###         Style guide
+
+
+
+---
+
+*chapter 1*
+
+# Part 1: Modern Research
+##  Modern research in academia 
+###         Communicate effectively (and wisely) 
+##  Modern research in companies
+###         Don't lose your job
 
 
 

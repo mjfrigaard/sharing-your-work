@@ -2,7 +2,11 @@
 
 In the previous section, we introduced RStudio.Cloud, Github, and a few command line tools using the **Terminal**. If you're unfamiliar with these topics, please start there. This section will go over how to use these tools to track changes with version control, specifically Git, Github and RStudio.
 
-## Tracing your steps 
+## Tracing all your steps
+
+> **Directions**: Show all your work. Indicate clearly the methods you use, because you will be scored on the correctness of your methods as well as on the accuracy and completeness of your results and explanations. - AP stats open questions, 2018
+
+We were asked to show our work 
 
 'Sharing your' work also means showing how your work has changed over time. For example, maybe you've used the Review tools in Mircosoft Word, or you've collaborated in a Google sheet document. Both examples are a type of version control, because you can choose 
 
