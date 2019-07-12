@@ -1,4 +1,6 @@
-# Part 3: Project files and organization
+# Part 3: Organizing your project files
+
+"*If you can't describe what you are doing as a process, you don't know what you're doing.*" - W. Edwards Deming
 
 Now that we've recommended a workbench (RStudio) and a set of tools (R, Git, Github), we'll use an example project to show how combining these tools create a durable and adaptive workflow. We want to get started with an example early because having a job to do allows us to cover project organization.
 
@@ -20,13 +22,13 @@ We happened to read an article from the data journalism website [`fivethirtyeigh
 
 Wanting to be informed citizens (and knowing how to collect and analyze data), we decide to investigate how each candidate performed using various sources of data. 
 
-#### Data journalism = "social science in real time"
+#### Data journalism 
 
 Journalists are a bit like statisticians in the sense that both get to ["*play in everyone's backyard*"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalism explicitly combines analysis and communication skills, which makes it a great place to look for tools and methods we can adapt to various projects.  
 
-Data journalists like [Aleszu Bajak](https://twitter.com/aleszubajak), [Andrew Flowers](https://twitter.com/andrewflowers), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom. The best data journalism pieces combine the rigor of numbers and math with an ability to **write something people will read**. 
+The best data journalism projects combine the rigor of numbers and math with an ability to **write something people want to read**. Data journalists like [Aleszu Bajak](https://twitter.com/aleszubajak), [Andrew Flowers](https://twitter.com/andrewflowers), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom. 
 
-More importantly, journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
+Another reason journalism is an excellent resource for sharing your work is because journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
 
 > *"Journalists can approach data differently than those more trained in computer sciences. Take, for instance, matching databases. Traditional IT managers compare data sets that were designed to talk with each other. Journalists may wonder if the payroll list of school teachers includes registered sex offenders."*
 
@@ -119,7 +121,7 @@ That is a fair question--being able to use the command line gives us more 'under
 
 - [Modularity](https://en.wikipedia.org/wiki/Modularity#Table_1:_The_use_of_modularity_by_discipline[34]) is the ability to mix and match these tools together with 'pipes,' a kind of grammatical glue that allows users to expand these tools in seemingly endless combinations 
 
-Having these skills have also make us more comfortable when we've had to interact with remote machines or foreign operating systems (Linux, per se). We will work through an example to demonstrate some of these features. 
+Having these skills have also made us more comfortable when we've had to interact with remote machines or different operating systems (Linux, per se). We will work through an example to demonstrate some of these features. 
 
 ### The Terminal (mac0S)
 
@@ -127,7 +129,7 @@ Below is an image of what the terminal application looks like on macOS. On Macs,
 
 ![](images/03-terminal.png)
 
-The Terminal is a command line interface emulator application for Mac users. Terminal is available as an application under the **Applications** > **Utilities** > **Terminal**. 
+The Terminal is an emulator application for Mac users. Terminal is available as an application under the **Applications** > **Utilities** > **Terminal**. 
 
 ### The Terminal (RStudio)
 
@@ -135,7 +137,7 @@ The Terminal pane is also available in RStudio under **Tools** > **Terminal** > 
 
 ![](images/03-tools-terminal-new.png)
 
-The **Terminal pane** will open in the same pane as the **Console pane**.
+The **Terminal pane** will open in the same window as the **Console pane**.
 
 ![](images/03-new-terminal-window.png)
 
@@ -167,9 +169,9 @@ After downloading the files from Github, we've uploaded the zipped folder into t
 
 ![Cloud terminal prompt](images/03-cloud-terminal-prompt.png)
 
-This looks like gobbledygook at first, but command line interfaces have a recognizable pattern if we know what we're looking for:
+The figure above might look like gobbledygook at first, but command line interfaces have a recognizable pattern if we know what we're looking for:
 
-- First, we can almost always expect some kind of `user@machine` identifier to tell us who we're signed is as and on what machine
+- First, we can almost always expect some `user@machine` identifier to tell us who we're signed is as and on what machine
 
 - Second, there's usually some way of displaying the **`home`** directory. In this case, it's the stuff between the colon (`:`) and the dollar sign `$` (**`/cloud/project`**)
 
@@ -193,7 +195,7 @@ In this case, the machine information would be `Martins-MacBook-Pro` and the loc
 
 In the RStudio.Cloud **Terminal** pane, enter the print working directory (`pwd`) command:
 
-*I've omitted everything preceeding the prompt (`$`) for easier printing*
+*I've omitted everything preceding the prompt (`$`) for easier printing*
 
 ```sh
 $ pwd
@@ -202,7 +204,7 @@ $ pwd
 
 `pwd` tells us where we are, otherwise known as the current working directory. Imagine the current working directory as the spot we're standing, and file path `/cloud/project` as the way back to our **`root`**  folder.
 
-To get a sense of our surroundings, lets list the files in `/cloud/project` using `ls`
+To get a sense of our surroundings lets list the files in `/cloud/project` using `ls`
 
 ```sh
 $ ls
@@ -232,7 +234,7 @@ $ ls
 
 The output from `ls` shows me there are four sub-folders in the `dem-pres-debate-2019-master` folder, two `.Rmd` files, one `.md`, and one `.Rproj` file.
 
-Now that we've moved into this folder and looked around, let's climb back out of it. We can always move up one folder by executing the `cd ..` command. 
+Now that we've moved into this folder and looked around let's climb back out of it. We can always move up one folder by executing the `cd ..` command. 
 
 ```sh
 $ cd ..
@@ -240,7 +242,7 @@ $ pwd
 cloud/project
 ```
 
-Let's move back into `dem-pres-debate-2019-master` using `cd` again, but this time we will move up one folder using `cd /cloud/project`. 
+Let's move back into `dem-pres-debate-2019-master` using `cd` again, but this time, we will move up one folder using `cd /cloud/project`. 
 
 ```sh
 $ cd /cloud/project
@@ -257,7 +259,7 @@ $ ls dem-pres-debate-2019-master
 03-visualize.Rmd  code        figs
 ```
 
-This tells **Terminal** to list the files in the folder at the end of the file path. 
+These commands tell **Terminal** to list the files in the folder at the end of the file path. 
 
 #### Absolute vs. relative file paths 
 
@@ -275,15 +277,15 @@ Below is an example folder tree structure on a macOS.
 
 ![](images/03-home-comp-file-paths.png)
 
-The **`root`** folder is the "upper most" location of this machine's folders and files. In macOS, `root` is represented with a tilde (`~`). In Windows, the `root` folder is located with the forward slash (`/`). If we have the right priviliges, we can log in as the `root` user, and the prompt will change from `$` to `#` (be careful here!)
+The **`root`** folder is the "uppermost" location of this machine's folders and files. In macOS, `root` is represented with a tilde (`~`). In Windows, the `root` folder is located with the forward slash (`/`). If we have the right privileges, we can log in as the `root` user, and the prompt will change from `$` to `#` (be careful here!)
 
 When we log into a computer, we start in a **`home`** folder (usually with a shorter version of that user's full name they used to set up their operating system). The `home` folder is the typical "starting point" for that `user`'s folders and files. If we are working on macOS, this is the folder with a little house on it.
 
-Depending on the operating system, this location starts off with some standard default folders (`Desktop`, `Documents`, `Downloads`, and `Applications`)
+Depending on the operating system, this location starts with some standard default folders (`Desktop`, `Documents`, `Downloads`, and `Applications`)
 
 #### Special case: Windows machines 
 
-On a Windows machines, the file path to `dem-pres-debate-2019-master` might look like this:
+On Windows machines, the file path to `dem-pres-debate-2019-master` might look like this:
 
 ```sh
 C:\Users\martinfrigaard\Documents\dem-pres-debate-2019-master
@@ -295,7 +297,7 @@ But we would need to write it like this:
 C:\\Users\\martinfrigaard\\Documents\\dem-pres-debate-2019-master
 ```
 
-This is because in R, the `\` is called an escape character, so in order to navigate through folders we will have to use two backslashes `\\`. 
+This odd way of writing file paths is because, in R, the `\` is called an escape character, so to navigate through folders we will have to use two backslashes `\\`. 
 
 Below is the folder tree on RStudio.Cloud:
 
@@ -307,7 +309,7 @@ Now, this image might be about as clear as mud, but it'll make more sense when w
 
 We're working in RStudio.Cloud, but the GUI representation of our folder structure won't be much different if we were working on our local laptop. 
 
-Remember, we want to move the contents of `dem-pres-debate-2019-master` into `cloud/project`. The command for moving files from one place to another is `mv`, but we are going to add an two options, `-v` and `*`. There are many other options for using `mv`, read about them [here](https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html#mv-invocation). 
+Remember, we want to move the contents of `dem-pres-debate-2019-master` into `cloud/project`. The command for moving files from one place to another is `mv`, but we are going to add two options, `-v` and `*`. There are many other options for using `mv`, read about them [here](https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html#mv-invocation). 
 
 The sequence of commands we'll enter in the RStudio.Cloud Terminal are below:
 
@@ -332,7 +334,7 @@ And the following changes in the **Files** pane:
 
 ![mv-ed files](images/03-moved-files.png)
 
-This tells us all of the files have been moved. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
+Now we know we've successfully moved all of the files. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
 
 ### Command line skill #5: Deleting things
 
@@ -343,20 +345,18 @@ $ rm dem-pres-debate-2019-master -Ri
 rm: descend into directory 'dem-pres-debate-2019-master'? 
 ```
 
-This command is helpful because the `i` option tells **Terminal** to check wiht us before doing anthing. Go ahead and enter `n` and try using `rmdir` to delete the `dem-pres-debate-2019-master` folder. 
+This command is helpful because the `i` option tells **Terminal** to check with us before doing anything. Go ahead and enter `n` and try using `rmdir` to delete the `dem-pres-debate-2019-master` folder. 
 
 ```sh
 $ rmdir dem-pres-debate-2019-master
 rmdir: failed to remove 'dem-pres-debate-2019-master': Directory not empty
 ```
 
-**Terminal** does it's best to save us from ourrselves, but thats not always possible. As Doug Gwyn said, 
+**Terminal** does it's best to save us from ourselves, but that's not always possible. As Doug Gwyn said, 
 
 > "*Unix was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things.*"
 
-Well what does `rmdir` actually do then? We can figure this out with `rmdir --help`
-
-To delete a folder with files, in it, we have to add the `` option 
+Well, what does `rmdir` actually do then? We can figure this out with `rmdir --help`
 
 ```sh
 $  rmdir --help
@@ -393,9 +393,9 @@ $ head README.md
 
 ![](images/03-head-readme.png)
 
-As we can see, this is the first few lines of the `README.md`. Markdown is a plain text format, so it will print clearly to the **Terminal** window. In addition to `head`, we can also use the `tail` command to view the bottom of the `README.md` file. 
+As we can see, this is the first few lines of the `README.md`. Markdown is a plain text format so that it will print clearly to the **Terminal** window. In addition to `head`, we can also use the `tail` command to view the bottom of the `README.md` file. 
 
-What if we want to see all the contents in `README.md`? Well, before doing this we want to see how big the file is, and we can do that using `wc` (which stands for "word count").
+What if we want to see all the contents in `README.md`? Well, before printing all the contents, we want to see how big the file is, and we can do that using `wc` (which stands for "word count").
 
 ```sh
 $ wc README.md
@@ -404,7 +404,7 @@ $ wc README.md
 
 The three numbers above are the number of lines (`462`), the number of words (`1739`), and the number of characters (`14415`). 
 
-This is telling us that `README.md` might be hard to read on the Terminal window. Fortunately, that's where the `less` command comes in.
+`wc` is telling us that `README.md` might be hard to read on the Terminal window. Fortunately, that's where the `less` command comes in.
 
 ```sh
 $ less README.md
@@ -429,7 +429,7 @@ some thoughts
 
 The `>` symbol tells **Terminal** to send `echo "some thoughts"` to `CHANGELOG.txt`. When we use `car`, we see these commands put "some thoughts" into the top lines of the new file, `CHANGELOG.txt`.
 
-The `CHANGELOG.txt` file is for writing notes about changes to our project, but we should add a date to make sure they're listed chronologically. Unix has a `date` variable we can access using `$(date)` (which essentially 'attaches' the output from the command date with "some thoughts"), so we will repeat the process above, but include today's date with `$(date)`.
+The `CHANGELOG.txt` file is for writing notes about changes to our project, but we should add a date to make sure they're listed chronologically. Unix has a `date` variable we can access using `$(date)` (which 'attaches' the output from the command date with "some thoughts"), so we will repeat the process above, but include today's date with `$(date)`.
 
 ```sh
 $ echo $(date) "some thoughts" > CHANGELOG.txt
@@ -451,7 +451,7 @@ $ cat CHANGELOG.txt
 
 `>>` tells **Terminal** to append the output from `echo` to `CHANGELOG.txt` on a new line. 
 
-Another powerful tool in the Unix toolkit is the pipe (`|`). This can be used to 'direct' outputs from one command to another. For example, if I wanted to see how many R script files are in `code` folder, I could use the following:
+Another powerful tool in the Unix toolkit is the pipe (`|`). The pipe can be used to 'direct' outputs from one command to another. For example, if I wanted to see how many R script files are in the `code` folder, I could use the following:
 
 ```sh
 $ ls code | grep ".R" | less
@@ -501,7 +501,7 @@ We've covered eight command line tools, and we hope you can see how these can be
 
 As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
-The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. These folder names were not chosen at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have a organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
+The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
 
 ## Getting more help
 

@@ -1,6 +1,6 @@
 # Part 2: "Have a workflow."
 
-A workbench is a place to keep and organize tools, and workflow is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
+A **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
 
 1. Use free open source software
 2. Write code  
@@ -21,8 +21,6 @@ The final reason is philosophical: we all benefit from using open source tools a
 **Freedom 2**: The freedom to redistribute copies so you can help your neighbor.  
 
 **Freedom 3**: The freedom to distribute copies of your modified versions to others. By doing this, you can give the whole community a chance to benefit from your changes.
-
-We also think it's onerous to require graduate students (and other scientists) to purchase proprietary software licenses to participate in science. 
 
 We've displayed some examples of open source tools for data management, statistics, and communication in the image below:
 
@@ -57,7 +55,7 @@ These examples illustrate how differences in the design of a workbench can have 
 
 ### Our workbench
 
-We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (* they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
+We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (*they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
 
 ![](images/00-IDE-layout.png)
 
@@ -68,7 +66,7 @@ RStudio has four primary panes, each serving a specific function.
 - the **Console** displays the results from our written code (and allows us to enter commands directly)
 - the **Files** gives us access to the happenings outside the RStudio environment (imported raw data, exported results, etc.)
 
-Just like any workbench, we need to fill RStudio with the proper tools. RStudio plays well with many different tools, but for now, we are just going to focus on R and Git.
+Just like any workbench, we need to fill RStudio with tools we need for the job (and RStudio plays well with many open-source software tools!). For now, we are just going to focus on R and Git.
 
 ### What is R?
 
@@ -79,11 +77,9 @@ Just like any workbench, we need to fill RStudio with the proper tools. RStudio 
 1. First, you'll need to download and install R from [CRAN](https://cran.r-project.org/).  
 2. Second, download and install [RStudio](https://www.rstudio.com/products/rstudio/download/), the integrated development environment (IDE) for R 
 
-**Working in the browser**
+### Use RStudio in the browser
 
-3. An alternative to downloading and installing R and RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join). 
-
-**Open-source software bonus:** As mentioned previously, you'll also find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive). 
+An alternative to downloading and installing R and RStudio is using [RStudio.Cloud](https://rstudio.cloud/) which operates entirely in your browser. You'll need to sign up for RStudio.cloud for free using your Google account or email address, but we recommend using a Github account. You can create a Github account [here](https://github.com/join).  
 
 ### What is Git?
 
@@ -98,6 +94,8 @@ Just like any workbench, we need to fill RStudio with the proper tools. RStudio 
 We will cover more on Git/Github in later sections, but for now, know these tools will allow you to keep track of changes to your project over time. 
 
 **Note:** *You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. We're confident you'll see RStudio is well suited to handle more than most of the things you'll want to accomplish.* 
+
+**Open-source software bonus:** *As mentioned previously, you'll also find a massive network of support on [Stackoverflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/), and [Google Groups](https://groups.google.com/forum/#!forum/r-help-archive).*
 
 ---
   
@@ -153,13 +151,15 @@ Recap: data science jobs need a particular set of tools, and a workbench to orga
 
 In [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
 
-We recommend you keep track of your changes, notes, and any pertinent documentation about your project in plain text `README` files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
+We recommend you keep your files, notes, and any pertinent documentation about your project in plain text files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
 
 - plain text lasts forever (files written 40 years ago are still readable today)  
 - plain text can be *converted* to any other kind of document  
-- plain text is text searchable (ctrl+F or cmd+F allows us to find keywords or phrases)  
+- plain text is searchable (ctrl+F or cmd+F allows us to find keywords or phrases)  
 
-These all sound great, but you might still be wondering what makes a file 'plain text,' so we'll define this below. This chapter will also cover why you might want to consider switching over to a plain text editor if you're currently using something like, Google Docs, Apple Papers, or Microsoft Word. 
+
+
+We will also cover why you might want to consider switching over to a plain text editor if you're currently using something like Google Docs, Apple Papers, or Microsoft Word. 
 
 ### Wait--why would I change what I'm doing if it works?
 
@@ -171,7 +171,10 @@ We covered the problems with a copy+paste workflow previously, but there are add
 2. It's not logical or necessarily honest to separate computation from the analysis or presentation 
 4. It's error-prone  
 
-### What *isn't* plain text
+
+If we've sold you on using this flexible and adaptable tool, but you're still wondering what makes a file 'plain text,' we'll cover that next. But first, we need to talk about what *isn't* a plain text file.
+
+### What isn't plain text
 
 Non-plain text files are usually called binary (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
@@ -183,11 +186,38 @@ So if binary files aren't plain text, what is a plain text file? The language fr
 
 > *When opened in a text editor, plain text files display computer and human-readable content*.
 
-And here is the most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/)
+The most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor or with a command line tool.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/).
 
-### Markdown & Rmarkdown
+### Markdown & Rmarkdown  
 
-A common type of plain text file is a markdown file, or `.md` file. Markdown has a straightforward syntax that's easy for both humans and computers to read, and it allows for some formatting options to aid with communication (see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site). 
+![](images/02-markdown-icon.png)  
+
+[Markdown](https://en.wikipedia.org/wiki/Markdown) files (`.md`) are common type of plain text files. Markdown is a 'lightweight markup language,' which means it's easy for humans to read, and computers can convert it to HyperText Markup Language (HTML). Markdown allows for some formatting options to aid with communication (see below)
+
+```md
+<!-- comments -->
+
+normal text
+
+*italic*
+
+**bold**
+
+> quote
+
+`code`
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+```
+
+To learn more, see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site). 
+
+**We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives you the ability to write in markdown and see the syntax rendered as HTML.
 
 RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/). Using RMarkdown in RStudio allows for a genuinely reproducible workflow because you're able to write your thoughts, code, display results, and then share everything in multiple outputs.  
 
@@ -240,7 +270,7 @@ There have been considerable efforts from the scientists at RStudio to create an
     - [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
     - [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
     - [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
--  see [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
--  This text is an *opinionated technical manual* anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. We primarily recommend performing these tasks with R & RStudio (via RStudio.Cloud), and Git/Github. We're not saying there aren't other means or tools capable of accomplishing the same activities; these are the tools we've found success with, so they're what we recommend.
+-  See [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
+- This manual is an *opinionated technical manual* for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. We primarily recommend performing these tasks with R & RStudio (via RStudio.Cloud), and Git/Github, but we're not saying there aren't other means or tools capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
 
 

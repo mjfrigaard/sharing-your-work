@@ -1,10 +1,12 @@
 # Part 4: keeping track of the changes to your work
 
-In the previous sections, we've covered R and RStudio and the command line. If you're unfamiliar with these topics, please start there. This section will include tracking changes, plain text files, version control with Git in RStudio.
+In the previous section, we introduced RStudio.Cloud, Github, and a few command line tools using the **Terminal**. If you're unfamiliar with these topics, please start there. This section will go over how to use these tools to track changes with version control, specifically Git, Github and RStudio.
 
 ## Tracing your steps 
 
-'Showing your' work also means showing how your work has changed over time. In the example project, the `doc` folder contains a file titled, `2012-10-62-ican-manuscript-revision-v02.docx`. The .docx is an earlier version of the manuscript, and there are some suggested changes to the results section below. 
+'Sharing your' work also means showing how your work has changed over time. For example, maybe you've used the Review tools in Mircosoft Word, or you've collaborated in a Google sheet document. Both examples are a type of version control, because you can choose 
+
+The .docx is an earlier version of the manuscript, and there are some suggested changes to the results section below. 
 
 The good thing about using tracked changes in .docx files is that we can see 1) what the differences are, 2) who suggested them, 3) the time/date of the proposed change, and 4) any comments about the change. 
 

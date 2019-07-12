@@ -1,6 +1,6 @@
 # Part 1: Modern research
 
-We are going to cover the two motivations behind this manual: collaboration and reproducibility. We briefly mention these topics in both academia and the private sector, and explain what we've found at various universities and companies; Our goal is that you see how you can benefit by adopting the best practices from both arenas.
+This section covers the two motivations behind our manual: collaboration and reproducibility. We're going to give an overview of our experience with both academia and the private sector and describe what we've found to be the best practices from both arenas.
 
 ## Research in academia 
 
@@ -22,15 +22,15 @@ The precise details of how scientific productivity and contribution gets measure
 
 ## Research in business
 
-This section outlines how companies do research and science, the importance of teamwork, and how having a data-driven decision framework has resulted in better products and services. The general distinction between academia and business is that academics typically use statistics and science to generate knowledge about the world at large, and businesses apply these tools to solve problems related to the vision/mission of the company.  
+In general, we've found most companies have a favorable view of research and science. Businesses also see the importance of teamwork, and how having a data-driven decision framework can result in better products and services. 
 
-The difference between these two cultures is captured well by the Google engineer Cassie Kozyrkov in her fantastic article, ["Never start with a hypothesis"](https://towardsdatascience.com/hypothesis-testing-decoded-for-movers-and-shakers-bfc2bc34da41), 
+The general distinction we've found between academia and business is that academics typically use statistics and science to generate knowledge about the world at large, and businesses apply these tools to solve problems related to the vision/mission of the company.  
+
+The difference between these two cultures is captured well in the quote below from Google engineer Cassie Kozyrkov in her fantastic article, ["Never start with a hypothesis"](https://towardsdatascience.com/hypothesis-testing-decoded-for-movers-and-shakers-bfc2bc34da41),
 
 > "*Statistics is the science of changing your mind under uncertainty, so the first order of business is to figure out what you're going to do unless the data talk you out of it.*"
 
 In business, the results of an experiment or model are often used to drive decisions that will result in either profits or losses for that company, which is why people tend to label these methods "applied data science." 
-
-*It's important to note that not every problem in business can (or should) be answered using models or data. Many times the existing knowledge of a business's goals, employees, products, and customers can be a better guide for decision-makers.*
 
 The largest companies in the world are using data and research to drive their decisions, and it's safe to bet that the companies in the future will rely on data even more. [According to Nasdaq](https://www.nasdaq.com/article/6-companies-spending-the-most-on-rd-cm1004333), Amazon and Alphabet (Google's parent company) spent more than any other company in 2017 Amazon spent over \$26 billion, Google spent over \$16 billion. But it's not only internet companies investing in research. Volkswagen spent over \$15 Billion dollars on research into virtual technology, automation, and lightweight construction in 2017. 
 
@@ -40,11 +40,11 @@ Whether it's an internet company like Google, Facebook, or Amazon, or even a ret
 
 Data has been the raw material used to create business opportunities and products previous generations hardly imagined possible. Google, Netflix, Airbnb, Uber, etc. are all companies who lifeblood is data. They use data to identify customers, and experiment on new features and products, and run simulations on different business decisions. 
 
-Time is money in the world of business, so the quicker you can go from identifying the problem to giving possible solutions, the better. Collaboration is a huge advantage here because challenges tend to be somewhat similar for businesses in the same market, or even within departments in the same organizations. Sharing data analytic methods and resources between marketing/sales and customer service allows an organization to reduce the time it takes to develop these from scratch each time.   
+Time is money in the world of business, so the quicker a company can go from identifying a problem to giving possible solutions, the better. Collaboration is a huge advantage here because challenges tend to be somewhat similar for businesses in the same market, or even within departments in the same organizations. Sharing data analytic methods and resources between marketing/sales and customer service allows an organization to reduce the time it takes to develop these from scratch each time.   
 
 Data science in business needs to be fast-paced because the landscape is always changing (i.e., new competitors emerge, expanding your products/services into new markets, etc.). Reproducibility is essential for businesses because it's not likely the results of an experiment will remain the "truth" indefinitely, a point articulated by Stuart Buck in his article, ["Why Your Company Needs Reproducible Research"](https://towardsdatascience.com/why-your-company-needs-reproducible-research-d4a08f978d39),
 
-> * "Even if an experiment works on the first, second, or even third tries, those original experiments may "expire," so to speak, if only by the passage of time and the shifting composition or tastes of users. It is statistically—and economically—unwise to assume that an experiment showing a 1% increase in revenue can extrapolate to an entire business unit and remain a 1% increase for all time."*
+> *"Even if an experiment works on the first, second, or even third tries, those original experiments may "expire," so to speak, if only by the passage of time and the shifting composition or tastes of users. It is statistically—and economically—unwise to assume that an experiment showing a 1% increase in revenue can extrapolate to an entire business unit and remain a 1% increase for all time."*
 
 
 The data science work in businesses is also typically done in teams--having someone to bounce ideas around with and refine questions is essential to delivering the right information to decision-makers.  
@@ -59,7 +59,7 @@ Leaders (CEOs, managers, etc.) in business need to make decisions quickly becaus
 
 > "*Your work should speak for itself...*" - author unknown
 
-Now that we've covered the benefits of having a reproducible collaborative workflow, we can discuss why it's crucial to make your work discoverable. 
+Now that we've covered the benefits of having a reproducible collaborative workflow in both academia and private sector businesses, we can discuss why it's crucial to make *your* work discoverable. 
 
 There is a sea of information on the internet, and that means everyone is competing for attention. If you want to share all the excellent work you're doing (writing code, creating visualizations, building models, etc.) it needs to be easily discoverable.
 
@@ -69,23 +69,26 @@ If a future collaborator, prospective employer, or upcoming analysts is going to
 
 We will introduce you to a few technologies, methods, and mediums used by successful data scientists who are excellent communicators of their work. These data scientists apply the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes, and share more about what it means to conduct research. 
 
-For example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-doc at Johns Hopkins Bloomberg School of Health. She maintains a [blog](https://livefreeordichotomize.com/), publishes [ebooks](https://leanpub.com/ggplot2in2), has [online courses](https://leanpub.com/u/lucymcgowan), and also attempts to create a [real BB-8](https://magazine.amstat.org/blog/2017/11/01/lucy-dagostino-mcgowan-and-ryan-jarrett/). Her work is *highly discoverable* and showcases a wide range of skills. 
+Our first example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-doc at Johns Hopkins Bloomberg School of Health. She maintains a [blog](https://livefreeordichotomize.com/), publishes [ebooks](https://leanpub.com/ggplot2in2), has [online courses](https://leanpub.com/u/lucymcgowan), and also attempts to create a [real BB-8](https://magazine.amstat.org/blog/2017/11/01/lucy-dagostino-mcgowan-and-ryan-jarrett/). Her work is highly discoverable, and it showcases a wide range of skills. 
 
-Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on workflow practices that contribute to success in their data science teams.
+Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make business decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on workflow practices that contribute to success in their data science teams.
 
 Or take Thomas Lin Pedersen, a former bioinformaticist who now designs software. His graduate research was on tools to analyze [hierarchical pangenome data](https://vimeo.com/181004000), which he turned into a [tool](https://www.data-imaginist.com/panviz/), made the [code free](https://github.com/thomasp85/PanViz), and [published](https://www.ncbi.nlm.nih.gov/pubmed/28057677) his work in a scientific journal. He's also an [artist](https://www.instagram.com/thomasp85_/).
 
-All of these data scientists have done two things very well: they've collaborated with the data science community (by putting their work online for people to find), and they made their process reproducible for us to adapt and use as we see fit.
+All of these data scientists have done two things very well: 
 
-Of course, they had to know their subject areas, and have something worth sharing online, but they didn't wait until they were done with their careers and write a book. They started engaging with people while they were working to show how their work gets done. 
+1. **Create good work**: All have collaborated with the data science community (by putting their work online for people to find),  
+2. **Share with as many people as possible:** all of the examples also made their processes discoverable and reproducible for us to adapt and use as we see fit.
+
+Of course, they had to know their subject areas, and have something worth sharing, but they didn't wait until their work was perfect, or until they were done with their careers to write a book. They started engaging with people while they were working to show how their work gets done. 
 
 ---
 
-## Communication = thinking with words
+## Communication is thinking with words
 
-In this section, we will briefly go over some suggestions for communicating your work. It's important to remember that every time you're trying to communicate something (a figure, table, important finding, etc.), you're convincing that person they should be listening/reading to what you have to say *instead of anything else they could be paying attention to.* Approaching communication this way puts you in the mind of your audience and keeps you asking, "*why would they want to know this?*"
+It's important to remember that every time you're trying to communicate something (some new idea, novel interpretation, newly created figure, important finding, etc.), you're convincing that person they should be paying attention to what you have to say *instead of anything else they could be paying attention to.* Approaching communication this way puts you in the mind of your audience and keeps you asking, "*why would they want to know this?*"
 
-### Avoid technical jargon & acronyms 
+#### Avoid technical jargon & acronyms 
 
 > "*You must learn to talk clearly. The jargon of scientific terminology which rolls off your tongues is mental garbage*." - Martin H. Fischer
 
@@ -93,8 +96,7 @@ The most substantial barrier to understanding new disciplines or technologies is
 
 Wherever possible, we'll do our best to clear up or define any terms related to computer science, data management system, web technology, or statistics. To maximize the power of the tools in this text, it will help to know a little about their history, so we'll also cover some background.
 
-### Science communication takes practice, but it's worth it!
-
+#### Science communication takes practice, but it's worth it!
 
 No one is born with an ability to write well--it takes a lot of practice and feedback. The more you communicate with different audiences about your research, the better you'll get at finding an ability to convey its importance. 
 
@@ -117,6 +119,8 @@ We sincerely hope you'll find this information useful and give us feedback at `m
 ---
 
 #### Footnotes
+
+*It's important to note that not every problem in business can (or should) be answered using models or data. Many times the existing knowledge of a business's goals, employees, products, and customers can be a better guide for decision-makers.*
 
 - The scientific journal industry is not looking out for your best interests. They have a [clearly unethical business model](https://www.theguardian.com/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist), and other [prominent universities can't afford their prices](https://www.theguardian.com/science/2012/apr/24/harvard-university-journal-publishers-prices). And they won't [compensate](https://whyevolutionistrue.wordpress.com/2011/09/01/the-racket-of-academic-publishing/) you for your efforts.
 
