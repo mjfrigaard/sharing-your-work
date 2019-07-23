@@ -1,6 +1,6 @@
 # Part 2: "Have a workflow."
 
-A **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
+Working with data **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
 
 1. Use free open source software
 2. Write code  
@@ -49,7 +49,7 @@ As we can see, this workbench is efficiently designed to keep essential tools fo
 
 ![source: https://www.finewoodworking.com/2010/11/12/free-plan-space-saving-tool-rack](images/02-better-workbench.png)
 
- By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job and tools required, the woodworker can customize the panel arrangement as they see fit (or as the website describes it, "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*")
+ By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job, woodworkers can customize the panel arrangements with "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*."
 
 These examples illustrate how differences in the design of a workbench can have a meaningful impact on levels of productivity. Well-designed workbenches give us access to more tools without making these tools more difficult to find. 
 
@@ -111,7 +111,7 @@ However, we think there are times when we should resist the temptation to abstra
 
 ![](images/02-copy-paste-workflow.png)
 
-As you can see from the image when you receive feedback or input to your project, you'll be required to go back through the same elaborate procedure (with each time taking just as long as the first).
+As you can see from the image, you'll be required to go back through the same elaborate workflow whenever you receive feedback or input to your project. Each time will take just as long as the first.
 
 We recommend an alternative to the copy + paste workflow based on the activities of a modern scientist from Jeff Leek we outlined in Chapter 1:
 
@@ -123,13 +123,13 @@ We recommend an alternative to the copy + paste workflow based on the activities
 
 Two things should stand out from the list above: First, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a workflow based on "*writing code*" wherever possible. We are aware that 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
 
-### Software isn't a solution
+### Software as a tool, not a solution
 
-An extension of the "*writing code*" philosophy is to view data science software applications as tools for gaining a deeper understanding of the world (but not oversimplifying or obfuscating it). 
+We think of data science software as the tools that help us gain a deeper understanding of the world. We don't think of software as an alternative to thinking or expect a software tool to do our thinking for us. We also prefer tools that we can reuse on future projects. 
 
 As we stated in chapter 1, the scientific method is a process. Software is a tool to help move that process along faster. Tools that improve our understanding shorten the distance between questions and answers, but doesn't leave out any crucial details. 
 
-For this reason, we recommend avoiding point-and-click environments in most proprietary software applications (SPSS, Stata, SAS, etc.). It's hard to keep track of everything you click on (or the order of you clicked on them in) inside these environments, and this makes it hard to know what step you're currently doing.
+For this reason, we don't recommend relying too heavily on point-and-click proprietary software applications (SPSS, Stata, SAS, etc.). These GUI's make it hard to keep track of what you've clicked on, the order of you clicked on them in, and can oversimplify or obfuscate what's going on. 
 
 ### What do we mean by 'a workflow'?
 
@@ -143,7 +143,7 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 As the quote above illustrates, how you got an answer is just as relevant as the answer you got.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions.
 
-Recap: data science jobs need a particular set of tools, and a workbench to organize these tools. Data science jobs also have a lot of moving parts, and in order manage that complexity, you'll need a workflow that gives you the ability to 1) write down what you want to do and how you want to do it, and 2) write code that translates those thoughts and intentions into something a computer can execute. These two points bring us to our next topic: documentation. As you'll discover, plain text files are a great way to accomplish these tasks. 
+Recap: data science jobs need a particular set of tools, and a workbench to organize these tools. To manage your data science projects, you'll need a workflow that gives you the ability to 1) document your intentions and, 2) write code that can translate your plans into something a computer can execute. These two points bring us to our next topic: plain text. As you'll discover, plain text files are a great way to accomplish these tasks. 
 
 ***
 
@@ -159,7 +159,7 @@ We recommend you keep your files, notes, and any pertinent documentation about y
 
 
 
-We will also cover why you might want to consider switching over to a plain text editor if you're currently using something like Google Docs, Apple Papers, or Microsoft Word. 
+We'll also cover why you might want switch over to a plain text editor if you're currently using Google Docs, Apple Papers, or Microsoft Word. 
 
 ### Wait--why would I change what I'm doing if it works?
 
@@ -186,7 +186,7 @@ So if binary files aren't plain text, what is a plain text file? The language fr
 
 > *When opened in a text editor, plain text files display computer and human-readable content*.
 
-The most crucial distinction--**human-readable vs. computer-readable**. I'll be sure to point out which files are binary and which are plain text as we go through the example, but generally speaking, a plain text file can be opened using a text editor or with a command line tool.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/).
+The last bit is the most crucial distinction--**human-readable vs. computer-readable**. In this manual, we'll point out which files are binary and which are plain text. Generally speaking, plain text files can be opened using a text editor or viewed with a command-line tool.  Examples of text editors include [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), and [Notepad++](https://notepad-plus-plus.org/).
 
 ### Markdown & Rmarkdown  
 
@@ -219,7 +219,7 @@ To learn more, see [Markdown Syntax Documentation](https://daringfireball.net/pr
 
 **We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives you the ability to write in markdown and see the syntax rendered as HTML.
 
-RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/). Using RMarkdown in RStudio allows for a genuinely reproducible workflow because you're able to write your thoughts, code, display results, and then share everything in multiple outputs.  
+RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/). Using RMarkdown in RStudio allows for a genuinely reproducible workflow: you're able to write your thoughts, code, display results, and then share everything in multiple outputs.  
 
 ![](images/02-rmarkdown-workflow.png)
 
@@ -229,7 +229,9 @@ I recommend reading up on R and RMarkdown because of how many different outputs 
 
 ### Python vs. RStudio 
 
-Python is a great language, and it can do a broader range of computational tasks than R. I would never tell a researcher or scientist that Python is something they shouldn't learn (the benefits of being multilingual extend beyond just spoken languages, too). 
+Python is a neat language and a great tool to combine with R. 
+
+It's also helpful to know a little Python even if you're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages, too. 
 
 We recommend R/RStudio because we wrote this book for people who have a data file and specific questions (or general curiosity). Thus, the entry point for our audience into data science is *with data they need to analyze*, and this is what R was made to do. 
 
@@ -243,9 +245,9 @@ Below are a few more reasons you should consider using R/RStudio in case you're 
 
 > '*The only factor becoming scarce in a world of abundance is human attention*" – Kevin Kelly in Wired
 
-We recommend R/RStudio because of the time saved by switching between software applications. For example, when I was in graduate school, I had to have *a minimum of five applications open* to do my daily work of data analysis (MS Word to write, MS Excel to create tables, Stata for statistics, the browser for internet research, and Adobe for reading .PDFs). 
+We recommend R/RStudio because of the time saved by switching between software applications. For example, when I was in graduate school, I'd have *a minimum of five applications open* to do data analysis. I would be using Word to write, Stata for statistics, Excel to create tables, the browser for internet research, and Adobe Acrobat for reading PDFs. That means I needed to learn five different GUIs, each with their design characteristics. 
 
-Five different GUIs, each with their design characteristics, and each costing me valuable neurons every time I had to switch between them (read more about attentional residue in the footnotes). With R/RStudio, I cut this number to two (RStudio and the browser).
+Each software application cost me valuable neurons whenever I had to switch between them (read more about attentional residue in the footnotes). With R/RStudio, I cut this number to two (RStudio and the browser).
 
 ### RStudio gives you a better mental model for data analysis
 
@@ -265,12 +267,16 @@ There have been considerable efforts from the scientists at RStudio to create an
 
 #### FOOTNOTES
 
-- The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open-source software. 
-- Read these articles on attentional residue and multitasking (then try to stop doing it). 
-    - [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
-    - [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
-    - [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
+- The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open-source software.
+- Read these articles on attentional residue and multitasking (then try to stop doing it):  
+   1. [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
+   2. [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
+   3. [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
 -  See [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
-- This manual is an *opinionated technical manual* for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. We primarily recommend performing these tasks with R & RStudio (via RStudio.Cloud), and Git/Github, but we're not saying there aren't other means or tools capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
+
+- This is an *[opinionated technical manual](https://peerj.com/preprints/3210/)*, modeled after Hilary Parker's excellent paper (check out quote),  
+"*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
+
+- We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or workflows capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
 
 

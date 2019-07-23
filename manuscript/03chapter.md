@@ -1,34 +1,34 @@
-# Part 3: Organizing your project files
+# Part 3: Organizing your data science project
 
-"*If you can't describe what you are doing as a process, you don't know what you're doing.*" - W. Edwards Deming
+"*If you can't describe what you are doing as a process, you don't know what you're doing*." - W. Edwards Deming
 
-Now that we've recommended a workbench (RStudio) and a set of tools (R, Git, Github), we'll use an example project to show how combining these tools create a durable and adaptive workflow. We want to get started with an example early because having a job to do allows us to cover project organization.
+In the last chapter, we recommended a workbench (RStudio) and a set of tools (R, Git, Github). Now we'll use an example project to show how combining these tools create a durable and adaptive workflow. We want to get started with an example early because having a job to do allows us to cover project organization.
 
-Our statistical coursework rarely covered how to set up a project setup (we often marvel at how much time we wasted trying to find our files). The way we set our projects up--how we organize files and folders--will directly contribute to our ability to be productive. You've probably discovered it's hard to get things done in a messy office? Well, it will be hard to do data science if we don't organize our files in a logical way that helps us get things done.
+Our statistical coursework never covered the details of setting up a project (and we often marvel at how much time we wasted trying to find our files). The way we set our projects up--how we organize files and folders--will directly contribute to our ability to be productive. You've probably discovered it's hard to get things done in a messy office? Well, it will be hard to do data science if we don't organize our files in a logical way that helps us get things done.
 
 ---
 
-## Example project: motivation for getting data
+## Example: 2019 Presidential Debates 
 
-***We read something on the internet, got curious, and decided we wanted to dig a little deeper.*** 
+***I read something on the internet, got curious, and decided I wanted to dig a little deeper.*** 
 
-The scenario I've described above might seem vague, but we want to show how powerful these tools can be, and we've found some of the most exciting data projects are born of basic curiosity. 
+The scenario we've described above might seem vague, but we want to show the power of these tools. We've also found some of the most exciting data projects are born from basic curiosity. 
 
 In this case, let's imagine we read something about the first round of the [2019 Democratic Presidential Debates](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums), but we missed all the news coverage. 
 
-We happened to read an article from the data journalism website [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/), and it displayed an image showing how voters had changed their minds after seeing the candidates. 
+We stumbled across an article on the data journalism website [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/), and it displayed an image showing how voters had changed their minds after seeing the candidates. 
 
 ![source: https://projects.fivethirtyeight.com/democratic-debate-poll/](images/03-538-night-one-debates.png)
 
-Wanting to be informed citizens (and knowing how to collect and analyze data), we decide to investigate how each candidate performed using various sources of data. 
+Wanting to be informed citizens--and knowing how to collect and analyze data--we decide to investigate how each candidate performed using various sources of data. 
 
 #### Data journalism 
 
-Journalists are a bit like statisticians in the sense that both get to ["*play in everyone's backyard*"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalism explicitly combines analysis and communication skills, which makes it a great place to look for tools and methods we can adapt to various projects.  
+Journalists are a bit like statisticians in the sense that both get to ["play in everyone's backyard"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalists explicitly combine analysis and communication skills. Marrying these two skills makes data journalism an extraordinary place to look for tools and methods to adapt to different projects.  
 
 The best data journalism projects combine the rigor of numbers and math with an ability to **write something people want to read**. Data journalists like [Aleszu Bajak](https://twitter.com/aleszubajak), [Andrew Flowers](https://twitter.com/andrewflowers), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom. 
 
-Another reason journalism is an excellent resource for sharing your work is because journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
+Another reason journalism is an excellent resource for sharing your work is that journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
 
 > *"Journalists can approach data differently than those more trained in computer sciences. Take, for instance, matching databases. Traditional IT managers compare data sets that were designed to talk with each other. Journalists may wonder if the payroll list of school teachers includes registered sex offenders."*
 
@@ -38,13 +38,13 @@ More brains are better than one when it comes to looking at data, and that's usu
 
 To demonstrate how powerful R/RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R + RStudio. 
 
-1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to use this to import data on Google searches for the candidates before and after the night of the debates.
+1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to import data from Google searches before and after the night of the debates.
 
 2) [`rtweet`](https://rtweet.info/) package in R can be used to download Twitter data but takes a few steps to get set up. Fortunately, we've written a tutorial [here](http://www.storybench.org/get-twitter-data-rtweet-r/) and the package has excellent documentation (see [here](https://rtweet.info/articles/auth.html) and [here](https://rtweet.info/articles/intro.html)). 
 
 3) There is a [Wikipedia](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums) page dedicated to the debates. We'll be scraping the tables with airtime for a candidate using the [`xml2`](https://cran.r-project.org/web/packages/xml2/index.html) and [`rvest`](https://rvest.tidyverse.org/) packages. 
 
-4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates stored in a [Google Sheet](http://bit.ly/2YEVASu) that we've accessed using the [`googlesheets`](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html) package in R (*you will need to copy this sheet into your Google drive to get this data set*). Another option is to use the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. 
+4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates. These data are in a [Google Sheet](http://bit.ly/2YEVASu), and we've used the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. Another option is the [`googlesheets`](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html) package in R (*you will need to copy this sheet into your Google drive to get this data set*).
 
 
 ---
@@ -63,7 +63,7 @@ After you've completed the necessary forms (*remember you only need a free accou
 
 ### Step 2: RStudio.Cloud
 
-We will eventually create our repositories, but for now, let's head over and use our Github account to [sign into RStudio.Cloud](https://rstudio.cloud/). After we're all signed in, we will see the screen below:
+We will eventually create our repositories, but for now, let's head over and use our Github account to [sign in to RStudio.Cloud](https://rstudio.cloud/). After we're all signed in, we will see the screen below:
 
 ![RStudio.Cloud environment](images/03-welcome-rstudio-cloud.png)
 
@@ -101,15 +101,15 @@ The unzipped the file we uploaded and created a folder called `dem-pres-debate-2
 
 ![](images/03-move-to-parent-folder.png)
 
-We are going to use this opportunity to introduce a few command line tools. To do this, we'll be working from the **Terminal** pane in RStudio.Cloud. The next session will be a quick "crash course" in operating system terms, their differences, a few **Terminal** commands, why we still have these command line tools, and how to use them effectively. 
+We are going to use this opportunity to introduce a few command-line tools. To do this, we'll be working from the **Terminal** pane in RStudio.Cloud. The next session will be a quick "crash course" in operating system terms, a few **Terminal** commands, and how to use them effectively. 
 
 ## The Command line: Unix and Windows
 
 In 2007, Apple released its [Leopard](https://en.wikipedia.org/wiki/MacOS_version_history#Version_10.5:_%22Leopard%22) operating system that was the first to adhere to the [Single Unix Specification](https://en.wikipedia.org/wiki/Single_UNIX_Specification). I only introduce this bit of history to help keep the terminology straight. macOS and Linux are both Unix systems, so they have a similar underlying architecture (and philosophy). Most Linux commands also work on macOS. 
 
-Windows has a command line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
+Windows has a command-line tool called Powershell, but this is not the same as the Unix shells discussed above. The differences between these tools reflect the differences in design between the two operating systems. However, if you're a Windows 10 user, you can install a [bash shell command-line tool](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10). 
 
-### Command line interfaces
+### Command-line interfaces
 
 The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason these tools haven't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen, but after a few examples of what's possible from on the command-line and you'll see the power of using these tools. 
 
@@ -125,7 +125,7 @@ Having these skills have also made us more comfortable when we've had to interac
 
 ### The Terminal (mac0S)
 
-Below is an image of what the terminal application looks like on macOS. On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), which is why you can see the `bash -- 86x25` on the top of the window. Bash is a commonly used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *Fun fact: `bash` is a pun for the `sh` shell: `b`ourne-`a`gain `sh`ell*.
+Below is an image of what the terminal application looks like on macOS. On Macs, the Terminal application runs a [bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)), which is why you can see the `bash -- 86x25` on the top of the window. Bash is a commonly-used shell, but there are other options too (see [Zsh](http://zsh.sourceforge.net/), [tcsh](https://en.wikipedia.org/wiki/Tcsh), and [sh](https://en.wikipedia.org/wiki/Bourne_shell)). *Fun fact: `bash` is a pun for the `sh` shell: `b`ourne-`a`gain `sh`ell*.
 
 ![](images/03-terminal.png)
 
@@ -143,9 +143,9 @@ The **Terminal pane** will open in the same window as the **Console pane**.
 
 Now we will get some practice organizing our data science project using the command line.
 
-## Good enough command line tools
+## Good enough command-line tools
 
-**FAIR WARNING**--command line interfaces can be frustrating. Computers don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains we'll have in control, flexibility, automation, and reproducibility.
+**FAIR WARNING**--command-line interfaces can be frustrating. Computers don't behave in ways that are easy to understand (that's why GUIs exist). Switching from a GUI to a CLI seems like a step backward at first, but the initial headaches pay off because of the gains we'll have in control, flexibility, automation, and reproducibility.
 
 Here is a quick list of commonly used Terminal commands.
 
@@ -163,13 +163,13 @@ Here is a quick list of commonly used Terminal commands.
 * **`>>`** and **`>`** - redirect output of program to a file (don't display on Terminal screen)
 * **`sudo`** and **`sudo -s`** (**BE CAREFUL!!**) performing commands as **`root`** user can carry some heavy consequences.
 
-### Command line skill #1: who is using what?
+### Command-line skill #1: who is using what?
 
 After downloading the files from Github, we've uploaded the zipped folder into the `Cloud/project`. In the RStudio.Cloud **Terminal** pane, we should see something like this: 
 
 ![Cloud terminal prompt](images/03-cloud-terminal-prompt.png)
 
-The figure above might look like gobbledygook at first, but command line interfaces have a recognizable pattern if we know what we're looking for:
+The figure above might look like gobbledygook at first, but command-line interfaces have a recognizable pattern if we know what we're looking for:
 
 - First, we can almost always expect some `user@machine` identifier to tell us who we're signed is as and on what machine
 
@@ -189,9 +189,9 @@ Martins-MacBook-Pro:~ martinfrigaard$ whoami
 martinfrigaard
 ```
 
-In this case, the machine information would be `Martins-MacBook-Pro` and the location to be the **`home`** directory `~` (the top level folder) for the user `martinfrigaard`. 
+In this case, the machine information would be `Martins-MacBook-Pro` and the location to be the **`home`** directory `~` (the top-level folder) for the user `martinfrigaard`. 
 
-### Command line skill #2: where am I?
+### Command-line skill #2: where am I?
 
 In the RStudio.Cloud **Terminal** pane, enter the print working directory (`pwd`) command:
 
@@ -213,7 +213,7 @@ dem-pres-debate-2019-master  project.Rproj
 
 We can see the folder (`dem-pres-debate-2019-master`) and the RStudio project file (`project.Rproj`). On a side note, it's always a good idea to pay attention to file extensions (`.Rproj`, `.R`, `.md`, etc.), because different files interact with the **Terminal** in different ways.
 
-### Command line skill #3: moving around 
+### Command-line skill #3: moving around 
 
 Now that we know where we are, and what files and folders are in here with us, we can start to stretch our legs and move around. Let's start by changing directories `cd` to the `dem-pres-debate-2019-master` folder, then check with `pwd`.
 
@@ -263,7 +263,7 @@ These commands tell **Terminal** to list the files in the folder at the end of t
 
 #### Absolute vs. relative file paths 
 
-An **absolute file path** starts at the root directory (`~` or `\`) and follows along the path, folder by folder, until it lands in the last folder or file.
+An **absolute file path** starts at the root directory (`~` or `\`) and follows along the path, folder by folder, until it lands on the last folder or file.
 
 **`/start/from/absolutely/where/i/tell/us`**
 
@@ -277,7 +277,7 @@ Below is an example folder tree structure on a macOS.
 
 ![](images/03-home-comp-file-paths.png)
 
-The **`root`** folder is the "uppermost" location of this machine's folders and files. In macOS, `root` is represented with a tilde (`~`). In Windows, the `root` folder is located with the forward slash (`/`). If we have the right privileges, we can log in as the `root` user, and the prompt will change from `$` to `#` (be careful here!)
+The **`root`** folder is the "uppermost" location of this machine's folders and files. In macOS, `root` is represented with a tilde (`~`). In Windows, the `root` folder is located with the forward-slash (`/`). If we have the right privileges, we can log in as the `root` user, and the prompt will change from `$` to `#` (be careful here!)
 
 When we log into a computer, we start in a **`home`** folder (usually with a shorter version of that user's full name they used to set up their operating system). The `home` folder is the typical "starting point" for that `user`'s folders and files. If we are working on macOS, this is the folder with a little house on it.
 
@@ -305,7 +305,7 @@ Below is the folder tree on RStudio.Cloud:
 
 Now, this image might be about as clear as mud, but it'll make more sense when we start moving things around. 
 
-### Command line skill #4: moving things around 
+### Command-line skill #4: moving things around 
 
 We're working in RStudio.Cloud, but the GUI representation of our folder structure won't be much different if we were working on our local laptop. 
 
@@ -336,7 +336,7 @@ And the following changes in the **Files** pane:
 
 Now we know we've successfully moved all of the files. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
 
-### Command line skill #5: Deleting things
+### Command-line skill #5: Deleting things
 
 To delete a folder, we can either use `rmdir` or `rm -Ri`. 
 
@@ -383,7 +383,7 @@ rm: remove regular file 'dem-pres-debate-2019-master/.gitignore'? y
 rm: remove directory 'dem-pres-debate-2019-master'? y
 ```
 
-### Command line skill #6: Printing things
+### Command-line skill #6: Printing things
 
 **Terminal** works very well with plain text format. For example, I can use `head` and the name of a file I want to see.
 
@@ -414,7 +414,7 @@ $ less README.md
 
 Another option to print is `cat`, but this will print the entire contents to the **Terminal** window, so use `wc` first to see if that's the best choice. 
 
-### Command line skill #7: Create things 
+### Command-line skill #7: Create things 
 
 Sometimes we might need to create a new file and add some text to it. This skill is handy if we don't have to open any new applications.
 
@@ -438,7 +438,7 @@ $ cat CHANGELOG.txt
 
 In Unix systems, we can always access today's date with the `date` or `cal`.
 
-### Command line skill #8: Combine things 
+### Command-line skill #8: Combine things 
 
 The commands above are great for creating new files and adding new text, but what if `CHANGELOG.txt` already exists and we wanted to add more thoughts to it? We can do this by changing the `>` symbol to `>>`.
 
@@ -493,7 +493,7 @@ Folder trees come in handy for documenting the project files (and any changes to
 
 ## Command line recap
 
-We've covered eight command line tools, and we hope you can see how these can be combined to create very efficient workflows and procedures. By tethering commands together, we can move inputs and outputs around with a lot of flexibility.
+We've covered eight command-line tools, and we hope you can see how these can be combined to create very efficient workflows and procedures. By tethering commands together, we can move inputs and outputs around with a lot of flexibility.
 
 ***
 
@@ -505,11 +505,11 @@ The thing to notice is the separation of files into folders titled, `data`, `doc
 
 ## Getting more help
 
-This section has been a concise introduction to command line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
+This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
 
 > "*the Unix shell does not care if commands are mistyped or if they will destroy files; the Unix shell is not designed to prevent you from doing unsafe things.*"
 
-The command line can seem intimidating because of its power and ability to destroy the world, but there are extensive resources available for safely using it and adding it to your wheelhouse. 
+The command line can seem intimidating because of its power and ability to destroy the world. But there are extensive resources available for safely using it and adding it to your wheelhouse. 
 
 * [The Unix Workbench](https://seankross.com/the-unix-workbench/) 
 
@@ -519,11 +519,11 @@ The command line can seem intimidating because of its power and ability to destr
 
 ##### More on file organization, collaborating, and version control
 
-*Fortunately, many articles have come out in the last few years with excellent, practical advice. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must reads' below:*
+*Fortunately, many articles have come out in the last few years with excellent, practical advice. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
 
 - [working with data in spread sheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989), 
 - [sharing data with collaborators](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375987), 
 - [how to name your files](https://speakerdeck.com/jennybc/how-to-name-files), and 
 - [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719).
 
-**Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
+**Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command-line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
