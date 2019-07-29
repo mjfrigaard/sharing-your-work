@@ -24,7 +24,7 @@ The final reason is philosophical: we all benefit from using open source tools a
 
 We've displayed some examples of open source tools for data management, statistics, and communication in the image below:
 
-![](images/00-open-source-tech.png)
+![](images/02-open-source-tech.png)
 
 Follow the links below to learn more. 
 
@@ -57,7 +57,7 @@ These examples illustrate how differences in the design of a workbench can have 
 
 We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (*they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
 
-![](images/00-IDE-layout.png)
+![](images/02-IDE-layout.png)
 
 RStudio has four primary panes, each serving a specific function. 
 
@@ -143,7 +143,7 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 As the quote above illustrates, how you got an answer is just as relevant as the answer you got.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions.
 
-Recap: data science jobs need a particular set of tools, and a workbench to organize these tools. To manage your data science projects, you'll need a workflow that gives you the ability to 1) document your intentions and, 2) write code that can translate your plans into something a computer can execute. These two points bring us to our next topic: plain text. As you'll discover, plain text files are a great way to accomplish these tasks. 
+Data science jobs need a particular set of tools, and a workbench to organize these tools. To manage your data science projects, you'll need a workflow that gives you the ability to 1) document your intentions and, 2) write code that can translate your plans into something a computer can execute. These two points bring us to our next topic: plain text. As you'll discover, plain text files are a great way to accomplish these tasks. 
 
 ***
 
@@ -155,9 +155,7 @@ We recommend you keep your files, notes, and any pertinent documentation about y
 
 - plain text lasts forever (files written 40 years ago are still readable today)  
 - plain text can be *converted* to any other kind of document  
-- plain text is searchable (ctrl+F or cmd+F allows us to find keywords or phrases)  
-
-
+- plain text is searchable (`ctrl+F` or `cmd+F` allows us to find keywords or phrases)  
 
 We'll also cover why you might want switch over to a plain text editor if you're currently using Google Docs, Apple Papers, or Microsoft Word. 
 
@@ -174,7 +172,7 @@ We covered the problems with a copy+paste workflow previously, but there are add
 
 If we've sold you on using this flexible and adaptable tool, but you're still wondering what makes a file 'plain text,' we'll cover that next. But first, we need to talk about what *isn't* a plain text file.
 
-### What isn't plain text
+### What *isn't* plain text
 
 Non-plain text files are usually called binary (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
 
@@ -225,7 +223,7 @@ RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/
 
 I recommend reading up on R and RMarkdown because of how many different outputs this combination can be used to produce (.pdf, .docx, and .html). Consult the [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) for more information. The image below is an output from an `.Rmd` document in RStudio.
 
-![](images/02.1-rmarkdown-workflow.png)
+![](images/02-rmarkdown-output.png)
 
 ### Python vs. RStudio 
 

@@ -1,4 +1,4 @@
-# Part 3: Organizing your data science project
+# Part 3: Setting up your data science project
 
 "*If you can't describe what you are doing as a process, you don't know what you're doing*." - W. Edwards Deming
 
@@ -32,9 +32,9 @@ Another reason journalism is an excellent resource for sharing your work is that
 
 > *"Journalists can approach data differently than those more trained in computer sciences. Take, for instance, matching databases. Traditional IT managers compare data sets that were designed to talk with each other. Journalists may wonder if the payroll list of school teachers includes registered sex offenders."*
 
-More brains are better than one when it comes to looking at data, and that's usually because of the different types of questions that come out of these brains. 
+Journalists can communicate *why something matters*, which is a great skill to hone. Explaining a data project to someone with zero domain expertise (or data science knowledge) is a great way to practice your communication skills. It's also a great way to make sure you're thinking about an audience for the project. 
 
-### Modern data 
+### A collection of modern data sources
 
 To demonstrate how powerful R/RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R + RStudio. 
 
@@ -44,7 +44,7 @@ To demonstrate how powerful R/RStudio can be, we are going to combine data from 
 
 3) There is a [Wikipedia](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums) page dedicated to the debates. We'll be scraping the tables with airtime for a candidate using the [`xml2`](https://cran.r-project.org/web/packages/xml2/index.html) and [`rvest`](https://rvest.tidyverse.org/) packages. 
 
-4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates. These data are in a [Google Sheet](http://bit.ly/2YEVASu), and we've used the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. Another option is the [`googlesheets`](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html) package in R (*you will need to copy this sheet into your Google drive to get this data set*).
+4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates. These data are in a [Google Sheet](http://bit.ly/2YEVASu), and we've used the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. Another option is the [`googlesheets4`](https://googlesheets4.tidyverse.org/) package in R (*you will need to copy this sheet into your Google drive to get this data set*).
 
 
 ---
@@ -89,19 +89,19 @@ We are going to change the name of this **Untitled** project to **dem-pres-debat
 
 Look at the **Files** pane in the lower right corner and click on the **Upload** button, then click on **Choose files** and locate the recently downloaded zipped Github folder. Upload this file into the RStudio.Cloud project workspace. 
 
-![upload window](images/03-upload-files.png)
+![upload button](images/03-upload-files.png)
 
 #### Accessing files in RStudio.Cloud
 
 Uploading these files might take some time, but when everything is in RStudio.Cloud, we'll see the `dem-pres-debate-2019-master` folder in the **Files** pane. 
 
-![uploaded files](images/03-uploaded-files.png)
+![the newly uploaded files](images/03-uploaded-files.png)
 
 The unzipped the file we uploaded and created a folder called `dem-pres-debate-2019-master`. Unfortunately, it put this folder *inside* the `cloud/project` folder. We wanted to upload the *contents* of the `dem-pres-debate-2019-master` file into the `cloud/project` folder (and not the folder itself). 
 
 ![](images/03-move-to-parent-folder.png)
 
-We are going to use this opportunity to introduce a few command-line tools. To do this, we'll be working from the **Terminal** pane in RStudio.Cloud. The next session will be a quick "crash course" in operating system terms, a few **Terminal** commands, and how to use them effectively. 
+We are going to use this opportunity to introduce a few command-line tools. To do this, we'll be working from the **Terminal** pane in RStudio.Cloud. The next session will be a quick 'crash course' on operating systems, some **Terminal** commands, and how they work together. 
 
 ## The Command line: Unix and Windows
 
@@ -113,9 +113,9 @@ Windows has a command-line tool called Powershell, but this is not the same as t
 
 The [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI) was the predecessor to a GUI, and there is a reason these tools haven't gone away. CLI is a text-based screen where users interact with their computer's programs, files, and operating system using a combination of commands and parameters. This basic design might make the CLI sound inferior to a trackpad or touchscreen, but after a few examples of what's possible from on the command-line and you'll see the power of using these tools. 
 
-### What am I getting out of this?
+### "*What am I getting out of this?*"
 
-That is a fair question--being able to use the command line gives us more 'under-the-hood' access to any computer. We can use the command line to navigate our computer's files, install new programs or libraries, and track changes to files. It might seem clunky and ancient, but people keep this technology around because of it's 1) specificity and 2) modularity (also the two features that make Unix programs so powerful). What do we mean by this?
+That's a fair question--being able to use the command line gives us more 'under-the-hood' access to any computer. We can use the command line to navigate a computer's directories (folders), install new programs or libraries, and track changes to files. It might seem clunky and ancient, but people keep this technology around because of it's 1) specificity and 2) modularity (also the two features that make Unix programs so powerful). What do we mean by this?
 
 - [Specificity](https://www.dictionary.com/browse/specific) means each Unix command or tool does one thing very well (or [DOTADIW](https://en.wikipedia.org/wiki/Unix_philosophy#Do_One_Thing_and_Do_It_Well))
 
@@ -227,12 +227,12 @@ Now we can check the files in this new directory with `ls`
 
 ```sh
 $ ls
-01-import.Rmd     README.Rmd  data
-02-wrangle.Rmd    README.md   dem-pres-debate-2019.Rproj
-03-visualize.Rmd  code        figs
+01-import.Rmd  02-wrangle.Rmd    README.Rmd  code  
+01-import.md   03-visualize.Rmd  README.md   data  figs  
+dem-pres-debate-2019.Rproj
 ```
 
-The output from `ls` shows me there are four sub-folders in the `dem-pres-debate-2019-master` folder, two `.Rmd` files, one `.md`, and one `.Rproj` file.
+The output from `ls` shows me there are three sub-folders in the `dem-pres-debate-2019-master` folder (`code`, `data`, `figs`), three `.Rmd` files, one `README.md` file, and one `.Rproj` file.
 
 Now that we've moved into this folder and looked around let's climb back out of it. We can always move up one folder by executing the `cd ..` command. 
 
@@ -259,7 +259,17 @@ $ ls dem-pres-debate-2019-master
 03-visualize.Rmd  code        figs
 ```
 
-These commands tell **Terminal** to list the files in the folder at the end of the file path. 
+We can add the `-F` option to the end of the command to tell **Terminal** to list the files in the folder at the end of the file path. 
+
+
+```sh
+ls dem-pres-debate-2019-master -F
+01-import.Rmd  02-wrangle.Rmd    README.Rmd  code/  
+01-import.md   03-visualize.Rmd  README.md   data/  figs/  
+dem-pres-debate-2019.Rproj
+```
+
+Now we can see the folders have a `/` forward slash at the end of their name to separate them from the other files. 
 
 #### Absolute vs. relative file paths 
 
@@ -438,6 +448,17 @@ $ cat CHANGELOG.txt
 
 In Unix systems, we can always access today's date with the `date` or `cal`.
 
+```sh
+$ cal
+     July 2019
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+```
+
 ### Command-line skill #8: Combine things 
 
 The commands above are great for creating new files and adding new text, but what if `CHANGELOG.txt` already exists and we wanted to add more thoughts to it? We can do this by changing the `>` symbol to `>>`.
@@ -455,9 +476,18 @@ Another powerful tool in the Unix toolkit is the pipe (`|`). The pipe can be use
 
 ```sh
 $ ls code | grep ".R" | less
+# 00-download-tweets.R
+# 00-download-538.R
+# 00-download-google.R
+# 00-download-wikipedia.R
+# 00-inst-packages.R
+# 01-import.R
+# 01.2-twitter-data.R
+# 02-wrangle.R
+# (END)
 ```
 
-We will leave the `grep` command for you to investigate with `--help` to figure out what's happening here.
+We will leave the `grep` command for you to investigate with `--help` to figure out what's happening here. Type `q` to leave this screen.
 
 #### Other command line stuff: homebrew
 
@@ -503,7 +533,7 @@ As we saw above, the `tree` output gave us a printout of the project folder in a
 
 The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
 
-## Getting more help
+### Getting more help with command-line tools
 
 This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
 
