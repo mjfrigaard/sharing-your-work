@@ -8,7 +8,7 @@ Our statistical coursework never covered the details of setting up a project (an
 
 ---
 
-## Example: 2019 Presidential Debates 
+## Example: FiveThirtyEight's 2019 Presidential debate project
 
 ***I read something on the internet, got curious, and decided I wanted to dig a little deeper.*** 
 
@@ -16,7 +16,7 @@ The scenario we've described above might seem vague, but we want to show the pow
 
 In this case, let's imagine we read something about the first round of the [2019 Democratic Presidential Debates](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums), but we missed all the news coverage. 
 
-We stumbled across an article on the data journalism website [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/), and it displayed an image showing how voters had changed their minds after seeing the candidates. 
+We stumbled across an article on the data journalism website [`fivethirtyeight`](https://projects.fivethirtyeight.com/democratic-debate-poll/), and it displayed an image showing the relationship between how voters felt about the candidates before the debates, and how the candidates did in the debate.
 
 ![source: https://projects.fivethirtyeight.com/democratic-debate-poll/](images/03-538-night-one-debates.png)
 
@@ -227,9 +227,8 @@ Now we can check the files in this new directory with `ls`
 
 ```sh
 $ ls
-01-import.Rmd  02-wrangle.Rmd    README.Rmd  code  
-01-import.md   03-visualize.Rmd  README.md   data  figs  
-dem-pres-debate-2019.Rproj
+README.Rmd  README.md  code  data  
+dem-pres-debate-2019.Rproj  figs  project.Rproj
 ```
 
 The output from `ls` shows me there are three sub-folders in the `dem-pres-debate-2019-master` folder (`code`, `data`, `figs`), three `.Rmd` files, one `README.md` file, and one `.Rproj` file.
@@ -254,9 +253,8 @@ We can also check the files in `dem-pres-debate-2019-master` using `ls` and the 
 
 ```sh
 $ ls dem-pres-debate-2019-master
-01-import.Rmd     README.Rmd  data
-02-wrangle.Rmd    README.md   dem-pres-debate-2019.Rproj
-03-visualize.Rmd  code        figs
+README.Rmd  README.md  code  data  
+dem-pres-debate-2019.Rproj  figs  project.Rproj
 ```
 
 We can add the `-F` option to the end of the command to tell **Terminal** to list the files in the folder at the end of the file path. 
@@ -264,9 +262,8 @@ We can add the `-F` option to the end of the command to tell **Terminal** to lis
 
 ```sh
 ls dem-pres-debate-2019-master -F
-01-import.Rmd  02-wrangle.Rmd    README.Rmd  code/  
-01-import.md   03-visualize.Rmd  README.md   data/  figs/  
-dem-pres-debate-2019.Rproj
+README.Rmd  README.md  code/  data/
+dem-pres-debate-2019.Rproj  figs/  project.Rproj  
 ```
 
 Now we can see the folders have a `/` forward slash at the end of their name to separate them from the other files. 
@@ -293,7 +290,7 @@ When we log into a computer, we start in a **`home`** folder (usually with a sho
 
 Depending on the operating system, this location starts with some standard default folders (`Desktop`, `Documents`, `Downloads`, and `Applications`)
 
-#### Special case: Windows machines 
+#### Special considerations: Windows machines 
 
 On Windows machines, the file path to `dem-pres-debate-2019-master` might look like this:
 
@@ -330,9 +327,6 @@ $ mv -v dem-pres-debate-2019-master/* /cloud/project
 You will see the following changes in **Terminal**:
 
 ```sh
-'dem-pres-debate-2019-master/01-import.Rmd' -> '/cloud/project/01-import.Rmd'
-'dem-pres-debate-2019-master/02-wrangle.Rmd' -> '/cloud/project/02-wrangle.Rmd'
-'dem-pres-debate-2019-master/03-visualize.Rmd' -> '/cloud/project/03-visualize.Rmd'
 'dem-pres-debate-2019-master/README.Rmd' -> '/cloud/project/README.Rmd'
 'dem-pres-debate-2019-master/README.md' -> '/cloud/project/README.md'
 'dem-pres-debate-2019-master/code' -> '/cloud/project/code'
@@ -409,18 +403,18 @@ What if we want to see all the contents in `README.md`? Well, before printing al
 
 ```sh
 $ wc README.md
-# 462  1739 14415 README.md
+# 1  6 39 README.md
 ```
 
-The three numbers above are the number of lines (`462`), the number of words (`1739`), and the number of characters (`14415`). 
+The three numbers above are the number of lines (`1`), the number of words (`6`), and the number of characters (`39`). 
 
-`wc` is telling us that `README.md` might be hard to read on the Terminal window. Fortunately, that's where the `less` command comes in.
+`wc` is telling us that `README.md` won't be hard to read on the Terminal window. If it was, that's where the `less` command comes in. 
 
 ```sh
 $ less README.md
 ```
 
-`less` will display the contents of `README.md`, but in a way that allows us to scroll through the file using the arrow keys. After we're done viewing the file, we can exit `less` using `q`.
+`less` will display the contents of `README.md` in a way that allows us to scroll through the file using the arrow keys. After we're done viewing the file, we can exit `less` using `q`.
 
 Another option to print is `cat`, but this will print the entire contents to the **Terminal** window, so use `wc` first to see if that's the best choice. 
 
@@ -472,19 +466,20 @@ $ cat CHANGELOG.txt
 
 `>>` tells **Terminal** to append the output from `echo` to `CHANGELOG.txt` on a new line. 
 
-Another powerful tool in the Unix toolkit is the pipe (`|`). The pipe can be used to 'direct' outputs from one command to another. For example, if I wanted to see how many R script files are in the `code` folder, I could use the following:
+Another powerful tool in the Unix toolkit is the pipe (`|`). The pipe can be used to 'direct' outputs from one command to another. For example, if I wanted to see how many download `.R` script files are in the `code` folder, I could use the following:
 
 ```sh
-$ ls code | grep ".R" | less
-# 00-download-tweets.R
-# 00-download-538.R
-# 00-download-google.R
-# 00-download-wikipedia.R
-# 00-inst-packages.R
-# 01-import.R
-# 01.2-twitter-data.R
-# 02-wrangle.R
-# (END)
+$ ls code | grep "download" | less
+```
+
+This should display the following result:
+
+```
+00.2-download-538.R
+00.3-download-google.R
+00.4-download-tweets.R
+00.5-download-wikipedia.R
+(END)
 ```
 
 We will leave the `grep` command for you to investigate with `--help` to figure out what's happening here. Type `q` to leave this screen.
@@ -507,16 +502,40 @@ $ tree
 The `tree` command gives us output like the folder tree below. 
 
 ```sh
-├── 01-import.Rmd
-├── 02-wrangle.Rmd
-├── 03-visualize.Rmd
 ├── README.Rmd
 ├── README.md
 ├── code
+    ├── 00.1-inst-packages.R
+    ├── 00.2-download-538.R
+    ├── 00.3-download-google.R
+    ├── 00.4-download-tweets.R
+    ├── 00.5-download-wikipedia.R
+    ├── 01-import.R
+    └── 02-wrangle.R
 ├── data
-│   ├── processed
-│   └── raw
-└── dem-pres-debate-2019.Rproj
+├── processed
+└── raw
+    ├── 538
+    └── 2019-07-06-Cand538Fav.csv
+    ├── google-trends
+    ├── 2019-07-10-Dems2020Night1Group1.rds
+    └── 2019-07-10-Dems2020Night1Group2.rds
+    ├── twitter
+    ├── 2019-07-06-Night01Tweets.rds
+    ├── 2019-07-06-Night01TweetsRaw.rds
+    ├── 2019-07-06-Night01TweetsUsers.rds
+    ├── 2019-07-06-Night02Tweets.rds
+    ├── 2019-07-06-Night02TweetsRaw.rds
+    └── 2019-07-06-Night02TweetsUsers.rds
+    └── wikipedia
+        ├── 2019-07-10-WikiDemAirTime01Raw.csv
+        ├── 2019-07-10-WikiDemAirTime02Raw.csv
+        └── 2019-07-25-PollingCriterionRaw.csv
+├── dem-pres-debate-2019.Rproj
+└── figs
+    └── 03-538-night-one-debates.png
+
+9 directories, 23 files
 ```
 
 Folder trees come in handy for documenting the project files (and any changes to them). 
@@ -527,13 +546,13 @@ We've covered eight command-line tools, and we hope you can see how these can be
 
 ***
 
-## Organizing your project files
+#### More on organizing your project files
 
 As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
 The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
 
-### Getting more help with command-line tools
+#### Getting more help with command-line tools
 
 This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
 
@@ -546,14 +565,5 @@ The command line can seem intimidating because of its power and ability to destr
 * [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
 
 * [Software Carpentry Unix Workshop](https://swcarpentry.github.io/shell-novice/) 
-
-##### More on file organization, collaborating, and version control
-
-*Fortunately, many articles have come out in the last few years with excellent, practical advice. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
-
-- [working with data in spread sheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989), 
-- [sharing data with collaborators](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375987), 
-- [how to name your files](https://speakerdeck.com/jennybc/how-to-name-files), and 
-- [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719).
 
 **Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command-line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 

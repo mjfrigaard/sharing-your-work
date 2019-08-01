@@ -1,20 +1,24 @@
 # Intro: Why we wrote this
 
-Have you recently seen something neat on the internet?  Maybe it was an interactive data visualization on the [UpShot at New York Times](https://www.nytimes.com/section/upshot), a project on [fivethirtyeight](https://projects.fivethirtyeight.com/), or a daily graph in the [Economist](https://www.economist.com/node/21011894)? It seems like everywhere we look now, people are using data in beautiful and surprising ways to present their positions or shed light on new topics. 
+It seems like everywhere we look now, people are using data in beautiful and surprising ways to present their positions or shed light on new topics. We remember the first time we saw the impact data can have on storytelling. Hans Rosling, the Swedish physician/statistician, gave a [talk displaying the gapminder dataset](https://www.youtube.com/watch?v=hVimVzgtD6w). Rosling perfectly his paired enthusiasm with a brilliant display on the screen. As he spoke, over a dozen colorful circles slid across the protection. His Ted [profile description](https://www.ted.com/speakers/hans_rosling) is perfect, "In Hans Rosling's hands, data sings."
 
-Have you wanted to create something similar, but have no idea where to get started? Well, we wrote this book is written around that very situation, 
+Today, most primary sources of media use data as part of their evidence base. Check out the interactive data visualizations on the [UpShot](https://www.nytimes.com/section/upshot) at the New York Times, the visual journalism data projects at the [BBC](https://www.bbc.com/news/world-32209370), or the daily graphs in the [Economist](https://www.economist.com/node/21011894). 
 
-***"You've found something cool on the internet, you want to recreate it, but you don't know where to get started."***
+The massive amounts of data available have spawned new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional sources of data. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
 
-There are a ton of really great data science resources on the internet right now (see [here](https://www.coursera.org/learn/r-programming), [here](https://www.edx.org/learn/r-programming), and [here](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning. But we sometimes found the sheer volume of these courses can be overwhelming for audiences who are wanting to understand how these technologies fit together.  
+Now that we've shown you all this cool stuff, we want to tell you why we wrote this book, 
 
-We decided to take a step back and write a book that *shows how data science tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create data analysis projects. 
+***"You've found something cool on the internet, but you have no idea what it took to make it." ***
 
-Because we centered this book around a particular use case, there will be code files and tools we'll use that are specific to this project. But we've chosen not to spend too much time on the content of these files (we've documented them you want to look into the details). Instead, We're going to focus more on the "high level" ideas because these are topics you can take with you to your next project. We also encourage you to consult the articles and resource we've recommended throughout each chapter for more materials on each topic.
+There are a ton of really great resources on the internet right now for learning data science (see [here](https://www.coursera.org/learn/r-programming), [here](https://www.edx.org/learn/r-programming), and [here](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning. But we sometimes found the sheer volume of these courses can be overwhelming for audiences who are wanting to understand how these technologies fit together.  
+
+We decided to take a step back and write a book that describes a data science workflow, or *shows how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis projects. 
+
+We chose to center this book around a particular use case, so there will be code files and tools we'll use that are specific to this project. But we've chosen not to spend too much time on the content of these files (we've documented them you want to look into the details). Instead, We're going to focus more on the "high level" ideas because these are topics you can take with you to your next project. We also encourage you to consult the articles and resource we've recommended throughout each chapter for more materials on each topic.
 
 ## Our goal for anyone reading this book
 
-We want to show you how to 1) take something neat you found on the internet, 2) figure out what went into making it, and 3) reproduce and share the process 
+We want to show you how to 1) take something neat you found on the internet, 2) figure out what went into making it, and 3) see if you can reproduce the result. 
 
 We plan to include enough information to get you up and running and at the same time, not overwhelm you. If you've already Googled "Getting started in data science," you know there are a *ton* of resources. Figuring out where to start can feel like trying to get a drink of water from a fire hose. 
 
@@ -48,7 +52,7 @@ We also understand there are alternative approaches to accomplishing the same go
 
 ## How this book is structured
 
-We structured this book like an Army Field Manual, which means each topic was chosen using the following criteria:
+We structured this book somewhat like an Army Field Manual, which means each topic was chosen using the following criteria:
 
 - (a) *Relative importance*. Which activities contribute most to successful training?
 
@@ -108,11 +112,15 @@ The text uses the following style guide:
 
 plain text for our thoughts 
 
-#### Footnotes 
+#### Learn more 
 
 - [Practical Data Science for Stats](https://peerj.com/collections/50-practicaldatascistats/) is a resource you should bookmark in your browser. The articles in this collection will come up again in future sections, but we found we use these resources so much it's nice to have them somewhere handy. 
 
 - The [R for data science community](https://www.rfordatasci.com/) and [R for Data Science](https://r4ds.had.co.nz/) book are excellent resources to help you started. 
 
-- **Collaboration and reproducibility** - there's a direct connection between collaboration and reproducibility, because the better your collaborators can reproduce your work, the better they'll understand your results. 
+- **Collaboration and reproducibility** - there's a direct connection between collaboration and reproducibility. The better your collaborators can reproduce your work, the better they'll understand your results. 
 
+- Our text is an *[opinionated technical manual](https://peerj.com/preprints/3210/)*, modeled after Hilary Parker's excellent paper (check out quote),  
+"*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
+
+- We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or workflows capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.

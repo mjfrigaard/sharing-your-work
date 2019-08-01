@@ -72,7 +72,7 @@ Then you will be asked if we are ok to restart RStudio (and we do).
 
 ![](images/04-confirm-restart-rstudio.png)
 
-This will restart the IDE and we should see the *Git* tab in one of the panes. 
+After restarting the IDE, we should see the *Git* tab in one of the panes. 
 
 ![](images/04-new-git-pane.png)
 
@@ -144,7 +144,7 @@ The result should look something like this:
 
 ![](images/04-new-rsa-key.png)
 
-Or like this on your local machine
+Or like this on your local machine.
 
 ```
 whoeveryouare ~ $ ssh-keygen -t rsa -b 2891 -C "USEFUL-COMMENT"
@@ -188,8 +188,6 @@ Agent pid 007
 
 Now we want to add the *SSH RSA* to the keychain. There are three elements in this command: the `ssh-add`, the `-K`, and `~/.ssh/id_rsa`. 
 
-
-
 * The `ssh-add` is the command to add the *SSH RSA*    
 
 * The `-K` stores the passphrase we generated, and    
@@ -200,7 +198,7 @@ Now we want to add the *SSH RSA* to the keychain. There are three elements in th
 $ ssh-add -k /home/rstudio-user/.ssh/id_rsa
 ```
 
-Enter the passphrase and then have it tell us the identity has been added.  
+Enter the passphrase, and then git should tell us the identity has been added.  
 
 ```sh
 Enter passphrase for /home/rstudio-user/.ssh/id_rsa:
@@ -254,4 +252,15 @@ Host *
 ```
 
 Great! Now I am all set up to use Git with RStudio. In the next section, we'll extend our Github skills by moving the contents of a local folder to Github. 
+
+#### More on Git and Github and data organization
+
+*Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
+
+- [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719)
+
+- [sharing data with collaborators](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375987)
+
+- [how to name your files](https://speakerdeck.com/jennybc/how-to-name-files)
+
 

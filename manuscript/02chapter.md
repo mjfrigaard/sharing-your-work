@@ -57,7 +57,7 @@ These examples illustrate how differences in the design of a workbench can have 
 
 We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (*they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
 
-![](images/02-IDE-layout.png)
+![](images/02-ide-layout.png)
 
 RStudio has four primary panes, each serving a specific function. 
 
@@ -267,14 +267,7 @@ There have been considerable efforts from the scientists at RStudio to create an
 
 - The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open-source software.
 - Read these articles on attentional residue and multitasking (then try to stop doing it):  
-   1. [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
-   2. [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
-   3. [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
+   1) [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
+   2) [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
+   3) [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
 -  See [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
-
-- This is an *[opinionated technical manual](https://peerj.com/preprints/3210/)*, modeled after Hilary Parker's excellent paper (check out quote),  
-"*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
-
-- We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or workflows capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
-
-

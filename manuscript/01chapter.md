@@ -1,6 +1,6 @@
 # Part 1: Good enough data science 
 
-In 2016, [The Carpentries](https://carpentries.org/)--a non-profit organization who teaches coding and data science skills to researchers--published an article titled, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/).
+In 2016, [The Carpentries](https://carpentries.org/)--a non-profit organization that teaches coding and data science skills to researchers--published an article titled, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/).
 
 The article has tons of great information, but it was aimed at "*researchers who are working alone or with a handful of collaborators on projects lasting a few days to several months*." Well, we thought the article's information was too useful *not* to share with as many people as possible. This book essentially attempts to extend the advice in paper to analysts, journalists, grad students, and non-technical audiences. 
 
@@ -16,7 +16,7 @@ There will be many courses, tutorials, and resources that promise you 'expert tr
 
 There is a sea of information on the internet, and that means everyone is competing for everyone else's attention. You want to share whatever you're doing (writing code, building graphs, creating apps, etc.) so it's discoverable. This way, if a future collaborator, prospective employer, or up-and-coming analyst is looking around for cool stuff on the internet, they'll see what you've been doing.
 
-### Humans doing awesome things and sharing them
+### Make cool sh!t and share it
 
 We'll introduce you to a few data scientists and journalists who are excellent communicators of their work. These examples use the internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes. 
 
@@ -35,7 +35,7 @@ Of course, they also had to know their subject areas, and have something worth s
 
 ---
 
-## Good enough communication
+## 'Good enough' communication
 
 It's important to remember that whenever you're trying to communicate something, you're convincing your audience that they should be paying attention to you instead of everything else. Today, there's a lot more 'everything else.'
 
@@ -57,9 +57,11 @@ When we were kids in math class, most teachers required us to show how we got th
 
 If you're regularly sharing your work, people can follow your line of thinking as you progress throughout your project. More importantly, people who find your work will give you feedback and improve your ideas. 
 
-## Being good enough
+## Get 'good enough,' then go for more if you need it
 
 What is 'good enough'? We think being 'good enough' means reading about a tool or technology and being capable of distinguishing it from magic. Good enough also means seeing a chart or graph on the internet and knowing how to evaluate its contents. Or imagining something that matters in your business or personal life, and then devising a way to count it. 
+
+#### Feedback
 
 We sincerely hope you'll find this information useful and give us feedback at `mfrigaard@paradigmdata.io` or `pspangler@paradigmdata.io.`
 
