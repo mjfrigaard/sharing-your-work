@@ -22,7 +22,7 @@ We stumbled across an article on the data journalism website [`fivethirtyeight`]
 
 Wanting to be informed citizens--and knowing how to collect and analyze data--we decide to investigate how each candidate performed using various sources of data. 
 
-#### Data journalism 
+### Data journalism 
 
 Journalists are a bit like statisticians in the sense that both get to ["play in everyone's backyard"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalists explicitly combine analysis and communication skills. Marrying these two skills makes data journalism an extraordinary place to look for tools and methods to adapt to different projects.  
 
@@ -340,7 +340,7 @@ And the following changes in the **Files** pane:
 
 Now we know we've successfully moved all of the files. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
 
-### Command-line skill #5: Deleting things
+### Command-line skill #5: Delete things
 
 To delete a folder, we can either use `rmdir` or `rm -Ri`. 
 
@@ -387,7 +387,7 @@ rm: remove regular file 'dem-pres-debate-2019-master/.gitignore'? y
 rm: remove directory 'dem-pres-debate-2019-master'? y
 ```
 
-### Command-line skill #6: Printing things
+### Command-line skill #6: Print things
 
 **Terminal** works very well with plain text format. For example, I can use `head` and the name of a file I want to see.
 
@@ -538,7 +538,7 @@ The `tree` command gives us output like the folder tree below.
 9 directories, 23 files
 ```
 
-Folder trees come in handy for documenting the project files (and any changes to them). 
+Note that the `CHANGELOG.txt` file is not included in this tree (because the changes were made on a local repository). Folder trees come in handy for documenting the project files (and any changes to them). 
 
 ## Command line recap
 

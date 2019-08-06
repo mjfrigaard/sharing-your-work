@@ -7,7 +7,7 @@ In the previous sections, we've covered using **Terminal** in the RStudio. If yo
 'Sharing your' can take a few forms. You can finish a project, then share your work for people to see and use in what they're doing.  
 Another option is to share what you're currently working on in a way that allows other people can collaborate with you along the way.
 
-To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe you've used the 'Review' tools in Mircosoft Word, or you've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
+To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe you've used the 'Review' tools in Microsoft Word, or you've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
 
 Consider the image below of a .docx file:
 
@@ -48,7 +48,7 @@ source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.
 
 ### Git is a useful way to think about making changes
 
-Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'commits,' 'pushes,' 'forks,' and 'repos.' 
+Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' 
 
 As someone who analyzes data regularly, these concepts are also countable, which means you can quantify change and work in more exciting ways. 
 
@@ -68,11 +68,11 @@ From here, you will see the *Git/SVN* option on the sidebar, where you will sele
 
 ![](images/04-confirm-new-git-repo.png)
 
-Then you will be asked if we are ok to restart RStudio (and we do).
+Then you will be asked if we are ok to restart RStudio.Cloud (and we do).
 
 ![](images/04-confirm-restart-rstudio.png)
 
-After restarting the IDE, we should see the *Git* tab in one of the panes. 
+After restarting the RStudio.Cloud IDE, we should see the **Git** tab in one of the panes. 
 
 ![](images/04-new-git-pane.png)
 
@@ -172,7 +172,7 @@ The key's randomart image is:
 
 Great! We need to go back to Terminal and store this `SSH` from RStudio. 
 
-## Adding a key SSH in Terminal
+### Adding a key SSH in Terminal
 
 In the Terminal, we enter the following commands. 
 
@@ -205,7 +205,7 @@ Enter passphrase for /home/rstudio-user/.ssh/id_rsa:
 Identity added: /home/rstudio-user/.ssh/id_rsa (/home/rstudio-user/.ssh/id_rsa)
 ```
 
-## Create the `.ssh/config` file
+### Create the `.ssh/config` file
 
 Most operating systems require a `config` file. We can do this using the Terminal commands above. 
 

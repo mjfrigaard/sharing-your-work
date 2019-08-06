@@ -1,6 +1,6 @@
 # Part 2: "Have a workflow."
 
-Working with data **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
+A **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
 
 1. Use free open source software
 2. Write code  
@@ -39,7 +39,7 @@ Follow the links below to learn more.
 
 ***
 
-## The integrated development environment (aka data science workbench)
+### The integrated development environment (aka the workbench)
 
 An [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) is an application typically used by programmers to build and test software. We find it helpful to think of a woodworkers workbench as an analogy. The image below is an example of a workbench with a simple rolling cart design (for people with minimal garage space).
 
@@ -141,7 +141,7 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 > **Answer:** "... I've come to realize that a lot of people don't even know what they did. People don't have a workflow, they have a bunch of numbers, and they start screwing around with the numbers and putting calculations in different places on their spreadsheet, and then at the end, they pull a number out and write it down and type it into their report." - [Andrew Gelman](https://soundcloud.com/dataframed/election-forecasting-polling) 
 
-As the quote above illustrates, how you got an answer is just as relevant as the answer you got.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions.
+As the quote above illustrates, ***how you got an answer is just as relevant as the answer you got***.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions. 
 
 Data science jobs need a particular set of tools, and a workbench to organize these tools. To manage your data science projects, you'll need a workflow that gives you the ability to 1) document your intentions and, 2) write code that can translate your plans into something a computer can execute. These two points bring us to our next topic: plain text. As you'll discover, plain text files are a great way to accomplish these tasks. 
 
@@ -225,7 +225,7 @@ I recommend reading up on R and RMarkdown because of how many different outputs 
 
 ![](images/02-rmarkdown-output.png)
 
-### Python vs. RStudio 
+### Python & Jupyter vs. R & RStudio 
 
 Python is a neat language and a great tool to combine with R. 
 
@@ -235,7 +235,7 @@ We recommend R/RStudio because we wrote this book for people who have a data fil
 
 ---
 
-## Additional reasons for using R/RStudio
+## Additional reasons for using R & RStudio
 
 Below are a few more reasons you should consider using R/RStudio in case you're still on the fence.
 
@@ -257,17 +257,6 @@ These are in contrast to competitive cognitive artifacts, which is what a GUI do
 
 > "*In the case of competitive artifacts, when we are deprived of their use, we are no better than when we started. They're not coaches and teachers—they are serfs.*"
 
-RStudio does not remove the complexity of doing data analysis, writing blog posts, building applications, debugging code, etc. Instead, it creates an environment where you can do each of these tasks without having them abstracted away from you into drop-down menus, dialogue boxes, and point-and-click options. 
+RStudio does not remove the complexity of doing data analysis, writing blog posts, building applications, debugging code, etc. Instead, it creates an environment where you can do each of these tasks without having them abstracted away from you into drop-down menus, dialog boxes, and point-and-click options. 
 
 There have been considerable efforts from the scientists at RStudio to create an environment and ecosystem of tools (called `packages`) to make data analysis less painful (and even fun). We're confident you'll find it helps you think about the inputs and outputs of your work in productive and creative ways. 
-
----
-
-#### FOOTNOTES
-
-- The Ford Foundation report, ["Roads and Bridges"](https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/), outlines some other reason you should be using open-source software.
-- Read these articles on attentional residue and multitasking (then try to stop doing it):  
-   1) [Why is it so hard to do my work? The challenge of attention residue when switching between work tasks](https://www.sciencedirect.com/science/article/pii/S0749597809000399)
-   2) [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
-   3) [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
--  See [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow

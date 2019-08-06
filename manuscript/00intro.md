@@ -8,9 +8,9 @@ The massive amounts of data available have spawned new forms of media. Nate Silv
 
 Now that we've shown you all this cool stuff, we want to tell you why we wrote this book, 
 
-***"You've found something cool on the internet, but you have no idea what it took to make it." ***
+***"You've found something cool on the Internet, but you have no idea what it took to make it." ***
 
-There are a ton of really great resources on the internet right now for learning data science (see [here](https://www.coursera.org/learn/r-programming), [here](https://www.edx.org/learn/r-programming), and [here](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning. But we sometimes found the sheer volume of these courses can be overwhelming for audiences who are wanting to understand how these technologies fit together.  
+There are a ton of really great resources on the Internet right now for learning data science (see [here](https://www.coursera.org/learn/r-programming), [here](https://www.edx.org/learn/r-programming), and [here](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning. But we sometimes found the sheer volume of these courses can be overwhelming for audiences who are wanting to understand how these technologies fit together.  
 
 We decided to take a step back and write a book that describes a data science workflow, or *shows how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis projects. 
 
@@ -18,7 +18,7 @@ We chose to center this book around a particular use case, so there will be code
 
 ## Our goal for anyone reading this book
 
-We want to show you how to 1) take something neat you found on the internet, 2) figure out what went into making it, and 3) see if you can reproduce the result. 
+We want to show you how to 1) take something neat you found on the Internet, 2) figure out what went into making it, and 3) see if you can reproduce the result. 
 
 We plan to include enough information to get you up and running and at the same time, not overwhelm you. If you've already Googled "Getting started in data science," you know there are a *ton* of resources. Figuring out where to start can feel like trying to get a drink of water from a fire hose. 
 
@@ -119,8 +119,5 @@ plain text for our thoughts
 - The [R for data science community](https://www.rfordatasci.com/) and [R for Data Science](https://r4ds.had.co.nz/) book are excellent resources to help you started. 
 
 - **Collaboration and reproducibility** - there's a direct connection between collaboration and reproducibility. The better your collaborators can reproduce your work, the better they'll understand your results. 
-
-- Our text is an *[opinionated technical manual](https://peerj.com/preprints/3210/)*, modeled after Hilary Parker's excellent paper (check out quote),  
-"*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
 
 - We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or workflows capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
