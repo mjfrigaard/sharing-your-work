@@ -169,7 +169,7 @@ Here is a quick list of commonly used Terminal commands.
 
 After downloading the files from Github, we've uploaded the zipped folder into the `Cloud/project`. In the RStudio.Cloud **Terminal** pane, we should see something like this: 
 
-![Cloud terminal prompt](images/03-cloud-terminal-prompt.png)
+![](images/03-cloud-terminal-prompt.png)
 
 The figure above might look like gobbledygook at first, but command-line interfaces have a recognizable pattern if we know what we're looking for:
 
@@ -280,9 +280,9 @@ A **relative file path** starts at a folder but leaves the rest 'relative' to wh
 
 **`start/from/wherever/we/put/me`**
 
-#### Folder trees
+#### Folder structure
 
-Below is an example folder tree structure on a macOS. 
+Below is an example folder tree structure on a macOS. The structure won't be too different on a Windows operating system, but the folder paths will have a different syntax.
 
 ![](images/03-home-comp-file-paths.png)
 
@@ -336,9 +336,10 @@ You will see the following changes in **Terminal**:
 'dem-pres-debate-2019-master/dem-pres-debate-2019.Rproj' -> '/cloud/project/dem-pres-debate-2019.Rproj'
 'dem-pres-debate-2019-master/figs' -> '/cloud/project/figs'
 ```
+
 And the following changes in the **Files** pane:
 
-![mv-ed files](images/03-moved-files.png)
+![](images/03-moved-files.png)
 
 Now we know we've successfully moved all of the files. But we will want to get rid of the old folder, `dem-pres-debate-2019-master`. 
 
@@ -514,27 +515,27 @@ The `tree` command gives us output like the folder tree below.
     ├── 00.5-download-wikipedia.R
     ├── 01-import.R
     └── 02-wrangle.R
-├── data
-├── processed
-└── raw
-    ├── 538
-    └── 2019-07-06-Cand538Fav.csv
-    ├── google-trends
-    ├── 2019-07-10-Dems2020Night1Group1.rds
-    └── 2019-07-10-Dems2020Night1Group2.rds
-    ├── twitter
-    ├── 2019-07-06-Night01Tweets.rds
-    ├── 2019-07-06-Night01TweetsRaw.rds
-    ├── 2019-07-06-Night01TweetsUsers.rds
-    ├── 2019-07-06-Night02Tweets.rds
-    ├── 2019-07-06-Night02TweetsRaw.rds
-    └── 2019-07-06-Night02TweetsUsers.rds
-    └── wikipedia
-        ├── 2019-07-10-WikiDemAirTime01Raw.csv
-        ├── 2019-07-10-WikiDemAirTime02Raw.csv
-        └── 2019-07-25-PollingCriterionRaw.csv
+├── data/
+    ├── processed/
+    └── raw
+        ├── 538/
+            └── 2019-07-06-Cand538Fav.csv
+        ├── google-trends/
+            ├── 2019-07-10-Dems2020Night1Group1.rds
+            └── 2019-07-10-Dems2020Night1Group2.rds
+        ├── twitter/
+            ├── 2019-07-06-Night01Tweets.rds
+            ├── 2019-07-06-Night01TweetsRaw.rds
+            ├── 2019-07-06-Night01TweetsUsers.rds
+            ├── 2019-07-06-Night02Tweets.rds
+            ├── 2019-07-06-Night02TweetsRaw.rds
+            └── 2019-07-06-Night02TweetsUsers.rds
+        └── wikipedia/
+            ├── 2019-07-10-WikiDemAirTime01Raw.csv
+            ├── 2019-07-10-WikiDemAirTime02Raw.csv
+            └── 2019-07-25-PollingCriterionRaw.csv
 ├── dem-pres-debate-2019.Rproj
-└── figs
+└── figs/
     └── 03-538-night-one-debates.png
 
 9 directories, 23 files

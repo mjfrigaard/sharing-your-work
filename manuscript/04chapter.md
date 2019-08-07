@@ -9,11 +9,26 @@ Another option is to share what we're currently working on in a way that allows 
 
 To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe we've used the 'Review' tools in Microsoft Word, or we've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
 
-Consider the image below of a .docx file:
+Consider a typical lifespan of a `.docx` file:
+
+```
+project/
+└── paper/
+    ├── draft-1.docx
+    ├── draft-2.docx
+    ├── draft-3-mf.docx
+    ├── draft-3-mk.docx
+    ├── final-final.docx
+    └── final.docx
+```
+
+This is the inevitable progression of a document that requires collaboration ***and*** integration. Revision features are great when we're using a single file, but what about the supporting files in the project? Every project we've ever worked on required more than a single word document. 
 
 ![](images/04-version-control-vs-track-changes.png)
 
-The file is an earlier version of a manuscript. A coauthor has suggested changes to the results section.  Sound version control systems let us see four aspects of changes:
+The file is an earlier version of a paper. A coauthor has suggested changes to the results section. As changes are being made, the document is essentially 'locked' until the next author can review. This limitation is significant limitation to projects that involve many files and require iteration and changes. 
+
+Sound version control systems let us see four aspects of changes:
 
 1) what the differences are, 
 2) who recommended them, 
@@ -63,7 +78,6 @@ If you'd like to install Git on your local machine, you can do so following thes
 In RStudio.Cloud, we want to add version control to this project from *Tools* > *Version Control* > *Project Setup* 
 
 
-{width=75%,float=left}
 ![](images/04-tools-version-control-setup.png)
 
 From here, we will see the *Git/SVN* option on the sidebar, where we will select *Git* from the drop-down list next to *Version control system*. After this, RStudio.Cloud will ask if we want to *initialize a new git repo*, which we do. 
@@ -141,7 +155,6 @@ Go to *Tools* > *Global Options* > ...
 - 3, 4, and 5. In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
 
 
-{width=75%,float=left}
 ![](images/04-create-ssh-key-passphrase.png)
 
 The result should look something like this:

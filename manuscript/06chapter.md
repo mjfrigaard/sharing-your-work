@@ -71,15 +71,44 @@ Scroll down the settings options until you find the Github pages. This is where 
 
 After completing these steps, Github will tell us the website url.
 
-Unfortunately, there won't be anything there when we click on the link because we need to give Github an `index` file. An `index.html` file tells Github what the landing page will be for our project's website.
+![](images/06-github-pages-url.png)
 
-![](images/06-github-pages-bad-url.png)
+This give us a website that uses our `README.md` file as the landing page.
 
-Fortunately, we have just the thing--it's our `READMD.md` file! We'll head back over to RStudio.Cloud, change the name of `README.md` to `index.md`, and commit and push the changes to Github. 
+![](images/06-github-page-md-index.png)
 
-#### 1) Change the name of README to index
+Fortunately, our `READMD.md` file documents our entire project! But using Rmarkdown means we're not limited to the themes and options provided by Github pages.
 
-The `README.md` file can be accessed in the **Files** pane. We will use the *Rename* button to change this file to `index.md`.
+#### 1) Create a project website index file
+
+We'll head back over to RStudio.Cloud, change some of the settings on our Rmarkdown `README.Rmd`, rename the output file to `index.html`and commit and push all these changes to Github. 
+
+The `README.Rmd` file can be accessed in the **Files** pane. We are going to alter the `YAML` header by change the `output:` from `github_document` to `html_document`. Click *Save* after making this change.  
+
+Click on the small gear next to the *Preview* button, and follow the directions in the figure below to setup the `index.html` output file.
+
+![](images/06-markdown-settings.png)
+
+When we click *Ok* and the window closes, we should see a new `YAML` header at the top of the `index.md` file.
+
+```yaml
+---
+output: 
+  html_document: 
+    df_print: kable
+    fig_height: 5.5
+    fig_width: 7.5
+    highlight: kate
+    keep_md: yes
+    theme: simplex
+    toc: yes
+    toc_depth: 6
+---
+```
+
+The settings displayed above are some of the ways we can customize our `.Rmd` files. Read more about the html documents [here in the Rmarkdown guide](https://bookdown.org/yihui/rmarkdown/html-document.html). 
+
+We will use the *Rename* button to change this file to `index.md`.
 
 ![](images/06-rename-index.png)
 
@@ -101,7 +130,7 @@ Now we can push the changes to Github.
 
 After pushing these changes to Github, we can go back to the project website link. This will now take us to a nice website for our project. 
 
-![](images/06-github-page-md-index.png)
+
 
 ### HTML documents 
 

@@ -16,7 +16,7 @@ There are many courses, tutorials, and resources that promise you 'expert traini
 
 There is a sea of information on the Internet, and that means everyone is competing for everyone else's attention. You want to share whatever you're doing (writing code, building graphs, creating apps, etc.) so it's discoverable. This way, if a future collaborator, prospective employer, or up-and-coming analyst is looking around for cool stuff on the Internet, they'll see what you've been doing.
 
-### Make cool sh!t and share it
+### Make cool sh!t, then share it
 
 We'll introduce you to a few data scientists and journalists who are excellent communicators of their work. These examples use the Internet as a tool to engage with broader audiences, create better tools for doing science, document some of their daily struggles/successes. 
 

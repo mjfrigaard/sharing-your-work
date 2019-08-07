@@ -61,11 +61,9 @@ RStudio has four primary panes, each serving a specific function.
 - the **Console** displays the results from our written code (and allows us to enter commands directly)
 - the **Files** gives us access to the happenings outside the RStudio environment (imported raw data, exported results, etc.)
 
-Just like any workbench, we need to fill RStudio with tools we need for the job (and RStudio plays well with many open-source software tools!). 
-
 ![](images/02-ide-layout.png)
 
-For now, we are just going to focus on R and Git.
+Just like any workbench, we need to fill RStudio with tools we need for the job. RStudio plays well with many open-source software tools, but or now we're going to focus on R and Git.
 
 ### What is R?
 
@@ -102,15 +100,15 @@ We will cover more on Git/Github in later sections, but for now, know these tool
 
 Usually, people interact with their computers using point-and-click [graphical user interfaces](https://en.wikipedia.org/wiki/Graphical_user_interface) or GUIs (pronounced 'gooey'). GUIs are quick and easy to learn because their design environment usually mimics an actual physical space (i.e., desktops, folders, or documents). GUIs are a mostly positive development because designing software with a more [user-centered design](https://en.wikipedia.org/wiki/User-centered_design) is one of the main reasons technology adoption has been on the rise for the past 20+ years. 
 
-User-centered-designed software includes most of the point-and-click operating systems and applications. These programs give the user the ability to click through a predetermined list of options and procedures using their mouse or track-pad. 
+User-centered-designed software includes most of the point-and-click operating systems and applications. These programs give the user the ability to click through a predetermined list of options and procedures using their mouse or track-pad. Two examples of statistical programs designed around the GUI are below.
 
 ![](images/02-copy-paste-drop-down.png)
 
-However, we think there are times when we should resist the temptation to abstract away some of life's complexity, and data science is one of them. Using applications like these encourage a copy + paste workflow like the one below. 
+As we can see, these programs provide an extensive list of options to choose from. However, we think there are times when we should resist the temptation to abstract away some of life's complexity, and data science is one of them. Using applications like these encourage a copy + paste workflow like the one below. 
 
 ![](images/02-copy-paste-workflow.png)
 
-As we can see from the image, we'll be required to go back through the same elaborate workflow whenever we receive feedback or input to our project. Each time will take just as long as the first.
+If you follow the arrows in the image, you can see we'll be required to go *back* through the same elaborate workflow whenever we receive feedback or input to our project. Each time will take just as long as the first.
 
 We recommend an alternative to the copy + paste workflow based on the activities of a modern scientist from Jeff Leek we outlined in Chapter 1:
 
@@ -187,7 +185,8 @@ The last bit is the most crucial distinction--**human-readable vs. computer-read
 
 ### Markdown & Rmarkdown  
 
-![](images/02-markdown-icon.png)  
+{float=left}
+![](images/02-markdown-icon.png) 
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) files (`.md`) are common type of plain text files. Markdown is a 'lightweight markup language,' which means it's easy for humans to read, and computers can convert it to HyperText Markup Language (HTML). Markdown allows for some formatting options to aid with communication (see below)
 
@@ -246,7 +245,7 @@ We recommend R/RStudio because of the time saved by switching between software a
 
 Each software application cost me valuable neurons whenever I had to switch between them (read more about attentional residue in the footnotes). With R/RStudio, I cut this number to two (RStudio and the browser).
 
-### RStudio gives us a better mental model for data analysis
+### RStudio gives us a better mental model 
 
 The third reason is the design of the IDE itself. RStudio is a complementary cognitive artifact, something described in [this article from David Krakauer](http://nautil.us/blog/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature),
 

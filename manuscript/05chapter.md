@@ -113,21 +113,21 @@ We can move through every pane in RStudio by holding down `shift`+`control` and 
 
 If you ever forget which number corresponds to which pane, you can always find them under *View* > *Panes* (see image below)
 
-{width=75%,float=left}
+
 ![](images/05-zoom-panes.png)
 
 ### Help 
 
 Inevitably, we'll write something that doesn't work. When things aren't working (try to remain calm), you're going to want a place to start looking for solutions. The **Help** pane is accessible in the lower right corner of the IDE. 
 
-{width=85%,float=left}
+
 ![](images/05-help-pane.png)
 
 #### Working in two panes
 
 Sometimes we'll want to do our work in more than one pane at a time. For example, what if we're working in the **Source** pane, but have a question about a function? We can get answers to a lot of problems using RStudio's internal **Help** pane. After resizing the **Help** pane, we should see the following layout in our IDE. 
 
-{width=85%,float=left}
+
 ![](images/05-two-pane-view.png)
 
 ## Recap on RStudio panes
@@ -167,7 +167,7 @@ The layout above is an example of how to organize a set of `.R` scripts that fol
 
 The second option is well illustrated in the [tweet](https://twitter.com/polesasunder/status/953624238266646529?s=20) below by Andrew MacDonald:
 
-![https://twitter.com/polesasunder/status/953624238266646529?s=20](images/05-rmd-tweet.png)
+![](images/05-rmd-tweet.png)
 
 In our experience, this accurately captures the reality of data projects (especially in the beginning stages). Throwing everything into the Rmarkdown file gives us a lot more flexibility by allowing us to add multiple types of content. 
 
@@ -181,9 +181,9 @@ We've found each project usually starts at a bit of a sprint, so we try to captu
 
 We're going to move forward assuming we're documenting everything in a `README.Rmd` file. In the next few sections, we'll add various components to the `README.Rmd` we've placed in the project folder. 
 
-If you're ever wondering how to outline your `README.Rmd` file, the figure from [R for Data Science](https://r4ds.had.co.nz/introduction.html) isn't a wrong place to start. 
+If you're ever wondering how to outline your `README.Rmd` file, the figure from [R for Data Science](https://r4ds.had.co.nz/introduction.html) isn't a bad place to start. 
 
-![](http://bit.ly/tidyverse-steps)
+![](images/05-r4ds-data-science-steps.png)
 
 ### Rmarkdown step 1: create a YAML header 
 
@@ -326,7 +326,7 @@ We will begin this document with the following text under our first line header 
 ```md
 # Motivation
 
-We read an interesting article on `fivethirtyeight` about the democratic debates in June of 2019. In particular, the image below displays how voters had changed their minds after watching the candidates. 
+We read an interesting article on `fivethirtyeight` about the democratic debates in June of 2019. In particular, the image below displays how voters had changed their minds after watching the candidates.
 
 ```
 
@@ -564,7 +564,7 @@ Data wrangling is whatever steps we needed to take the raw data into something w
 
 The `02-wrangle.R` script prepares the data from the `01-import.R` for the visualizations. If you think back to the process outlined in the figure in [R for Data Science](https://r4ds.had.co.nz/introduction.html), you will notice that wrangle isn't listed explicitly. Wrangling includes both '**Tidy**' and '**Transform**' steps (both of these need to happen before any visualizations or models can be properly run). 
 
-![](http://bit.ly/tidyverse-steps)
+![](images/05-r4ds-data-science-steps.png)
 
 The simplest way to include the wrangling script in the `README` file is to create a code chunk, insert the `base::source()` function, and enter the path to the `02-wrangle.R` file. 
 
@@ -666,6 +666,8 @@ Let's scroll down to the visualize section and look at the section titled, **Can
 
 The file output is a *Preview* of our markdown file (`README.md`). Our browser renders the markdown as a webpage (`README.html`). 
 
+We have other options, too. We can knit this document to word (`.docx`) using the `YAML` header below.
+
 #### Extracting the .R from the .Rmd 
 
 But now we have all our visualize code in the `03-visualize.Rmd` file--what if we wanted this code in an .R script?
@@ -687,3 +689,5 @@ output file: 03-visualize.R
 ```
 
 The `knitr::purl()` function produces an R code file with all the code chunks from an existing `.Rmd` file, so it usually needs a little editing to be a well documented `.R` file. 
+
+Remember when we mentioned labeling the code chunks in the Rmarkdown files? This pays off when we run `knitr::purl()` because the labels become our section headers.
