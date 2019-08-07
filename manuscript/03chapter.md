@@ -36,7 +36,7 @@ Journalists can communicate *why something matters*, which is a great skill to h
 
 ### A collection of modern data sources
 
-To demonstrate how powerful R/RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R + RStudio. 
+To demonstrate how powerful R and RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R and RStudio. 
 
 1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to import data from Google searches before and after the night of the debates.
 
@@ -45,6 +45,8 @@ To demonstrate how powerful R/RStudio can be, we are going to combine data from 
 3) There is a [Wikipedia](https://en.wikipedia.org/wiki/2020_Democratic_Party_presidential_debates_and_forums) page dedicated to the debates. We'll be scraping the tables with airtime for a candidate using the [`xml2`](https://cran.r-project.org/web/packages/xml2/index.html) and [`rvest`](https://rvest.tidyverse.org/) packages. 
 
 4) Finally, we also have some data from voters on how they felt about each democratic candidate going into the debates. These data are in a [Google Sheet](http://bit.ly/2YEVASu), and we've used the [`datapasta`](https://cran.r-project.org/web/packages/datapasta/README.html) package and copy + paste these data into R. Another option is the [`googlesheets4`](https://googlesheets4.tidyverse.org/) package in R (*you will need to copy this sheet into your Google drive to get this data set*).
+
+
 
 
 ---
@@ -548,16 +550,16 @@ We've covered eight command-line tools, and we hope you can see how these can be
 
 ***
 
-### More on organizing your project files
+### More on organizing project files
 
 As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
-The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
+The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. Start with the folder structure outlined by Greg Wilson we [mentioned earlier.](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization) If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper---it's full of great information and links to other resources. 
 
-### Building your command-line skills
+### Building command-line skills
 
-This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminology for you. The reason these technologies still exist is because they're powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
+This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terms for you. The reason these technologies still exist is that they're powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
 
 > "*the Unix shell does not care if commands are mistyped or if they will destroy files; the Unix shell is not designed to prevent you from doing unsafe things.*"
 
-The command line can seem intimidating because of its power and ability to seemingly destroy the world. 
+The command line can seem intimidating because of its power and ability to destroy the world. 

@@ -1,4 +1,4 @@
-# Part 5: Working in RStudio.Cloud
+# Part 5: RStudio.Cloud
 
 In this chapter, we'll talk about R packages, navigating the RStudio panes, more benefits of working in Rmarkdown and plain text, and how to make and monitor changes with Github. 
 
@@ -87,7 +87,7 @@ We can see the `README.Rmd` file in the **Files** pane in the lower right corner
 
 ![](images/05-open-README-rmd.png)
 
-We've highlighted the pane of RStudio that's displaying the `README.Rmd` file. As you can see, this is a relatively small area in the IDE. Working in a tiny corner of the screen can be hard, but fortunately, RStudio gives us the ability to expand any pane into a fullscreen view. In this case, we'll zoom in the `README.Rmd` file.
+We've highlighted the pane of RStudio that's displaying the `README.Rmd` file. If you see another prompt to install additional packages, click on *Install* and wait for the installation to finish. As you can see, this is a relatively small area in the IDE. Working in a tiny corner of the screen can be hard, but fortunately, RStudio gives us the ability to expand any pane into a fullscreen view. In this case, we'll zoom in the `README.Rmd` file.
 
 If we want to focus on the **Source** pane, and can zoom in using `shift`+`control`+`1`.
 
@@ -113,18 +113,21 @@ We can move through every pane in RStudio by holding down `shift`+`control` and 
 
 If you ever forget which number corresponds to which pane, you can always find them under *View* > *Panes* (see image below)
 
+{width=75%,float=left}
 ![](images/05-zoom-panes.png)
 
 ### Help 
 
 Inevitably, we'll write something that doesn't work. When things aren't working (try to remain calm), you're going to want a place to start looking for solutions. The **Help** pane is accessible in the lower right corner of the IDE. 
 
+{width=85%,float=left}
 ![](images/05-help-pane.png)
 
 #### Working in two panes
 
 Sometimes we'll want to do our work in more than one pane at a time. For example, what if we're working in the **Source** pane, but have a question about a function? We can get answers to a lot of problems using RStudio's internal **Help** pane. After resizing the **Help** pane, we should see the following layout in our IDE. 
 
+{width=85%,float=left}
 ![](images/05-two-pane-view.png)
 
 ## Recap on RStudio panes
@@ -135,7 +138,7 @@ As we pointed out earlier, RStudio is like a workbench built around different pa
 
 ***
 
-## Where do we write code?
+## Where should we write code?
 
 You might be wondering why we have provided you with both `.R` scripts and `.Rmd` files. Well, we want to show you a few options for documenting your work in RStudio. The two sections below outline two standard options (but these are by no means the only way to work with these tools!)
 
@@ -182,7 +185,7 @@ If you're ever wondering how to outline your `README.Rmd` file, the figure from 
 
 ![](http://bit.ly/tidyverse-steps)
 
-### .Rmd step 1: the YAML header 
+### Rmarkdown step 1: create a YAML header 
 
 At the top of the `README.Rmd` document, the first thing we see is what's called the "`YAML` header", and it's going to tell RStudio.Cloud the file's `title`, the `author`, and what the `output` file will be. 
 
@@ -204,7 +207,7 @@ People typically use `YAML` in configuration files, which makes it perfect for s
 
 We can change the `output` argument to [`html_document`](https://bookdown.org/yihui/rmarkdown/html-document.html), [`word_document`](https://bookdown.org/yihui/rmarkdown/word-document.html), or [`pdf_document`](https://bookdown.org/yihui/rmarkdown/pdf-document.html) and create a different file from the plain text we are going to be working in. For now, we are going to focus on the [`github_document`](https://rmarkdown.rstudio.com/github_document_format.html) output. 
 
-### .Rmd step 2: Knit output options 
+### Rmarkdown step 2: know the Knit output options 
 
 Another benefit of working in the `README.Rmd` document is that when we combine it with the powerful [`knitr` package](https://yihui.name/knitr/), we drastically extend the kind of files we can produce from our analysis. `Knitr` follows a principle of [literate programming put forth by Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/lp.html).
 
@@ -217,7 +220,7 @@ The **Knit** button will render the plain text `.Rmd` document into a variety of
 
 The `.Rmd` files also give us the ability to document our intentions, write and execute code, and interpret and explain the results. After we've outlined (and revised) our thought process, we can go about organizing the code in more efficient ways to carry out our intentions.
 
-## Functional code chunks
+### Rmarkdown step 3: Compose functional code chunks
 
 We like to think of Rmarkdown documents like a stack of two sheets of paper, and each piece representing a different file type (`.R` and `.md`). When you lay the markdown file on top of the .R script, you get the Rmarkdown file. 
 
@@ -247,7 +250,7 @@ We will show a few examples of these with labels below:
 
 The code chunks above are labeled, and we recommend *labeling all code chunks*. We've found it forces us to think through the analysis as a series of operations, and reduces random calculations spread throughout the document.
 
-### The setup code chunk
+#### The setup code chunk
 
 After the `YAML` header, our `setup` chunk tells us what we're going to be doing with the code, text, figures, and output in this `README.Rmd` file. 
 
@@ -294,7 +297,7 @@ base::options(tibble.print_max = 25,
 
 Why `78`? The standard code file is 80 columns across, which is the length of a punch card (read more [here](http://bit.ly/code-80-cols)). We go two columns less than 80 ( to give a little wiggle room). 
 
-### Running code chunks 
+#### Running code chunks 
 
 To run the code in your document, we have a few options. First, we can use the same keyboard shortcuts we use for executing code in the `.R` scripts (`ctrl`+`enter` or `cmd`+`return`). 
 
@@ -310,7 +313,7 @@ Don't worry if all of this is confusing! We will be creating our very own `READM
 
 ***
 
-## Start with a README.Rmd
+## Document the project in a README file
 
 The `README.Rmd` file we've provided for this project is in the **Source** pane, and we can start by looking at the contents of the file (look at the `YAML` header, `setup` chunk, and `packages`). 
 
@@ -527,25 +530,160 @@ If we click on the *Commit* icon in the **Git** pane, this will open a new windo
 
 ![](images/05-git-commit-process.png)
 
-### A quick git terminology overview 
+## Moving R code into the Rmarkdown file
 
-Below are some commonly used terms/commands associated with Git and Github.
+In the last section, we used the `README.Rmd` file to upload our data into RStudio. We'll continue using this file to add the contents from one additional `.R` script, `02-wrangle.R`. We will then create a new section and code file for visualizing the data (`03-visualize.R`).
 
-***init*** - the command `git init` is used to initialize a new git repository (it tells Git to start tracking changes in this directory).
+We've provided a lot of code and comments in the `02-wrangle.R` script for you to explore, revise, and adapt to your liking. In the next few sections, we are going to move the code from the `02-wrangle.R` script into a new part of the `README.Rmd` (you probably guessed it "`Wrangle`").
 
-***status*** - `git status` will tell you what you've done and what is happening. You can check the status of a git repository with `git status` (use this liberally). 
+### A quick lesson in compassionate programming
 
-***add*** - For Git to keep track of the changes we make to files, we have to tell it which files to pay attention to. We can do this using `git add`. The `git add -A` tells git to stage *ALL* the files that are in an initialized repo. 
+**Your code will always be communicating to at least two audiences: your computer, and your future self. Be friendly to both of them!***
 
-***commits*** - commits are the staple in Git/Github the workflow. Commits are what Git uses to track the changes you've made to files or folders. Commits are confusing because they can be nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
+Things like the pipe `%>%` in R can help with clarity. The pipe is part of the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html), and it takes code written like this:
 
-To quote David Demaree, 
+```r
+outer_function(inner_function(Data_X), Data_Y)
+```
 
-> *  "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."*
+And makes it look like this:
 
-***repository*** - repos are the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repo has the following structure: `https://github.com/<username>/<repository_name>`. 
+```r
+Data_X %>% # do this 
+   inner_function() %>% # then do this
+   outer_function(Data_Y)
+```
 
-***clone*** - this command copies all files and changes into a new working directory from a remote, initializes (`init`) a new Git repository, and it adds a remote called `origin`.
+`%>%` is a form of [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar), which is a fancy way of saying "*something that helps us communicate better.*" 
 
-***diff*** - this is how Git shows differences between files. Read more about how changes are formatted/displayed [here.](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs)
+You'll see the pipe throughout the project's R code files, and you can always read it as, "*do this, then do this.*"
 
+## Wrangling code
+
+Data wrangling is whatever steps we needed to take the raw data into something we can use to create a table, visualization, model, etc.  You'll sometimes see 'wrangling' referred to as cleaning or munging.
+
+The `02-wrangle.R` script prepares the data from the `01-import.R` for the visualizations. If you think back to the process outlined in the figure in [R for Data Science](https://r4ds.had.co.nz/introduction.html), you will notice that wrangle isn't listed explicitly. Wrangling includes both '**Tidy**' and '**Transform**' steps (both of these need to happen before any visualizations or models can be properly run). 
+
+![](http://bit.ly/tidyverse-steps)
+
+The simplest way to include the wrangling script in the `README` file is to create a code chunk, insert the `base::source()` function, and enter the path to the `02-wrangle.R` file. 
+
+However, we want to be helpful to our future selves, so we will include some language that describes what the functions are doing above each code chunk.
+
+#### Wrangling the data sets
+
+The first data that we need to wrangle is the Wikipedia tables (seen in the `02-wrangle.R` file on the section below).
+
+![](images/05-wrangle-script-file.png)
+
+Both data sets had initially been Wikipedia (`.html`) tables, so they aren't immediately ready to go. We will create some new column names, remove some rows that used to be column headers, and make the airtime variable numeric. 
+
+The polling criterion Wikipedia data starting at the section titled, `wrangle polling criterion data`. This section creates a list of candidates (in `cand_names_wiki`) and uses it to `filter` out the observations we want. Check out [this webinar](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/) to get an understanding of how [`dplyr`](https://dplyr.tidyverse.org/)'s verbs work. 
+
+```r
+# wrangle polling criterion data ------------------------------------------
+# create list from names using dput()
+# dput(WikiPollCriterionRaw[ 1:11, 1])
+cand_names_wiki <- c("Warren[note 2]", 
+                     "O'Rourke[note 2]", 
+                     "Booker[note 2]", 
+                     "Klobuchar[note 2]", 
+                     "Castro[note 2]", 
+                     "Gabbard", 
+                     "Ryan", 
+                     "Inslee", 
+                     "de Blasio", 
+                     "Delaney")
+# subset WikiPollCriterionRaw with list from above
+WikiPollCriterion <- WikiPollCriterionRaw %>% 
+  # this will remove all candidates not listed above 
+  dplyr::filter(`Candidates drawn for the June 26 debate` %in% cand_names_wiki)
+```
+
+After we have wrangled the Wikipedia tables, the script exports these files to a new `processed/` folder. Exporting them into a separate folder helps ensure they won't be accidentally altered or mistaken for the data files in the `raw/` data folder. 
+
+The export section also timestamps each file, so we know the last time it was created. Read more about importing and exporting data in [this RStudio cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-import.pdf).  
+
+The Google trend data are a little more complicated because they come into RStudio.Cloud as a list, which is a data container in R that [doesn't have to be rectangular](http://adv-r.had.co.nz/Data-structures.html). 
+
+The image below outlines what each portion of code is doing. These are relatively everyday wrangling tasks, so we recommend going back or bookmarking these files as a reference. 
+
+![](images/05-wrangle-gtrend-data-01.png)
+
+We have different sources of data in RStudio right now (Wikipedia and Google trend data). They both have information on Candidates though. Often we'll want to join two (or more) data sets on a common column (like candidates). We will perform an example of this in the section outlined below. 
+
+![](images/05-wrangle-gtrend-join-02.png)
+
+The process usually isn't so involved, but we included extra to give more explicit instructions. Be sure to check out the [relational data chapter](https://r4ds.had.co.nz/relational-data.html) the R for Data Science book. 
+
+We'll also be creating a map with the Google (or Twitter) data. Doing this requires another common task, which is loading a dataset from a package in R. The code below loads a state-level map into RStudio.Cloud and joins it to the Google trend data. 
+
+![](images/05-wrangle-gtrend-ggplot2-03.png)
+
+We also export the Google trend data with time-stamp into the `processed/` folder. We should continue adding the code into the `README.Rmd` file until we're confident all the functions will run and we don't see any errors.
+
+![](images/05-wrangle-final-rmd-file.png)
+
+**Note:** The `02-wrangle.R` file is in the `code/` folder, but you won't have to alter the file paths because you're using an RStudio project file. Read more about how these are so helpful to your workflow [here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects). 
+
+## Visualization code
+
+OK, we've completed our section for the wrangling the data. We are going to insert a divider (`***`) and start a new visualize section (`## Visualize`) in the `README.Rmd` file.  
+
+We've created a `03-visualize.Rmd` file for you to download from Github. You can do this by typing the following code into your `README.Rmd` file:
+
+![](images/05-visualize-script-download.png)
+
+The hyperlink is here: `http://bit.ly/viz-2019-data`
+
+After we've downloaded our `03-visualize.Rmd` file, we can open this file and start copying the code. We should begin at the line just below the `# Visualize data` header (it should be on about line `65`) and extending to the end of the file. 
+
+![](images/05-visualize-script-copy-paste.png)
+
+After selecting the code from `03-visualize.Rmd`, we should click on the line directly under the previous code chunk we used to download the `.Rmd` file. 
+
+After pasting the code from `03-visualize.Rmd` into the `README.Rmd` file, we can click on the *Run* > *Run All Chunks Below* (this will run all the code starting at line `319` until the end of the document).
+
+![](images/05-visualize-run-code-below.png)
+
+Running the code will create multiple tables and figures in the `README.Rmd` file. We'll go over these in more depth below. For now, we'll follow the directions at the bottom of the pasted code and "*Click `knit` to get the markdown file to share.*"
+
+### Knitting RMarkdown files
+
+Clicking *Knit* (or clicking `shift`+`cmd`+`k`) activates the **Markdown** pane in RStudio.Cloud and we see the code chunks compiling for the entire document. 
+
+![](images/05-rmarkdown-pane.png)
+
+When the knitting process completes, a new browser window will pop up with our `README.md` document. The `README.md` will have sections of formatted text (from the Markdown), R code, and the various outputs. 
+
+The top of the file should list the title and the packages: 
+
+![](images/05-rmarkdown-output-top.png)
+
+Let's scroll down to the visualize section and look at the section titled, **Candidates with high polling criterions)**. We can see the different parts of the Rmarkdown file in the image below:
+
+![](images/05-rmd-knitted-output.png)
+
+The file output is a *Preview* of our markdown file (`README.md`). Our browser renders the markdown as a webpage (`README.html`). 
+
+#### Extracting the .R from the .Rmd 
+
+But now we have all our visualize code in the `03-visualize.Rmd` file--what if we wanted this code in an .R script?
+
+We can run the following code in the **Console** pane. 
+
+```r
+knitr::purl("03-visualize.Rmd")
+```
+
+We'll see the following script file gets generated. 
+
+```r
+processing file: 03-visualize.Rmd
+  |.................................................................| 100%
+output file: 03-visualize.R
+
+[1] "03-visualize.R"
+```
+
+The `knitr::purl()` function produces an R code file with all the code chunks from an existing `.Rmd` file, so it usually needs a little editing to be a well documented `.R` file. 

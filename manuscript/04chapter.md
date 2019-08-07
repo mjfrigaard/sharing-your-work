@@ -2,12 +2,12 @@
 
 In the previous sections, we've covered using **Terminal** in the RStudio. If you're unfamiliar with these topics, please start there. This section will include tracking changes with version control, specifically Git, Github, and RStudio.
 
-## Tracing your steps 
+## Tracing our steps 
 
 'Sharing your' can take a few forms. You can finish a project, then share your work for people to see and use in what they're doing.  
-Another option is to share what you're currently working on in a way that allows other people can collaborate with you along the way.
+Another option is to share what we're currently working on in a way that allows other people can collaborate with us along the way.
 
-To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe you've used the 'Review' tools in Microsoft Word, or you've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
+To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe we've used the 'Review' tools in Microsoft Word, or we've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
 
 Consider the image below of a .docx file:
 
@@ -20,13 +20,13 @@ The file is an earlier version of a manuscript. A coauthor has suggested changes
 3) the time/date of the proposed changes, and 
 4) any comments about the change
 
-Unfortunately, tracked changes in Word only applies to a single document at a time. When you're working collaboratively (which is quite often), you know asking someone to change a single sentence can result in changes to dozens of files. That's why we need a way to track changes across a project's multiple files.
+Unfortunately, tracked changes in Word only applies to a single document at a time. When we're working collaboratively (which is quite often), we know asking someone to change a single sentence can result in changes to dozens of files. That's why we need a way to track changes across a project's multiple files.
 
 ***
 
 ## Git
 
-Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VCS), which is somewhat like the **Tracked Changes** in Microsoft Word or the **Version History** in Google Docs, but extended to every file in a project. Git will help you keep track of your documents, datasets, code, images, and anything else you tell it to keep an eye on.
+Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VCS), which is somewhat like the *Tracked Changes* in Microsoft Word or the *Version History* in Google Docs, but extended to every file in a project. Git will help us keep track of our documents, datasets, code, images, and anything else we tell it to keep an eye on.
 
 ### Why use Git?
 
@@ -48,7 +48,7 @@ source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.
 
 ### Git is a useful way to think about making changes
 
-Git is also a helpful way of thinking about the file changes in our project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' We'll go over these terms in-depth in the next chapter.
+Git is also a helpful way of thinking about the file changes in our project. The terminology of Git is strange at first, but after we use Git long enough, we'll start thinking about our code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' We'll go over these terms in-depth in the next chapter.
 
 As someone who analyzes data regularly, we can start to think about how to quantify these concepts, too. For example, we can count changes to files, or lines of code, or even measure how changes to code in one file can alter what other files do. All of this is exciting because it means we can start to quantify the changes we make, and we begin to think about our work in exciting new ways. 
 
@@ -66,11 +66,11 @@ In RStudio.Cloud, we want to add version control to this project from *Tools* > 
 {width=75%,float=left}
 ![](images/04-tools-version-control-setup.png)
 
-From here, you will see the *Git/SVN* option on the sidebar, where you will select *Git* from the dropdown list next to *Version control system*. After this, RStudio.Cloud will ask if you want to *initialize a new git repo*, which you do. 
+From here, we will see the *Git/SVN* option on the sidebar, where we will select *Git* from the drop-down list next to *Version control system*. After this, RStudio.Cloud will ask if we want to *initialize a new git repo*, which we do. 
 
 ![](images/04-confirm-new-git-repo.png)
 
-Then you will be asked if we are ok to restart RStudio.Cloud (and we do).
+Then we will be asked if we are OK to restart RStudio.Cloud (and we are).
 
 ![](images/04-confirm-restart-rstudio.png)
 
@@ -128,7 +128,7 @@ $ cat .gitconfig
 
 ### Synchronizing RStudio and Git/Github
 
-[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screenshots). 
+[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all the information anyone would need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screenshots). 
 
 The first step is setting up the RSA Key and passphrase.
 
@@ -148,7 +148,7 @@ The result should look something like this:
 
 ![](images/04-new-rsa-key.png)
 
-Or like this on your local machine.
+Or like this on our local machine.
 
 ```
 whoeveryouare ~ $ ssh-keygen -t rsa -b 2891 -C "USEFUL-COMMENT"
