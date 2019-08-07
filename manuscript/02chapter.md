@@ -1,6 +1,6 @@
 # Part 2: "Have a workflow."
 
-A **workbench** is a place to keep and organize tools, and a **workflow** is how you combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
+A **workbench** is a place to keep and organize tools, and a **workflow** is how we combine these tools to get things done. This chapter will cover the workbench we use and the three guiding principles of the workflow we recommend. 
 
 1. Use free open source software
 2. Write code  
@@ -8,9 +8,9 @@ A **workbench** is a place to keep and organize tools, and a **workflow** is how
 
 ## Principle 1: Use open-source software
 
-All of the tools in this book are available open-source and available free of charge. Just as a point of reference, the cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when you take into account the rising price of tuition.
+All of the tools in this book are available open-source and available free of charge. Just as a point of reference, the cost of a subscription to SPSS at the time of this writing is $99.00 per user per month. Stata is $595 per year or $1,595 for a perpetual license. There are educational discounts available, but this cost is not offset by much when we take into account the rising price of tuition.
 
-A more important reason we recommend open source tools are the communities that you'll get access to when you start using them. By entering the universe of open source software, you get to take advantage of seeing problems solved in the open. You'll also find people like you, grappling with the same issues, and it's hard to overstate the benefit of this shared camaraderie. 
+A more important reason we recommend open source tools are the communities that we got access to when we started using them. By entering the universe of open source software, we got to take advantage of seeing problems solved in the open. We also found people like us, grappling with the same issues, and it's hard to overstate the benefit of this shared camaraderie. 
 
 The final reason is philosophical: we all benefit from using open source tools and sharing improvements on them together. The ['four freedoms' of open source software](https://www.gnu.org/philosophy/free-sw.html) captures this sentiment below. 
 
@@ -93,7 +93,7 @@ An alternative to downloading and installing R and RStudio is using [RStudio.Clo
 
 ### What do Git/Github do?
 
-We will cover more on Git/Github in later sections, but for now, know these tools will allow you to keep track of changes to your project over time. 
+We will cover more on Git/Github in later sections, but for now, know these tools will allow us to keep track of changes to our projects over time. 
 
 **Note:** *You should explore different IDE's on your own-- you'll see there are many options, both paid and unpaid. We're confident you'll see RStudio is well suited to handle more than most of the things you'll want to accomplish.* 
 
@@ -113,7 +113,7 @@ However, we think there are times when we should resist the temptation to abstra
 
 ![](images/02-copy-paste-workflow.png)
 
-As you can see from the image, you'll be required to go back through the same elaborate workflow whenever you receive feedback or input to your project. Each time will take just as long as the first.
+As we can see from the image, we'll be required to go back through the same elaborate workflow whenever we receive feedback or input to our project. Each time will take just as long as the first.
 
 We recommend an alternative to the copy + paste workflow based on the activities of a modern scientist from Jeff Leek we outlined in Chapter 1:
 
@@ -131,11 +131,11 @@ We think of data science software as the tools that help us gain a deeper unders
 
 As we stated in chapter 1, the scientific method is a process. Software is a tool to help move that process along faster. Tools that improve our understanding shorten the distance between questions and answers, but doesn't leave out any crucial details. 
 
-For this reason, we don't recommend relying too heavily on point-and-click proprietary software applications (SPSS, Stata, SAS, etc.). These GUI's make it hard to keep track of what you've clicked on, the order of you clicked on them in, and can oversimplify or obfuscate what's going on. 
+For this reason, we don't recommend relying too heavily on point-and-click proprietary software applications (SPSS, Stata, SAS, etc.). These GUI's make it hard to keep track of what we've clicked on, the order we've clicked on them in, and can oversimplify or obfuscate what's going on. 
 
 ### What do we mean by 'a workflow'?
 
-A workflow is a set of steps that can be used repeatedly to answer any question you might encounter in your work. 
+A workflow is a set of steps that can be used repeatedly to answer any question we might encounter in our work. 
 
 The quote below is from an interview with Andrew Gelman, a statistician from Cornell, who is an author on the excellent blog [Statistical Modeling, Causal Inference, and Social Science](https://statmodeling.stat.columbia.edu/). 
 
@@ -143,9 +143,9 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 > **Answer:** "... I've come to realize that a lot of people don't even know what they did. People don't have a workflow, they have a bunch of numbers, and they start screwing around with the numbers and putting calculations in different places on their spreadsheet, and then at the end, they pull a number out and write it down and type it into their report." - [Andrew Gelman](https://soundcloud.com/dataframed/election-forecasting-polling) 
 
-As the quote above illustrates, ***how you got an answer is just as relevant as the answer you got***.  The tools we provide in this text give you a start-to-finish chain of documentation from question to solutions. 
+As the quote above illustrates, ***how you got an answer is just as relevant as the answer you got***.  The tools we provide in this text give us a start-to-finish chain of documentation from question to solutions. 
 
-Data science jobs need a particular set of tools, and a workbench to organize these tools. To manage your data science projects, you'll need a workflow that gives you the ability to 1) document your intentions and, 2) write code that can translate your plans into something a computer can execute. These two points bring us to our next topic: plain text. As you'll discover, plain text files are a great way to accomplish these tasks. 
+Data science jobs need a particular set of tools, and a workbench to organize these tools. To manage our data science projects, we'll need a workflow that gives us the ability to 1) document our intentions and, 2) write code that can translate our plans into something a computer can execute. These two points bring us to our next topic: plain text. As we'll discover, plain text files are a great way to accomplish these tasks. 
 
 ***
 
@@ -153,7 +153,7 @@ Data science jobs need a particular set of tools, and a workbench to organize th
 
 In [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), authors Hunt and Thomas advise *'Keep[ing] Knowledge in Plain Text'*. This sentiment has been repeated [here](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/), [here](https://richardlent.github.io/post/the-plain-text-workflow/), and [here](http://plain-text.co/index.html#introduction). 
 
-We recommend you keep your files, notes, and any pertinent documentation about your project in plain text files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
+We recommend keeping files, notes, and any pertinent documentation about our project in plain text files. The reasons for this will become more apparent as we move through the example, but I wanted to outline a few here:
 
 - plain text lasts forever (files written 40 years ago are still readable today)  
 - plain text can be *converted* to any other kind of document  
@@ -163,7 +163,7 @@ We'll also cover why you might want switch over to a plain text editor if you're
 
 ### Wait--why would I change what I'm doing if it works?
 
-We get it--change is difficult, and if you have a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
+We get it--change is difficult, and if you've got a working ecosystem of software that keeps you productive, don't abandon it. However, you should be aware of these technologies and recognize that people using them will be adapting *their* workflows to collaborate with you. 
 
 We covered the problems with a copy+paste workflow previously, but there are additional reasons to avoid this toolset:
 
@@ -172,11 +172,11 @@ We covered the problems with a copy+paste workflow previously, but there are add
 4. It's error-prone  
 
 
-If we've sold you on using this flexible and adaptable tool, but you're still wondering what makes a file 'plain text,' we'll cover that next. But first, we need to talk about what *isn't* a plain text file.
+If we've convinced you RStudio is a flexible and adaptable tool, but you're still unclear on what makes a file 'plain text,' we'll cover that next. But first, we need to talk about what *isn't* a plain text file.
 
 ### What *isn't* plain text
 
-Non-plain text files are usually called binary (i.e., files with binary-level compatibility) need special software to run on your computer. The language below is a handy way to think about these files:
+Non-plain text files are usually called binary (i.e., files with binary-level compatibility) need special software to run on our computer. The language below is a handy way to think about these files:
 
 > "Binary files are *[computer-readable but not human-readable](https://www.webopedia.com/TERM/B/binary_file.html)*"   
 
@@ -217,9 +217,9 @@ normal text
 
 To learn more, see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site). 
 
-**We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives you the ability to write in markdown and see the syntax rendered as HTML.
+**We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives user's the ability to write in markdown and see the syntax rendered as HTML.
 
-RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/). Using RMarkdown in RStudio allows for a genuinely reproducible workflow: you're able to write your thoughts, code, display results, and then share everything in multiple outputs.  
+RStudio has an extension of markdown, [RMarkdown](https://rmarkdown.rstudio.com/). Using RMarkdown in RStudio allows for a genuinely reproducible workflow: we're able to write our thoughts, code, display results, and then share everything in multiple outputs.  
 
 ![](images/02-rmarkdown-workflow.png)
 
@@ -231,7 +231,7 @@ I recommend reading up on R and RMarkdown because of how many different outputs 
 
 Python is a neat language and a great tool to combine with R. 
 
-It's also helpful to know a little Python even if you're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages, too. 
+It's also helpful to know a little Python even if we're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages, too. 
 
 We recommend R/RStudio because we wrote this book for people who have a data file and specific questions (or general curiosity). Thus, the entry point for our audience into data science is *with data they need to analyze*, and this is what R was made to do. 
 
@@ -249,7 +249,7 @@ We recommend R/RStudio because of the time saved by switching between software a
 
 Each software application cost me valuable neurons whenever I had to switch between them (read more about attentional residue in the footnotes). With R/RStudio, I cut this number to two (RStudio and the browser).
 
-### RStudio gives you a better mental model for data analysis
+### RStudio gives us a better mental model for data analysis
 
 The third reason is the design of the IDE itself. RStudio is a complementary cognitive artifact, something described in [this article from David Krakauer](http://nautil.us/blog/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature),
 
