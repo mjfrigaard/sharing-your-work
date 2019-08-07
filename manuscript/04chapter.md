@@ -48,9 +48,9 @@ source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.
 
 ### Git is a useful way to think about making changes
 
-Git is also a helpful way of thinking about the changes to your project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' 
+Git is also a helpful way of thinking about the file changes in our project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' We'll go over these terms in-depth in the next chapter.
 
-As someone who analyzes data regularly, these concepts are also countable, which means you can quantify change and work in more exciting ways. 
+As someone who analyzes data regularly, we can start to think about how to quantify these concepts, too. For example, we can count how many files were changes, or how many lines of code were changed, or even how changes to code in one file can alter what other files do. All of this is exciting because it means we can start to quantify the changes we make, and we begin to think about our work in exciting new ways. 
 
 ## Setting up Git
 
@@ -62,17 +62,21 @@ If you'd like to install Git on your local machine, you can do so following thes
 
 In RStudio.Cloud, we want to add version control to this project from *Tools* > *Version Control* > *Project Setup* 
 
+
+{width=75%,float=left}
 ![](images/04-tools-version-control-setup.png)
 
 From here, you will see the *Git/SVN* option on the sidebar, where you will select *Git* from the dropdown list next to *Version control system*. After this, RStudio.Cloud will ask if you want to *initialize a new git repo*, which you do. 
 
+{width=70%,float=left}
 ![](images/04-confirm-new-git-repo.png)
 
-Then you will be asked if we are ok to restart RStudio.Cloud (and we do).
+Then we will be asked if we're OK to restart RStudio.Cloud (and we are).
 
+{width=70%,float=left}
 ![](images/04-confirm-restart-rstudio.png)
 
-After restarting the RStudio.Cloud IDE, we should see the **Git** tab in one of the panes. 
+After restarting the RStudio IDE, we should see the **Git** tab in one of the panes. 
 
 ![](images/04-new-git-pane.png)
 
@@ -126,18 +130,19 @@ $ cat .gitconfig
 
 ### Synchronizing RStudio and Git/Github
 
-[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screenshots). 
+[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information anyone would need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screen-shots). 
 
 The first step is setting up the RSA Key and passphrase.
 
 Go to *Tools* > *Global Options* > ...
 
-- 1. Click on *Git/SVN*  
+1. Click on *Git/SVN*  
 
-- 2. Then *Create RSA Key...*  
+2. Then *Create RSA Key...*  
 
-- 3, 4, and 5. In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
+3. (4, and 5) In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
 
+{width=75%,float=left}
 ![](images/04-create-ssh-key-passphrase.png)
 
 The result should look something like this:
@@ -253,9 +258,9 @@ Host *
 
 Great! Now I am all set up to use Git with RStudio. In the next section, we'll extend our Github skills by moving the contents of a local folder to Github. 
 
-#### More on Git and Github and data organization
+### More on Git and Github and data organization
 
-*Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
+Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:
 
 - [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719)
 

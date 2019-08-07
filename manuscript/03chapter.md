@@ -472,7 +472,7 @@ Another powerful tool in the Unix toolkit is the pipe (`|`). The pipe can be use
 $ ls code | grep "download" | less
 ```
 
-This should display the following result:
+The code above should display the following result:
 
 ```
 00.2-download-538.R
@@ -538,7 +538,9 @@ The `tree` command gives us output like the folder tree below.
 9 directories, 23 files
 ```
 
-Note that the `CHANGELOG.txt` file is not included in this tree (because the changes were made on a local repository). Folder trees come in handy for documenting the project files (and any changes to them). 
+Note that the `CHANGELOG.txt` file is not included in this tree (because we made these changes on a local repository). Folder trees come in handy for documenting the project files (and any changes to them). 
+
+**A note on Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command-line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. ***Terminal.app*** is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
 
 ## Command line recap
 
@@ -546,24 +548,16 @@ We've covered eight command-line tools, and we hope you can see how these can be
 
 ***
 
-#### More on organizing your project files
+### More on organizing your project files
 
 As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
 The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. We recommend starting with the structure outlined by Greg Wilson et al. in the paper, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper--it's full of great information and links to other resources. 
 
-#### Getting more help with command-line tools
+### Building your command-line skills
 
-This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminologies for you. The reason these technologies still exist is that they are powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
+This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terminology for you. The reason these technologies still exist is because they're powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
 
 > "*the Unix shell does not care if commands are mistyped or if they will destroy files; the Unix shell is not designed to prevent you from doing unsafe things.*"
 
-The command line can seem intimidating because of its power and ability to destroy the world. But there are extensive resources available for safely using it and adding it to your wheelhouse. 
-
-* [The Unix Workbench](https://seankross.com/the-unix-workbench/) 
-
-* [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
-
-* [Software Carpentry Unix Workshop](https://swcarpentry.github.io/shell-novice/) 
-
-**Terminals vs. Shells:** Sometimes you'll hear the term "shell" thrown around when researching command-line tools. Strictly speaking, the Terminal application is not a shell, but rather it *gives the user access to the shell*. Other terminal emulator options exist, depending on your operating system and age of your machine. Terminal.app is the default application installed on macOS, but you can download other options (see [iTerm2](https://www.iterm2.com/)). For example, the [GNOME](https://en.wikipedia.org/wiki/GNOME) is a desktop environment based on Linux which also has a Terminal emulator, but this gives users access to the Unix shell. 
+The command line can seem intimidating because of its power and ability to seemingly destroy the world. 

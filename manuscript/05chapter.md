@@ -1,12 +1,12 @@
 # Part 5: Working in RStudio.Cloud
 
-In this chapter, we're going to learn about R packages, navigating the RStudio panes, some additional benefits of working in Rmarkdown and plain text, and how to make and monitor changes with Github. 
+In this chapter, we'll talk about R packages, navigating the RStudio panes, more benefits of working in Rmarkdown and plain text, and how to make and monitor changes with Github. 
 
 ***
 
 ## Navigating the panes in our workbench 
 
-The next few sections will walk through a few of RStudio.Cloud's panes. To recap:
+The next few sections will walk through a few of RStudio.  Cloud's panes. To recap:
 
 *1) We uploaded files into the `project` folder, which now has the following structure:*  
 
@@ -66,7 +66,7 @@ When we click on the `00.1-inst-packages.R` file, we can see it open in the **So
 
 > ***Package devtools required but is not installed.*** 
 
-RStudio gives us a choice to ***Install*** or ***Don't Show Again***, and we'll click on the ***Install*** option. Packages vary in the length they take to install, but we'll wait patiently for `devtools` package finish downloading. After the install has finished, you should see the `>` prompt in the **Console** pane. 
+RStudio gives us a choice to ***Install*** or ***  Don't Show Again***, and we'll click on the ***Install*** option. Packages vary in the length they take to install, but we'll wait patiently for `devtools` package finish downloading. After the install has finished, you should see the `>` prompt in the **Console** pane. 
 
 
 ### Source
@@ -219,11 +219,13 @@ The `.Rmd` files also give us the ability to document our intentions, write and 
 
 ## Functional code chunks
 
-We like to think of the `.Rmd` document like a stack of two sheets of paper, and each piece representing a different file type (`.R` and `.md`). When you lay the markdown file on top of the .R script, you get an Rmarkdown file. 
+We like to think of Rmarkdown documents like a stack of two sheets of paper, and each piece representing a different file type (`.R` and `.md`). When you lay the markdown file on top of the .R script, you get the Rmarkdown file. 
 
 ![R code chunk](images/05-r-script-markdown-rmd.png)
 
-This combination of files gives us a syntax for formatting our text (stuff like *italic*, **bold**, `code`, etc.), and a functional code script we can get access to by inserting code chunks. For example, in the `README.Rmd` file we can type directly onto the paper using the markdown syntax. But if we want to run some R code, imagine tearing a little hole in the markdown paper, and revealing an R script underneath. 
+Combining markdown R script files gives us syntax for formatting our text (stuff like *italic*, **bold**, `code`, etc.), and a functional coding script we can get access to by inserting code chunks.
+
+For example, in the `README.Rmd` file we can type directly onto the paper using the markdown syntax. But if we want to run some R code, imagine tearing a little hole in the markdown paper, and revealing an R script underneath. 
 
 ![R code chunk](images/05-r-code-chunk.png)
 
@@ -266,7 +268,7 @@ if (!file.exists("data/")) {
 
 **Chunk options:** We've included `echo=TRUE`, which means the code will print in the output file. The `tidy=FALSE` makes sure the code doesn't get reformatted when the document gets rendered. We set both options to their default values, but we've included them below so that you can see more examples. 
 
-The `size = "small"` and `fig.path = "figs/"` are used to change the size of the printed code, and the location of any output visualizations.
+The `size = "small  "` and `fig.path = "figs/"` are used to change the size of the printed code, and the location of any output visualizations.
 
 ```r
 knitr::opts_chunk$set(
@@ -283,7 +285,7 @@ knitr::opts_knit$set(
     width = 78)
 ```
 
-**Base options:** the final setting tells RStudio.Cloud how we want the tables to print (`25` rows, and `78` columns).
+**Base options:** the final setting tells RStudio.Cloud how we want the tables to print ('''25' rows, and `78` columns).
 
 ```r
 base::options(tibble.print_max = 25,
@@ -312,7 +314,7 @@ Don't worry if all of this is confusing! We will be creating our very own `READM
 
 The `README.Rmd` file we've provided for this project is in the **Source** pane, and we can start by looking at the contents of the file (look at the `YAML` header, `setup` chunk, and `packages`). 
 
-As we've stated before, we won't be going through the code collects and downloads the data for this project. We'll provide links to resources where you can get all that information, bu we're going to focus on the *workflow for using data to create tables, images, and products*. 
+As we've stated before, we won't be going through the code collects and downloads the data for this project. We'll provide links to those resources, but we're going to focus on the *workflow for using data to create tables, images, and products*. 
 
 Hit the enter/return key until we a few lines of padding beneath the `packages` code chunk. Our cursor should be around line 37. 
 
@@ -478,7 +480,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Git is telling us we have quite a few new files in our project (which we expected), but that to git to pay attention to them, we need to `add` them. We can do this in the **Git** pane RStudio provides (it's by the **Environment** pane).
+Git is telling us we have quite a few new files in our project (which we expected), but that to Git to pay attention to them, we need to `add` them. We can do this in the **Git** pane RStudio provides (it's by the **Environment** pane).
 
 ![](images/05-unknown-files.png)
 
@@ -531,15 +533,15 @@ Below are some commonly used terms/commands associated with Git and Github.
 
 ***init*** - the command `git init` is used to initialize a new git repository (it tells Git to start tracking changes in this directory).
 
-***status*** - Git status will tell you what you've done and what is happening. You can check the status of a git repository with `git status` (use this liberally). 
+***status*** - `git status` will tell you what you've done and what is happening. You can check the status of a git repository with `git status` (use this liberally). 
 
-***add*** - In order for Git to keep track of the changes we make to files, we have to tell it which files to pay attention to. We can do this using `git add`. The `git add -A` tells git to stage *ALL* the files that are in an initialized repo. 
+***add*** - For Git to keep track of the changes we make to files, we have to tell it which files to pay attention to. We can do this using `git add`. The `git add -A` tells git to stage *ALL* the files that are in an initialized repo. 
 
 ***commits*** - commits are the staple in Git/Github the workflow. Commits are what Git uses to track the changes you've made to files or folders. Commits are confusing because they can be nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
 
 To quote David Demaree, 
 
-> *"Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."*
+> *  "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."*
 
 ***repository*** - repos are the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repo has the following structure: `https://github.com/<username>/<repository_name>`. 
 
