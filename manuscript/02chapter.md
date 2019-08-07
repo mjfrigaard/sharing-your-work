@@ -43,11 +43,13 @@ Follow the links below to learn more.
 
 An [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) is an application typically used by programmers to build and test software. We find it helpful to think of a woodworkers workbench as an analogy. The image below is an example of a workbench with a simple rolling cart design (for people with minimal garage space).
 
+{width=70%,float=left}
 ![source: https://www.finewoodworking.com/2008/12/11/lighted-storage-cart-for-tools-and-lumber](images/02-workbench.png)
 
 As we can see, this workbench is efficiently designed to keep essential tools for the job within arms reach, and it uses storage space efficiently. IDE design follows these same principles. However, we also know some models are better than others. For example, consider the design of a  different workbench below. 
 
-![source: https://www.finewoodworking.com/2010/11/12/free-plan-space-saving-tool-rack](images/02-better-workbench.png)
+{width=100%,float=left}
+![source: https://www.finewoodworking.com/2009/10/08/hinged-panels-store-lots-of-tools-in-a-small-space](images/02-better-workbench.png)
 
  By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job, woodworkers can customize the panel arrangements with "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*."
 
@@ -105,7 +107,7 @@ Usually, people interact with their computers using point-and-click [graphical u
 
 User-centered-designed software includes most of the point-and-click operating systems and applications. These programs give the user the ability to click through a predetermined list of options and procedures using their mouse or track-pad. 
 
-![](images/02-copy-paste-drop-down.jpg)
+![](images/02-copy-paste-drop-down.png)
 
 However, we think there are times when we should resist the temptation to abstract away some of life's complexity, and data science is one of them. Using applications like these encourage a copy + paste workflow like the one below. 
 
