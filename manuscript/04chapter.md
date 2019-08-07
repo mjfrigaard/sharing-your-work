@@ -50,7 +50,7 @@ source: [StackOverflow Developer Survey Results](https://insights.stackoverflow.
 
 Git is also a helpful way of thinking about the file changes in our project. The terminology of Git is strange at first, but if you use Git long enough, you'll be thinking about your code in terms of 'adds', 'commits,' 'pushes,' 'pulls,' and 'repos.' We'll go over these terms in-depth in the next chapter.
 
-As someone who analyzes data regularly, we can start to think about how to quantify these concepts, too. For example, we can count how many files were changes, or how many lines of code were changed, or even how changes to code in one file can alter what other files do. All of this is exciting because it means we can start to quantify the changes we make, and we begin to think about our work in exciting new ways. 
+As someone who analyzes data regularly, we can start to think about how to quantify these concepts, too. For example, we can count changes to files, or lines of code, or even measure how changes to code in one file can alter what other files do. All of this is exciting because it means we can start to quantify the changes we make, and we begin to think about our work in exciting new ways. 
 
 ## Setting up Git
 
@@ -68,12 +68,10 @@ In RStudio.Cloud, we want to add version control to this project from *Tools* > 
 
 From here, you will see the *Git/SVN* option on the sidebar, where you will select *Git* from the dropdown list next to *Version control system*. After this, RStudio.Cloud will ask if you want to *initialize a new git repo*, which you do. 
 
-{width=70%,float=left}
 ![](images/04-confirm-new-git-repo.png)
 
-Then we will be asked if we're OK to restart RStudio.Cloud (and we are).
+Then you will be asked if we are ok to restart RStudio.Cloud (and we do).
 
-{width=70%,float=left}
 ![](images/04-confirm-restart-rstudio.png)
 
 After restarting the RStudio IDE, we should see the **Git** tab in one of the panes. 
@@ -130,17 +128,18 @@ $ cat .gitconfig
 
 ### Synchronizing RStudio and Git/Github
 
-[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information anyone would need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screen-shots). 
+[Jenny Bryan](https://jennybryan.org/) has created the online resource [Happy Git and GitHub for the useR](http://happygitwithr.com/) has all in the information you will need for connecting RStudio and Git/Github. We echo a lot of this information below (with copious screenshots). 
 
 The first step is setting up the RSA Key and passphrase.
 
 Go to *Tools* > *Global Options* > ...
 
-1. Click on *Git/SVN*  
+- 1. Click on *Git/SVN*  
 
-2. Then *Create RSA Key...*  
+- 2. Then *Create RSA Key...*  
 
-3. (4, and 5) In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
+- 3, 4, and 5. In the dialog box, enter a passphrase (and store it in a safe place), then click *Create*. 
+
 
 {width=75%,float=left}
 ![](images/04-create-ssh-key-passphrase.png)
@@ -258,9 +257,33 @@ Host *
 
 Great! Now I am all set up to use Git with RStudio. In the next section, we'll extend our Github skills by moving the contents of a local folder to Github. 
 
-### More on Git and Github and data organization
+### A quick git terminology overview 
 
-Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:
+Below are some commonly used terms/commands associated with Git and Github.
+
+***init*** - the command `git init` is used to initialize a new git repository (it tells Git to start tracking changes in this directory).
+
+***status*** - `git status` will tell you what you've done and what is happening. You can check the status of a git repository with `git status` (use this liberally). 
+
+***add*** - For Git to keep track of the changes we make to files, we have to tell Git which files to pay attention to. We can do this using `git add`. The `git add -A` tells git to stage *ALL* the files that are in an initialized repo. 
+
+***commits*** - commits are the staple in Git/Github the workflow. Commits are what Git uses to track the changes you've made to files or folders. Commits are confusing because they can be nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
+
+To quote David Demaree, 
+
+> *  "Semantically, each commit represents a complete snapshot of the state of your project at a given moment in time; its unique identifier serves to distinguish that state from the way the files in your project looked at any other moment in time."*
+
+***repository*** - repos are the files and folders in your project and all the changes you make while working on them. On your local computer, a repository can exist in a folder you initialize a repository in (see below). On Github, a repo has the following structure: 
+
+`https://github.com/<username>/<repository_name>`. 
+
+***clone*** - this command copies all files and changes into a new working directory from a remote, initializes (`init`) a new Git repository, and it adds a remote called `origin`.
+
+***diff*** - this is how Git shows differences between files. Read more about how changes are formatted/displayed [here.](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/diffs)
+
+#### More on Git and Github and data organization
+
+*Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
 
 - [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719)
 
