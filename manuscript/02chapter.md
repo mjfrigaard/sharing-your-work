@@ -48,7 +48,7 @@ An [integrated development environment](https://en.wikipedia.org/wiki/Integrated
 
 As we can see, this workbench is efficiently designed to keep essential tools for the job within arms reach, and it uses storage space efficiently. IDE design follows these same principles. However, we also know some models are better than others. For example, consider the design of a  different workbench below. 
 
-{width=70%,float=left}
+{width=70%,float=right}
 ![](images/02-better-workbench.png)
 
 By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job, woodworkers can customize the panel arrangements with "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*."
@@ -59,8 +59,6 @@ These examples illustrate how differences in the design of a workbench can have 
 
 We recommend choosing a workbench that minimizes the number of additional applications you'll need to have open to get work done. We've found we can use [RStudio](https://www.rstudio.com/products/RStudio/) for ~90% of our daily work (*they're not paying us to say this*). RStudio gives us access to all the tools we need in the same place. 
 
-![](images/02-ide-layout.png)
-
 RStudio has four primary panes, each serving a specific function. 
 
 - the **Code** or **Source** pane is where we can document both human-readable and computer-readable text  
@@ -68,7 +66,11 @@ RStudio has four primary panes, each serving a specific function.
 - the **Console** displays the results from our written code (and allows us to enter commands directly)
 - the **Files** gives us access to the happenings outside the RStudio environment (imported raw data, exported results, etc.)
 
-Just like any workbench, we need to fill RStudio with tools we need for the job (and RStudio plays well with many open-source software tools!). For now, we are just going to focus on R and Git.
+Just like any workbench, we need to fill RStudio with tools we need for the job (and RStudio plays well with many open-source software tools!). 
+
+![](images/02-ide-layout.png)
+
+For now, we are just going to focus on R and Git.
 
 ### What is R?
 
