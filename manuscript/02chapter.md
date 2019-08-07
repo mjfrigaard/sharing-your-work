@@ -44,14 +44,14 @@ Follow the links below to learn more.
 An [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) is an application typically used by programmers to build and test software. We find it helpful to think of a woodworkers workbench as an analogy. The image below is an example of a workbench with a simple rolling cart design (for people with minimal garage space).
 
 {width=70%,float=left}
-![source: https://www.finewoodworking.com/2008/12/11/lighted-storage-cart-for-tools-and-lumber](images/02-workbench.png)
+![](images/02-workbench.png)
 
 As we can see, this workbench is efficiently designed to keep essential tools for the job within arms reach, and it uses storage space efficiently. IDE design follows these same principles. However, we also know some models are better than others. For example, consider the design of a  different workbench below. 
 
-{width=100%,float=left}
-![source: https://www.finewoodworking.com/2009/10/08/hinged-panels-store-lots-of-tools-in-a-small-space](images/02-better-workbench.png)
+{width=70%,float=left}
+![](images/02-better-workbench.png)
 
- By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job, woodworkers can customize the panel arrangements with "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*."
+By making the panel positions adjustable, the workbench allows for easier access to more tools. Depending on the job, woodworkers can customize the panel arrangements with "*the simple pin that allows the rack's various faces to swing left/right for access to either side.*."
 
 These examples illustrate how differences in the design of a workbench can have a meaningful impact on levels of productivity. Well-designed workbenches give us access to more tools without making these tools more difficult to find. 
 
