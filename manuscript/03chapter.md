@@ -69,7 +69,16 @@ We will eventually create our repositories, but for now, let's head over and use
 
 ![RStudio.Cloud environment](images/03-welcome-rstudio-cloud.png)
 
-We've outlined the various resources, projects, and workspaces in the image above (we will go over each in more detail in a later section). For now, we are going to download a repository from Github and open it in RStudio.Cloud. 
+We've outlined the various resources, projects, and workspaces in the image above (we will go over each in more detail in a later section). 
+
+#### Setting up the panes in your workbench
+
+RStudio displays three panes after opening: the **Console** pane, the **Files** pane, and the **Environment** pane. If we open a new file (`.R`, `.txt` or `.Rmd`), RStudio opens the **Source** pane. This is the standard four-pane view for using RStudio (shown below).
+
+![](images/03-rstudio-ide-default.png) 
+
+
+For now, we are going to download a repository from Github and open it in RStudio.Cloud. 
 
 ### Step 3: Download a repository from Github
 

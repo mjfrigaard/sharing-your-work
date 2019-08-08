@@ -30,21 +30,11 @@ project/
     └── project.Rproj
 ```
 
-There are three folders in this project: `code/`, `data/`, and `figs/`. We'll go over these folders and files in more depth in the following sections, but first we will cover some tips for navigating RStudio's various panes. 
+There are three folders in this project: `code/`, `data/`, and `figs/`. We will go over the contents of these folders and files in more depth in the following sections. First, we will cover some tips for navigating RStudio's various panes. 
 
-## Setting up the panes in your workbench
+We covered the **Terminal** and **Git** panes in chapters three and four. Now that we've run some code, we will go over RStudio's other panes.
 
-RStudio's default display consists of three panes: the **Console** pane, the **Files** pane, and the **Environment** pane. When we open a new file (`.R`, `.txt` or `.Rmd`), RStudio opens the **Source** pane. We also covered the **Terminal** and **Git** panes in the previous chapters. Now we're going to quickly cover RStudio's other panes in the next few sections.
-
-### History, Terminal, and Plots
-
-The **History** panel has the code we've previously run and can be sent directly to the **Source** pane. 
-
-### Connections and Jobs
-
-The **Connections** pane tells us what databases we're connected to, and their connection status. The **Jobs** pane allows us to run multiple jobs at the same time. These panes would require us to cover some advanced topics, but neither are too complicated if you've been using RStudio and working with data for awhile (check out example [here]() ).  
-
-### Packages
+### Packages pane
 
 Packages are a vital part of the R ecosystem. R packages are collections of functions and objects collected together with a specific purpose. When we started our RStudio.Cloud session, a few packages get loaded automatically. R users typically refer to these default packages and functions as "base R." Base R packages cover a wide range of statistical procedures and visualizations. Unfortunately, base R can also be challenging to learn because of its inconsistent syntax and style conventions. 
 
@@ -54,9 +44,9 @@ A list of the packages and their descriptions are available in the **Packages** 
 
 You can click on the names of each package to learn more about them and load them into the RStudio session. One of the great things about R is the many user-created packages that greatly expand the number of functions. At the time of this writing, R users have contributed [14638](https://cran.r-project.org/web/packages/) packages available for us to download and use. 
 
-### The `tidyverse` packages
+#### `tidyverse` packages
 
-R is open-source software, so users can write packages to expand and enhance its functionality. The [tidyverse](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html) is a collection of R packages from RStudio for doing data science. All `tidyverse` packages share a few similar underlying principles that allow them to work well together. 
+R is open-source software, so users can write packages to expand and enhance its functionality. The [tidyverse](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html) is a collection of R packages lead by RStudio's Chief Scientist, [Hadley Wickham](http://hadley.nz/). These package have been developed for doing data science. All `tidyverse` packages share a few similar underlying principles that allow them to work well together. 
 
 Unlike base R, the `tidyverse` also a consistent grammar and syntax, which makes it easier to read and write. You can learn more about this syntax in the [R for Data Science](https://r4ds.had.co.nz/) text or on the [tidyverse webpage](https://www.tidyverse.org/). 
 
@@ -64,7 +54,7 @@ So far, the code we've run comes from base R. Going forward; we're going to use 
 
 
 
-### Files
+### Files pane
 
 The **Files** pane displays the files and folders in this project. The file path is visible in the top portion of the pane, beneath the options for *New Folder*, *Upload*, *Delete*, *Rename*, and *More*. An image of this folder's contents is below:
 
@@ -87,7 +77,7 @@ When we click on the `00.1-inst-packages.R` file, we can see it open in the **So
 RStudio gives us a choice to ***Install*** or ***  Don't Show Again***, and we'll click on the ***Install*** option. Packages vary in the length they take to install, but we'll wait patiently for `devtools` package finish downloading. After the install has finished, you should see the `>` prompt in the **Console** pane. 
 
 
-### Source
+### Source pane
 
 When working in RStudio, sometimes we'll write some code, and want to run that code and see if it works. To do this, we can highlight the rest of the script with the mouse cursor (lines 14-22), then hold down `ctrl` or `cmd` and hit `enter` or `return`. 
 
@@ -138,6 +128,8 @@ If you ever forget which number corresponds to which pane, you can always find t
 
 Inevitably, we'll write something that doesn't work. When things aren't working (try to remain calm), you're going to want a place to start looking for solutions. The **Help** pane is accessible in the lower right corner of the IDE. 
 
+If it's hard to read the **Help** pane, you can adjust the size by following the instructions in the image below:
+
 
 ![](images/05-help-pane.png)
 
@@ -147,6 +139,23 @@ Sometimes we'll want to do our work in more than one pane at a time. For example
 
 
 ![](images/05-two-pane-view.png)
+
+
+### History and Plots
+
+The **History** panel has the code we've previously run and can be sent directly to the **Console** or **Source** panes.
+
+![](images/05-history-console.png) 
+
+The **History** comes in handy when we're looking to reproduce a plot without having to run an entire script.
+
+### Jobs and Connections 
+
+The **Jobs** pane allows us to run multiple jobs at the same time. For example, if we wanted to run the `01-import.R` and then `02-wrangle.R`, we could do this using the **Jobs** pane. See the image below:
+
+![](images/05-jobs-pane.png) 
+
+The **Connections** pane tells us what databases we're connected to, and their connection status. This pane require us to cover some advanced topics, but nothing are too complicated if you've been using RStudio and working with data for awhile. Check out more information [here](https://db.rstudio.com/rstudio/connections/). 
 
 ## Recap on RStudio panes
 
@@ -331,7 +340,7 @@ Don't worry if all of this is confusing! We will be creating our very own `READM
 
 ***
 
-## Document the project in a README file
+## Documenting our projects 
 
 The `README.Rmd` file we've provided for this project is in the **Source** pane, and we can start by looking at the contents of the file (look at the `YAML` header, `setup` chunk, and `packages`). 
 
@@ -352,7 +361,7 @@ As the text above states, we saw something cool, and we're going to see if we ca
 
 > **Including an image in the .Rmd file:** If you want to include an image in your `README.Rmd` file, read about the `knitr::include_graphics()` function by entering `??include_graphics` in the **Console** pane. 
 
-### Data sources
+## Import
 
 Now that we have an idea why we're here, we want to start exploring the data. We're going to document all of our steps in the `README.Rmd` file.
 
@@ -362,7 +371,7 @@ In our `README.Rmd` file, we'll create a new level-two header (`##`) called 'Dat
 
 ![](images/05-data-files-code-chunk.png)
 
-#### File management with the `fs` package
+### File management 
 
 To locate the files in `data/raw/` folder, we like to use the `fs` package. `fs` stands for 'file system', and this package gives us the ability to navigate our project folders and files. 
 
@@ -396,8 +405,6 @@ fs::dir_tree("data")
 
 The raw data are in four separate folders, each representing the data source (`538`, `google-trends`, `twitter`, `Wikipedia`).
 
-### Determine the size of the data files
-
 Size can be a significant impediment to getting your work done quickly, so it's best to determine the size of the raw data files before importing. 
 
 The code chunk below tells us how big each file is and the folder in which its located.
@@ -429,8 +436,6 @@ fs::dir_info(path = "data", recurse = TRUE) %>%
 ```
 
 The output tells us the twitter data files are the largest (`7.99M`). All of these files are small enough for RStudio.Cloud to handle, though.
-
-### Loading the data into R
 
 We can import the data using the `01-import.R` file in the `code` folder. Feel free to open this file and examine its contents in the **Source** pane. We will use the `base::source()` function to run all of the code in the `01-import.R` file.
 
@@ -473,7 +478,7 @@ We can also see these objects in the **Environment** pane.
 
 The *Global Environment* holds all of our imported data.
 
-## Documenting changes to our project with Git
+## Document changes with Git
 
 So, we've imported some data into the RStudio.Cloud session, but we need to make sure we're keeping track of the changes to our files. 
 
@@ -542,23 +547,20 @@ Changes to be committed:
 
 This long list of files shows all the contents have been added and are ready to be committed. 
 
-## Committing the changes 
+### Committing the changes 
 
 If we click on the *Commit* icon in the **Git** pane, this will open a new window in RStudio.Cloud. In this window, we will enter a commit message ("First commit!"), and click the *Commit* button. We've outlined this entire process in the schematic below:
 
 ![](images/05-git-commit-process.png)
 
-## Moving R code into the Rmarkdown file
 
-In the last section, we used the `README.Rmd` file to upload our data into RStudio. We'll continue using this file to add the contents from one additional `.R` script, `02-wrangle.R`. We will then create a new section and code file for visualizing the data (`03-visualize.R`).
+***
 
-We've provided a lot of code and comments in the `02-wrangle.R` script for you to explore, revise, and adapt to your liking. In the next few sections, we are going to move the code from the `02-wrangle.R` script into a new part of the `README.Rmd` (you probably guessed it "`Wrangle`").
+#### A quick lesson in compassionate programming
 
-### A quick lesson in compassionate programming
+***Your code will always be communicating to at least two audiences: your computer, and your future self. Be friendly to both of them!***
 
-**Your code will always be communicating to at least two audiences: your computer, and your future self. Be friendly to both of them!***
-
-Things like the pipe `%>%` in R can help with clarity. The pipe is part of the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html), and it takes code written like this:
+R code can be difficult to read, but pipes (`%>%`) can help with clarity. The pipe is part of the [`magrittr` package](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html), and it takes code written like this:
 
 ```r
 outer_function(inner_function(Data_X), Data_Y)
@@ -572,11 +574,13 @@ Data_X %>% # do this
    outer_function(Data_Y)
 ```
 
-`%>%` is a form of [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar), which is a fancy way of saying "*something that helps us communicate better.*" 
+`%>%` is a form of [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar), which is a fancy way of saying "*something that helps us communicate better.*" You'll see the pipe throughout the project's R code files, and you can always read it as, "*do this, then do this.*"
 
-You'll see the pipe throughout the project's R code files, and you can always read it as, "*do this, then do this.*"
+## Wrangle
 
-## Wrangling code
+In the last section, we used the `README.Rmd` file to import our data into RStudio. We'll continue using the `README.Rmd` file to add the contents from one additional `.R` script, `02-wrangle.R`. We will then create a new section and code file for visualizing the data (`03-visualize.R`).
+
+We've provided a lot of code and comments in the `02-wrangle.R` script for you to explore, revise, and adapt to your liking. In the next few sections, we are going to move the code from the `02-wrangle.R` script into a new part of the `README.Rmd` (you probably guessed it "`Wrangle`").
 
 Data wrangling is whatever steps we needed to take the raw data into something we can use to create a table, visualization, model, etc.  You'll sometimes see 'wrangling' referred to as cleaning or munging.
 
@@ -587,8 +591,6 @@ The `02-wrangle.R` script prepares the data from the `01-import.R` for the visua
 The simplest way to include the wrangling script in the `README` file is to create a code chunk, insert the `base::source()` function, and enter the path to the `02-wrangle.R` file. 
 
 However, we want to be helpful to our future selves, so we will include some language that describes what the functions are doing above each code chunk.
-
-#### Wrangling the data sets
 
 The first data that we need to wrangle is the Wikipedia tables (seen in the `02-wrangle.R` file on the section below).
 
@@ -644,7 +646,9 @@ We also export the Google trend data with time-stamp into the `processed/` folde
 
 **Note:** The `02-wrangle.R` file is in the `code/` folder, but you won't have to alter the file paths because you're using an RStudio project file. Read more about how these are so helpful to your workflow [here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects). 
 
-## Visualization code
+***
+
+## Visualize
 
 OK, we've completed our section for the wrangling the data. We are going to insert a divider (`***`) and start a new visualize section (`## Visualize`) in the `README.Rmd` file.  
 
@@ -666,25 +670,113 @@ After pasting the code from `03-visualize.Rmd` into the `README.Rmd` file, we ca
 
 Running the code will create multiple tables and figures in the `README.Rmd` file. We'll go over these in more depth below. For now, we'll follow the directions at the bottom of the pasted code and "*Click `knit` to get the markdown file to share.*"
 
-### Knitting RMarkdown files
+***
 
-Clicking *Knit* (or clicking `shift`+`cmd`+`k`) activates the **Markdown** pane in RStudio.Cloud and we see the code chunks compiling for the entire document. 
+## Knitting RMarkdown files
+
+Clicking *Knit* (or clicking `shift`+`cmd`+`k`) activates the **R Markdown** pane in RStudio.Cloud and we see the code chunks compiling for the entire document. 
 
 ![](images/05-rmarkdown-pane.png)
 
 When the knitting process completes, a new browser window will pop up with our `README.md` document. The `README.md` will have sections of formatted text (from the Markdown), R code, and the various outputs. 
 
-The top of the file should list the title and the packages: 
+The top of the file should list the title and the packages (just like our `README.Rmd` file)
 
 ![](images/05-rmarkdown-output-top.png)
 
-Let's scroll down to the visualize section and look at the section titled, **Candidates with high polling criterions)**. We can see the different parts of the Rmarkdown file in the image below:
+If we scroll down to the visualize section and look at the portion titled, *Candidates with high polling criterions)*. We can see the different parts of the Rmarkdown file in the image below:
 
 ![](images/05-rmd-knitted-output.png)
 
 The file output is a *Preview* of our markdown file (`README.md`). Our browser renders the markdown as a webpage (`README.html`). 
 
-We have other options, too. We can knit this document to word (`.docx`) using the `YAML` header below.
+#### Rmarkdown to Word
+
+Working in Rmarkdown give us other options for output, too. For example, we can knit this document to word (`.docx`) using the `YAML` header below.
+
+```yaml
+output: 
+  word_document: 
+    fig_caption: yes
+    highlight: kate
+    keep_md: yes
+    toc: yes
+```
+
+#### Rmarkdown to PDF
+
+We can also create a .pdf file using this `YAML` header. This also requires making a few adjustments to the `setup` code chunk, and the summary of the mapping data under `Summarize Interest Data`.
+
+```r
+# changes to setup
+# create image folder ----
+if (!file.exists("figs/")) {
+    dir.create("figs/")
+}
+# create data folder ----
+if (!file.exists("data/")) {
+    dir.create("data/")
+}
+knitr::opts_chunk$set(
+    warning = FALSE,
+    message = FALSE,
+    echo = TRUE, # show all code
+    tidy = FALSE, # cleaner code printing
+    size = "small", # smaller code
+    fig.path = "figs/") 
+knitr::opts_knit$set(
+    width = 78)
+base::options(tibble.print_max = 25,
+              tibble.width = 78)
+```
+
+Changes to `Summarize Interest Data` section
+
+```r
+# recheck the structure
+GtrendDems2020InterestByRegion %>%
+  skimr::skim_to_wide() %>% 
+  dplyr::filter(type %in% c("integer", "numeric")) %>% 
+  dplyr::select(variable, 
+                n, 
+                mean, 
+                sd, 
+                median = p50) # remove the hist
+```
+
+And use this `YAML` header.
+
+```yaml
+output: 
+  pdf_document: 
+    highlight: kate
+    toc: yes
+```
+
+#### Rmarkdown Notebooks
+
+Rmarkdown has it's own dynamic document for data analysis called the [Rmarkdown Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html). These are unique because they create an output file with the `nb.html` extension, which 
+> "*is a self-contained HTML file which contains both a rendered copy of the notebook with all current chunk outputs (suitable for display on a website) and a copy of the \*.Rmd file itself.*"
+
+You can create a Rmarkdown document using the following `YAML` header. 
+
+```yaml
+output: 
+  html_notebook: 
+    fig_height: 5
+    fig_width: 7
+    highlight: kate
+    theme: simplex
+    toc: yes
+```
+
+Note that this output changes the *Knit* icon to *Preview*. The output should look like the image below:
+
+![](images/05-notebook-rmd.png)
+
+
+Being able to produce such a wide variety of documents from our Rmarkdown file makes it handy if you have collaborators who aren't using our workflow. We've only touched the surface of available options for Rmarkdown documents. Please check the appendix in chapter 7 for more. 
+
 
 #### Extracting the .R from the .Rmd 
 

@@ -18,9 +18,9 @@ Name your new Github repository the same thing as your RStudio.Cloud project.
 
 ### 2) Add and commit file changes
 
-After you have a Github repository, we will want to add and commit the changes we've made to our files. We can do this in the **Git** pane by clicking on the yellow question marks (and making them green As or blue Ms). When all the files have been added, click on the *Commit* icon.
+After you have a Github repository, we will want to add and commit the changes we've made to our files. We can do this in the **Git** pane by clicking on the yellow question marks (and making them green As or blue Ms). When all the files have been added, click on the *Commit* icon. We've included an icon key so we know what's happening with each file. 
 
-![https://www.rstudio.com/resources/cheatsheets/](images/06-staged-vs-added-02.png)
+![](images/06-git-file-icons.png)
 
 Next we want to review the changed files, write a commit message, and commit these changes to Git. 
 
@@ -81,36 +81,25 @@ Fortunately, our `READMD.md` file documents our entire project! But using Rmarkd
 
 #### 1) Create a project website index file
 
+Let's say we don't like the `Slate` theme we selected from Github pages. Fortunately, Rmarkdown and RStudio.Cloud give us the ability to create a new `.html` file we can use as our `index` file. 
+
 We'll head back over to RStudio.Cloud, change some of the settings on our Rmarkdown `README.Rmd`, rename the output file to `index.html`and commit and push all these changes to Github. 
 
-The `README.Rmd` file can be accessed in the **Files** pane. We are going to alter the `YAML` header by change the `output:` from `github_document` to `html_document`. Click *Save* after making this change.  
-
-Click on the small gear next to the *Preview* button, and follow the directions in the figure below to setup the `index.html` output file.
-
-![](images/06-markdown-settings.png)
-
-When we click *Ok* and the window closes, we should see a new `YAML` header at the top of the `index.md` file.
+The `README.Rmd` file can be accessed in the **Files** pane. We are going to alter the `YAML` header by change the `output:` from `github_document` to `html_document`. Copy the `yaml` header below into the `README.Rmd` file
 
 ```yaml
----
 output: 
   html_document: 
     df_print: kable
-    fig_height: 5.5
-    fig_width: 7.5
-    highlight: kate
+    highlight: zenburn
     keep_md: yes
-    theme: simplex
+    theme: united
     toc: yes
-    toc_depth: 6
----
 ```
 
+*Save* this file under the name `index.Rmd` after making the changes.  
+
 The settings displayed above are some of the ways we can customize our `.Rmd` files. Read more about the html documents [here in the Rmarkdown guide](https://bookdown.org/yihui/rmarkdown/html-document.html). 
-
-We will use the *Rename* button to change this file to `index.md`.
-
-![](images/06-rename-index.png)
 
 Notice the changes to the files in the **Git** pane. Follow the previous steps for adding and committing the file (don't push the changes yet!)
 
@@ -128,17 +117,13 @@ Now we can push the changes to Github.
 
 ![](images/06-git-username-password.png)
 
-After pushing these changes to Github, we can go back to the project website link. This will now take us to a nice website for our project. 
+After pushing these changes to Github, we can go back to the project website link. This will now take us to a nice website for our project.  
 
 
-
-### HTML documents 
-
-Let's say we don't like the `Slate` theme we selected from Github pages. Fortunately, Rmarkdown and RStudio.Cloud give us the ability to create a new `.html` file we can use as our `index` file. 
 
 Open the `index.md` file in the **Source** pane, click on the small gear next to the *Preview* button, and follow the directions in the figure below to setup the `index.html` output file.
 
-![](images/06-markdown-settings.png)
+![](images/06-html-website.png)
 
 When we click *Ok* and the window closes, we should see a new `YAML` header at the top of the `index.md` file.
 
