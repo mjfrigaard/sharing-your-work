@@ -1,14 +1,22 @@
 # Part 5: RStudio.Cloud
 
-In this chapter, we'll talk about R packages, navigating the RStudio panes, more benefits of working in Rmarkdown and plain text, and how to make and monitor changes with Github. 
+In this chapter, we're going to introduce R packages (the source of R's power), how to quickly navigate RStudio's panes, and more benefits of working in Rmarkdown/plain text.
 
 ***
 
-## Navigating the panes in our workbench 
+## What have we done so far?
 
-The next few sections will walk through a few of RStudio.  Cloud's panes. To recap:
+The last few chapters covered a lot, so let's do a quick recap:
 
-*1) We uploaded files into the `project` folder, which now has the following structure:*  
+*1) We created RStudio.Cloud and Github accounts* 
+
+*2) We downloaded a repository from Github onto our local computer.*
+
+*3) We uploaded the repository files into RStudio.Cloud, then moved the files into the `project` folder using the Terminal.*  
+
+*4) We added and committed these changes to our local Git repository using RStudio's Git integration.*
+
+Now we have a project folder in RStudio with the following structure: 
 
 ```sh
 project/
@@ -22,11 +30,19 @@ project/
     └── project.Rproj
 ```
 
-*2) There are three folders in this project: `code/`, `data/`, and `figs/`.*
+There are three folders in this project: `code/`, `data/`, and `figs/`. We'll go over these folders and files in more depth in the following sections, but first we will cover some tips for navigating RStudio's various panes. 
 
-*3) There are three types of plain text files in the parent folder: `.md`, `.Rmd` and `.txt`, and two project files: `dem-pres-debate-2019.Rproj` and `project. Rproj`.*
+## Setting up the panes in your workbench
 
-We'll go over these folders and files in more depth in the following sections. 
+RStudio's default display consists of three panes: the **Console** pane, the **Files** pane, and the **Environment** pane. When we open a new file (`.R`, `.txt` or `.Rmd`), RStudio opens the **Source** pane. We also covered the **Terminal** and **Git** panes in the previous chapters. Now we're going to quickly cover RStudio's other panes in the next few sections.
+
+### History, Terminal, and Plots
+
+The **History** panel has the code we've previously run and can be sent directly to the **Source** pane. 
+
+### Connections and Jobs
+
+The **Connections** pane tells us what databases we're connected to, and their connection status. The **Jobs** pane 
 
 ### Packages
 
@@ -38,13 +54,15 @@ A list of the packages and their descriptions are available in the **Packages** 
 
 You can click on the names of each package to learn more about them and load them into the RStudio session. One of the great things about R is the many user-created packages that greatly expand the number of functions. At the time of this writing, R users have contributed [14638](https://cran.r-project.org/web/packages/) packages available for us to download and use. 
 
-### The `tidyverse`
+### The `tidyverse` packages
 
 R is open-source software, so users can write packages to expand and enhance its functionality. The [tidyverse](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html) is a collection of R packages from RStudio for doing data science. All `tidyverse` packages share a few similar underlying principles that allow them to work well together. 
 
 Unlike base R, the `tidyverse` also a consistent grammar and syntax, which makes it easier to read and write. You can learn more about this syntax in the [R for Data Science](https://r4ds.had.co.nz/) text or on the [tidyverse webpage](https://www.tidyverse.org/). 
 
 So far, the code we've run comes from base R. Going forward; we're going to use various packages from the `tidyverse.`
+
+
 
 ### Files
 

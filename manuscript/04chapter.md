@@ -14,28 +14,31 @@ Consider a typical lifespan of a `.docx` file:
 ```
 project/
 └── paper/
-    ├── draft-1.docx
-    ├── draft-2.docx
-    ├── draft-3-mf.docx
-    ├── draft-3-mk.docx
-    ├── final-final.docx
-    └── final.docx
+        ├── draft-1.docx
+        ├── draft-2.docx
+        ├── draft-3-mf.docx
+        ├── draft-3-mk.docx
+        ├── final.docx
+        ├── final-final.docx
+        └── no-really-final.docx
 ```
 
-This is the inevitable progression of a document that requires collaboration ***and*** integration. Revision features are great when we're using a single file, but what about the supporting files in the project? Every project we've ever worked on required more than a single word document. 
+This is the inevitable progression of a document that requires collaboration ***and*** iteration. Revision features are great when we're using a single file, and that file should not be altered until changed have been approved/rejected. But what about all the supporting files that are needed to create that report or analysis in our Word documents? Every project we've ever worked on required more than a single Word document. 
 
 ![](images/04-version-control-vs-track-changes.png)
 
-The file is an earlier version of a paper. A coauthor has suggested changes to the results section. As changes are being made, the document is essentially 'locked' until the next author can review. This limitation is significant limitation to projects that involve many files and require iteration and changes. 
+The file displayed above is an early version of a peer-reviewed manuscript. In this situation, a coauthor has suggested some changes to our results section. While making changes, the document is essentially 'locked' until the next coauthor can review. This is a serious limitation when a project involves many files, and those files require frequent updates, or *versions*. 
 
-Sound version control systems let us see four aspects of changes:
+### Enter version control 
 
-1) what the differences are, 
-2) who recommended them, 
-3) the time/date of the proposed changes, and 
-4) any comments about the change
+Sound version control systems let us see four important aspects of change:
 
-Unfortunately, tracked changes in Word only applies to a single document at a time. When we're working collaboratively (which is quite often), we know asking someone to change a single sentence can result in changes to dozens of files. That's why we need a way to track changes across a project's multiple files.
+1. What the differences are (*i.e. the actual changes*), 
+2. Who made the changes (*this allows us to separate our changes from everyone else's*), 
+3. The time/date of the proposed changes (*without this, it's impossible to know what order the changes took place in*), and 
+4. Any comments about the change (*the 'how and why' for the changes*)
+
+Unfortunately, tracked changes in Microsoft Word only applies to a single document at a time. When we're working collaboratively on a project (which is quite often), we know asking someone to change a single sentence can result in changes to dozens of files. That's why we need a way to track changes across multiple files in a project.
 
 ***
 

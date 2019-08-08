@@ -5,6 +5,8 @@ To create a new preview, repeat what you did when you made your first preview, b
 
 `Author > Books > [Your Book Title] > Preview or Publish > Preview`
 
+Or [this link](https://leanpub.com/showingyourwork/preview) if you're signed in.
+
 ***
 
 ## Images (from Leanpub)
