@@ -42,7 +42,7 @@ The **History** panel has the code we've previously run and can be sent directly
 
 ### Connections and Jobs
 
-The **Connections** pane tells us what databases we're connected to, and their connection status. The **Jobs** pane 
+The **Connections** pane tells us what databases we're connected to, and their connection status. The **Jobs** pane allows us to run multiple jobs at the same time. These panes would require us to cover some advanced topics, but neither are too complicated if you've been using RStudio and working with data for awhile (check out example [here]() ).  
 
 ### Packages
 
