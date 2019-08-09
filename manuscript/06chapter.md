@@ -38,13 +38,13 @@ After you've created a Github repository, we'll need to add and commit the chang
 
 ![](images/06-git-file-icons.png)
 
-When all the files have been added, click on the *Commit* icon. Next we want to review the changed files, write a commit message, and commit these changes to Git (see image below). 
+When all the files have been added, click on the *Commit* button. Next we want to review the changed files, write a commit message, and commit these changes to Git (see image below). 
 
 ![](images/06-commit-changes-02.png)
 
 ### 3) Push file changes to remote 
 
-After these changes have been committed to our local Git repository in RStudio.Cloud, we need to 'sync' the local files with the Github repository we created in step 1. Fortunately, when we setup the Github repository, all the information we needed in on that landing page (see below).
+After these changes have been committed to our local Git repository in RStudio.Cloud, we need to 'sync' the local files with the Github repository we created in step 1. Fortunately, when we created the Github repository, all the information we needed in on that landing page (see below).
 
 ![](images/06-git-remote-setup-02.png)
 
@@ -127,56 +127,33 @@ Remember that Git is used for tracking *all* changes to the files in our reposit
 
 This means there are files in the Github repository that aren't in our RStudio.Cloud repository. If we want to make sure the RStudio.Cloud Git repository has the same files as our `remote` repository on Github, we need to click on the *Pull* button (it's right next to the *Push* button) in the upper right corner of the review changes window. 
 
-*Pull* means, *"pull the file changes into my local repo."*
-
 ![](images/06-git-pull-button.png)
 
-After clicking on the *Pull* button, the results should display something like the image below. 
+*Pull* means, *"pull the file changes into my local repo."* After clicking on the *Pull* button, the results should display something like the image below. 
 
 ![](images/06-git-pull.png)
 
-Now we can push the changes to Github.
+This cryptic language is how Git tells us what changes are being merged with our current repository on RStudio.Cloud. Read more about how to interpret these symbols [here](https://git-scm.com/docs/giteveryday). 
+
+Now we can push the file changes to Github by clicking *Push* in the **Git** pane.
 
 ![](images/06-git-username-password.png)
 
 After pushing these changes to Github, we can go back to the project website link. This will now take us to a nice website for our project.  
 
-Open the `index.md` file in the **Source** pane, click on the small gear next to the *Preview* button, and follow the directions in the figure below to setup the `index.html` output file.
-
 ![](images/06-html-website.png)
 
-When we click *Ok* and the window closes, we should see a new `YAML` header at the top of the `index.md` file.
-
-```yaml
----
-output: 
-  html_document: 
-    df_print: kable
-    fig_height: 5.5
-    fig_width: 7.5
-    highlight: kate
-    keep_md: yes
-    theme: simplex
-    toc: yes
-    toc_depth: 6
----
-```
-
-The settings displayed above are some of the ways we can customize our `.Rmd` files. Read more about the html documents [here in the Rmarkdown guide](https://bookdown.org/yihui/rmarkdown/html-document.html). 
-
-To see what these settings do, we will click the *Preview* button on the `index.md` file. 
-
-![](images/06-html-document.png)
-
-Now we can add, commit, and push these changes to the Github remote following the steps outlined above to get a new project webpage. 
-
-The new `index.html` file has a few neat qualities: first, we can navigate this file like a webpage (the back button works when we click through the links in the document). Second, just about every computer will have a browser, so we don't have to worry about what version to save. Third, these files are easily transported to the web, which we will do in the next section.
+This new `index.html` file has a few neat qualities: first, we can navigate this file like a webpage (the back button works when we click through the links in the table of contents). Second, just about every computer will have a browser, so we don't have to worry about what version to save. Third, Rmarkdown files are relatively easy to work with and don't force us to learn complicated web programming language (like HTML and CSS).
 
 ## Conclusion
 
 There you have it! We've covered how to add and extract the code in an `.Rmd` file, how to push these changes to a Github repository, how to knit these files into `.html` documents,
 
 Being able to create files in `.html` format is incredibly handy for interweaving various formatted text, code, and media (tables, images, and graphs). 
+
+We hope this text was a nice introduction to these technologies, and you feel like you have enough information to move forward and build on this project (or adapt it to something else you're working on).
+
+![](images/06-all-tools-rstudio.png)
 
 
 
