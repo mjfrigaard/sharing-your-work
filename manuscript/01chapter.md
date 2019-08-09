@@ -8,7 +8,7 @@ The article above has tons of great information, but it was aimed at "*researche
 
 A constant theme that runs through this book is being able to do "good enough" work. We're going to introduce you to a lot of technology in the next few pages, and we want you to set reasonable expectations for using these tools. 
 
-There are many courses, tutorials, and resources that promise you 'expert training' in all of the tools we're covering. You don't have time for that--you need enough knowledge to see cool stuff and recreate it. In the beginning, you need to focus on doing good enough work, and then sharing your work. The feedback and input you get from developing things in the open are what builds your skillset. Expertise is something you can attain with experience (if that's your goal), but in many cases, being good enough will get lots of work done.
+There are many courses, tutorials, and resources that promise you 'expert training' in all of the tools we're covering. You don't have time for that--you need enough knowledge to see cool stuff and recreate it. In the beginning, you need to focus on doing good enough work, and then sharing your work. The feedback and input you get from developing things in the open are what builds your skill-set. Expertise is something you can attain with experience (if that's your goal), but in many cases, being good enough will get lots of work done.
 
 ## How to share your work 
 

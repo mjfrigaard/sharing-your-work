@@ -185,7 +185,6 @@ The last bit is the most crucial distinction--**human-readable vs. computer-read
 
 ### Markdown & Rmarkdown  
 
-{float=left}
 ![](images/02-markdown-icon.png) 
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) files (`.md`) are common type of plain text files. Markdown is a 'lightweight markup language,' which means it's easy for humans to read, and computers can convert it to HyperText Markup Language (HTML). Markdown allows for some formatting options to aid with communication (see below)
