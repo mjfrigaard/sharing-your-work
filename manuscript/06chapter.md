@@ -79,9 +79,9 @@ This give us a website that uses our `README.md` file as the landing page.
 
 Fortunately, our `READMD.md` file documents our entire project! But using Rmarkdown means we're not limited to the themes and options provided by Github pages.
 
-#### 1) Create a project website index file
+### Create a website from your Rmarkdown file
 
-Let's say we don't like the `Slate` theme we selected from Github pages. Fortunately, Rmarkdown and RStudio.Cloud give us the ability to create a new `.html` file we can use as our `index` file. 
+What if we don't like the `Slate` theme we selected from Github pages? Fortunately, Rmarkdown and RStudio.Cloud give us the ability to create a new `.html` file we can use as our `index` file. 
 
 We'll head back over to RStudio.Cloud, change some of the settings on our Rmarkdown `README.Rmd`, rename the output file to `index.html`and commit and push all these changes to Github. 
 
@@ -97,15 +97,17 @@ output:
     toc: yes
 ```
 
-*Save* this file under the name `index.Rmd` after making the changes.  
-
 The settings displayed above are some of the ways we can customize our `.Rmd` files. Read more about the html documents [here in the Rmarkdown guide](https://bookdown.org/yihui/rmarkdown/html-document.html). 
 
-Notice the changes to the files in the **Git** pane. Follow the previous steps for adding and committing the file (don't push the changes yet!)
+*Save* and *Knit* this new file, and rename the output `index.html`.
 
-#### 2) Pull the changes from Github (before pushing)
+Notice the changes to the files in the **Git** pane. Follow the previous steps for adding and committing the file (but don't push the changes yet!)
 
-We made a few changes to the repository on Github when we set up the Github pages. Specifically, we added a `_config.yml` file. We need to make sure the local repository has the same files as the `remote` repository on Github, and we can do this by clicking on the *Pull* button (it's right next to the *Push* button) in the upper right corner of the review changes window. 
+#### Pulling the changes from Github (before pushing)
+
+Remember that Git is used for tracking *all* changes to our files. Well, we made a few changes to the repository on Github when we set up our Github pages website. Specifically, we added a `_config.yml` file. 
+
+We need to make sure our RStudio.Cloud Git repository has the same files as our `remote` repository on Github. We can do this by clicking on the *Pull* button (it's right next to the *Push* button) in the upper right corner of the review changes window. *Pull* means, *"pull the file changes into my local repo."*
 
 ![](images/06-git-pull-button.png)
 

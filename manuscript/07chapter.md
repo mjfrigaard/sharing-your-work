@@ -22,7 +22,7 @@ These aren't new concepts--we're really just repeating things we've learned from
    2) [Information, Attention, and Decision Making](https://aom.org/uploadedFiles/Publications/AMJ/June_2015_FTE.pdf)
    3) [Causes, effects, and practicalities of everyday multitasking](https://www.sciencedirect.com/science/article/pii/S0273229714000513)
 -  See [Baumer et al.](https://arxiv.org/abs/1402.1894) for an in-depth summary of why you should abandon a copy + paste workflow
-- This text is also an *[opinionated technical manual](https://peerj.com/preprints/3210/)*, and covers topics left out of typical statistics texts,  
+- This text was largely inspired by the excellent paper, *[Opinionated analysis development](https://peerj.com/preprints/3210/)*, and we've explicitly covered topics left out of typical statistics texts/courses,  
 "*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
 
 ## Chapter 3
