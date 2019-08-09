@@ -553,6 +553,9 @@ If we click on the *Commit* icon in the **Git** pane, this will open a new windo
 
 ![](images/05-git-commit-process.png)
 
+This process--adding files, reviewing the changes to a project, and committing these changes to a Git repository--make up ~70% of the work you'll be doing with Git. 
+
+In the next chapter we will introduce moving your files to Github.
 
 ***
 
