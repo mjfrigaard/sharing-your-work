@@ -140,7 +140,7 @@ The quote below is from an interview with Andrew Gelman, a statistician from Cor
 
 As the quote above illustrates, ***how you got an answer is just as relevant as the answer you got***.  The tools we provide in this text give us a start-to-finish chain of documentation from question to solutions. 
 
-Data science jobs need a particular set of tools, and a workbench to organize these tools. To manage our data science projects, we'll need a workflow that gives us the ability to 1) document our intentions and, 2) write code that can translate our plans into something a computer can execute. These two points bring us to our next topic: plain text. As we'll discover, plain text files are a great way to accomplish these tasks. 
+Data science needs a particular set of tools, and a workbench to organize those tools. To manage data science projects, we'll need a workflow that gives us the ability to 1) document our intentions and, 2) write code that can translate our plans into something a computer can execute. These two points bring us to our next topic: plain text. As we'll discover, plain text files are a great way to accomplish these tasks. 
 
 ***
 
