@@ -55,13 +55,13 @@ We'll be focusing on *how these tools work together*. We'll show you how R, RStu
 
 ### Data products and computer programs
 
-To create a data product, we'll need to write a small computer programs. When executed, computer programs are sets of instructions that performing specific tasks. Data products take some raw data as the input, process and prepare those data, and generate figures and tables of the results. It might seem strange to think of a data product as a mini computer program, but it will help you see the need for a toolchain. 
+To create a data product, we'll need to write small computer programs.  Crazy, right? Not really. When executed, computer programs are sets of instructions for performing specific tasks. Data products take some raw data as the input, process and prepare those data, and generate figures and tables of the results. It might seem strange to think of a data product as a small computer program, but it will help you see the need for a toolchain. 
 
-Recall the following portion from definition above, 
+Recall the following portion from the definition above, 
 
 > "*...the output of one tool comprises the input of the next.*" 
 
-We a set of tools that takes an input (data), creates an output (visualization), then  
+We a set of tools that takes an input (data), creates an output (visualization), then passes this output to another tool in the toolchain. We've found people start using one of these tools, but without fully understanding where it fits into the larger toolchain. After a few frustrating attempts to create the product they were hoping for, they'll start looking for another set of tools (or give up). Our goal with this book is to keep that scenario from happening.
 
 All of this involves being able to communicate our intentions clearly and explicitly with our computers. That means writing code. **But this book will not teach you how to program in R.** 
 
@@ -143,15 +143,9 @@ The strength of the FMs is how they present information: they gave the material 
 
 We've found so much data science and statistical information on the Internet has a ton of acronyms, jargon, and equations. We've actively avoided using technical verbiage, and focused on using figures and graphics. 
 
-> "...there are lots of other books that explain what things are called. This book explains what they do." 
-
-The quote above comes from Randall Munroe, author of the [xkcd](https://xkcd.com/) comic. In his book ["Thing Explainer"](https://xkcd.com/thing-explainer/), Munroe uses pictures and plain language to describe multiple complex systems (rocket ships, the periodic table, laptops, etc.). 
-
-The subtitle of Munroe's book is, *'Complicated stuff in simple words'*, which is what we're trying to replicate here. Wherever possible, we've dropped unnecessary technical jargon and spelled out any acronyms. 
-
 ## What you'll walk away with
 
-You will have a working project (cool visualizations, lots of code, data) a ton of resources, and a book for reproducing this process again.
+You will have a working data product (cool visualizations, lots of code, data) a ton of resources, and a book for reproducing this process again.
 
 ### Language and style guide
 
