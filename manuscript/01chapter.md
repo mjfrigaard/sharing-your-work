@@ -22,14 +22,14 @@ We'll introduce you to a few data scientists and journalists who are excellent c
 
 Our first example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a post-doc at Johns Hopkins Bloomberg School of Health. She maintains a [blog](https://livefreeordichotomize.com/), publishes [ebooks](https://leanpub.com/ggplot2in2), has [online courses](https://leanpub.com/u/lucymcgowan), and also attempts to create a [real BB-8](https://magazine.amstat.org/blog/2017/11/01/lucy-dagostino-mcgowan-and-ryan-jarrett/).  
 
-Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make business decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on workflow practices that contribute to success in their data science teams.
+Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make business decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on toolchain practices that contribute to success in their data science teams.
 
 Or take [Amber Thomas](https://twitter.com/puddingviz), the Senior Journalist-Engineer at the [Pudding](https://pudding.cool/). She writes [tutorials](https://pudding.cool/process/flexbox-layout/), [maintains a blog](https://amber.rbind.io/), and spends her time "hanging upside down in aerial silks."
 
 All of these people have done two things very well: 
 
-1. **Created good work**: All created projects across multiple mediums,  websites, and platforms 
-2. **Shared with as many people as possible:** these examples made their projects discoverable and collaborated with the data science community (by putting their work online for people to find)
+1. **Created good work**: All created products across multiple mediums,  websites, and platforms 
+2. **Shared with as many people as possible:** these examples made their products discoverable and collaborated with the data science community (by putting their work online for people to find)
 
 Of course, they also had to know their subject areas, and have something worth sharing. But they didn't wait until their work was perfect, or until they were done with their careers to share and get feedback. They started engaging with people while they were working to show how their work gets done. 
 
@@ -55,7 +55,7 @@ No one is born with an ability to write well--it takes a lot of practice and fee
 
 When we were kids in math class, most teachers required us to show how we got the answers ("show your work"). Teachers told us 'show our work' so they could follow our thought processes through a problem, and see where our thinking was incomplete or mistaken. 
 
-If you're regularly sharing your work, people can follow your line of thinking as you progress throughout your project. More importantly, people who find your work will give you feedback and improve your ideas. 
+If you're regularly sharing your work, people can follow your line of thinking as you progress throughout your product. More importantly, people who find your work will give you feedback and improve your ideas. 
 
 ## Get 'good enough,' then go for more if you need it
 

@@ -6,32 +6,38 @@ README for Showing your work
 The files for this book are below
 
 ```sh
-├── README.md
-├── book-outline.md
-├── manuscript/
-    ├── 00intro.md
-    ├── 01chapter.md
-    ├── 02chapter.md
-    ├── 03chapter.md
-    ├── 04chapter.md
-    ├── 05chapter.md
-    ├── 06chapter.md
-    ├── Book.txt
-    └── images/
+manuscript/
+        ├── 00intro.md
+        ├── 01chapter.md
+        ├── 02chapter.md
+        ├── 03chapter.md
+        ├── 04chapter.md
+        ├── 05chapter.md
+        ├── 06chapter.md
+        ├── 07chapter.md
+        ├── Book.txt
+        └── images/
+         # omitted
+1 directory, 132 files
 ```
 
-# Intro
+# Introduction: A toolchain for making data products
 
-- Intro: Why we wrote this   
-  + Our goal for anyone reading this book 
-  + Who this book is for  
-    * Technical assumptions   
-  + What this book covers
-  + What this book doesn't cover   
-  + How this book is structured    
-  + What you'll walk away with    
-    * Language and style guide     
-      * Learn more    
+- Introduction: A toolchain for making data products
+  + Why write a book on RStudio, Git, and Github?  
+    - An enhanced way of storytelling  
+  + Where do data come from?  
+  + What tools will I need?  
+    - Do I have to learn to code?  
+  + Our goal for anyone reading this book   
+  + Who this book is for     
+    - Technical assumptions  
+  + What this book covers  
+  + What this book doesn't cover  
+  + How this book is structured  
+  + What you'll walk away with  
+    - Language and style guide  
+      - Places to learn more 
 
 ***
 

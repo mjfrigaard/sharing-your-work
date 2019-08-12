@@ -2,7 +2,7 @@
 
 This book is about a toolchain for building data products. Wiktionary defines [toolchain](https://en.wiktionary.org/wiki/toolchain) as, "*A set of tools for software development, often used in sequence so that the output of one tool comprises the input of the next.*" We'll adjust this definition slightly to, 
 
-> "A set of tools for *data products*, often used in sequence so that the output of one tool comprises the input of the next."
+> "**Toolchain:** A set of tools for creating *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
 You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
@@ -12,7 +12,7 @@ We recommend using RStudio, Git, and Github for creating data products. In the f
 
 ## Why write a book on RStudio, Git, and Github?
 
-We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We've also wanted to try and answer some of the questions we frequently get when training people on RStudio and Github.
+We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
 
 We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
 
@@ -22,27 +22,45 @@ Today, most primary sources of media use data as part of their evidence base. Ch
 
 The massive amounts of data available have also given rise to new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional data sources. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
 
-### Where do these data come from?
+## Where do we find data?
 
-There really seems to be no limit to what can be measured or counted these days, which is why data scientist has been the sexiest job for awhile now ([and will be for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)). But in order to build data products, you'll need to to understand 1) the tools of the trade, and 2) where to find the raw materials. 
+There seems to be no limit to what can be measured or counted. This fact is reflected in the articles touting "data scientist" as the sexiest job for years, [and this is unlikely to change for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155). But to build data products, you'll need to to understand 1) where to find the raw materials, and 2) the tools of the trade. 
 
-Consider the following image:
+The image below displays some of the possible sources we can find the raw materials for creating a data product:
 
 ![](images/00-made-of.png)
 
-Data are available in more areas than previous generations could've imagined. We can use Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
+We've all seen something unique on the Internet and wondered how the authors were able to create such a compelling or impressive display of information. Before they could start making design decisions, the authors had to know where to find the data. The figure above shows some examples of where data can come from, and a few of the ways they can be stored. As we can see, data are available in more areas than previous generations could've imagined. We can use Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
 
-Now that we've shown you all this cool stuff, we want to tell you why we wrote this book, 
+Now that we've shown you a few places to find the raw material for a data product, we want to tell you about the tools you'll need. 
 
-***"You've found something cool on the Internet, but you have no idea what it took to make it."***
+## What tools will I need?
 
-There are a ton of really great resources on the Internet right now for learning data science (see [here](https://www.coursera.org/learn/r-programming), [here](https://www.edx.org/learn/r-programming), and [here](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning. But we sometimes found the sheer volume of these courses can be overwhelming for audiences who are wanting to understand how these technologies fit together.  
+First off, you don't have to be a data scientist to work with data or build data products. This book isn't for data scientists, because the contents would either 1) be preaching to the converted, or 2) be considered blasphemy because they have strong opinions about the toolchain we're recommending. 
+
+We maintain that there's more to gain from an analyst adopting this toolchain because they'll understand more about how their work fits into a broader analytic framework. You can read more about our position [here](https://medium.com/@martin_79295/investing-in-data-fluency-17f6dd7fd1a8).  
+
+We've already covered the raw materials needed to create a data science product, so let's outline the tools in the toolchain (below):, 
 
 ![](images/00-tools-need.png)
 
-We decided to take a step back and write a book that describes a data science toolchain, or *shows how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
+We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
 
-We chose to center this book around a particular use case, so there will be code files and tools we'll use that are specific to this project. But we've chosen not to spend too much time on the content of these files (we've documented them if you want to look into the details). 
+### Do I have to learn to code?
+
+To create a data product, we have to write a series of small computer programs. We don't typically think of these projects as "programs," but that's what they are. Data products take raw data as input, process and prepare those data, and generate figures and tables of the results. All of this involves being able to communicate our intentions clearly and explicitly with our computers. That means writing code. **But this book will not teach you how to program in R.** 
+
+If you want to learn to program with R, there are a ton of really great resources on the Internet right now for learning R programming and data science. We recommend the [R for data science](https://r4ds.had.co.nz/) and [community](https://www.rfordatasci.com/). We've found this 'dialect' of the R language is easier for beginners to learn (and easier for everyone else to read). 
+
+We will reiterate the excellent point made in David Robinson's [blog post](http://varianceexplained.org/r/teach-tidyverse/), 
+
+ > "have goals for what you should be able to do and start doing it as soon as possible."
+
+For other great examples (see [coursera](https://www.coursera.org/learn/r-programming), [edx](https://www.edx.org/learn/r-programming), and [udacity](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning (if that is your goal).  
+
+We chose to center this book around a particular use case: you have data, and you want to build something and share it. 
+
+We are starting you off with the data sources, and the code we used that are specific to this data product. However, we've chosen not to spend too much time on the content of those files (we've documented them if you want to look into the details). 
 
 Instead, We're going to focus more on the "high level" ideas because these are topics you can take with you to your next project. We also encourage you to consult the articles and resource we've recommended throughout each chapter for more materials on each topic.
 
@@ -51,8 +69,6 @@ Instead, We're going to focus more on the "high level" ideas because these are t
 We want to show you how to **1)** take something neat you found on the Internet, **2)** figure out what went into making it, and **3)** see if you can reproduce the result. 
 
 We plan to include enough information to get you up and running and at the same time, not overwhelm you. If you've already Googled "Getting started in data science," you know there are a *ton* of resources. Figuring out where to start can feel like trying to get a drink of water from a fire hose. 
-
-Along the way, we will also cover some practical principles of programming, command-line tools, project file organization, and a few computer science topics. 
 
 ## Who this book is for
 
@@ -74,7 +90,7 @@ If you're an accountant, scientist, analyst, journalist, grad student, product m
 
 ## What this book covers
 
-
+This book covers how to use RStudio.Cloud, Terminal, Git, and Github. We will also touch on some R, markdown, and basic computer science topics.
 
 ## What this book doesn't cover
 
@@ -124,7 +140,7 @@ You will have a working project (cool visualizations, lots of code, data) a ton 
 
 ### Language and style guide
 
-We use the plural '*we*' throughout the book based on the [excellent advice](http://www.econ.uiuc.edu/~econ508/Papers/mathwriting.pdf) from Donald Knuth, Tracy Larabee, and Paul Roberts, "*think of a dialog between author and reader.*" 
+We use the plural'*we*' throughout the book based on the [excellent advice](http://www.econ.uiuc.edu/~econ508/Papers/mathwriting.pdf) from Donald Knuth, Tracy Larabee, and Paul Roberts, "*think of a dialog between author and reader.*" 
 
 As with most written works, the topics in this book are the result of many conversations, emails, comment threads, and communications that could not have happened in isolation. We want to thank everyone who's contributed to these ideas over the years. 
 
