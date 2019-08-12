@@ -1,34 +1,36 @@
 # Introduction: A toolchain for making data products
 
-This is a book about a [toolchain](https://en.wiktionary.org/wiki/toolchain) for building data products. Wiktionary defines a workflow as, "*A set of tools for software development, often used in sequence so that the output of one tool comprises the input of the next.*" We will adjust this definition slightly to, 
+This book is about a toolchain for building data products. Wiktionary defines [toolchain](https://en.wiktionary.org/wiki/toolchain) as, "*A set of tools for software development, often used in sequence so that the output of one tool comprises the input of the next.*" We'll adjust this definition slightly to, 
 
 > "A set of tools for *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
 You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
-> "A *data product* is the production output of a data analysis"
+> "A *data product* is the production output of a data analysis."
 
-The toolchain we're recommending consists of RStudio, Git, and Github. We are going to tell you the underlying principles for the tools we've picked, because we think these principles can exported and applied to other workflows and software. 
+We recommend using RStudio, Git, and Github for creating data products. In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt RStudio/Git/GitHub, we still think the principles can be exported and applied to other toolchains. 
 
 ## Why write a book on RStudio, Git, and Github?
 
-We found these topics missing from a lot of statistical coursework, but were absolutely essential to getting things done when we are working with data. 
+We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We've also wanted to try and answer some of the questions we frequently get when training people on RStudio and Github.
 
-## Why do we need this particular workflow? 
+We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
 
-We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools (we know your pain) because of the sheer number of tasks we can accomplish in RStudio and Github, and that's what makes us recommend this workflow to you. We've also reached out to our colleagues and included their lessons and insights.
+### An enhanced way of storytelling
 
-It seems like everywhere we look now, people are using data in beautiful and surprising ways to present important information, shed light on novel topics, and entertain. Measurement and math are powerful tools, which is why having data will add a level of precision and evidence to any story. 
+Today, most primary sources of media use data as part of their evidence base. Check out the interactive data visualizations on the [UpShot](https://www.nytimes.com/section/upshot) at the New York Times, the visual journalism data projects at the [BBC](https://www.bbc.com/news/world-32209370), or the daily graphs in the [Economist](https://www.economist.com/node/21011894). Measurement and math are powerful tools, which is why adding data gives a sense of precision and validity to any story.
 
-Today, most primary sources of media use data as part of their evidence base. Check out the interactive data visualizations on the [UpShot](https://www.nytimes.com/section/upshot) at the New York Times, the visual journalism data projects at the [BBC](https://www.bbc.com/news/world-32209370), or the daily graphs in the [Economist](https://www.economist.com/node/21011894). The digital trend in media is not slowing down, and it will continue forcing people to think about the world in new ways. 
+The massive amounts of data available have also given rise to new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional data sources. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
 
-We remember the first time we saw the impact data can have on storytelling. Hans Rosling, the Swedish physician/statistician, gave a [talk displaying the gapminder dataset](https://www.youtube.com/watch?v=hVimVzgtD6w). Rosling perfectly his paired enthusiasm with a brilliant display on the screen. As he spoke, over a dozen colorful circles slid across the protection. His Ted [profile description](https://www.ted.com/speakers/hans_rosling) is perfect, "In Hans Rosling's hands, data sings." 
+### Where do these data come from?
 
-### The rise of the data journalist 
+There really seems to be no limit to what can be measured or counted these days, which is why data scientist has been the sexiest job for awhile now ([and will be for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)). But in order to build data products, you'll need to to understand 1) the tools of the trade, and 2) where to find the raw materials. 
 
-The massive amounts of data available have spawned new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional sources of data. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
+Consider the following image:
 
 ![](images/00-made-of.png)
+
+Data are available in more areas than previous generations could've imagined. We can use Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
 
 Now that we've shown you all this cool stuff, we want to tell you why we wrote this book, 
 
@@ -38,7 +40,7 @@ There are a ton of really great resources on the Internet right now for learning
 
 ![](images/00-tools-need.png)
 
-We decided to take a step back and write a book that describes a data science workflow, or *shows how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
+We decided to take a step back and write a book that describes a data science toolchain, or *shows how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
 
 We chose to center this book around a particular use case, so there will be code files and tools we'll use that are specific to this project. But we've chosen not to spend too much time on the content of these files (we've documented them if you want to look into the details). 
 
@@ -56,7 +58,7 @@ Along the way, we will also cover some practical principles of programming, comm
 
 We've tried to keep the materials accessible to a broad audience, but we understand there are few useful data analysis texts written for everyone. Data tends to be very specific to the field they come from, and it's hard to find data that gets everyone excited. To try and help address this issue, we use data from multiple sources (Google trends, Twitter, Wikipedia, and Googlesheets).
 
-**We focus on the workflow and tools.**
+**We focus on the toolchain and tools.**
 
 The next chapters outline a 'one-stop-shop' toolset that you can learn quickly and readily re-use (because we know your time is limited). 
 
@@ -147,6 +149,6 @@ plain text for our thoughts
 
 - The [R for data science community](https://www.rfordatasci.com/) and [R for Data Science](https://r4ds.had.co.nz/) book are excellent resources to help you started. 
 
-- **Collaboration and reproducibility** - there's a direct connection between collaboration and reproducibility. The better your collaborators can reproduce your work, the better they'll understand your results. 
+- **Collaboration and reproducibility:** There's a direct connection between collaboration and reproducibility. The better your collaborators can reproduce your work, the better they'll understand your results. 
 
-- We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or workflows capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
+- We recommend RStudio and Github for anyone looking to get started with data science, visualization, reproducible reporting, dashboards development, or website/blog creation. By suggesting these particular tools, we're not saying there aren't other ways or means capable of accomplishing the same activities. These are the tools we've found success with, so they're what we recommend.
