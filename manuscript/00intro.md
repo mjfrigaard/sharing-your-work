@@ -8,13 +8,18 @@ That last point is important--this toolchain expects you have. You might also be
 
 > "A *data product* is the production output of a data analysis."
 
-We recommend using RStudio, Git, and Github for creating data products. In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt RStudio/Git/GitHub, we still think the principles can be exported and applied to other toolchains. 
+We recommend using RStudio, Git, and Github for creating data products. In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt tools, we still think the principles can be exported and applied to other software and workflows. 
 
-## Why write a book on RStudio, Git, and Github?
+## Why write a book for a toolchain?
 
-The intended audience for this book is somewhat specific--we wrote this for someone who 1) has some data they'd like to build something from, 2) saw a data product (article, analysis, report, etc.) that they'd would like to replicate, or 3) someone with an using one or two of these tools but wondering how they all fit together. 
+We won't be taking a "30,000-foot view" in this text, but rather something closer to a [1,000-foot view](https://www.strategyskills.com/1000-foot-view/). The difference is that 30,000-feet is, "*too high up to see much of anything with any precision,*" and 1000 feet being a height where we can "*recognize what you're looking at, with the benefit of seeing it from a new, higher perspective.*"
 
-This text is not necessarily a "30,000 foot view", but it's closer to a 1000 foot view. The difference being that 30,000 feet is "*too high up to see much of anything with any precision*" and 1000 feet being a height where we can "*clearly recognize what you’re looking at, with the benefit of seeing it from a new, higher perspective.*"
+The intended audience for this book is somewhat specific. We wrote this for someone who: 
+1) has some data they'd like to build something from, 
+2) saw a data product (article, analysis, report, etc.) that they'd like to replicate, or 
+3) someone who might be using one or two of these tools, but they're wondering how they all fit together
+
+
 
 We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
 
@@ -94,7 +99,7 @@ If you're an accountant, scientist, analyst, journalist, grad student, product m
 
 ## What this book covers
 
-This book covers how to use RStudio.Cloud, Terminal, Git, and Github. We will also touch on some R, markdown, and basic computer science topics.
+This book covers how to use RStudio.Cloud, Terminal, Git, and Github. We will also touch on some R, markdown, and essential computer science topics.
 
 ## What this book doesn't cover
 
@@ -158,7 +163,7 @@ The text uses the following style guide:
 
 > *some quoted text*
 
-[click on this for hyperlinks]()
+[click on this for hyperlinks](http://tinytuba.com/)
 
 plain text for our thoughts 
 
