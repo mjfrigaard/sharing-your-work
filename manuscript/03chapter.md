@@ -1,8 +1,8 @@
-# Part 3: Setting up your data science project
+# Part 3: Setting up your data science process
 
 "*If you can't describe what you are doing as a process, you don't know what you're doing*." - W. Edwards Deming
 
-In the last chapter, we recommended a workbench (RStudio) and a set of tools (R, Git, Github). Now we'll use an example project to show how combining these tools create a durable and adaptive workflow. We want to get started with an example early because having a job to do allows us to cover project organization.
+In the last chapter, we recommended the workbench (RStudio) and a set of tools (R, Git, Github) for our toolchain. Now we'll use an example project to show how combining these tools create a durable and adaptive toolchain. We want to get started with an example early because having a job to do allows us to cover project organization.
 
 Our statistical coursework never covered the details of setting up a project (and we often marvel at how much time we wasted trying to find our files). The way we set our projects up--how we organize files and folders--will directly contribute to our ability to be productive. You've probably discovered it's hard to get things done in a messy office? Well, it will be hard to do data science if we don't organize our files in a logical way that helps us get things done.
 
@@ -73,7 +73,7 @@ We've outlined the various resources, projects, and workspaces in the image abov
 
 #### Setting up the panes in your workbench
 
-RStudio displays three panes after opening: the **Console** pane, the **Files** pane, and the **Environment** pane. If we open a new file (`.R`, `.txt` or `.Rmd`), RStudio opens the **Source** pane. This is the standard four-pane view for using RStudio (shown below).
+RStudio displays three panes after opening: the **Console** pane, the **Files** pane, and the **Environment** pane. If we open a new file (`.R`, `.txt` or `.Rmd`), RStudio opens the **Source** pane. The standard four-pane view for using RStudio is below:
 
 ![](images/03-rstudio-ide-default.png) 
 
@@ -556,7 +556,7 @@ Note that the `CHANGELOG.txt` file is not included in this tree (because we made
 
 ## Command line recap
 
-We've covered eight command-line tools, and we hope you can see how these can be combined to create very efficient workflows and procedures. By tethering commands together, we can move inputs and outputs around with a lot of flexibility.
+We've covered eight command-line tools, and we hope you can see how these can be combined to create very efficient toolchainss and procedures. By tethering commands together, we can move inputs and outputs around with a lot of flexibility.
 
 ***
 
@@ -564,12 +564,14 @@ We've covered eight command-line tools, and we hope you can see how these can be
 
 As we saw above, the `tree` output gave us a printout of the project folder in a hierarchy (i.e. a tree with branches). 
 
-The thing to notice is the separation of files into folders titled, `data`, `docs`, and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. Start with the folder structure outlined by Greg Wilson we [mentioned earlier.](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization) If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper---it's full of great information and links to other resources. 
+The thing to notice is the separation of files into folders titled, `data`, `figs` and `src` or `code`. We didn't choose these folder names at random--there is a way to organize a data science project. Start with the folder structure outlined by [Greg Wilson](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization). 
+
+If you already have an organization scheme, we still recommend reading at least [this section]((https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/#project-organization)) of the paper---it's full of great information and links to other resources. 
 
 ### Building command-line skills
 
-This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terms for you. The reason these technologies still exist is that they're powerful. Probably, you're starting to see the differences between these tools and the standard GUI software installed on most machines. [Vince Buffalo](http://vincebuffalo.org/blog/), sums up the difference very well,
+This section has been a concise introduction to command-line tools, but hopefully, we've demystified some of the terms for you. The command line can seem intimidating because of it's power and ability to enter a typo and destroy the world, but that is also what makes these tools so powerful (which is the reason these technologies still exist). [Vince Buffalo](http://vincebuffalo.org/blog/) sums up the indifference we all encounter when dealing with the command-line well,
 
 > "*the Unix shell does not care if commands are mistyped or if they will destroy files; the Unix shell is not designed to prevent you from doing unsafe things.*"
 
-The command line can seem intimidating because of its power and ability to destroy the world. 
+We hope you're starting to see the differences between command line tools and the standard GUI software installed on most machines. 

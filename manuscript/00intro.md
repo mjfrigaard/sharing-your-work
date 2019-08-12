@@ -4,13 +4,17 @@ This book is about a toolchain for building data products. Wiktionary defines [t
 
 > "**Toolchain:** A set of tools for creating *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
-You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
+That last point is important--this toolchain expects you have. You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
 > "A *data product* is the production output of a data analysis."
 
 We recommend using RStudio, Git, and Github for creating data products. In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt RStudio/Git/GitHub, we still think the principles can be exported and applied to other toolchains. 
 
 ## Why write a book on RStudio, Git, and Github?
+
+The intended audience for this book is somewhat specific--we wrote this for someone who 1) has some data they'd like to build something from, 2) saw a data product (article, analysis, report, etc.) that they'd would like to replicate, or 3) someone with an using one or two of these tools but wondering how they all fit together. 
+
+This text is not necessarily a "30,000 foot view", but it's closer to a 1000 foot view. The difference being that 30,000 feet is "*too high up to see much of anything with any precision*" and 1000 feet being a height where we can "*clearly recognize what you’re looking at, with the benefit of seeing it from a new, higher perspective.*"
 
 We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
 

@@ -4,7 +4,7 @@ In the previous sections, we've covered using **Terminal** in the RStudio. If yo
 
 ## Tracing our steps 
 
-'Sharing your' can take a few forms. You can finish a project, then share your work for people to see and use in what they're doing.  
+'Sharing your' can take a few forms. You can finish a product, then share your work for people to see and use in what they're doing.  
 Another option is to share what we're currently working on in a way that allows other people can collaborate with us along the way.
 
 To accomplish the second option, we need a means showing how our work has changed over time. For example, maybe we've used the 'Review' tools in Microsoft Word, or we've collaborated in a Google sheet document. Both are types of [version control](https://en.wikipedia.org/wiki/Version_control) because they're a formal system of managing changes to information over time. 
@@ -13,7 +13,7 @@ Consider a typical lifespan of a `.docx` file:
 
 ```
 project/
-└── paper/
+└── product/
         ├── draft-1.docx
         ├── draft-2.docx
         ├── draft-3-mf.docx
@@ -23,7 +23,7 @@ project/
         └── no-really-final.docx
 ```
 
-This is the inevitable progression of a document that requires collaboration ***and*** iteration. Revision features are great when we're using a single file, and that file should not be altered until changed have been approved/rejected. But what about all the supporting files that are needed to create that report or analysis in our Word documents? Every project we've ever worked on required more than a single Word document. 
+This is the inevitable progression of a document that requires collaboration ***and*** iteration. Revision features are great when we're using a single file, and that file should not be altered until changed have been approved/rejected. But what about all the supporting files that are needed to create that report or analysis in our Word documents? Every project or product we've ever worked on required more than a single Word document. 
 
 ![](images/04-version-control-vs-track-changes.png)
 
@@ -283,7 +283,7 @@ Below are some commonly used terms/commands associated with Git and Github.
 
 ***add*** - For Git to keep track of the changes we make to files, we have to tell Git which files to pay attention to. We can do this using `git add`. The `git add -A` tells git to stage *ALL* the files that are in an initialized repo. 
 
-***commits*** - commits are the staple in Git/Github the workflow. Commits are what Git uses to track the changes you've made to files or folders. Commits are confusing because they can be nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
+***commits*** - commits are the staple in Git/Github the toolchain. Commits are what Git uses to track the changes you've made to files or folders. Commits are confusing because they can be nouns ("I'm creating a commit with these changes") or verbs (I am going to commit these changes to my project"). 
 
 To quote David Demaree, 
 
@@ -299,7 +299,7 @@ To quote David Demaree,
 
 #### More on Git and Github and data organization
 
-*Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single project can produce). We've listed a few 'must-reads' below:*
+*Fortunately, many articles have come out in the last few years with excellent, practical advice on organizing data analysis projects. I recommend reading these before getting started (you'd be surprised at the cacophony of files a single product can produce). We've listed a few 'must-reads' below:*
 
 - [the importance of using version control](https://www.nature.com/news/democratic-databases-science-on-github-1.20719)
 

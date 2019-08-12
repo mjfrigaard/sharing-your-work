@@ -344,7 +344,7 @@ Don't worry if all of this is confusing! We will be creating our very own `READM
 
 The `README.Rmd` file we've provided for this project is in the **Source** pane, and we can start by looking at the contents of the file (look at the `YAML` header, `setup` chunk, and `packages`). 
 
-As we've stated before, we won't be going through the code collects and downloads the data for this project. We'll provide links to those resources, but we're going to focus on the *workflow for using data to create tables, images, and products*. 
+As we've stated before, we won't be going through the code collects and downloads the data for this project. We'll provide links to those resources, but we're going to focus on the *toolchain for using data to create tables, images, and products*. 
 
 Hit the enter/return key until we a few lines of padding beneath the `packages` code chunk. Our cursor should be around line 37. 
 
@@ -647,7 +647,7 @@ We also export the Google trend data with time-stamp into the `processed/` folde
 
 ![](images/05-wrangle-final-rmd-file.png)
 
-**Note:** The `02-wrangle.R` file is in the `code/` folder, but you won't have to alter the file paths because you're using an RStudio project file. Read more about how these are so helpful to your workflow [here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects). 
+**Note:** The `02-wrangle.R` file is in the `code/` folder, but you won't have to alter the file paths because you're using an RStudio project file. Read more about how these are so helpful to your product files and folders [here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects). 
 
 ***
 
@@ -778,8 +778,7 @@ Note that this output changes the *Knit* icon to *Preview*. The output should lo
 ![](images/05-notebook-rmd.png)
 
 
-Being able to produce such a wide variety of documents from our Rmarkdown file makes it handy if you have collaborators who aren't using our workflow. We've only touched the surface of available options for Rmarkdown documents. Please check the appendix in chapter 7 for more. 
-
+Being able to produce such a wide variety of documents from our Rmarkdown file makes it handy if you have collaborators who aren't using our toolchain. We've only touched the surface of available options for Rmarkdown documents. Please check the appendix in chapter 7 for more. 
 
 #### Extracting the .R from the .Rmd 
 

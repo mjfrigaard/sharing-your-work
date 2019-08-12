@@ -156,7 +156,7 @@ We hope this text was a nice introduction to these technologies, and you feel li
 ![](images/06-all-tools-rstudio.png)
 
 
-
+Check out the next chapter for additional tips, tools and resources. 
 
 
 

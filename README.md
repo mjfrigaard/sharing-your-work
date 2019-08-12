@@ -54,7 +54,6 @@ This is where we introduce the idea of doing 'good enough' work. We expand a lit
     * Communication takes practice, but it's worth it!
   + Get 'good enough,' then go for more if you need it
     * Feedback
-    * Footnotes
 
 ***
 
