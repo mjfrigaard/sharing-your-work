@@ -19,8 +19,6 @@ The intended audience for this book is somewhat specific. We wrote this for some
 2) saw a data product (article, analysis, report, etc.) that they'd like to replicate, or 
 3) someone who might be using one or two of these tools, but they're wondering how they all fit together
 
-
-
 We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
 
 We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
@@ -55,9 +53,17 @@ We've already covered the raw materials needed to create a data science product,
 
 We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
 
-### Do I have to learn to code?
+### Data products and computer programs
 
-To create a data product, we have to write a series of small computer programs. We don't typically think of these projects as "programs," but that's what they are. Data products take raw data as input, process and prepare those data, and generate figures and tables of the results. All of this involves being able to communicate our intentions clearly and explicitly with our computers. That means writing code. **But this book will not teach you how to program in R.** 
+To create a data product, we'll need to write a small computer programs. When executed, computer programs are sets of instructions that performing specific tasks. Data products take some raw data as the input, process and prepare those data, and generate figures and tables of the results. It might seem strange to think of a data product as a mini computer program, but it will help you see the need for a toolchain. 
+
+Recall the following portion from definition above, 
+
+> "*...the output of one tool comprises the input of the next.*" 
+
+We a set of tools that takes an input (data), creates an output (visualization), then  
+
+All of this involves being able to communicate our intentions clearly and explicitly with our computers. That means writing code. **But this book will not teach you how to program in R.** 
 
 If you want to learn to program with R, there are a ton of really great resources on the Internet right now for learning R programming and data science. We recommend the [R for data science](https://r4ds.had.co.nz/) and [community](https://www.rfordatasci.com/). We've found this 'dialect' of the R language is easier for beginners to learn (and easier for everyone else to read). 
 

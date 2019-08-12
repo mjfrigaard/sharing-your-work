@@ -228,7 +228,7 @@ I recommend reading up on R and RMarkdown because of how many different outputs 
 
 Python is a neat language and a great tool to combine with R. 
 
-It's also helpful to know a little Python even if we're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages, too. 
+It's also helpful to know a little Python even if we're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages. 
 
 We recommend R/RStudio because we wrote this book for people who have a data file and specific questions (or general curiosity). Thus, the entry point for our audience into data science is *with data they need to analyze*, and this is what R was made to do. 
 
