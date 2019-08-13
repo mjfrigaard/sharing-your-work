@@ -24,7 +24,7 @@ Our first example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a
 
 Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make business decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on toolchain practices that contribute to success in their data science teams.
 
-Or take [Amber Thomas](https://twitter.com/puddingviz), the Senior Journalist-Engineer at the [Pudding](https://pudding.cool/). She writes [tutorials](https://pudding.cool/process/flexbox-layout/), [maintains a blog](https://amber.rbind.io/), and spends her time "hanging upside down in aerial silks."
+Aleszu Bajak is Science journalist teaching at [Northeastern University School of Journalism](https://camd.northeastern.edu/journalism-at-northeastern/). He runs [Storybench](http://www.storybench.org/) (a data journalism blog) and [Latin American Science](http://latinamericanscience.org/) (a blog for science news in Latin America). He also [teaches courses on sentiment analysis](https://learning.oreilly.com/live-training/courses/text-mining-and-sentiment-analysis-in-r/0636920309888/), and builds [applications for tracking how elections are covered in the media](http://www.storybench.org/women-on-the-2020-campaign-trail-are-being-treated-more-negatively-by-the-media/). Somehow he still has time to [write and take pictures about beer](https://www.instagram.com/beerwriter/?hl=en). 
 
 All of these people have done two things very well: 
 

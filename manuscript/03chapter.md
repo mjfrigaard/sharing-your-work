@@ -26,7 +26,7 @@ Wanting to be informed citizens--and knowing how to collect and analyze data--we
 
 Journalists are a bit like statisticians in the sense that both get to ["play in everyone's backyard"](https://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html). Data journalists explicitly combine analysis and communication skills. Marrying these two skills makes data journalism an extraordinary place to look for tools and methods to adapt to different projects.  
 
-The best data journalism projects combine the rigor of numbers and math with an ability to **write something people want to read**. Data journalists like [Chrys Wu](http://chryswu.com/about/), [Andrew Flowers](https://twitter.com/andrewflowers), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom. 
+The best data journalism projects combine the rigor of numbers and math with an ability to **write something people want to read**. Data journalists like [Chrys Wu](http://chryswu.com/about/), [Andrew Flowers](https://twitter.com/andrewflowers), [Amber Thomas](https://twitter.com/puddingviz), and [Andrew Ba Tran](https://twitter.com/abtran) have been hugely influential in introducing R as a tool in the newsroom.
 
 Another reason journalism is an excellent resource for sharing your work is that journalists are trained to view the world differently than typical scientists or analysts. As the NBC investigative reporter [Andy Lehren](https://twitter.com/lehrennbc) describes in the text [Digital Investigative Journalism](https://www.palgrave.com/gp/book/9783319972824),
 
