@@ -55,7 +55,7 @@ We'll be focusing on *how these tools work together*. We'll show you how R, RStu
 
 ### Data products and computer programs
 
-To create a data product, we'll need to write small computer programs.  Crazy, right? Not really. When executed, computer programs are sets of instructions for performing specific tasks. Data products take some raw data as the input, process and prepare those data, and generate figures and tables of the results. It might seem strange to think of a data product as a small computer program, but it will help you see the need for a toolchain. 
+To create a data product, we'll need to write small computer programs. Crazy, right? Not really. When executed, computer programs are sets of instructions for performing specific tasks. Data products take some raw data as the input, process and prepare those data, and generate figures and tables of the results. It might seem strange to think of a data product as a small computer program, but it will help you see the need for a toolchain. 
 
 Recall the following portion from the definition above, 
 
