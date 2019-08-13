@@ -649,6 +649,12 @@ We also export the Google trend data with time-stamp into the `processed/` folde
 
 **Note:** The `02-wrangle.R` file is in the `code/` folder, but you won't have to alter the file paths because you're using an RStudio project file. Read more about how these are so helpful to your product files and folders [here](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects). 
 
+This has been a *very* brief overview of data wrangling. Check out more in these tutorials on Storybench: 
+
+1. [How to explore and manipulate a dataset from the fivethirtyeight package in R](http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/)
+
+2. [How to manipulate data with dplyr in R](http://www.storybench.org/how-to-manipulate-data-with-dplyr-in-r/)
+
 ***
 
 ## Visualize
@@ -672,6 +678,8 @@ After pasting the code from `03-visualize.Rmd` into the `README.Rmd` file, we ca
 ![](images/05-visualize-run-code-below.png)
 
 Running the code will create multiple tables and figures in the `README.Rmd` file. We'll go over these in more depth below. For now, we'll follow the directions at the bottom of the pasted code and "*Click `knit` to get the markdown file to share.*"
+
+Learn more about visualizing data in our [Getting started with data visualization in R using ggplot2](http://www.storybench.org/getting-started-data-visualization-r-using-ggplot2/) tutorial.
 
 ***
 

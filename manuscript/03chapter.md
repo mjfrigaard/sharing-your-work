@@ -38,7 +38,7 @@ Journalists can communicate *why something matters*, which is a great skill to h
 
 To demonstrate how powerful R and RStudio can be, we are going to combine data from four different sources. Each source represents a different way to access data in using R and RStudio. 
 
-1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to import data from Google searches before and after the night of the debates.
+1) The [`gtrendsR`](https://github.com/PMassicotte/gtrendsR) package for R gives us access to Google search terms and trends. We're going to import data from Google searches before and after the night of the debates. If you want to learn more about collecting these kind of data, check out [Mapping search data from Google Trends in R](http://www.storybench.org/mapping-search-data-from-google-trends-in-r/) on Storybench.
 
 2) [`rtweet`](https://rtweet.info/) package in R can be used to download Twitter data but takes a few steps to get set up. Fortunately, we've written a tutorial [here](http://www.storybench.org/get-twitter-data-rtweet-r/) and the package has excellent documentation (see [here](https://rtweet.info/articles/auth.html) and [here](https://rtweet.info/articles/intro.html)). 
 
