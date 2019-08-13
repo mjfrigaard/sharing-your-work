@@ -4,7 +4,9 @@ This book is about a toolchain for building data products. Wiktionary defines [t
 
 > "**Toolchain:** A set of tools for creating *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
-That last point is important--this toolchain expects you have. You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
+That last point is important--this toolchain expects you will have an output from one tool (i.e. a data set) that serves as an input into another (visualizations, graphs, statistical analysis, etc.). 
+
+You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
 > "A *data product* is the production output of a data analysis."
 
