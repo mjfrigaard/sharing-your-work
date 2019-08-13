@@ -65,15 +65,9 @@ As we can see, these programs provide an extensive list of options to choose fro
 
 If you follow the arrows, you can see we'll be required to go back through the same elaborate steps whenever we receive feedback on our project. Each time will take just as long as the first.
 
-We recommend an alternative to this copy + paste process based on the activities of a [modern scientist from Jeff Leek](https://leanpub.com/modernscientist):
+Two things should stand out from the image above: First, there are a lot of tools in this toolchain. Second, most of these are point-and-click tools, so none of the work is reproducible. 
 
-1. Develop code in the open   
-2. Publish data and code open source  
-3. Post preprints of your work  
-4. Submit and review for traditional journals  
-5. Blog or use social media to critique published work 
-
-Two things should stand out from the list above: First, modern science is mostly writing. Second, some of that writing is code (i.e., programming). It's, for this reason, we recommend adopting a toolchain based on "*writing code*" wherever possible. We are aware that 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
+It's, for this reason, we recommend adopting a toolchain based on "*writing code*" wherever possible. We are aware that 'writing code' means being able to type, which might be daunting for people who struggle on a keyboard. We recommend practicing this skill (there are plenty of great apps out there to help!) because typing is an unavoidable necessity for using a computer.
 
 ### Software is the tool, not the solution
 
@@ -167,7 +161,11 @@ normal text
 
 To learn more, see [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax) on John Gruber's site). 
 
-**We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives user's the ability to write in markdown and see the syntax rendered as HTML.
+**We recommend learning markdown before any other programming language because it's the lingua franca for asking questions.** [Stackoverflow](https://stackoverflow.com/), [RStudio community](https://community.rstudio.com/), [Reddit](https://www.reddit.com/), [Github](http://github.com/), and many other sites use markdown to post questions and answers. 
+
+We recommend experimenting with [StackEdit](https://stackedit.io/app#), a browser-based markdown editor that gives user's the ability to write in markdown and see the syntax rendered as HTML.
+
+![](images/02-stack-edit.png)
 
 
 ### Our workbench
@@ -228,7 +226,7 @@ I recommend reading up on R and RMarkdown because of how many different outputs 
 
 Python is a neat language and a great tool to combine with R. 
 
-It's also helpful to know a little Python even if we're primarily working in R, because the benefits of being multilingual extend beyond just spoken languages. 
+It's also helpful to know a little Python even if we're primarily working in R because the benefits of being multilingual extend beyond just spoken languages. 
 
 We recommend R/RStudio because we wrote this book for people who have a data file and specific questions (or general curiosity). Thus, the entry point for our audience into data science is *with data they need to analyze*, and this is what R was made to do. 
 
@@ -244,11 +242,11 @@ Below are a few more reasons you should consider using R/RStudio in case you're 
 
 We recommend R/RStudio because of the time saved by switching between software applications. For example, when I was in graduate school, I'd have *a minimum of five applications open* to do data analysis. I would be using Word to write, Stata for statistics, Excel to create tables, the browser for internet research, and Adobe Acrobat for reading PDFs. That means I needed to learn five different GUIs, each with their design characteristics. 
 
-Each software application cost me valuable neurons whenever I had to switch between them (read more about attentional residue in the footnotes). With R/RStudio, I cut this number to two (RStudio and the browser).
+Each software application cost me valuable neurons whenever I had to switch between them (read more about attentional residue in the appendix). With R/RStudio, I cut this number to two (RStudio and the browser).
 
-### RStudio gives us a better mental model 
+### RStudio gives us a better mental model for data products
 
-The third reason is the design of the IDE itself. RStudio is a complementary cognitive artifact, something described in [this article from David Krakauer](http://nautil.us/blog/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature),
+The second reason is the design of the IDE itself. RStudio is a complementary cognitive artifact, something described in [this article from David Krakauer](http://nautil.us/blog/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature),
 
 > "*[complementary cognitive artifacts are] certainly amplifiers, but in many cases, they're much, much more. They're also teachers and coaches...Expert users of the abacus are not users of the physical abacus—they use a mental model in their brain. And expert users of slide rules can cast the ruler aside having internalized its mechanics. Cartographers memorize maps, and Edwin Hutchins has shown us how expert navigators form near symbiotic relationships with their analog instruments.*"
 

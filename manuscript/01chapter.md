@@ -2,11 +2,11 @@
 
 In 2016, [The Carpentries](https://carpentries.org/)--a non-profit organization that teaches coding and data science skills to researchers--published an article titled, ["Good Enough Practices for Scientific Computing"](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/).
 
-The article above has tons of great information, but it was aimed at "*researchers who are working alone or with a handful of collaborators on projects lasting a few days to several months*." We thought the article's information was too useful *not* to share with as many people as possible. This book essentially attempts to extend the advice in paper to analysts, journalists, grad students, and non-technical audiences. 
+The article above has tons of great information, but it was aimed at "*researchers who are working alone or with a handful of collaborators on projects lasting a few days to several months*." We thought the article's information was too useful not to share with as many people as possible. This book essentially attempts to extend the advice in paper to analysts, journalists, grad students, and as many non-technical audiences as possible.
 
 ## Why 'good enough'?
 
-A constant theme that runs through this book is being able to do "good enough" work. We're going to introduce you to a lot of technology in the next few pages, and we want you to set reasonable expectations for using these tools. 
+We wrote this book on the premise of getting lots of people capable of doing "good enough" work. We're going to introduce you to a lot of technology in the next few pages, and we want you to set reasonable expectations for using these tools going forward.
 
 There are many courses, tutorials, and resources that promise you 'expert training' in all of the tools we're covering. You don't have time for that--you need enough knowledge to see cool stuff and recreate it. In the beginning, you need to focus on doing good enough work, and then sharing your work. The feedback and input you get from developing things in the open are what builds your skill-set. Expertise is something you can attain with experience (if that's your goal), but in many cases, being good enough will get lots of work done.
 
@@ -24,7 +24,7 @@ Our first example,  [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/) is a
 
 Ricardo Bion is the [Data Science manager at Airbnb](https://t.co/EaT2pX2wWm?amp=1). He [publishes papers](https://peerj.com/preprints/3182/) on using R in their business setting, gives [webinars](https://www.rstudio.com/resources/videos/airbnb/) on how to use modeling to make business decisions, and [writes articles](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) on toolchain practices that contribute to success in their data science teams.
 
-Aleszu Bajak is Science journalist teaching at [Northeastern University School of Journalism](https://camd.northeastern.edu/journalism-at-northeastern/). He runs [Storybench](http://www.storybench.org/) (a data journalism blog) and [Latin American Science](http://latinamericanscience.org/) (a blog for science news in Latin America). He also [teaches courses on sentiment analysis](https://learning.oreilly.com/live-training/courses/text-mining-and-sentiment-analysis-in-r/0636920309888/), and builds [applications for tracking how elections are covered in the media](http://www.storybench.org/women-on-the-2020-campaign-trail-are-being-treated-more-negatively-by-the-media/). Somehow he still has time to [write and take pictures about beer](https://www.instagram.com/beerwriter/?hl=en). 
+Aleszu Bajak is a Science journalist teaching at [Northeastern University School of Journalism](https://camd.northeastern.edu/journalism-at-northeastern/). He runs [Storybench](http://www.storybench.org/) (a data journalism blog) and [Latin American Science](http://latinamericanscience.org/) (a blog for science news in Latin America). He also [teaches courses on sentiment analysis](https://learning.oreilly.com/live-training/courses/text-mining-and-sentiment-analysis-in-r/0636920309888/), and builds [applications for tracking how the media covers elections](http://www.storybench.org/women-on-the-2020-campaign-trail-are-being-treated-more-negatively-by-the-media/). Somehow he still has time to [write and take pictures about beer](https://www.instagram.com/beerwriter/?hl=en). 
 
 All of these people have done two things very well: 
 

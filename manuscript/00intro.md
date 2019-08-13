@@ -1,16 +1,34 @@
 # Introduction: A toolchain for making data products
 
-This book is about a toolchain for building data products. Wiktionary defines [toolchain](https://en.wiktionary.org/wiki/toolchain) as, "*A set of tools for software development, often used in sequence so that the output of one tool comprises the input of the next.*" We'll adjust this definition slightly to, 
+This book is about a toolchain for building data products. Wiktionary defines a  [toolchain](https://en.wiktionary.org/wiki/toolchain) as, "*A set of tools for software development, often used in sequence so that the output of one tool comprises the input of the next.*" We'll adjust this definition slightly to, 
 
 > "**Toolchain:** A set of tools for creating *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
-That last point is important--this toolchain expects you will have an **output** from one tool (i.e. a data set) that serves as an **input** into another tool (visualizations, graphs, statistical analysis, etc.).  
+That last point is important--our toolchain expects the **output** from one tool (i.e., data from something you're interested in) to serve as the **input** into another tool (software for making visualizations, graphs, statistical analysis, etc.). To sequentially pass inputs and outputs between tools, we have to know and understand what we're building. In this text, we will focus on the process required to make a *data product*. 
 
 You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
 > "A *data product* is the production output of a data analysis."
 
-We recommend using RStudio, Git, and Github for creating data products. In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt tools, we still think the principles can be exported and applied to other software and workflows. 
+
+
+## What you will learn 
+
+We're going to show you how to use RStudio.Cloud, Git, and Github for creating data products. Specifically, we will cover: 
+
+1. Setting up an account with RStudio.Cloud and Github  
+2. Downloading files from Github and uploading files to RStudio.Cloud  
+3. Basic command-line tools 
+4. Setting up version control (Git) with RStudio.Cloud  
+5. Project organization  
+6. Running code in RStudio.Cloud  
+7. Dynamic documents with Rmarkdown  
+8. Building a project website with Github pages  
+9. Documenting and sharing all of your work with Git and Github  
+
+In the following pages, we're going to tell you reasons and underlying principles for using these tools. If you read this text and decide not to adopt tools, we still think the principles can be exported and applied to other software and workflows. 
+
+That list might seem like a lot (because it is), but we're giving you all the code files and data for this project. That means all you have to learn are the tools! 
 
 ## Why write a book for a toolchain?
 
@@ -40,13 +58,14 @@ We use these tools daily now, but we began our careers in other statistical prog
 
 ## Where do we find data?
 
-There seems to be no limit to what can be measured or counted, and this fact is reflected in the articles touting "data scientist" as the sexiest job for the 21st Century (and it appears this is [unlikely to change for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)). But you don't have to be a data scientist to build data products, you'll need to to understand 1) where to find the raw materials, and 2) how to use the tools of the trade. 
+In the information age, there seems to be no limit to what can be measured or counted. Our desire for constant quantification is why articles are still touting "data scientist" as the sexiest job for the 21st Century. By the way, it appears this is [unlikely to change for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155). 
+But you don't have to be a data scientist to build data products, you'll need to to understand 1) where to find the raw materials, and 2) how to use the tools of the trade. 
 
 The image below displays some of the possible sources we can find the raw materials for creating a data product:
 
 ![](images/00-made-of.png)
 
-We've all seen something unique on the Internet and wondered how the authors were able to create such a compelling or impressive display of information. Before they could start making design decisions, the authors had to know where to find the data. The figure above shows some examples of where data can come from, and a few of the ways they can be stored. As we can see, data are available on more topics and more available than previous generations could've imagined. Data can be Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
+We've all seen something unique on the Internet and wondered how the authors were able to create such a compelling or impressive display of information. Before they could start making design decisions, the authors had to know where to find the data. The figure above shows some examples of where data can come from, and a few of the ways they can be stored. As we can see, data are available on more topics and more accessible than previous generations could've imagined. Data can be Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
 
 Now that we've shown you a few places to find the raw material for a data product, we want to tell you about the tools you'll need. 
 
@@ -56,7 +75,7 @@ We've already covered the raw materials needed to create a data science product,
 
 ![](images/00-tools-need.png)
 
-You'll need a computer, the internet, and some experience using both. That's about it. We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. This book was written with the intent of keeping all the work in the browser, but you *can* download these tools onto your local desktop (more on that later).
+You'll need a computer, the Internet, and some experience using both. That's about it. We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. We wrote this book with the intent of keeping all the work in the browser, but you *can* download these tools onto your local desktop (more on that later).
 
 ### What you'll be building
 
@@ -64,7 +83,7 @@ Today, most primary sources of media use data as part of their evidence base. Ch
 
 The massive amounts of data available have also given rise to new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional data sources. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
 
-In this text, you'll be creating summary tables, graphs and figures like the ones you see below. These will be built using data from Google searches, Twitter, and Wikipedia (all public sources).
+In this text, you'll be creating summary tables, graphs, and figures like the ones you see below. These will be built using data from Google searches, Twitter, and Wikipedia (all public sources).
 
 #### Graphing Google trends 
 
@@ -103,9 +122,17 @@ We are starting you off with the data sources, and the code we used that are spe
 
 We also encourage you to consult the articles and resource we've recommended throughout each chapter and in the appendix for more materials on each topic.
 
-## Our goal for anyone reading this book
+## After reading this book, you should feel better about...
 
-We want to show you how to **1)** take something neat you found on the Internet, **2)** figure out what went into making it, and **3)** see if you can reproduce the result. 
+After completing the project in this book, we want readers to: 
+1) feel more confident in knowing how to organize a data project, 
+2) understand why they should be using plain text files, 
+3) know where to go to ask for help, 
+4) grasp why we use version control (and why they should use it), 
+5) be able to document changes to their files using Git and Github, and 
+6) know how to create a website from a Github repository. 
+
+Because we aren't covering R, statistics, or data visualization in this text, you will want to build those skills.
 
 We plan to include enough information to get you up and running and at the same time, not overwhelm you. If you've already Googled "Getting started in data science," you know there are a *ton* of resources. Figuring out where to start can feel like trying to get a drink of water from a fire hose. 
 
