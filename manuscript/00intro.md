@@ -4,7 +4,7 @@ This book is about a toolchain for building data products. Wiktionary defines [t
 
 > "**Toolchain:** A set of tools for creating *data products*, often used in sequence so that the output of one tool comprises the input of the next."
 
-That last point is important--this toolchain expects you will have an output from one tool (i.e. a data set) that serves as an input into another (visualizations, graphs, statistical analysis, etc.). 
+That last point is important--this toolchain expects you will have an **output** from one tool (i.e. a data set) that serves as an **input** into another tool (visualizations, graphs, statistical analysis, etc.).  
 
 You might also be wondering what we mean by *data product*, and we'll use the definition from [Brian Caffo](https://leanpub.com/ddp), 
 
@@ -32,39 +32,51 @@ We wrote this for anyone who:
 
 We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
 
+This book isn't necessarily for data scientists, because the contents would either 1) be preaching to the converted, or 2) be considered blasphemy because they have strong opinions against the toolchain we're recommending. 
+
 ## How we know this toolchain works
 
 We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
 
-### An enhanced way of storytelling
-
-Today, most primary sources of media use data as part of their evidence base. Check out the interactive data visualizations on the [UpShot](https://www.nytimes.com/section/upshot) at the New York Times, the visual journalism data projects at the [BBC](https://www.bbc.com/news/world-32209370), or the daily graphs in the [Economist](https://www.economist.com/node/21011894). Measurement and math are powerful tools, which is why adding data gives a sense of precision and validity to any story.
-
-The massive amounts of data available have also given rise to new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional data sources. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
-
 ## Where do we find data?
 
-There seems to be no limit to what can be measured or counted. This fact is reflected in the articles touting "data scientist" as the sexiest job for years, [and this is unlikely to change for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155). But to build data products, you'll need to to understand 1) where to find the raw materials, and 2) the tools of the trade. 
+There seems to be no limit to what can be measured or counted, and this fact is reflected in the articles touting "data scientist" as the sexiest job for the 21st Century (and it appears this is [unlikely to change for some time to come](https://towardsdatascience.com/the-sexiest-job-of-the-22nd-century-ffe753e1d155)). But you don't have to be a data scientist to build data products, you'll need to to understand 1) where to find the raw materials, and 2) how to use the tools of the trade. 
 
 The image below displays some of the possible sources we can find the raw materials for creating a data product:
 
 ![](images/00-made-of.png)
 
-We've all seen something unique on the Internet and wondered how the authors were able to create such a compelling or impressive display of information. Before they could start making design decisions, the authors had to know where to find the data. The figure above shows some examples of where data can come from, and a few of the ways they can be stored. As we can see, data are available in more areas than previous generations could've imagined. We can use Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
+We've all seen something unique on the Internet and wondered how the authors were able to create such a compelling or impressive display of information. Before they could start making design decisions, the authors had to know where to find the data. The figure above shows some examples of where data can come from, and a few of the ways they can be stored. As we can see, data are available on more topics and more available than previous generations could've imagined. Data can be Internet search terms (Google search trends), terms that are trending on social media sites (Twitter, Instagram, etc.), and public reference works (Wikipedia).
 
 Now that we've shown you a few places to find the raw material for a data product, we want to tell you about the tools you'll need. 
 
 ## What tools will I need?
 
-First off, you don't have to be a data scientist to work with data or build data products. This book isn't for data scientists, because the contents would either 1) be preaching to the converted, or 2) be considered blasphemy because they have strong opinions about the toolchain we're recommending. 
-
-We maintain that there's more to gain from an analyst adopting this toolchain because they'll understand more about how their work fits into a broader analytic framework. You can read more about our position [here](https://medium.com/@martin_79295/investing-in-data-fluency-17f6dd7fd1a8).  
-
-We've already covered the raw materials needed to create a data science product, so let's outline the tools in the toolchain (below):, 
+We've already covered the raw materials needed to create a data science product, so let's outline the tools in the toolchain (below):
 
 ![](images/00-tools-need.png)
 
-We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. 
+You'll need a computer, the internet, and some experience using both. That's about it. We'll be focusing on *how these tools work together*. We'll show you how R, RStudio, Git, & Github can be used to create elegant yet durable data analysis products. This book was written with the intent of keeping all the work in the browser, but you *can* download these tools onto your local desktop (more on that later).
+
+### What you'll be building
+
+Today, most primary sources of media use data as part of their evidence base. Check out the interactive data visualizations on the [UpShot](https://www.nytimes.com/section/upshot) at the New York Times, the visual journalism data projects at the [BBC](https://www.bbc.com/news/world-32209370), or the daily graphs in the [Economist](https://www.economist.com/node/21011894). Measurement and math are powerful tools, which is why adding data gives a sense of precision and validity to any story.
+
+The massive amounts of data available have also given rise to new forms of media. Nate Silver's blog covering elections and politics has grown into multiple projects on [fivethirtyeight](https://projects.fivethirtyeight.com/). [The Pudding](https://pudding.cool/) is an example of an online data journalism site that covers non-conventional data sources. [Vox](https://www.vox.com/) recently won an award for producing a [graph](https://www.vox.com/policy-and-politics/2018/9/28/17914308/kavanaugh-ford-question-dodge-hearing-chart) that communicates a topic that pundits could've debated endlessly.
+
+In this text, you'll be creating summary tables, graphs and figures like the ones you see below. These will be built using data from Google searches, Twitter, and Wikipedia (all public sources).
+
+#### Graphing Google trends 
+
+![](images/00-ggplot-example.png)
+
+#### Graphing Tweets 
+
+![](images/00-tweets-example.png)
+
+#### Mapping Google search terms  
+
+![](images/00-gtrend-map-example.png)
 
 ### Data products and computer programs
 
@@ -80,17 +92,16 @@ All of this involves being able to communicate our intentions clearly and explic
 
 If you want to learn to program with R, there are a ton of really great resources on the Internet right now for learning R programming and data science. We recommend the [R for data science](https://r4ds.had.co.nz/) and [community](https://www.rfordatasci.com/). We've found this 'dialect' of the R language is easier for beginners to learn (and easier for everyone else to read). 
 
-We will reiterate the excellent point made in David Robinson's [blog post](http://varianceexplained.org/r/teach-tidyverse/), 
-
- > "have goals for what you should be able to do and start doing it as soon as possible."
+We will reiterate the excellent point made in David Robinson's [blog post](http://varianceexplained.org/r/teach-tidyverse/)--learn the `tidyverse` first, then base R as you need it.
 
 For other great examples (see [coursera](https://www.coursera.org/learn/r-programming), [edx](https://www.edx.org/learn/r-programming), and [udacity](https://www.udacity.com/course/data-analysis-with-r--ud651)). Many of these courses are fantastic--they can teach you programming languages, website design, database management, statistics, and machine learning (if that is your goal).  
 
 We chose to center this book around a particular use case: you have data, and you want to build something and share it. 
 
-We are starting you off with the data sources, and the code we used that are specific to this data product. However, we've chosen not to spend too much time on the content of those files (we've documented them if you want to look into the details). 
+We are starting you off with the data sources, and the code we used that are specific to this data product. However, we've chosen not to spend too much time on the content of those files (we've documented them if you want to look into the details). Instead, We're going to focus more on the "high level" ideas because these are topics you can take with you to your next project. 
 
-Instead, We're going to focus more on the "high level" ideas because these are topics you can take with you to your next project. We also encourage you to consult the articles and resource we've recommended throughout each chapter for more materials on each topic.
+
+We also encourage you to consult the articles and resource we've recommended throughout each chapter and in the appendix for more materials on each topic.
 
 ## Our goal for anyone reading this book
 
