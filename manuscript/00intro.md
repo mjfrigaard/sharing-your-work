@@ -16,12 +16,23 @@ We recommend using RStudio, Git, and Github for creating data products. In the f
 
 We won't be taking a "30,000-foot view" in this text, but rather something closer to a [1,000-foot view](https://www.strategyskills.com/1000-foot-view/). The difference is that 30,000-feet is, "*too high up to see much of anything with any precision,*" and 1000 feet being a height where we can "*recognize what you're looking at, with the benefit of seeing it from a new, higher perspective.*"
 
-The intended audience for this book is somewhat specific. We wrote this for someone who: 
-1) has some data they'd like to build something from, 
-2) saw a data product (article, analysis, report, etc.) that they'd like to replicate, or 
-3) someone who might be using one or two of these tools, but they're wondering how they all fit together
+## Who this book is for
+
+We've tried to keep the materials accessible to a broad audience, but we understand there are few useful data analysis texts written for everyone. Data tends to be very specific to the field they come from, and it's hard to find data that gets everyone excited. To try and help address this issue, we use data from multiple sources (Google trends, Twitter, Wikipedia, and Googlesheets).
+
+**We focus on the toolchain and tools.**
+
+The next chapters outline a 'one-stop-shop' toolset that you can learn quickly and readily re-use (because we know your time is limited). 
+
+We wrote this for anyone who:
+
+1) has a data set they'd like to build something with,   
+2) saw a data product (article, analysis, report, etc.) that they'd like to replicate, or   
+3) someone who might be using one or two of these tools, and they're wondering how to if they can improve their toolchain  
 
 We found these topics were missing from a lot of statistical coursework, but they're essential to getting things done when we're working with data. We also wanted to try and answer some of the questions we've frequently heard while training people on RStudio and Github.
+
+## How we know this toolchain works
 
 We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
 
@@ -87,14 +98,6 @@ We want to show you how to **1)** take something neat you found on the Internet,
 
 We plan to include enough information to get you up and running and at the same time, not overwhelm you. If you've already Googled "Getting started in data science," you know there are a *ton* of resources. Figuring out where to start can feel like trying to get a drink of water from a fire hose. 
 
-## Who this book is for
-
-We've tried to keep the materials accessible to a broad audience, but we understand there are few useful data analysis texts written for everyone. Data tends to be very specific to the field they come from, and it's hard to find data that gets everyone excited. To try and help address this issue, we use data from multiple sources (Google trends, Twitter, Wikipedia, and Googlesheets).
-
-**We focus on the toolchain and tools.**
-
-The next chapters outline a 'one-stop-shop' toolset that you can learn quickly and readily re-use (because we know your time is limited). 
-
 ### Technical assumptions
 
 The reader we had in mind while writing this book was someone who, 
@@ -107,7 +110,7 @@ If you're an accountant, scientist, analyst, journalist, grad student, product m
 
 ## What this book covers
 
-This book covers how to use RStudio.Cloud, Terminal, Git, and Github. We will also touch on some R, markdown, and essential computer science topics.
+This book covers how to use RStudio.Cloud, Terminal, Git, and Github. We will also touch on some R, markdown, and essential computer science topics.  
 
 ## What this book doesn't cover
 
