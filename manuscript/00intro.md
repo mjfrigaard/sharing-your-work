@@ -10,7 +10,7 @@ You might also be wondering what we mean by *data product*, and we'll use the de
 
 > "A *data product* is the production output of a data analysis."
 
-
+This definition is admittedly vague, but only because we're explicitly focusing on process here. Data products can range from a simple summary table to an interactive application. 
 
 ## What you will learn 
 
@@ -52,7 +52,7 @@ We found these topics were missing from a lot of statistical coursework, but the
 
 This book isn't necessarily for data scientists, because the contents would either 1) be preaching to the converted, or 2) be considered blasphemy because they have strong opinions against the toolchain we're recommending. 
 
-## How we know this toolchain works
+## How do we know this toolchain works?
 
 We use these tools daily now, but we began our careers in other statistical programs (SPSS, Stata, SAS). We abandoned those tools because of the sheer number of tasks we can accomplish with RStudio and Github, and that's what makes us recommend this toolchain to you. We also reached out to our colleagues and included their lessons and insights.
 

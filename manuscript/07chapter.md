@@ -2,15 +2,25 @@
 
 These are additional resources and notes from the preceding chapters. 
 
-## Introduction: A toolchain for making data products
+## Introduction notes
 
-We wrote this with no intention of anyone actually memorizing *all* the information. In fact, don't even bother--that's what the internet it for. 
+We wrote this with no intention of anyone memorizing *all* the information. Don't even bother--that's why we have the internet. 
 
 Our goal was for you to have a reference you could refer back to and check when you need to brush up on how these tools fit together. We will continue to update this book if there are any significant changes to these technologies.
 
-## Chapter 1
+We wrote this book based on three [learner personas](https://rstudio-education.github.io/learner-personas/):
 
-These aren't new concepts--we're really just repeating things we've learned from people smarter than us. We understand that 'Good enough' is not as sexy as being an 'expert', but we've found that expertise is something you get after a lot of learning and experience. In order to get the experience, you'll need to develop the habit of getting stuff done (which means being able to say, "*that's good enough, moving onto the next project*"). 
+- A professor who needs training for her research and to pass on to students.
+
+- A proficient Excel user working in industry who wants to switch to R.    
+
+- A reluctant learner who would really rather just keep using the tools he knows.  
+
+We've encountered some version of all three personas in our experience training people to use RStudio and Git/GitHub. All three know their way around a computer, but they engage with very different tools (and in different ways). The professor might primarily use email, Microsoft Office, and whatever online software platform for managing their courses. The Excel user might have some ability to program VBA or write functions for spreadsheets, and maybe sees the benefit of having a scripting language for automating various parts of their workflow. The reluctant learner who resists change might already have some principles for using the tools they use. Common ground is usually found if you're able to ask  *why* they're using their current toolchain.   
+
+## Chapter 1 notes
+
+These aren't new concepts--we're just repeating things we've learned from people smarter than us. We understand that 'Good enough' is not as sexy as being an 'expert,' but we've found that expertise is something you get after a lot of learning and experience. To get the background, you'll need to develop the habit of getting stuff done (which means being able to say, "*that's good enough, moving onto the next project*"). 
 
 We've listed some additional resources for getting stuff done. 
 
@@ -23,7 +33,7 @@ We've listed some additional resources for getting stuff done.
 
 - The author of the [Good Enough](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/) paper referenced above, Greg Wilson, has an [excellent blog](http://third-bit.com/) on teaching technology and all things awesome. 
 
-## Chapter 2
+## Chapter 2 notes
 
 This chapter was an outline of the principles for using this toolchain. 
 
@@ -43,13 +53,13 @@ This chapter was an outline of the principles for using this toolchain.
 
 #### Workflow, process, and having opinions about how to do things
 
-This text was largely inspired by Hilary Parker's excellent paper, *[Opinionated analysis development](https://peerj.com/preprints/3210/)*, which outlines the problem of ignoring tool recommendations in statistical coursework.
+This text was primarily inspired by Hilary Parker's excellent paper, *[Opinionated analysis development](https://peerj.com/preprints/3210/)*, which outlines the problem of ignoring tool recommendations in statistical coursework.
 
 > "*Statisticians have long shied away from teaching process, with the complaint that it might limit the creativity necessary to tackle different analytical problems. However, by not teaching opinionated analysis development, we subject fledgling data to each individually spin their wheels in coming up with process for avoiding common and generalized problems*."
 
-We've explicitly covered topics in this text that we noticed were left out of typical statistics texts/courses. We hope students pester their professors to describe their personal statistical workflow and toolchain, because it will force some of these issues into the light and (hopefully) improve everyone's ability to get stuff done. 
+We've explicitly covered topics in this text that we noticed were left out of typical statistics texts/courses. We hope students pester their professors to describe their statistical workflow and toolchain. Some daylight would force some of these issues into the light and (hopefully) improve everyone's ability to get stuff done. 
 
-## Chapter 3
+## Chapter 3 notes
 
 Below are some excellent resources for safely adding the command line to your wheelhouse. 
 
@@ -57,13 +67,13 @@ Below are some excellent resources for safely adding the command line to your wh
 * [Data Science at the Command Line](https://www.datascienceatthecommandline.com/)   
 * [Software Carpentry Unix Workshop](https://swcarpentry.github.io/shell-novice/)   
 
-There are also all kinds of hidden gems in the Terminal. For example, if you want to play some games from the early '80s you can type
+There are also all kinds of hidden gems in the Terminal. For example, if you want to play some games from the early '80s, you can type
 
 ```sh
 $ ls /usr/share/emacs/22.1/lisp/play
 ```
 
-And you'll see a list of games you can play. If you type `emacs` into the terminal window, then hit `esc` and `x`, you'll see the `emacs` prompt.  
+And you'll see a list of games you can play. If you type `emacs` into the terminal window, then hit `ESC` and `x`, you'll see the `emacs` prompt.  
 
 ```emacs
 ;; This buffer is for notes you don't want to save, and for Lisp evaluation.    
@@ -77,7 +87,7 @@ M-x
 
 In here you can enter `snake` or `zone` and time travel back to the days of games without advanced graphics (I wouldn't stay here too long).
 
-## Chapter 4 
+## Chapter 4 notes
 
 There are a ton of resources on how to organize and share data for analysis projects. Some of our favorites are listed below:
 
@@ -89,21 +99,21 @@ The best kind of organizational method is the one you can stick to and use relia
 
 
 
-## Chapter 5 
+## Chapter 5 notes
 
 Just about everything we did in this chapter can also be done in the RStudio desktop application (which you can download for free [here](https://www.rstudio.com/)). You'll also need to install [pandoc](https://pandoc.org/installing.html) for converting Rmarkdown files to .odf and various other formats. 
 
 ### More Rmarkdown resources
 
-The options for creating products with RStudio & Rmarkdown are vast (and expanding all the time). Here is a nice list to get you started (but it is by no means exhaustive).
+The options for creating products with RStudio & Rmarkdown are vast (and expanding all the time). Here is a helpful list to get you started (but it is by no means exhaustive).
 
 - [`rticles`](https://github.com/rstudio/rticles) - a suite of custom R Markdown LaTeX formats and templates for various formats.
 
 - [`hrbrthemes`](https://github.com/hrbrmstr/hrbrthemes), [`markdowntemplates`](https://github.com/hrbrmstr/markdowntemplates), and [`hrbrmisc`](https://github.com/hrbrmstr/hrbrmisc) are all packages from [Bob Rudis](https://rud.is/b/) that provide templates and formats for Rmarkdown files. 
 
-- [`rmdformats`](https://github.com/juba/rmdformats) - A package who's "goal is to produce clean documents "out of the box", with or without the RStudio IDE".
+- [`rmdformats`](https://github.com/juba/rmdformats) - A package whose "goal is to produce clean documents "out of the box," with or without the RStudio IDE".
 
-- [`tufte`](https://rstudio.github.io/tufte/) handouts are documents based on Edward Tufte's "extensive use of sidenotes, tight integration of graphics with text, and well-set typography"
+- [`tufte`](https://rstudio.github.io/tufte/) handouts are documents based on Edward Tufte's "extensive use of sidenotes, tight integration of graphics with text, and well-set typography."
 
 - [`prettydoc`](https://github.com/yixuan/prettydoc) are lightweight, beautiful HTML documents.
 
@@ -111,8 +121,8 @@ The options for creating products with RStudio & Rmarkdown are vast (and expandi
 
 - [`flexdashboard`](https://rmarkdown.rstudio.com/flexdashboard/index.html) will run a Shiny application for building dashboards in the Rmarkdown files. 
 
-More and more packages come out everyday! Check out RStudio's website for updates. 
+More and more packages come out every day! Check out RStudio's website for updates. 
 
-## Chapter 6
+## Chapter 6 notes
 
 Github pages are only one way to share your data product. Rmarkdown has a package for building blogs, [`blogdown`](https://bookdown.org/yihui/blogdown/), and this keeps everything in the same ecosystem (RStudio and Rmarkdown files). Check out the [blogpost on Storybench](http://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/) for creating a blog post using `blogdown` and [Netlify](https://www.netlify.com/).

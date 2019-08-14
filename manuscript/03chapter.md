@@ -1,4 +1,4 @@
-# Part 3: Setting up your data science process
+# Part 3: The process
 
 "*If you can't describe what you are doing as a process, you don't know what you're doing*." - W. Edwards Deming
 
